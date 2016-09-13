@@ -39,61 +39,48 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="vegetatedareas20160913004956111" name="vegetatedareas">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenStreetMap20160914000941837" name="OpenStreetMap">
+      <customproperties/>
+    </layer-tree-layer>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
-    <units>meters</units>
+    <units>degrees</units>
     <extent>
-      <xmin>16044661.24979870952665806</xmin>
-      <ymin>-4183081.3518267241306603</ymin>
-      <xmax>16048165.7643961738795042</xmax>
-      <ymax>-4181037.84313961723819375</ymax>
+      <xmin>144.13660697967588931</xmin>
+      <ymin>-35.13896174369080683</ymin>
+      <xmax>144.15071242943906782</xmax>
+      <ymax>-35.12958980815526644</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-        <srsid>3857</srsid>
-        <srid>3857</srid>
-        <authid>EPSG:3857</authid>
-        <description>WGS 84 / Pseudo Mercator</description>
-        <projectionacronym>merc</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <proj4>+proj=longlat +a=6378137.0000 +rf=298.2572221010000 +units=m +nadgrids=@null +no_defs</proj4>
+        <srsid>10051</srsid>
+        <srid>210642000</srid>
+        <authid>IGNF:WGS84G</authid>
+        <description>World Geodetic System 1984</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>IGNF:ELG037</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_lines20160913004932148"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_area20160913005005252"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="rightofway20160913004930293"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetatedareas20160913004956111"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetatedareas20160913004934367"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrys_reef_scout_camp_polygons20160913004945899"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier_node20160913004923811"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_area20160913004925115"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier20160913004921890"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="disposal20160913004928038"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20160913120401729"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="grid20160913004928813"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier20160913005007143"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_lines20160913004958495"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_areas20160913004931293"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="rightofway20160913005000550"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_sites20160913005004260"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="structure20160913004957103"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier_node20160913005006116"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_sites20160913004927122"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrys_reef_scout_camp_polylines20160913004944979"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="" srcDatumTransform="-1" destDatumTransform="-1" layerid="10m_admin_0_countries20160913013331647"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="misc_point20160913005001375"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="structure20160913004933384"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="misc_point20160913004929437"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_areas20160913004959422"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="disposal20160913005002805"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrys_reef_scout_camp_points20160913004946762"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="grid20160913005002109"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier20160913005007143"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_lines20160913004958495"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="disposal20160913005002805"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetatedareas20160913004956111"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_sites20160913005004260"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_area20160913005005252"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20160914000941837"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_areas20160913004959422"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="grid20160913005002109"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier_node20160913005006116"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="rightofway20160913005000550"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="structure20160913004957103"/>
+      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="misc_point20160913005001375"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -110,6 +97,7 @@
       <item>designated_area20160913005005252</item>
       <item>barrier_node20160913005006116</item>
       <item>barrier20160913005007143</item>
+      <item>OpenStreetMap20160914000941837</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -173,6 +161,11 @@
         <legendlayerfile isInOverview="0" layerid="vegetatedareas20160913004956111" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OpenStreetMap" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="OpenStreetMap20160914000941837" visible="0"/>
+      </filegroup>
+    </legendlayer>
   </legend>
   <Composer title="print01" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="1189" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="841" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
@@ -191,23 +184,23 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="76.0228" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="78.1721" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
         <scaleBarFont description=".SF NS Text,12,-1,5,50,0,0,0,0,0" style=""/>
         <fillColor alpha="255" red="0" blue="0" green="0"/>
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="773.309" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="588.506" y="773.309" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="394.381" outlineWidth="0.3" excludeFromExports="0" uuid="{1c8ed948-f3c8-47d0-871a-6c3f034c6006}" height="20" itemRotation="0" frame="false" pagex="588.506">
+        <ComposerItem pagey="810.309" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="683.506" y="810.309" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="405.128" outlineWidth="0.3" excludeFromExports="0" uuid="{1c8ed948-f3c8-47d0-871a-6c3f034c6006}" height="20" itemRotation="0" frame="false" pagex="683.506">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerScaleBar>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="-4182806.98459470784291625" xmin="16045077.36210894212126732" ymax="-4181607.9458453543484211" xmax="16046691.96211059018969536"/>
+        <Extent ymin="-35.13951329864956818" xmin="144.13660697967588931" ymax="-35.12903825319650508" xmax="144.15071242943906782"/>
         <LayerSet/>
         <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{0a19797b-da5a-49c0-af07-c75a7c19c09e}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="100" gridFrameSideFlags="15" intervalY="100" bottomAnnotationDirection="1" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="1" frameAnnotationDistance="2">
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="1" topFrameDivisions="0" uuid="{0a19797b-da5a-49c0-af07-c75a7c19c09e}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0.001" gridFrameSideFlags="15" intervalY="0.001" bottomAnnotationDirection="1" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="1" frameAnnotationDistance="2">
           <lineStyle>
             <symbol alpha="1" clip_to_extent="1" type="line" name="">
               <layer pass="0" class="SimpleLine" locked="0">
@@ -255,7 +248,7 @@
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="47.0611" page="1" id="" lastValidViewScaleFactor="0.907844" positionMode="0" positionLock="false" x="33.0055" y="47.0611" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="1004.88" outlineWidth="0.3" excludeFromExports="0" uuid="{956ccab5-d3df-4d52-b9b6-62504d5789b7}" height="746.248" itemRotation="0" frame="false" pagex="33.0055">
+        <ComposerItem pagey="47.0611" page="1" id="" lastValidViewScaleFactor="0.919277" positionMode="0" positionLock="false" x="33.0055" y="47.0611" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="1004.88" outlineWidth="0.3" excludeFromExports="0" uuid="{956ccab5-d3df-4d52-b9b6-62504d5789b7}" height="746.248" itemRotation="0" frame="false" pagex="33.0055">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -279,7 +272,7 @@
             <styleFont description=".SF NS Text,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1051.14" y="7.96629" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.5063" outlineWidth="0.3" excludeFromExports="0" uuid="{a584bb1c-f4c3-4a1b-8c19-046b02e00d38}" height="82.9984" itemRotation="0" frame="false" pagex="1051.14">
+        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1051.14" y="7.96629" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.5063" outlineWidth="0.3" excludeFromExports="0" uuid="{a584bb1c-f4c3-4a1b-8c19-046b02e00d38}" height="89.7312" itemRotation="0" frame="false" pagex="1051.14">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -295,6 +288,68 @@
     </Composition>
   </Composer>
   <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>OpenStreetMap20160914000941837</id>
+      <datasource>&lt;GDAL_WMS>
+  &lt;Service name="TMS">
+    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>
+  &lt;/Service>
+  &lt;DataWindow>
+    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>
+    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>
+    &lt;LowerRightX>20037508.34&lt;/LowerRightX>
+    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>
+    &lt;TileLevel>19&lt;/TileLevel>
+    &lt;TileCountX>1&lt;/TileCountX>
+    &lt;TileCountY>1&lt;/TileCountY>
+    &lt;YOrigin>top&lt;/YOrigin>
+  &lt;/DataWindow>
+  &lt;Projection>EPSG:3857&lt;/Projection>
+  &lt;BlockSizeX>256&lt;/BlockSizeX>
+  &lt;BlockSizeY>256&lt;/BlockSizeY>
+  &lt;BandsCount>3&lt;/BandsCount>
+  &lt;Cache />
+&lt;/GDAL_WMS>
+</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OpenStreetMap</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+        <property key="ol_layer_type" value="OpenStreetMap"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>barrier20160913005007143</id>
       <datasource>dbname='./AU_ORG_DTE.sqlite' table="barrier" (geometry) sql=</datasource>
@@ -1887,6 +1942,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
@@ -2938,74 +2994,24 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
   </projectlayers>
   <properties>
-    <Measurement>
-      <DistanceUnits type="QString"></DistanceUnits>
-      <AreaUnits type="QString"></AreaUnits>
-    </Measurement>
-    <Grid>
-      <AnnotationFrameDistance type="double">0</AnnotationFrameDistance>
-      <IntervalX type="double">1000</IntervalX>
-      <IntervalY type="double">1000</IntervalY>
-      <AnnotationFont type="QString">.SF NS Text,16,-1,5,50,0,0,0,0,0</AnnotationFont>
-      <AnnotationPrecision type="int">0</AnnotationPrecision>
-      <MarkerSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
- &lt;layer pass="0" class="SimpleMarker" locked="0">
-  &lt;prop k="angle" v="0"/>
-  &lt;prop k="color" v="255,0,0,255"/>
-  &lt;prop k="horizontal_anchor_point" v="1"/>
-  &lt;prop k="name" v="cross"/>
-  &lt;prop k="offset" v="0,0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="outline_color" v="0,0,0,255"/>
-  &lt;prop k="outline_style" v="solid"/>
-  &lt;prop k="outline_width" v="0"/>
-  &lt;prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="outline_width_unit" v="MM"/>
-  &lt;prop k="scale_method" v="diameter"/>
-  &lt;prop k="size" v="3"/>
-  &lt;prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="size_unit" v="MM"/>
-  &lt;prop k="vertical_anchor_point" v="1"/>
- &lt;/layer>
-&lt;/symbol>
-</MarkerSymbol>
-      <Enabled type="bool">true</Enabled>
-      <AnnotationDirection type="int">0</AnnotationDirection>
-      <LineSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="line" name="line symbol">
- &lt;layer pass="0" class="SimpleLine" locked="0">
-  &lt;prop k="capstyle" v="square"/>
-  &lt;prop k="customdash" v="5;2"/>
-  &lt;prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="customdash_unit" v="MM"/>
-  &lt;prop k="draw_inside_polygon" v="0"/>
-  &lt;prop k="joinstyle" v="bevel"/>
-  &lt;prop k="line_color" v="0,0,0,255"/>
-  &lt;prop k="line_style" v="solid"/>
-  &lt;prop k="line_width" v="0.26"/>
-  &lt;prop k="line_width_unit" v="MM"/>
-  &lt;prop k="offset" v="0"/>
-  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-  &lt;prop k="offset_unit" v="MM"/>
-  &lt;prop k="use_custom_dash" v="0"/>
-  &lt;prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
- &lt;/layer>
-&lt;/symbol>
-</LineSymbol>
-      <Placement type="int">1</Placement>
-      <MapUnits type="int">0</MapUnits>
-      <Style type="int">0</Style>
-      <OffsetX type="double">0</OffsetX>
-      <ShowAnnotation type="bool">false</ShowAnnotation>
-      <OffsetY type="double">0</OffsetY>
-      <MarginUnit type="QString">MM</MarginUnit>
-    </Grid>
-    <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-      <ProjectCRSID type="int">3452</ProjectCRSID>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
     <ScaleBar>
       <ColorBluePart type="int">0</ColorBluePart>
       <MarginV type="int">0</MarginV>
@@ -3019,9 +3025,26 @@ def my_form_open(dialog, layer, feature):
       <MarginUnit type="QString">MM</MarginUnit>
       <PreferredSize type="int">10</PreferredSize>
     </ScaleBar>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <Measure>
+      <Ellipsoid type="QString">IGNF:ELG037</Ellipsoid>
+    </Measure>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
     <Gui>
       <SelectionColorBluePart type="int">0</SelectionColorBluePart>
       <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
@@ -3108,13 +3131,96 @@ def my_form_open(dialog, layer, feature):
         <value>0.000000</value>
       </LayerSnappingToleranceList>
     </Digitizing>
-    <PositionPrecision>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-    </PositionPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Grid>
+      <AnnotationFrameDistance type="double">0</AnnotationFrameDistance>
+      <IntervalX type="double">1000</IntervalX>
+      <IntervalY type="double">1000</IntervalY>
+      <AnnotationFont type="QString">.SF NS Text,16,-1,5,50,0,0,0,0,0</AnnotationFont>
+      <AnnotationPrecision type="int">0</AnnotationPrecision>
+      <MarkerSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
+ &lt;layer pass="0" class="SimpleMarker" locked="0">
+  &lt;prop k="angle" v="0"/>
+  &lt;prop k="color" v="255,0,0,255"/>
+  &lt;prop k="horizontal_anchor_point" v="1"/>
+  &lt;prop k="name" v="cross"/>
+  &lt;prop k="offset" v="0,0"/>
+  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="offset_unit" v="MM"/>
+  &lt;prop k="outline_color" v="0,0,0,255"/>
+  &lt;prop k="outline_style" v="solid"/>
+  &lt;prop k="outline_width" v="0"/>
+  &lt;prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="outline_width_unit" v="MM"/>
+  &lt;prop k="scale_method" v="diameter"/>
+  &lt;prop k="size" v="3"/>
+  &lt;prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="size_unit" v="MM"/>
+  &lt;prop k="vertical_anchor_point" v="1"/>
+ &lt;/layer>
+&lt;/symbol>
+</MarkerSymbol>
+      <Enabled type="bool">false</Enabled>
+      <AnnotationDirection type="int">0</AnnotationDirection>
+      <LineSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="line" name="line symbol">
+ &lt;layer pass="0" class="SimpleLine" locked="0">
+  &lt;prop k="capstyle" v="square"/>
+  &lt;prop k="customdash" v="5;2"/>
+  &lt;prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="customdash_unit" v="MM"/>
+  &lt;prop k="draw_inside_polygon" v="0"/>
+  &lt;prop k="joinstyle" v="bevel"/>
+  &lt;prop k="line_color" v="0,0,0,255"/>
+  &lt;prop k="line_style" v="solid"/>
+  &lt;prop k="line_width" v="0.26"/>
+  &lt;prop k="line_width_unit" v="MM"/>
+  &lt;prop k="offset" v="0"/>
+  &lt;prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+  &lt;prop k="offset_unit" v="MM"/>
+  &lt;prop k="use_custom_dash" v="0"/>
+  &lt;prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+ &lt;/layer>
+&lt;/symbol>
+</LineSymbol>
+      <Placement type="int">1</Placement>
+      <MapUnits type="int">3</MapUnits>
+      <Style type="int">0</Style>
+      <OffsetX type="double">0</OffsetX>
+      <ShowAnnotation type="bool">false</ShowAnnotation>
+      <OffsetY type="double">0</OffsetY>
+      <MarginUnit type="QString">MM</MarginUnit>
+    </Grid>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WCSLayers type="QStringList"/>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +a=6378137.0000 +rf=298.2572221010000 +units=m +nadgrids=@null +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">IGNF:WGS84G</ProjectCrs>
+      <ProjectCRSID type="int">10051</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMSUrl type="QString"></WMSUrl>
   </properties>
   <visibility-presets/>
 </qgis>
