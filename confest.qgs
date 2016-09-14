@@ -45,42 +45,40 @@
   </layer-tree-group>
   <relations/>
   <mapcanvas>
-    <units>degrees</units>
+    <units>meters</units>
     <extent>
-      <xmin>144.13660697967588931</xmin>
-      <ymin>-35.13896174369080683</ymin>
-      <xmax>144.15071242943906782</xmax>
-      <ymax>-35.12958980815526644</ymax>
+      <xmin>239165.90057413844624534</xmin>
+      <ymin>6107660.88062422815710306</ymin>
+      <xmax>240313.42758632486220449</xmax>
+      <ymax>6108631.86501918081194162</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=longlat +a=6378137.0000 +rf=298.2572221010000 +units=m +nadgrids=@null +no_defs</proj4>
-        <srsid>10051</srsid>
-        <srid>210642000</srid>
-        <authid>IGNF:WGS84G</authid>
-        <description>World Geodetic System 1984</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>IGNF:ELG037</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
+        <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3205</srsid>
+        <srid>32755</srid>
+        <authid>EPSG:32755</authid>
+        <description>WGS 84 / UTM zone 55S</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier20160913005007143"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_lines20160913004958495"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="disposal20160913005002805"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetatedareas20160913004956111"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_sites20160913005004260"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_area20160913005005252"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenStreetMap20160914000941837"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_areas20160913004959422"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="grid20160913005002109"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier_node20160913005006116"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="rightofway20160913005000550"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="structure20160913004957103"/>
-      <layer_coordinate_transform destAuthId="IGNF:WGS84G" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="misc_point20160913005001375"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier20160913005007143"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_lines20160913004958495"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="disposal20160913005002805"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="vegetatedareas20160913004956111"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_sites20160913005004260"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="designated_area20160913005005252"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="six_hydro_areas20160913004959422"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="barrier_node20160913005006116"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="rightofway20160913005000550"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="structure20160913004957103"/>
+      <layer_coordinate_transform destAuthId="EPSG:32755" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="misc_point20160913005001375"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -167,7 +165,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="print01" visible="1">
+  <Composer title="print01" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="1189" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="841" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -184,23 +182,23 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="78.1721" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="68.4323" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
         <scaleBarFont description=".SF NS Text,12,-1,5,50,0,0,0,0,0" style=""/>
         <fillColor alpha="255" red="0" blue="0" green="0"/>
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="810.309" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="683.506" y="810.309" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="405.128" outlineWidth="0.3" excludeFromExports="0" uuid="{1c8ed948-f3c8-47d0-871a-6c3f034c6006}" height="20" itemRotation="0" frame="false" pagex="683.506">
+        <ComposerItem pagey="813.572" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="605.758" y="813.572" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="356.429" outlineWidth="0.3" excludeFromExports="0" uuid="{1c8ed948-f3c8-47d0-871a-6c3f034c6006}" height="20" itemRotation="0" frame="false" pagex="605.758">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerScaleBar>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="-35.13951329864956818" xmin="144.13660697967588931" ymax="-35.12903825319650508" xmax="144.15071242943906782"/>
+        <Extent ymin="6107600.89002207200974226" xmin="239005.12977569253416732" ymax="6108691.85562133695930243" xmax="240474.19838477077428252"/>
         <LayerSet/>
         <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="1" topFrameDivisions="0" uuid="{0a19797b-da5a-49c0-af07-c75a7c19c09e}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0.001" gridFrameSideFlags="15" intervalY="0.001" bottomAnnotationDirection="1" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="1" frameAnnotationDistance="2">
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{0a19797b-da5a-49c0-af07-c75a7c19c09e}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="100" gridFrameSideFlags="15" intervalY="100" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="2">
           <lineStyle>
             <symbol alpha="1" clip_to_extent="1" type="line" name="">
               <layer pass="0" class="SimpleLine" locked="0">
@@ -248,7 +246,7 @@
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="47.0611" page="1" id="" lastValidViewScaleFactor="0.919277" positionMode="0" positionLock="false" x="33.0055" y="47.0611" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="1004.88" outlineWidth="0.3" excludeFromExports="0" uuid="{956ccab5-d3df-4d52-b9b6-62504d5789b7}" height="746.248" itemRotation="0" frame="false" pagex="33.0055">
+        <ComposerItem pagey="47.0611" page="1" id="" lastValidViewScaleFactor="1.10177" positionMode="0" positionLock="false" x="33.0055" y="47.0611" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="1004.88" outlineWidth="0.3" excludeFromExports="0" uuid="{956ccab5-d3df-4d52-b9b6-62504d5789b7}" height="746.248" itemRotation="0" frame="false" pagex="33.0055">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3031,13 +3029,13 @@ def my_form_open(dialog, layer, feature):
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <Measure>
-      <Ellipsoid type="QString">IGNF:ELG037</Ellipsoid>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
     </Measure>
     <WMSPrecision type="QString">8</WMSPrecision>
     <WFSTLayers>
@@ -3139,8 +3137,8 @@ def my_form_open(dialog, layer, feature):
     </Macros>
     <Grid>
       <AnnotationFrameDistance type="double">0</AnnotationFrameDistance>
-      <IntervalX type="double">1000</IntervalX>
-      <IntervalY type="double">1000</IntervalY>
+      <IntervalX type="double">100</IntervalX>
+      <IntervalY type="double">100</IntervalY>
       <AnnotationFont type="QString">.SF NS Text,16,-1,5,50,0,0,0,0,0</AnnotationFont>
       <AnnotationPrecision type="int">0</AnnotationPrecision>
       <MarkerSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="marker" name="marker symbol">
@@ -3165,7 +3163,7 @@ def my_form_open(dialog, layer, feature):
  &lt;/layer>
 &lt;/symbol>
 </MarkerSymbol>
-      <Enabled type="bool">false</Enabled>
+      <Enabled type="bool">true</Enabled>
       <AnnotationDirection type="int">0</AnnotationDirection>
       <LineSymbol type="QString">&lt;symbol alpha="1" clip_to_extent="1" type="line" name="line symbol">
  &lt;layer pass="0" class="SimpleLine" locked="0">
@@ -3188,7 +3186,7 @@ def my_form_open(dialog, layer, feature):
 &lt;/symbol>
 </LineSymbol>
       <Placement type="int">1</Placement>
-      <MapUnits type="int">3</MapUnits>
+      <MapUnits type="int">0</MapUnits>
       <Style type="int">0</Style>
       <OffsetX type="double">0</OffsetX>
       <ShowAnnotation type="bool">false</ShowAnnotation>
@@ -3201,9 +3199,9 @@ def my_form_open(dialog, layer, feature):
       <filterByMap type="bool">false</filterByMap>
     </Legend>
     <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=longlat +a=6378137.0000 +rf=298.2572221010000 +units=m +nadgrids=@null +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">IGNF:WGS84G</ProjectCrs>
-      <ProjectCRSID type="int">10051</ProjectCRSID>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:32755</ProjectCrs>
+      <ProjectCRSID type="int">3205</ProjectCRSID>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
     <DefaultStyles>
