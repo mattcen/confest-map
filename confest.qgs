@@ -323,7 +323,7 @@
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="9.96629" page="1" id="" lastValidViewScaleFactor="1.80654" positionMode="0" positionLock="false" x="17.5063" y="9.96629" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="1004.88" outlineWidth="0.3" excludeFromExports="0" uuid="{956ccab5-d3df-4d52-b9b6-62504d5789b7}" height="784.763" itemRotation="0" frame="false" pagex="17.5063">
+        <ComposerItem pagey="9.96629" page="1" id="" lastValidViewScaleFactor="0.90327" positionMode="0" positionLock="false" x="17.5063" y="9.96629" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="1004.88" outlineWidth="0.3" excludeFromExports="0" uuid="{956ccab5-d3df-4d52-b9b6-62504d5789b7}" height="784.763" itemRotation="0" frame="false" pagex="17.5063">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -347,7 +347,7 @@
             <styleFont description=".SF NS Text,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1051.14" y="7.96629" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.5063" outlineWidth="0.3" excludeFromExports="0" uuid="{a584bb1c-f4c3-4a1b-8c19-046b02e00d38}" height="140.464" itemRotation="0" frame="false" pagex="1051.14">
+        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1051.14" y="7.96629" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.275" outlineWidth="0.3" excludeFromExports="0" uuid="{a584bb1c-f4c3-4a1b-8c19-046b02e00d38}" height="200.464" itemRotation="0" frame="false" pagex="1051.14">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -448,7 +448,7 @@
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="128" page="1" id="" lastValidViewScaleFactor="3.58206" positionMode="0" positionLock="false" x="247" y="128" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="46" outlineWidth="0.3" excludeFromExports="0" uuid="{71dda943-1010-4364-ab5d-433b95ceee38}" height="34.1714" itemRotation="0" frame="false" pagex="247">
+        <ComposerItem pagey="128" page="1" id="" lastValidViewScaleFactor="3.25876" positionMode="0" positionLock="false" x="247" y="128" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="46" outlineWidth="0.3" excludeFromExports="0" uuid="{71dda943-1010-4364-ab5d-433b95ceee38}" height="34.1714" itemRotation="0" frame="false" pagex="247">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -467,7 +467,7 @@
         </ComposerItem>
       </ComposerScaleBar>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="6107840" xmin="239150" ymax="6108680" xmax="240200"/>
+        <Extent ymin="6107840" xmin="239150" ymax="6108680.00090690795332193" xmax="240200"/>
         <LayerSet/>
         <Grid/>
         <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{670afc75-7cfc-492e-8421-32e253cd9c29}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="300" gridFrameSideFlags="15" intervalY="300" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression=" @grid_number " frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Big" annotationFormat="3" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
@@ -565,7 +565,7 @@
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="3.58206" positionMode="0" positionLock="false" x="9.75664" y="7.96629" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="231.556" outlineWidth="0.3" excludeFromExports="0" uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" height="185.245" itemRotation="0" frame="false" pagex="9.75664">
+        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="3.25876" positionMode="0" positionLock="false" x="9.75664" y="7.96629" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="231.556" outlineWidth="0.3" excludeFromExports="0" uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" height="185.245" itemRotation="0" frame="false" pagex="9.75664">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -589,7 +589,7 @@
             <styleFont description=".SF NS Text,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="6.01279" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="252.494" y="6.01279" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.5063" outlineWidth="0.3" excludeFromExports="0" uuid="{cc2cc5bb-52cd-416a-ac61-5406503ef116}" height="97.7313" itemRotation="0" frame="false" pagex="252.494">
+        <ComposerItem pagey="6.01279" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="252.494" y="6.01279" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="44.275" outlineWidth="0.3" excludeFromExports="0" uuid="{cc2cc5bb-52cd-416a-ac61-5406503ef116}" height="200.464" itemRotation="0" frame="false" pagex="252.494">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -618,7 +618,7 @@
           <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
         <ComposerFrame sectionWidth="33.3891" sectionHeight="175.318" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="12.9295" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="298.396" y="12.9295" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="33.3891" outlineWidth="0.3" excludeFromExports="0" uuid="{9f821215-3e66-4db8-8c5f-b8e4512ba0e6}" height="175.318" itemRotation="0" frame="false" pagex="298.396">
+          <ComposerItem pagey="12.9295" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="298.396" y="12.9295" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="33.3891" outlineWidth="0.3" excludeFromExports="0" uuid="{9f821215-3e66-4db8-8c5f-b8e4512ba0e6}" height="175.318" itemRotation="0" frame="false" pagex="298.396">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
@@ -1813,8 +1813,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
