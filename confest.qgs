@@ -18,7 +18,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="barrier_node20160913005006116" name="Gates">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="designated_sites20160913005004260" name="designated_sites">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="designated_sites20160913005004260" name="designated_sites">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="disposal20160913005002805" name="disposal">
@@ -27,10 +27,10 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="misc_point20160913005001375" name="misc_point">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="rightofway20160913005000550" name="rightofway">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="rightofway20160913005000550" name="rightofway">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="barrier20160913005007143" name="barrier">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="barrier20160913005007143" name="barrier">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="six_hydro_areas20160913004959422" name="six_hydro_areas">
@@ -39,7 +39,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="six_hydro_lines20160913004958495" name="six_hydro_lines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="structure20160913004957103" name="structure">
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="structure20160913004957103" name="structure">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-group expanded="1" checked="Qt::Unchecked" name="minimap">
@@ -171,8 +171,8 @@
         <legendlayerfile isInOverview="0" layerid="barrier_node20160913005006116" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="designated_sites" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="designated_sites" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="designated_sites20160913005004260" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -186,13 +186,13 @@
         <legendlayerfile isInOverview="0" layerid="misc_point20160913005001375" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rightofway" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="rightofway" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="rightofway20160913005000550" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="barrier" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="barrier" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="barrier20160913005007143" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -206,9 +206,9 @@
         <legendlayerfile isInOverview="0" layerid="six_hydro_lines20160913004958495" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="structure" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="structure20160913004957103" visible="1"/>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="structure" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="structure20160913004957103" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendgroup open="true" checked="Qt::Unchecked" name="minimap">
@@ -795,7 +795,7 @@ def my_form_open(dialog, layer, feature):
             </qgis>
           </LayerStyle>
           <LayerStyle layerid="six_hydro_areas_copy20170402155934487">
-            <qgis version="2.14.3-Essen" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <qgis version="2.14.3-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
               <edittypes>
                 <edittype widgetv2type="TextEdit" name="PKUID">
                   <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -869,7 +869,7 @@ def my_form_open(dialog, layer, feature):
                   <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
                     <layer pass="0" class="SimpleFill" locked="0">
                       <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                      <prop k="color" v="165,191,221,255"/>
+                      <prop k="color" v="166,167,165,255"/>
                       <prop k="joinstyle" v="bevel"/>
                       <prop k="offset" v="0,0"/>
                       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -1052,7 +1052,7 @@ def my_form_open(dialog, layer, feature):
                 <selectedonly on=""/>
               </labelattributes>
               <SingleCategoryDiagramRenderer diagramType="Pie">
-                <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+                <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
                   <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
                   <attribute field="" color="#000000" label=""/>
                 </DiagramCategory>
@@ -5459,7 +5459,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>six_hydro_areas_copy20170402155934487</id>
       <datasource>dbname='./AU_ORG_DTE.sqlite' table="six_hydro_areas" (geometry) sql=</datasource>
       <keywordList>
@@ -5559,7 +5559,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="165,191,221,255"/>
+              <prop k="color" v="166,167,165,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -5742,7 +5742,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
