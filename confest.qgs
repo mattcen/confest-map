@@ -411,7 +411,7 @@
             <styleFont description=".SF NS Text,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1051.14" y="7.96629" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="67.2406" outlineWidth="0.3" excludeFromExports="0" uuid="{a584bb1c-f4c3-4a1b-8c19-046b02e00d38}" height="274.663" itemRotation="0" frame="false" pagex="1051.14">
+        <ComposerItem pagey="7.96629" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1051.14" y="7.96629" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="67.2406" outlineWidth="0.3" excludeFromExports="0" uuid="{a584bb1c-f4c3-4a1b-8c19-046b02e00d38}" height="299.395" itemRotation="0" frame="false" pagex="1051.14">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -653,7 +653,7 @@
             <styleFont description=".SF NS Text,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="6.01279" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="252.494" y="6.01279" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="67.2406" outlineWidth="0.3" excludeFromExports="0" uuid="{cc2cc5bb-52cd-416a-ac61-5406503ef116}" height="274.663" itemRotation="0" frame="false" pagex="252.494">
+        <ComposerItem pagey="6.01279" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="252.494" y="6.01279" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="67.2406" outlineWidth="0.3" excludeFromExports="0" uuid="{cc2cc5bb-52cd-416a-ac61-5406503ef116}" height="299.395" itemRotation="0" frame="false" pagex="252.494">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -702,7 +702,7 @@
   <projectlayers>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>ConfestSite_2016_EMU_modified20170402133459777</id>
-      <datasource>ConfestSite_2016_EMU_modified.tif</datasource>
+      <datasource>./ConfestSite_2016_EMU_modified.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -831,48 +831,6 @@
       </map-layer-style-manager>
       <pipe>
         <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Raster20170402132643249</id>
-      <datasource>ConfestSite_2016_EMU.tiff</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Raster</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
-          <srsid>3205</srsid>
-          <srid>32755</srid>
-          <authid>EPSG:32755</authid>
-          <description>WGS 84 / UTM zone 55S</description>
-          <projectionacronym>utm</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-        <noDataList bandNo="2" useSrcNoData="0"/>
-        <noDataList bandNo="3" useSrcNoData="0"/>
-        <noDataList bandNo="4" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
@@ -1353,8 +1311,6 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
