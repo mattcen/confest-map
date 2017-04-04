@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.14.3-Essen">
-  <title></title>
+<qgis projectname="ConFest 2017 Site Map" version="2.14.3-Essen">
+  <title>ConFest 2017 Site Map</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="market_2017_tracks_any20170401003128980" name="market 2017 tracks any">
@@ -36,7 +36,7 @@
     <layer-tree-layer expanded="0" checked="Qt::Checked" id="barrier20160913005007143" name="barrier">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="structure20160913004957103" name="structure">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="structure20160913004957103" name="structure">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="six_hydro_lines20160913004958495" name="six_hydro_lines">
@@ -201,8 +201,8 @@
         <legendlayerfile isInOverview="0" layerid="barrier20160913005007143" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="structure" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="structure" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="structure20160913004957103" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -461,6 +461,24 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
+      <ComposerLabel valign="128" marginX="0" marginY="0" labelText="rev: [% @project_version %]" htmlState="0" halign="4">
+        <LabelFont description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="198.814" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="216.336" y="198.814" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="20.801" outlineWidth="0.3" excludeFromExports="0" uuid="{9eb016d5-897f-43b4-9705-e432b1d63560}" height="2.76395" itemRotation="0" frame="false" pagex="216.336">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="(MGA55)" htmlState="0" halign="1">
+        <LabelFont description=".SF NS Text,10,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="196.326" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="102.547" y="196.326" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="16.3948" outlineWidth="0.3" excludeFromExports="0" uuid="{f5a3bace-3ef4-44f8-a5b0-4efec084f362}" height="5.49844" itemRotation="0" frame="false" pagex="102.547">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="The Hub:&#xa;F06 &amp; F07" htmlState="0" halign="1">
         <LabelFont description=".SF NS Text,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
@@ -1169,7 +1187,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="164.642" page="1" id="Minimap" lastValidViewScaleFactor="7.1047" positionMode="0" positionLock="true" x="242.043" y="164.642" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{71dda943-1010-4364-ab5d-433b95ceee38}" height="37.1822" itemRotation="0" frame="false" pagex="242.043">
+        <ComposerItem pagey="164.642" page="1" id="Minimap" lastValidViewScaleFactor="28.4188" positionMode="0" positionLock="true" x="242.043" y="164.642" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{71dda943-1010-4364-ab5d-433b95ceee38}" height="37.1822" itemRotation="0" frame="false" pagex="242.043">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -6984,10 +7002,10 @@ def my_form_open(dialog, layer, feature):
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSImageQuality type="int">90</WMSImageQuality>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <PAL>
       <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
     </PAL>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <ScaleBar>
       <ColorBluePart type="int">0</ColorBluePart>
       <MarginV type="int">0</MarginV>
@@ -7184,8 +7202,12 @@ def my_form_open(dialog, layer, feature):
       <value></value>
     </WMSKeywordList>
     <Variables>
-      <variableNames type="QStringList"/>
-      <variableValues type="QStringList"/>
+      <variableNames type="QStringList">
+        <value>project_version</value>
+      </variableNames>
+      <variableValues type="QStringList">
+        <value>20170405001034</value>
+      </variableValues>
     </Variables>
     <Paths>
       <Absolute type="bool">false</Absolute>
@@ -7214,14 +7236,14 @@ def my_form_open(dialog, layer, feature):
       <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
       <CanvasColorBluePart type="int">255</CanvasColorBluePart>
     </Gui>
-    <WFSLayers type="QStringList"/>
-    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <Measure>
       <Ellipsoid type="QString">WGS84</Ellipsoid>
     </Measure>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WFSLayers type="QStringList"/>
     <WFSUrl type="QString"></WFSUrl>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
   </properties>
   <visibility-presets/>
 </qgis>
