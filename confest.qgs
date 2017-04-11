@@ -18,7 +18,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="misc_point20160913005001375" name="misc_point">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="designated_sites20160913005004260" name="designated_sites">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="designated_sites20160913005004260" name="designated_sites">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="barrier_node20160913005006116" name="Gates">
@@ -27,7 +27,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="disposal20160913005002805" name="Toilets">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="rightofway20160913005000550" name="rightofway">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="rightofway20160913005000550" name="rightofway">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="six_hydro_areas20160913004959422" name="six_hydro_areas">
@@ -39,7 +39,7 @@
     <layer-tree-layer expanded="0" checked="Qt::Checked" id="structure20160913004957103" name="structure">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="six_hydro_lines20160913004958495" name="six_hydro_lines">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="six_hydro_lines20160913004958495" name="six_hydro_lines">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-group expanded="0" checked="Qt::Unchecked" name="minimap">
@@ -71,10 +71,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>239323.81944221965386532</xmin>
-      <ymin>6108291.66656360682100058</ymin>
-      <xmax>239665.06944224573089741</xmax>
-      <ymax>6108580.41656363662332296</ymax>
+      <xmin>239381.14004405646119267</xmin>
+      <ymin>6107855.68566072452813387</ymin>
+      <xmax>240063.64004410861525685</xmax>
+      <ymax>6108433.18566084373742342</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -171,8 +171,8 @@
         <legendlayerfile isInOverview="0" layerid="misc_point20160913005001375" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="designated_sites" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="designated_sites" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="designated_sites20160913005004260" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -186,8 +186,8 @@
         <legendlayerfile isInOverview="0" layerid="disposal20160913005002805" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="rightofway" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rightofway" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="rightofway20160913005000550" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -206,9 +206,9 @@
         <legendlayerfile isInOverview="0" layerid="structure20160913004957103" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="six_hydro_lines" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="six_hydro_lines" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="six_hydro_lines20160913004958495" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="six_hydro_lines20160913004958495" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendgroup open="false" checked="Qt::Unchecked" name="minimap">
@@ -1200,6 +1200,30 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="Woorooma_Boundaries20170319182415347" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
@@ -1254,6 +1278,61 @@ def my_form_open(dialog, layer, feature):
         </cellStyles>
         <customproperties/>
       </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="MapID != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="barrier_node20160913005006116" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="Ref" sortByRank="0" hAlignment="1" heading="Ref" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="28.5172" sectionHeight="64.5596" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="112.228" page="1" id="gates" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="259.157" y="112.228" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.5172" outlineWidth="0.3" excludeFromExports="0" uuid="{ac3eae7e-52b3-4868-a0de-0f4c77b2f9f3}" height="64.5596" itemRotation="0" frame="false" pagex="259.157">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_area20160913005005252" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
@@ -1288,30 +1367,6 @@ def my_form_open(dialog, layer, feature):
         </ComposerFrame>
         <customproperties/>
       </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <customproperties/>
-      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
@@ -1336,61 +1391,6 @@ def my_form_open(dialog, layer, feature):
         </cellStyles>
         <ComposerFrame sectionWidth="10.3484" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
           <ComposerItem pagey="110.596" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="239.36" y="110.596" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3484" outlineWidth="0.3" excludeFromExports="0" uuid="{c73dfae9-6b47-483e-9144-1b6fcb0a1c81}" height="49.0362" itemRotation="0" frame="false" pagex="239.36">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_area20160913005005252" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="MapID != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="barrier_node20160913005006116" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="Ref" sortByRank="0" hAlignment="1" heading="Ref" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="28.5172" sectionHeight="64.5596" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="112.228" page="1" id="gates" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="259.157" y="112.228" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.5172" outlineWidth="0.3" excludeFromExports="0" uuid="{ac3eae7e-52b3-4868-a0de-0f4c77b2f9f3}" height="64.5596" itemRotation="0" frame="false" pagex="259.157">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
@@ -2156,7 +2156,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="209.281" page="1" id="Minimap" lastValidViewScaleFactor="28.7827" positionMode="0" positionLock="true" x="1123.57" y="209.281" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{61e83a40-add7-4ab8-ba61-897c6af48881}" height="37.1822" itemRotation="0" frame="false" pagex="1123.57">
+        <ComposerItem pagey="209.281" page="1" id="Minimap" lastValidViewScaleFactor="0.899459" positionMode="0" positionLock="true" x="1123.57" y="209.281" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{61e83a40-add7-4ab8-ba61-897c6af48881}" height="37.1822" itemRotation="0" frame="false" pagex="1123.57">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2308,7 +2308,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="Helvetica,36,-1,5,50,0,0,0,0,0" style="Regular"/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="52.2619" page="1" id="Main Map" lastValidViewScaleFactor="28.7827" positionMode="0" positionLock="false" x="20.3145" y="52.2619" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="1085.22" outlineWidth="0.3" excludeFromExports="0" uuid="{40c5c533-deb9-4e6a-9018-7e33783527d2}" height="768.914" itemRotation="0" frame="false" pagex="20.3145">
+        <ComposerItem pagey="52.2619" page="1" id="Main Map" lastValidViewScaleFactor="0.899459" positionMode="0" positionLock="false" x="20.3145" y="52.2619" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="1085.22" outlineWidth="0.3" excludeFromExports="0" uuid="{40c5c533-deb9-4e6a-9018-7e33783527d2}" height="768.914" itemRotation="0" frame="false" pagex="20.3145">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2391,40 +2391,6 @@ def my_form_open(dialog, layer, feature):
         </cellStyles>
         <ComposerFrame sectionWidth="26.7297" sectionHeight="62.8079" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
           <ComposerItem pagey="107.736" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1120.89" y="107.736" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="26.7297" outlineWidth="0.3" excludeFromExports="0" uuid="{c7e88994-dfb0-46af-a0ad-a8816d8ec196}" height="62.8079" itemRotation="0" frame="false" pagex="1120.89">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="MapID != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="barrier_node20160913005006116" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="Ref" sortByRank="0" hAlignment="1" heading="Ref" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="28.5172" sectionHeight="64.5596" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="156.867" page="1" id="gates" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1140.68" y="156.867" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.5172" outlineWidth="0.3" excludeFromExports="0" uuid="{74e0261a-e9c5-424e-8908-62392a16e73e}" height="64.5596" itemRotation="0" frame="false" pagex="1140.68">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
@@ -2515,6 +2481,40 @@ def my_form_open(dialog, layer, feature):
           <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
           <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="MapID != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="barrier_node20160913005006116" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="Ref" sortByRank="0" hAlignment="1" heading="Ref" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="28.5172" sectionHeight="64.5596" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="156.867" page="1" id="gates" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1140.68" y="156.867" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.5172" outlineWidth="0.3" excludeFromExports="0" uuid="{74e0261a-e9c5-424e-8908-62392a16e73e}" height="64.5596" itemRotation="0" frame="false" pagex="1140.68">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
         <customproperties/>
       </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
@@ -3100,8 +3100,8 @@ def my_form_open(dialog, layer, feature):
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.63"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="line_width" v="3"/>
+              <prop k="line_width_unit" v="MapUnit"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -3109,9 +3109,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
             <layer pass="1" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
+              <prop k="interval" v="30"/>
               <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
+              <prop k="interval_unit" v="MapUnit"/>
               <prop k="offset" v="0"/>
               <prop k="offset_along_line" v="0"/>
               <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -3128,16 +3128,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="rectangle"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="area"/>
-                  <prop k="size" v="2"/>
+                  <prop k="size" v="10"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -3147,16 +3147,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="rectangle"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="area"/>
-                  <prop k="size" v="1"/>
+                  <prop k="size" v="5"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
               </symbol>
@@ -3172,8 +3172,8 @@ def my_form_open(dialog, layer, feature):
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.5"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="Pixel"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -3181,9 +3181,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
             <layer pass="1" class="MarkerLine" locked="0">
-              <prop k="interval" v="6"/>
+              <prop k="interval" v="30"/>
               <prop k="interval_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="interval_unit" v="MM"/>
+              <prop k="interval_unit" v="MapUnit"/>
               <prop k="offset" v="0"/>
               <prop k="offset_along_line" v="0"/>
               <prop k="offset_along_line_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -3200,16 +3200,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="rectangle"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="area"/>
-                  <prop k="size" v="1"/>
+                  <prop k="size" v="5"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -3219,16 +3219,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="rectangle"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="area"/>
-                  <prop k="size" v="0.5"/>
+                  <prop k="size" v="2.5"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
               </symbol>
@@ -3498,7 +3498,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>barrier_node20160913005006116</id>
       <datasource>dbname='./AU_ORG_DTE.sqlite' table="barrier_node" (geometry) sql=</datasource>
       <keywordList>
@@ -3588,16 +3588,16 @@ def my_form_open(dialog, layer, feature):
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit" v="MapUnit"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
+              <prop k="size" v="10"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
             <layer pass="0" class="FontMarker" locked="0">
@@ -3608,10 +3608,10 @@ def my_form_open(dialog, layer, feature):
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="size" v="1"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="size" v="5"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
@@ -3623,7 +3623,7 @@ def my_form_open(dialog, layer, feature):
         <rules>
           <rule filter=" &quot;MapID&quot; != 'NULL'">
             <settings>
-              <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="12" fieldName="MapID" namedStyle="" fontWordSpacing="0"/>
+              <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="1" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="15" fieldName="MapID" namedStyle="" fontWordSpacing="0"/>
               <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
               <text-buffer bufferSize="1" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="0" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="64"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="33" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="1" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
@@ -3800,7 +3800,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -4255,17 +4255,17 @@ def my_form_open(dialog, layer, feature):
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size" v="20"/>
+              <prop k="size_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
@@ -4276,17 +4276,17 @@ def my_form_open(dialog, layer, feature):
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="pentagon"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size" v="20"/>
+              <prop k="size_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
@@ -4297,17 +4297,17 @@ def my_form_open(dialog, layer, feature):
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="diamond"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="offset_unit" v="MapUnit"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
               <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="5"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size" v="20"/>
+              <prop k="size_map_unit_scale" v="0,0,0,5,0,0"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
@@ -4342,7 +4342,7 @@ def my_form_open(dialog, layer, feature):
         <rules>
           <rule filter=" &quot;MapID&quot; != 'NULL'">
             <settings>
-              <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="0" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="6" fieldName="MapID" namedStyle="" fontWordSpacing="0"/>
+              <text-style fontItalic="0" fontFamily=".SF NS Text" fontLetterSpacing="0" fontUnderline="0" fontWeight="50" fontStrikeout="0" textTransp="0" previewBkgrdColor="#ffffff" fontCapitals="0" textColor="0,0,0,255" fontSizeInMapUnits="1" isExpression="0" blendMode="0" fontSizeMapUnitScale="0,0,0,0,0,0" fontSize="10" fieldName="MapID" namedStyle="" fontWordSpacing="0"/>
               <text-format placeDirectionSymbol="0" multilineAlign="0" rightDirectionSymbol=">" multilineHeight="1" plussign="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" decimals="3" wrapChar="" reverseDirectionSymbol="0"/>
               <text-buffer bufferSize="1" bufferSizeMapUnitScale="0,0,0,0,0,0" bufferColor="255,255,255,255" bufferDraw="0" bufferBlendMode="0" bufferTransp="0" bufferSizeInMapUnits="0" bufferNoFill="0" bufferJoinStyle="64"/>
               <background shapeSizeUnits="1" shapeType="0" shapeSVGFile="" shapeOffsetX="0" shapeOffsetY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeTransparency="0" shapeSizeMapUnitScale="0,0,0,0,0,0" shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeBorderWidthUnits="1" shapeSizeX="0" shapeSizeY="0" shapeOffsetMapUnitScale="0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnits="1" shapeRotation="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRotationType="0" shapeBorderWidthMapUnitScale="0,0,0,0,0,0" shapeRadiiMapUnitScale="0,0,0,0,0,0" shapeRadiiUnits="1"/>
@@ -4952,16 +4952,16 @@ def my_form_open(dialog, layer, feature):
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit" v="MapUnit"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
+              <prop k="outline_width_unit" v="MapUnit"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="0.75"/>
+              <prop k="size" v="10"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
             <layer pass="0" class="FontMarker" locked="0">
@@ -4972,10 +4972,10 @@ def my_form_open(dialog, layer, feature):
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="size" v="0.45"/>
+              <prop k="offset_unit" v="MapUnit"/>
+              <prop k="size" v="8"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
+              <prop k="size_unit" v="MapUnit"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
@@ -6134,7 +6134,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>rightofway20160913005000550</id>
       <datasource>dbname='./AU_ORG_DTE.sqlite' table="rightofway" (geometry) sql=</datasource>
       <keywordList>
@@ -6228,16 +6228,16 @@ def my_form_open(dialog, layer, feature):
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
+              <prop k="customdash_unit" v="MapUnit"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.5"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="MapUnit"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit" v="MapUnit"/>
               <prop k="use_custom_dash" v="0"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
@@ -6245,18 +6245,18 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="line" name="1">
             <layer pass="3" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="1;2"/>
+              <prop k="customdash" v="1;5"/>
               <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
+              <prop k="customdash_unit" v="MapUnit"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="dot"/>
-              <prop k="line_width" v="0.5"/>
-              <prop k="line_width_unit" v="MM"/>
+              <prop k="line_width" v="2"/>
+              <prop k="line_width_unit" v="MapUnit"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
+              <prop k="offset_unit" v="MapUnit"/>
               <prop k="use_custom_dash" v="1"/>
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
@@ -6430,7 +6430,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -7356,16 +7356,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="regular_star"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="3"/>
+                  <prop k="size" v="15"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
               </symbol>
@@ -7382,16 +7382,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="cross"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0.75"/>
+                  <prop k="outline_width" v="4"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
+                  <prop k="size" v="10"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
               </symbol>
@@ -7408,16 +7408,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="circle"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="5"/>
+                  <prop k="size" v="25"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
                 <layer pass="0" class="FontMarker" locked="0">
@@ -7428,10 +7428,10 @@ def my_form_open(dialog, layer, feature):
                   <prop k="horizontal_anchor_point" v="1"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="size" v="4"/>
+                  <prop k="offset_unit" v="MapUnit"/>
+                  <prop k="size" v="20"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                   <effect enabled="0" type="effectStack">
                     <effect type="dropShadow">
@@ -7511,16 +7511,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="circle"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="5"/>
+                  <prop k="size" v="25"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
                 <layer pass="0" class="FontMarker" locked="0">
@@ -7531,10 +7531,10 @@ def my_form_open(dialog, layer, feature):
                   <prop k="horizontal_anchor_point" v="1"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="size" v="4"/>
+                  <prop k="offset_unit" v="MapUnit"/>
+                  <prop k="size" v="20"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
               </symbol>
@@ -7551,16 +7551,16 @@ def my_form_open(dialog, layer, feature):
                   <prop k="name" v="circle"/>
                   <prop k="offset" v="0,0"/>
                   <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
+                  <prop k="offset_unit" v="MapUnit"/>
                   <prop k="outline_color" v="0,0,0,255"/>
                   <prop k="outline_style" v="solid"/>
                   <prop k="outline_width" v="0"/>
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="outline_width_unit" v="MapUnit"/>
                   <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="3"/>
+                  <prop k="size" v="15"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
               </symbol>
@@ -7599,9 +7599,9 @@ def my_form_open(dialog, layer, feature):
                   <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
                   <prop k="outline_width_unit" v="MM"/>
                   <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="3"/>
+                  <prop k="size" v="15"/>
                   <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
+                  <prop k="size_unit" v="MapUnit"/>
                   <prop k="vertical_anchor_point" v="1"/>
                 </layer>
               </symbol>
