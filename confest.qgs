@@ -18,16 +18,16 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="misc_point20160913005001375" name="misc_point">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="designated_sites20160913005004260" name="designated_sites">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="barrier_node20160913005006116" name="Gates">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="barrier_node20160913005006116" name="Gates">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="designated_sites20160913005004260" name="designated_sites">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="disposal20160913005002805" name="Toilets">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="rightofway20160913005000550" name="rightofway">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="rightofway20160913005000550" name="rightofway">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="six_hydro_areas20160913004959422" name="six_hydro_areas">
@@ -42,7 +42,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="six_hydro_lines20160913004958495" name="six_hydro_lines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="minimap">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="minimap">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="designated_area20160913005005252" name="designated_area">
         <customproperties/>
@@ -71,10 +71,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>239381.14004405646119267</xmin>
-      <ymin>6107855.68566072452813387</ymin>
-      <xmax>240063.64004410861525685</xmax>
-      <ymax>6108433.18566084373742342</ymax>
+      <xmin>239579.37623514549341053</xmin>
+      <ymin>6108049.28343315329402685</ymin>
+      <xmax>240009.09845745644997805</xmax>
+      <ymax>6108338.03343321289867163</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -171,14 +171,14 @@
         <legendlayerfile isInOverview="0" layerid="misc_point20160913005001375" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="designated_sites" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="designated_sites20160913005004260" visible="1"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Gates" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="barrier_node20160913005006116" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="designated_sites" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="designated_sites20160913005004260" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Toilets" showFeatureCount="0">
@@ -186,8 +186,8 @@
         <legendlayerfile isInOverview="0" layerid="disposal20160913005002805" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="rightofway" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="rightofway" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="rightofway20160913005000550" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -211,7 +211,7 @@
         <legendlayerfile isInOverview="0" layerid="six_hydro_lines20160913004958495" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="false" checked="Qt::Unchecked" name="minimap">
+    <legendgroup open="true" checked="Qt::Unchecked" name="minimap">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="designated_area" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="designated_area20160913005005252" visible="0"/>
@@ -310,7 +310,7 @@
         </LayerSet>
         <LayerStyles>
           <LayerStyle layerid="designated_area20160913005005252">
-            <qgis version="2.14.3-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <qgis version="2.14.3-Essen" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
               <edittypes>
                 <edittype widgetv2type="TextEdit" name="PKUID">
                   <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -336,7 +336,7 @@
               </edittypes>
               <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
                 <rules key="{f34df52b-4f37-426a-8ad1-ec0592e56756}">
-                  <rule filter="&quot;Name&quot; = 'Car Free' or&#xa;&quot;Name&quot; = 'Tranquility' or&#xa;&quot;Name&quot; = 'Stay Put' or&#xa;&quot;Name&quot; = 'Gypsy'" key="{db780abc-5779-4bc4-b3ad-10f9fa502a0f}" symbol="0" label="Camping Areas"/>
+                  <rule filter="&quot;Name&quot; = 'Car Free' or&#xa;&quot;Name&quot; = 'Tranquility' or&#xa;&quot;Name&quot; = 'Stay Put' or&#xa;&quot;Name&quot; = 'Come&amp;Go'" key="{db780abc-5779-4bc4-b3ad-10f9fa502a0f}" symbol="0" label="Camping Areas"/>
                   <rule filter="&quot;Name&quot; = 'No Camping'" key="{77f2d02c-1856-43f2-ac27-b368b47b1e5a}" symbol="1" label="No Camping"/>
                   <rule filter="&quot;Name&quot; = 'No Access'" key="{e1946737-a0e7-440a-86c9-31cad130dba5}" symbol="2" label="No Access"/>
                   <rule checkstate="0" filter="ELSE" key="{7de6a0d7-3213-4d99-b8e7-fbea1b84a14f}" symbol="3" label="other"/>
@@ -585,7 +585,7 @@
                 <selectedonly on=""/>
               </labelattributes>
               <SingleCategoryDiagramRenderer diagramType="Pie">
-                <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+                <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
                   <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
                   <attribute field="" color="#000000" label=""/>
                 </DiagramCategory>
@@ -1194,7 +1194,7 @@ def my_form_open(dialog, layer, feature):
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="7.96599" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="243.393" y="7.96599" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4234" outlineWidth="0.3" excludeFromExports="0" uuid="{cc2cc5bb-52cd-416a-ac61-5406503ef116}" height="51.4531" itemRotation="0" frame="false" pagex="243.393">
+        <ComposerItem pagey="7.96599" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="243.393" y="7.96599" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4234" outlineWidth="0.3" excludeFromExports="0" uuid="{cc2cc5bb-52cd-416a-ac61-5406503ef116}" height="45.9453" itemRotation="0" frame="false" pagex="243.393">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1474,7 +1474,7 @@ def my_form_open(dialog, layer, feature):
         </LayerSet>
         <LayerStyles>
           <LayerStyle layerid="designated_area20160913005005252">
-            <qgis version="2.14.3-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <qgis version="2.14.3-Essen" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
               <edittypes>
                 <edittype widgetv2type="TextEdit" name="PKUID">
                   <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -1500,7 +1500,7 @@ def my_form_open(dialog, layer, feature):
               </edittypes>
               <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
                 <rules key="{f34df52b-4f37-426a-8ad1-ec0592e56756}">
-                  <rule filter="&quot;Name&quot; = 'Car Free' or&#xa;&quot;Name&quot; = 'Tranquility' or&#xa;&quot;Name&quot; = 'Stay Put' or&#xa;&quot;Name&quot; = 'Gypsy'" key="{db780abc-5779-4bc4-b3ad-10f9fa502a0f}" symbol="0" label="Camping Areas"/>
+                  <rule filter="&quot;Name&quot; = 'Car Free' or&#xa;&quot;Name&quot; = 'Tranquility' or&#xa;&quot;Name&quot; = 'Stay Put' or&#xa;&quot;Name&quot; = 'Come&amp;Go'" key="{db780abc-5779-4bc4-b3ad-10f9fa502a0f}" symbol="0" label="Camping Areas"/>
                   <rule filter="&quot;Name&quot; = 'No Camping'" key="{77f2d02c-1856-43f2-ac27-b368b47b1e5a}" symbol="1" label="No Camping"/>
                   <rule filter="&quot;Name&quot; = 'No Access'" key="{e1946737-a0e7-440a-86c9-31cad130dba5}" symbol="2" label="No Access"/>
                   <rule checkstate="0" filter="ELSE" key="{7de6a0d7-3213-4d99-b8e7-fbea1b84a14f}" symbol="3" label="other"/>
@@ -1749,7 +1749,7 @@ def my_form_open(dialog, layer, feature):
                 <selectedonly on=""/>
               </labelattributes>
               <SingleCategoryDiagramRenderer diagramType="Pie">
-                <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+                <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
                   <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
                   <attribute field="" color="#000000" label=""/>
                 </DiagramCategory>
@@ -2156,7 +2156,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="209.281" page="1" id="Minimap" lastValidViewScaleFactor="0.899459" positionMode="0" positionLock="true" x="1123.57" y="209.281" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{61e83a40-add7-4ab8-ba61-897c6af48881}" height="37.1822" itemRotation="0" frame="false" pagex="1123.57">
+        <ComposerItem pagey="209.281" page="1" id="Minimap" lastValidViewScaleFactor="3.59784" positionMode="0" positionLock="true" x="1123.57" y="209.281" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{61e83a40-add7-4ab8-ba61-897c6af48881}" height="37.1822" itemRotation="0" frame="false" pagex="1123.57">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2358,7 +2358,7 @@ def my_form_open(dialog, layer, feature):
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="52.6052" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="1124.92" y="52.6052" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4234" outlineWidth="0.3" excludeFromExports="0" uuid="{d9d25924-d52c-4cb9-9c7d-db5eb36ac94e}" height="51.4531" itemRotation="0" frame="false" pagex="1124.92">
+        <ComposerItem pagey="52.6052" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="1124.92" y="52.6052" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4234" outlineWidth="0.3" excludeFromExports="0" uuid="{d9d25924-d52c-4cb9-9c7d-db5eb36ac94e}" height="45.9453" itemRotation="0" frame="false" pagex="1124.92">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3839,7 +3839,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>designated_area20160913005005252</id>
       <datasource>dbname='./AU_ORG_DTE.sqlite' table="designated_area" (geometry) sql=</datasource>
       <keywordList>
@@ -3891,7 +3891,7 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
         <rules key="{f34df52b-4f37-426a-8ad1-ec0592e56756}">
-          <rule filter="&quot;Name&quot; = 'Car Free' or&#xa;&quot;Name&quot; = 'Tranquility' or&#xa;&quot;Name&quot; = 'Stay Put' or&#xa;&quot;Name&quot; = 'Gypsy'" key="{db780abc-5779-4bc4-b3ad-10f9fa502a0f}" symbol="0" label="Camping Areas"/>
+          <rule filter="&quot;Name&quot; = 'Car Free' or&#xa;&quot;Name&quot; = 'Tranquility' or&#xa;&quot;Name&quot; = 'Stay Put' or&#xa;&quot;Name&quot; = 'Come&amp;Go'" key="{db780abc-5779-4bc4-b3ad-10f9fa502a0f}" symbol="0" label="Camping Areas"/>
           <rule filter="&quot;Name&quot; = 'No Camping'" key="{77f2d02c-1856-43f2-ac27-b368b47b1e5a}" symbol="1" label="No Camping"/>
           <rule filter="&quot;Name&quot; = 'No Access'" key="{e1946737-a0e7-440a-86c9-31cad130dba5}" symbol="2" label="No Access"/>
           <rule checkstate="0" filter="ELSE" key="{7de6a0d7-3213-4d99-b8e7-fbea1b84a14f}" symbol="3" label="other"/>
@@ -4140,7 +4140,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
