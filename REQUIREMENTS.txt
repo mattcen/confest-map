@@ -1,0 +1,26 @@
+Map features
+============
+
+* Roads
+* Walking tracks
+* Fences
+* Gates
+* Villages
+* Cooking circles
+* Hub (and its features)
+* Market
+* Carpark
+* Water pipes
+* Camping areas (tranquility, car free, stay put, suburbs (previously gypsy))
+* Heritage sites
+* No-go areas
+
+
+Map Styles
+==========
+
+* Ops/Emergency map
+* Punter map (pretty)
+* Logistics map (plumbing, fences, gates, heritage areas, no-go areas)
+* Full property map
+* Aerial image
