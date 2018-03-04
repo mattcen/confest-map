@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="ConFest 2017 Site Map" version="2.14.3-Essen">
-  <title>ConFest 2017 Site Map</title>
+<qgis projectname="ConFest 2018 Site Map" version="2.14.3-Essen">
+  <title>ConFest 2018 Site Map</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Woorooma_Boundaries20170412141832160" name="Woorooma Boundaries">
@@ -152,10 +152,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>239336.09806254616705701</xmin>
-      <ymin>6106136.50877393409609795</ymin>
-      <xmax>240896.21511774620739743</xmax>
-      <ymax>6107149.78683878108859062</ymax>
+      <xmin>239295.04235056720790453</xmin>
+      <ymin>6106278.44423534628003836</ymin>
+      <xmax>240855.15940576724824496</xmax>
+      <ymax>6107291.72230019327253103</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -580,7 +580,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="ConFest Autumn 2017" htmlState="0" halign="1">
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="ConFest Autumn 2018" htmlState="0" halign="1">
         <LabelFont description="Helvetica,20,-1,5,50,0,0,0,0,0" style="Regular"/>
         <FontColor red="0" blue="0" green="0"/>
         <ComposerItem pagey="6.15243" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="102.547" y="6.15243" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.7422" outlineWidth="0.3" excludeFromExports="0" uuid="{c6304e07-2e64-4a4e-9655-e5d0e207c24e}" height="8.29197" itemRotation="0" frame="false" pagex="102.547">
@@ -1279,14 +1279,14 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="164.642" page="1" id="Minimap" lastValidViewScaleFactor="3.56819" positionMode="0" positionLock="true" x="242.043" y="164.642" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{71dda943-1010-4364-ab5d-433b95ceee38}" height="37.1822" itemRotation="0" frame="false" pagex="242.043">
+        <ComposerItem pagey="164.642" page="1" id="Minimap" lastValidViewScaleFactor="3.58028" positionMode="0" positionLock="true" x="242.043" y="164.642" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{71dda943-1010-4364-ab5d-433b95ceee38}" height="37.1822" itemRotation="0" frame="false" pagex="242.043">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="6107805.90408436674624681" xmin="239107.49999942115391605" ymax="6108716.46558450534939766" xmax="240242.50000057884608395"/>
+        <Extent ymin="6106189.66101073380559683" xmin="239381.06100324841099791" ymax="6107100.22251087240874767" xmax="240516.06100440610316582"/>
         <LayerSet/>
         <Grid/>
         <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{670afc75-7cfc-492e-8421-32e253cd9c29}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="500" gridFrameSideFlags="15" intervalY="500" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="CASE WHEN @grid_axis = 'x' THEN&#xa;    '         ' ||&#xa;&#x9;left( @grid_number, length( @grid_number) - 5) || '      ' || right( @grid_number, 3) || 'm E'&#xa;ELSE&#xa;    '        ' ||&#xa;&#x9;left( @grid_number, length( @grid_number) - 5) || '    ' || right( @grid_number, 3) || 'm N'&#xa;END&#xa;" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="BigSmall" annotationFormat="8" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
@@ -1383,7 +1383,7 @@ def my_form_open(dialog, layer, feature):
           </markerStyle>
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{0a19797b-da5a-49c0-af07-c75a7c19c09e}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="100" gridFrameSideFlags="15" intervalY="100" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="CASE WHEN @grid_axis = 'x' THEN&#xa;concat('                   ',&#xa;to_asc((((@grid_number /100)-25)%100)))&#xa;ELSE&#xa;concat('                   ',&#xa;lpad(89-(@grid_number /100)%100, 2, '0'))&#xa;END&#xa;&#xa;" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="3" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="5" rightAnnotationPosition="1" gridFrameWidth="2" name="Custom" annotationFormat="8" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="2">
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{0a19797b-da5a-49c0-af07-c75a7c19c09e}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="100" gridFrameSideFlags="15" intervalY="100" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="CASE WHEN @grid_axis = 'x' THEN&#xa;concat('                   ',&#xa;to_asc((((@grid_number /100)-29)%100)))&#xa;ELSE&#xa;concat('                   ',&#xa;lpad(70-(@grid_number /100)%100, 2, '0'))&#xa;END&#xa;&#xa;" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="3" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="5" rightAnnotationPosition="1" gridFrameWidth="2" name="Custom" annotationFormat="8" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="2">
           <lineStyle>
             <symbol alpha="0.498039" clip_to_extent="1" type="line" name="">
               <layer pass="0" class="SimpleLine" locked="0">
@@ -1431,7 +1431,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="19.6052" page="1" id="Main Map" lastValidViewScaleFactor="3.56819" positionMode="0" positionLock="false" x="10.1797" y="19.6052" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="227.133" outlineWidth="0.3" excludeFromExports="0" uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" height="182.219" itemRotation="0" frame="false" pagex="10.1797">
+        <ComposerItem pagey="19.6052" page="1" id="Main Map" lastValidViewScaleFactor="3.58028" positionMode="0" positionLock="false" x="10.1797" y="19.6052" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="227.133" outlineWidth="0.3" excludeFromExports="0" uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" height="182.219" itemRotation="0" frame="false" pagex="10.1797">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1494,92 +1494,6 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_area20160913005005252" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="10.3484" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="58.9339" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="275.357" y="58.9339" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3484" outlineWidth="0.3" excludeFromExports="0" uuid="{c73dfae9-6b47-483e-9144-1b6fcb0a1c81}" height="49.0362" itemRotation="0" frame="false" pagex="275.357">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="1" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="28.3641" sectionHeight="65.5983" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="56.3059" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="56.3059" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.3641" outlineWidth="0.3" excludeFromExports="0" uuid="{c5ca4939-dfc1-4c2d-85e0-b517425368e5}" height="65.5983" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
         <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
@@ -1642,6 +1556,92 @@ def my_form_open(dialog, layer, feature):
             <backgroundColor alpha="0" red="0" blue="0" green="0"/>
           </column>
           <column width="0" vAlignment="128" attribute="snippet" sortByRank="0" hAlignment="1" heading="snippet" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="1" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="28.3641" sectionHeight="65.5983" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="56.3059" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="56.3059" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.3641" outlineWidth="0.3" excludeFromExports="0" uuid="{c5ca4939-dfc1-4c2d-85e0-b517425368e5}" height="65.5983" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="10.3484" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="58.9339" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="275.357" y="58.9339" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3484" outlineWidth="0.3" excludeFromExports="0" uuid="{c73dfae9-6b47-483e-9144-1b6fcb0a1c81}" height="49.0362" itemRotation="0" frame="false" pagex="275.357">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_area20160913005005252" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
             <backgroundColor alpha="0" red="0" blue="0" green="0"/>
           </column>
         </displayColumns>
@@ -2450,7 +2450,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="209.281" page="1" id="Minimap" lastValidViewScaleFactor="3.59784" positionMode="0" positionLock="true" x="1123.57" y="209.281" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{61e83a40-add7-4ab8-ba61-897c6af48881}" height="37.1822" itemRotation="0" frame="false" pagex="1123.57">
+        <ComposerItem pagey="209.281" page="1" id="Minimap" lastValidViewScaleFactor="0.902508" positionMode="0" positionLock="true" x="1123.57" y="209.281" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{61e83a40-add7-4ab8-ba61-897c6af48881}" height="37.1822" itemRotation="0" frame="false" pagex="1123.57">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2602,7 +2602,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="Helvetica,36,-1,5,50,0,0,0,0,0" style="Regular"/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="52.6052" page="1" id="Main Map" lastValidViewScaleFactor="0.899459" positionMode="0" positionLock="false" x="20.3145" y="52.6052" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="1085.22" outlineWidth="0.3" excludeFromExports="0" uuid="{40c5c533-deb9-4e6a-9018-7e33783527d2}" height="768.914" itemRotation="0" frame="false" pagex="20.3145">
+        <ComposerItem pagey="52.6052" page="1" id="Main Map" lastValidViewScaleFactor="0.902508" positionMode="0" positionLock="false" x="20.3145" y="52.6052" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="1085.22" outlineWidth="0.3" excludeFromExports="0" uuid="{40c5c533-deb9-4e6a-9018-7e33783527d2}" height="768.914" itemRotation="0" frame="false" pagex="20.3145">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2665,11 +2665,17 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_area20160913005005252" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
         <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="1" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
           <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
             <backgroundColor alpha="0" red="0" blue="0" green="0"/>
           </column>
         </displayColumns>
@@ -2684,6 +2690,13 @@ def my_form_open(dialog, layer, feature):
           <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
           <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
+        <ComposerFrame sectionWidth="28.3641" sectionHeight="81.316" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="116.114" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="116.114" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.3641" outlineWidth="0.3" excludeFromExports="0" uuid="{c7e88994-dfb0-46af-a0ad-a8816d8ec196}" height="81.316" itemRotation="0" frame="false" pagex="1112.69">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
         <customproperties/>
       </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="Woorooma_Boundaries20170319182415347" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
@@ -2740,14 +2753,11 @@ def my_form_open(dialog, layer, feature):
         </cellStyles>
         <customproperties/>
       </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
         <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="1" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
             <backgroundColor alpha="0" red="0" blue="0" green="0"/>
           </column>
           <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
@@ -2765,13 +2775,37 @@ def my_form_open(dialog, layer, feature):
           <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
           <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
-        <ComposerFrame sectionWidth="28.3641" sectionHeight="81.316" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="116.114" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="116.114" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.3641" outlineWidth="0.3" excludeFromExports="0" uuid="{c7e88994-dfb0-46af-a0ad-a8816d8ec196}" height="81.316" itemRotation="0" frame="false" pagex="1112.69">
+        <ComposerFrame sectionWidth="10.3484" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="109.126" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1154.94" y="109.126" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3484" outlineWidth="0.3" excludeFromExports="0" uuid="{17f78cc9-438e-4e63-b6a4-8bf3ba11ccda}" height="49.0362" itemRotation="0" frame="false" pagex="1154.94">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
         <customproperties/>
       </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="MapID != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="barrier_node20160913005006116" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
@@ -2808,38 +2842,11 @@ def my_form_open(dialog, layer, feature):
         </ComposerFrame>
         <customproperties/>
       </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_area20160913005005252" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
             <backgroundColor alpha="0" red="0" blue="0" green="0"/>
           </column>
         </displayColumns>
@@ -2854,13 +2861,6 @@ def my_form_open(dialog, layer, feature):
           <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
           <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
-        <ComposerFrame sectionWidth="10.3484" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="109.126" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1154.94" y="109.126" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3484" outlineWidth="0.3" excludeFromExports="0" uuid="{17f78cc9-438e-4e63-b6a4-8bf3ba11ccda}" height="49.0362" itemRotation="0" frame="false" pagex="1154.94">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
         <customproperties/>
       </ComposerAttributeTableV2>
       <customproperties>
@@ -3621,7 +3621,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="164.642" page="1" id="Minimap" lastValidViewScaleFactor="3.56819" positionMode="0" positionLock="true" x="242.043" y="164.642" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{0f41f8d5-7ad3-41de-8cf0-5f726a754e6e}" height="37.1822" itemRotation="0" frame="false" pagex="242.043">
+        <ComposerItem pagey="164.642" page="1" id="Minimap" lastValidViewScaleFactor="3.58028" positionMode="0" positionLock="true" x="242.043" y="164.642" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.0531" outlineWidth="0.3" excludeFromExports="0" uuid="{0f41f8d5-7ad3-41de-8cf0-5f726a754e6e}" height="37.1822" itemRotation="0" frame="false" pagex="242.043">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3773,7 +3773,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="19.6052" page="1" id="Main Map" lastValidViewScaleFactor="3.56819" positionMode="0" positionLock="false" x="10.1797" y="19.6052" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="227.133" outlineWidth="0.3" excludeFromExports="0" uuid="{9c13c8bb-e6c2-4e87-af6a-f1d082bb0bb8}" height="182.219" itemRotation="0" frame="false" pagex="10.1797">
+        <ComposerItem pagey="19.6052" page="1" id="Main Map" lastValidViewScaleFactor="3.58028" positionMode="0" positionLock="false" x="10.1797" y="19.6052" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="227.133" outlineWidth="0.3" excludeFromExports="0" uuid="{9c13c8bb-e6c2-4e87-af6a-f1d082bb0bb8}" height="182.219" itemRotation="0" frame="false" pagex="10.1797">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3843,95 +3843,6 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="1" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="28.3641" sectionHeight="65.5983" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="56.3059" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="56.3059" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.3641" outlineWidth="0.3" excludeFromExports="0" uuid="{a42aec38-0807-43f4-8ee6-7583d70cb312}" height="65.5983" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns>
-          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
-            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
-          </column>
-        </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="10.3484" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="58.9339" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="275.357" y="58.9339" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3484" outlineWidth="0.3" excludeFromExports="0" uuid="{dbfe7152-f219-46e5-99fc-207b4ac73ac4}" height="49.0362" itemRotation="0" frame="false" pagex="275.357">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="MapID != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="barrier_node20160913005006116" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
@@ -4020,6 +3931,30 @@ def my_form_open(dialog, layer, feature):
         </cellStyles>
         <customproperties/>
       </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_area20160913005005252" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
@@ -4039,6 +3974,71 @@ def my_form_open(dialog, layer, feature):
           <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
           <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="1" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="Name" sortByRank="0" hAlignment="1" heading="Name" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="28.3641" sectionHeight="65.5983" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="56.3059" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="56.3059" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.3641" outlineWidth="0.3" excludeFromExports="0" uuid="{a42aec38-0807-43f4-8ee6-7583d70cb312}" height="65.5983" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="designated_sites20160913005004260" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns>
+          <column width="0" vAlignment="128" attribute="MapID" sortByRank="0" hAlignment="1" heading="MapID" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+          <column width="0" vAlignment="128" attribute="GridRef" sortByRank="0" hAlignment="1" heading="GridRef" sortOrder="0">
+            <backgroundColor alpha="0" red="0" blue="0" green="0"/>
+          </column>
+        </displayColumns>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="10.3484" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="58.9339" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="275.357" y="58.9339" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.3484" outlineWidth="0.3" excludeFromExports="0" uuid="{dbfe7152-f219-46e5-99fc-207b4ac73ac4}" height="49.0362" itemRotation="0" frame="false" pagex="275.357">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
         <customproperties/>
       </ComposerAttributeTableV2>
       <customproperties>
@@ -16666,6 +16666,15 @@ def my_form_open(dialog, layer, feature):
         <value>2017_04_11_16_58_Tue_waypoints_any20170411172115349</value>
         <value>Gates_copy20170411185011781</value>
         <value>Toilets_copy20170411185011676</value>
+        <value>Track_ART_tracks_any20171004144737696</value>
+        <value>Track_BOUNDARY_tracks_any20171004144716076</value>
+        <value>Track_BUS_ROUTE_EMERG_tracks_any20171004144719132</value>
+        <value>Track_BUS_ROUTE_tracks_any20171004144721350</value>
+        <value>Track_CARFREE_20_110825_tracks_any20171004144723569</value>
+        <value>Track_EMERG_1_tracks_any20171004144726235</value>
+        <value>Track_EMERG_HUB_tracks_any20171004144728892</value>
+        <value>Track_FA_ACCESS_tracks_any20171004144731617</value>
+        <value>Waypoints_03_OCT_17_waypoints_any20171004144734548</value>
         <value>Woorooma_Boundaries20170319182415347</value>
         <value>Woorooma_Boundaries20170412141832160</value>
         <value>barrier20160913005007143</value>
@@ -16692,15 +16701,6 @@ def my_form_open(dialog, layer, feature):
         <value>structure_copy20170411185012169</value>
         <value>test7_waypoints_any20160918224005116</value>
         <value>vegetatedareas20160913004956111</value>
-        <value>Track_BOUNDARY_tracks_any20171004144716076</value>
-        <value>Track_BUS_ROUTE_EMERG_tracks_any20171004144719132</value>
-        <value>Track_BUS_ROUTE_tracks_any20171004144721350</value>
-        <value>Track_CARFREE_20_110825_tracks_any20171004144723569</value>
-        <value>Track_EMERG_1_tracks_any20171004144726235</value>
-        <value>Track_EMERG_HUB_tracks_any20171004144728892</value>
-        <value>Track_FA_ACCESS_tracks_any20171004144731617</value>
-        <value>Waypoints_03_OCT_17_waypoints_any20171004144734548</value>
-        <value>Track_ART_tracks_any20171004144737696</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>disabled</value>
@@ -16709,6 +16709,15 @@ def my_form_open(dialog, layer, feature):
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
         <value>enabled</value>
         <value>disabled</value>
         <value>enabled</value>
@@ -16733,15 +16742,6 @@ def my_form_open(dialog, layer, feature):
         <value>disabled</value>
         <value>disabled</value>
         <value>enabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
@@ -16793,6 +16793,15 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
@@ -16817,15 +16826,6 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
@@ -16942,7 +16942,7 @@ def my_form_open(dialog, layer, feature):
         <value>project_version</value>
       </variableNames>
       <variableValues type="QStringList">
-        <value>20170412173420</value>
+        <value>20180226175500</value>
       </variableValues>
     </Variables>
     <Paths>
