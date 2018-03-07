@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Confest Villages</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Bliss Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14792,-35.150944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Permaculture Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14503,-35.150489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nudies Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14278,-35.148955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Veg Out</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14207,-35.147485</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Arts Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14272,-35.147092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Drumming Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14652,-35.145909</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vibes Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14357,-35.148311</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rainbow Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14923,-35.150109</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rainbow Village</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.14943,-35.150934</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Gypsy Village?</name>
+    <styleUrl>#placemark-purple</styleUrl>
+    <Point><coordinates>144.15002,-35.149034</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

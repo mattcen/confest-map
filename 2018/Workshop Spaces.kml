@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <Style id="placemark-blue">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-blue.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-brown">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-brown.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-green">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-green.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-orange">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-orange.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-pink">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-purple">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-red">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="placemark-yellow">
+    <IconStyle>
+      <Icon>
+        <href>http://mapswith.me/placemarks/placemark-yellow.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Workshop Spaces</name>
+  <visibility>1</visibility>
+  <Placemark>
+    <name>Natural Building</name>
+    <styleUrl>#placemark-yellow</styleUrl>
+    <Point><coordinates>144.14439,-35.150373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Drumming Circle</name>
+    <styleUrl>#placemark-yellow</styleUrl>
+    <Point><coordinates>144.14577,-35.146076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Open Stage</name>
+    <styleUrl>#placemark-yellow</styleUrl>
+    <Point><coordinates>144.14326,-35.149793</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Massage</name>
+    <styleUrl>#placemark-yellow</styleUrl>
+    <Point><coordinates>144.1431,-35.147628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Library</name>
+    <styleUrl>#placemark-yellow</styleUrl>
+    <Point><coordinates>144.14754,-35.151064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Craft cafe</name>
+    <styleUrl>#placemark-yellow</styleUrl>
+    <Point><coordinates>144.14322,-35.14714</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>The Sound Garden</name>
+    <styleUrl>#placemark-yellow</styleUrl>
+    <Point><coordinates>144.14166,-35.148295</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>
