@@ -24,3 +24,10 @@ Map Styles
 * Logistics map (plumbing, fences, gates, heritage areas, no-go areas)
 * Full property map
 * Aerial image
+* Shire Council map
+  * Roads
+  * Designated areas
+  * Fences
+  * Ticket booth
+  * Hub
+  * Toilets
