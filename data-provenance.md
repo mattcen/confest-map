@@ -16,11 +16,10 @@
   * 2018/Cooking Circles.kml
   * 2018/Workshop Spaces.kml
 * John Reid:
-  * HatLogs.zip (2018-02-26)
-* UNKNOWN:
-  * 2018Areas/landmarks.xls
-  * 2018Areas/markers.xls
-  * 2018Areas/waterpoints.xls
-  * 2018Areas/CFareas.shp
-  * 2018Areas/CarFree.shp
-  * 2018Areas/Tranq_Perma_OS_overlay.geojson
+  * HatLogs.zip (2018-02-26 - basic cheap GPS module)
+  * 2018Areas/landmarks.xls (Decent GPS mounted on car roof)
+  * 2018Areas/markers.xls (Decent GPS mounted on car roof)
+  * 2018Areas/waterpoints.xls (Decent GPS mounted on car roof)
+  * 2018Areas/CFareas.shp (Derived)
+  * 2018Areas/CarFree.shp (Derived)
+  * 2018Areas/Tranq_Perma_OS_overlay.geojson (Derived)
