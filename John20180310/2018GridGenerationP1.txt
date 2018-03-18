@@ -1,0 +1,47 @@
+
+Select CRS EPSG:32755 
+		Projected Coordinate Systems, Universal Tranverse Mercator, WGS 84 / UTM zone 55S
+					
+Menu:Processing
+	Toolbox
+Grass GIS 7 commands
+	Vector
+		v.mkgrid  - Creates a vector map of a user-defined grid. 
+		follow screengrab, except for
+			GRASS GIS 7 region extent, where I select 'Use layer/canvas extent'. Must be zoomed out enough to show whole area. 
+			Otherwise use: 239290,240610,6106190,6107710
+		Run
+select Grid in Layers Panel
+	right click, select properties
+		select style
+		ensure Fill is selected
+		Use colour drop down, select Choose Colour..
+		Move opacity slider to left (0%). 
+		'OK'
+	'Apply'
+	
+
+Add labels
+	select Labels tab
+	select 'Rule-based labelling' in top drop down box
+	use green "+" button to add rules:
+		Filter: row=19 AND col>1; Label with: coln; 'click 'OK'
+		Filter: col=1 AND row<19; Label with: 20-row; click 'OK'
+		Filter: col=1 AND row=19; Label with: concat(coln,20-row); click 'OK'
+	'Apply'
+	'OK'
+	 
+
+	
+
+19,13
+239300,6106200
+100,100
+239290,240710,6106190,6108110		
+		
+		
+It seems this should work at command line level, but not yet..:
+v.mkgrid map=name grid=15,13 position=coor coordinates=239300,6106200 box=100,100 		
+
+
+
