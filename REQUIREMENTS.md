@@ -39,6 +39,7 @@ Map Styles
     * Come and go
     * Tranquility
     * Market
+    * No camping
 * Logistics map (plumbing, fences, gates, heritage areas, no-go areas)
 * Full property map
 * Aerial image
