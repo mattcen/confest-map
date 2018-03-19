@@ -25,11 +25,12 @@ Map Styles
     * Roads
   * Points
     * First aid
-    * Info tent
+    * Info tent (NO DATA)
     * Arts
     * Permaculture
-    * Bliss
+    * Bliss (NO DATA)
     * Drumming
+    * Family
   * Polygons
     * Car free
     * Stay put
@@ -37,8 +38,7 @@ Map Styles
     * Car park
     * Come and go
     * Tranquility
-    * Family
-  * Market
+    * Market
 * Logistics map (plumbing, fences, gates, heritage areas, no-go areas)
 * Full property map
 * Aerial image
