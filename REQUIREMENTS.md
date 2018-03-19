@@ -21,20 +21,23 @@ Map Styles
 
 * Ops/Emergency map
 * Punter map (pretty)
-  * Roads
-  * First aid
-  * Info tent
-  * Car free
-  * Stay put
-  * Emergency area
-  * Car park
-  * Come and go
-  * Arts
-  * Permaculture
-  * Bliss
-  * Tranquility
-  * Family
-  * Drumming
+  * Lines
+    * Roads
+  * Points
+    * First aid
+    * Info tent
+    * Arts
+    * Permaculture
+    * Bliss
+    * Drumming
+  * Polygons
+    * Car free
+    * Stay put
+    * Emergency area
+    * Car park
+    * Come and go
+    * Tranquility
+    * Family
   * Market
 * Logistics map (plumbing, fences, gates, heritage areas, no-go areas)
 * Full property map
