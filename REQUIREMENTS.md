@@ -28,13 +28,13 @@ Map Styles
     * Info tent (NO DATA)
     * Arts
     * Permaculture
-    * Bliss (NO DATA)
+    * Bliss
     * Drumming
     * Family
   * Polygons
     * Car free
     * Stay put
-    * Emergency area
+    * Emergency area (NO DATA)
     * Car park
     * Come and go
     * Tranquility
