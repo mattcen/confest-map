@@ -5800,7 +5800,7 @@
         },
         "name": "Carpark",
         "description": "As discussed by mattcen with Emma and Guy in FB Messenger",
-        "poiType": "infrastructure",
+        "poiType": "designated-area",
         "label": "Carpark",
         "source": "Draft",
         "detail": "1"
