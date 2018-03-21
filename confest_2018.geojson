@@ -6044,7 +6044,7 @@
       "properties": {
         "name": "No Camping",
         "source": "John",
-        "poiType": "designated-area",
+        "poiType": "nocamping-area",
         "detail": "1"
       },
       "geometry": {
@@ -6317,7 +6317,8 @@
       "properties": {
         "name": "Tranquility",
         "source": "John",
-        "detail": "1"
+        "detail": "1",
+        "poiType": "designated-area"
       },
       "geometry": {
         "type": "Polygon",
