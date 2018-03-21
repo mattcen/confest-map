@@ -5299,56 +5299,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Emergency assembly",
-        "source": "Emma mud map"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              144.14881110191348,
-              -35.14636285872978
-            ],
-            [
-              144.14837121963504,
-              -35.14624003944625
-            ],
-            [
-              144.14792060852054,
-              -35.14634969952969
-            ],
-            [
-              144.14781332015994,
-              -35.146757633742894
-            ],
-            [
-              144.14792060852054,
-              -35.14708661145765
-            ],
-            [
-              144.1483283042908,
-              -35.147196270400386
-            ],
-            [
-              144.14877355098727,
-              -35.14707783873585
-            ],
-            [
-              144.14895057678225,
-              -35.14679272476249
-            ],
-            [
-              144.14881110191348,
-              -35.14636285872978
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "": "",
         "label": "Fire Spinning",
         "name": "Fire Spinning",
@@ -5609,7 +5559,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Drumming Village",
+        "name": "Drumming",
         "poiType": "village",
         "label": "Drumming",
         "source": "Murray",
@@ -5626,7 +5576,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Permaculture Village",
+        "name": "Permaculture",
         "poiType": "village",
         "label": "Permaculture",
         "source": "Murray",
@@ -5996,34 +5946,51 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Festival Boundary",
-        "poiType": "boundary",
-        "label": "Confest Boundary",
-        "source": "Draft",
-        "detail": "1"
+        "name": "Emergency Assembly",
+        "source": "Emma mud map",
+        "detail": "1",
+        "poiType": "designated-area"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Polygon",
         "coordinates": [
           [
-            144.14634346961978,
-            -35.14592421758034
-          ],
-          [
-            144.14614498615268,
-            -35.14619178896271
-          ],
-          [
-            144.14515256881717,
-            -35.14654270091768
-          ],
-          [
-            144.14430499076846,
-            -35.146397949919596
-          ],
-          [
-            144.14350569248202,
-            -35.146551473697166
+            [
+              144.14881110191348,
+              -35.14636285872978
+            ],
+            [
+              144.14837121963504,
+              -35.14624003944625
+            ],
+            [
+              144.14792060852054,
+              -35.14634969952969
+            ],
+            [
+              144.14781332015994,
+              -35.146757633742894
+            ],
+            [
+              144.14792060852054,
+              -35.14708661145765
+            ],
+            [
+              144.1483283042908,
+              -35.147196270400386
+            ],
+            [
+              144.14877355098727,
+              -35.14707783873585
+            ],
+            [
+              144.14895057678225,
+              -35.14679272476249
+            ],
+            [
+              144.14881110191348,
+              -35.14636285872978
+            ]
           ]
         ]
       }
@@ -6033,7 +6000,8 @@
       "properties": {
         "name": "Market",
         "detail": "1",
-        "source": "John"
+        "source": "John",
+        "poiType": "designated-area"
       },
       "geometry": {
         "type": "Polygon",
