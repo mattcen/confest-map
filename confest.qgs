@@ -65,10 +65,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>239491.05520171535317786</xmin>
-      <ymin>6106172.81361801829189062</ymin>
-      <xmax>240907.49979646925930865</xmax>
-      <ymax>6108027.81605454441159964</ymax>
+      <xmin>239341.18165612683515064</xmin>
+      <ymin>6106163.99188906978815794</ymin>
+      <xmax>240691.40506552651640959</xmax>
+      <ymax>6108017.08930082339793444</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -304,7 +304,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="printA4" visible="1">
+  <Composer title="printA4" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -652,7 +652,7 @@
       <ComposerLabel valign="128" marginX="0" marginY="0" labelText="rev: [% @project_version %]" htmlState="0" halign="4">
         <LabelFont description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="198.814" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="216.336" y="198.814" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="20.801" outlineWidth="0.3" excludeFromExports="0" uuid="{df947287-bee4-484f-b669-299465148f81}" height="2.76395" itemRotation="0" frame="false" pagex="216.336">
+        <ComposerItem pagey="198.814" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="216.336" y="198.814" visibility="1" zValue="24" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="20.801" outlineWidth="0.3" excludeFromExports="0" uuid="{df947287-bee4-484f-b669-299465148f81}" height="2.76395" itemRotation="0" frame="false" pagex="216.336">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1011,6 +1011,40 @@
         </ComposerFrame>
         <customproperties/>
       </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <displayColumns/>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns/>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="MapID != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
@@ -1033,40 +1067,6 @@
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns/>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <customproperties/>
-      </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <displayColumns/>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
         <customproperties/>
       </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
@@ -1092,6 +1092,13 @@
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{7dee0f07-3b30-4bcf-9188-ff9f518bded5}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
           <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{73cb2cd0-b55e-4ae6-ab3c-580fae91cde0}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
@@ -1099,84 +1106,84 @@
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{303ee3d1-02d5-4f78-a703-473cc3ad3efc}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{303ee3d1-02d5-4f78-a703-473cc3ad3efc}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{b0e5def9-ebd0-49b2-b8eb-05dd4947709f}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{b0e5def9-ebd0-49b2-b8eb-05dd4947709f}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{e758b9c8-7135-41e1-a5cf-e47cb18ea191}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{e758b9c8-7135-41e1-a5cf-e47cb18ea191}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{9c2e89f1-1a53-4fe5-8d8b-475811665509}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{9c2e89f1-1a53-4fe5-8d8b-475811665509}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{88a0f1a1-8c20-4318-963a-299b0b57784a}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{88a0f1a1-8c20-4318-963a-299b0b57784a}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{4b0d3fd8-158e-435e-bae0-ffc7955db4fe}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{4b0d3fd8-158e-435e-bae0-ffc7955db4fe}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{9f585260-4df5-426a-9689-5d418de93a7c}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{9f585260-4df5-426a-9689-5d418de93a7c}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{d20dbe86-e69e-4832-b444-bdd1dc695b48}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{d20dbe86-e69e-4832-b444-bdd1dc695b48}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{22f72467-afd7-4af4-ad4e-5e7fbecb5742}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="20" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{22f72467-afd7-4af4-ad4e-5e7fbecb5742}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="20" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{2e4ab33c-ae9f-4455-b70e-1453336c75b6}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{2e4ab33c-ae9f-4455-b70e-1453336c75b6}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{f748d6d0-8f76-409a-ace7-5cf28a1526d5}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{f748d6d0-8f76-409a-ace7-5cf28a1526d5}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
           </ComposerItem>
         </ComposerFrame>
         <ComposerFrame sectionWidth="519.031" sectionHeight="841" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="81.316">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{c9243288-c988-4b82-83d4-4a1e236b0e0e}" height="841" itemRotation="0" frame="false" pagex="1112.69">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1112.69" y="851" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{c9243288-c988-4b82-83d4-4a1e236b0e0e}" height="841" itemRotation="0" frame="false" pagex="1112.69">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
@@ -1219,7 +1226,7 @@
       <ComposerLabel valign="128" marginX="0" marginY="0" labelText="rev: [% @project_version %]" htmlState="0" halign="4">
         <LabelFont description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="198.814" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="216.336" y="198.814" visibility="1" zValue="20" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="20.801" outlineWidth="0.3" excludeFromExports="0" uuid="{b10b6e63-76fc-436b-9048-c32d02096be1}" height="2.76395" itemRotation="0" frame="false" pagex="216.336">
+        <ComposerItem pagey="198.814" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="216.336" y="198.814" visibility="1" zValue="21" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="20.801" outlineWidth="0.3" excludeFromExports="0" uuid="{b10b6e63-76fc-436b-9048-c32d02096be1}" height="2.76395" itemRotation="0" frame="false" pagex="216.336">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1544,121 +1551,6 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
-        <displayColumns/>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="65.5983" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="56.3059" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="56.3059" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{a42aec38-0807-43f4-8ee6-7583d70cb312}" height="65.5983" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{f6283751-07ef-48d0-8c18-e0440816d95c}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{aff28258-dca9-4961-a753-e011df20259a}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{e49cfd14-8b0e-4f32-9b0f-a69dfb4ba137}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{84263a7d-7d41-4d80-acce-b957f15b4117}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{432c9c4b-6a6f-42a4-bd17-42bd7fd7e7d3}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{2018fd00-16eb-4d4c-af2c-ced9054415f4}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{ee6a26da-fc91-42d2-8cad-71171aadcca2}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{25b1a400-875c-4f36-92d3-18105590473d}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{560b09a2-27dd-4d30-88ed-f7785fa02080}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{d2fd0c14-d851-4638-9f24-59ddbe009006}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{70b3b415-2527-40af-9bc9-fce9450defe6}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{194a15a2-d6f1-4518-8442-baf881044a72}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
-          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{2631eca5-af94-4a96-8f4a-0d164b04bf5f}" height="210" itemRotation="0" frame="false" pagex="240.792">
-            <FrameColor alpha="255" red="0" blue="0" green="0"/>
-            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
-          </ComposerItem>
-        </ComposerFrame>
-        <customproperties/>
-      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter=" &quot;Type&quot; = 'Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
         <contentFontProperties description="Courier,4,-1,5,50,0,0,0,0,0" style="Regular"/>
@@ -1717,23 +1609,6 @@
         </cellStyles>
         <customproperties/>
       </ComposerAttributeTableV2>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
-        <displayColumns/>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <customproperties/>
-      </ComposerAttributeTableV2>
       <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="true" featureFilter="&quot;Type&quot;='Cooking Circle'" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
@@ -1751,6 +1626,145 @@
         </cellStyles>
         <ComposerFrame sectionWidth="519.031" sectionHeight="49.0362" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
           <ComposerItem pagey="58.9339" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="275.357" y="58.9339" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{dbfe7152-f219-46e5-99fc-207b4ac73ac4}" height="49.0362" itemRotation="0" frame="false" pagex="275.357">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <displayColumns/>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <customproperties/>
+      </ComposerAttributeTableV2>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="1" filterFeatures="true" featureFilter="(&quot;Type&quot; = 'Other' OR &quot;Type&quot; = 'Village') AND &quot;GridRef&quot; != 'NULL'" emptyTableMode="0" wrapString="" wrapBehaviour="1" headerMode="2" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="1" composerMap="1" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="0.5" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.1" gridColor="0,0,0,255" showUniqueRowsOnly="1">
+        <headerFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        <contentFontProperties description="Helvetica,6,-1,5,50,0,0,0,0,0" style="Regular"/>
+        <displayColumns/>
+        <cellStyles>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+        </cellStyles>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="65.5983" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="56.3059" page="1" id="villages" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="56.3059" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{a42aec38-0807-43f4-8ee6-7583d70cb312}" height="65.5983" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{655934f1-2e1a-4ad7-929b-a8a9d74f0cd7}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{f6283751-07ef-48d0-8c18-e0440816d95c}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{aff28258-dca9-4961-a753-e011df20259a}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{e49cfd14-8b0e-4f32-9b0f-a69dfb4ba137}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{84263a7d-7d41-4d80-acce-b957f15b4117}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{432c9c4b-6a6f-42a4-bd17-42bd7fd7e7d3}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{2018fd00-16eb-4d4c-af2c-ced9054415f4}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{ee6a26da-fc91-42d2-8cad-71171aadcca2}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{25b1a400-875c-4f36-92d3-18105590473d}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{560b09a2-27dd-4d30-88ed-f7785fa02080}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{d2fd0c14-d851-4638-9f24-59ddbe009006}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="20" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{70b3b415-2527-40af-9bc9-fce9450defe6}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{194a15a2-d6f1-4518-8442-baf881044a72}" height="210" itemRotation="0" frame="false" pagex="240.792">
+            <FrameColor alpha="255" red="0" blue="0" green="0"/>
+            <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            <customproperties/>
+          </ComposerItem>
+        </ComposerFrame>
+        <ComposerFrame sectionWidth="519.031" sectionHeight="210" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="65.5983">
+          <ComposerItem pagey="0" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.792" y="220" visibility="1" zValue="24" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="519.031" outlineWidth="0.3" excludeFromExports="0" uuid="{2631eca5-af94-4a96-8f4a-0d164b04bf5f}" height="210" itemRotation="0" frame="false" pagex="240.792">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             <customproperties/>
@@ -7540,7 +7554,7 @@ def my_form_open(dialog, layer, feature):
         <value>project_version</value>
       </variableNames>
       <variableValues type="QStringList">
-        <value>20180322154748</value>
+        <value>20180322174656</value>
       </variableValues>
     </Variables>
     <Paths>

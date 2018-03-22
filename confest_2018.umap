@@ -252,8 +252,8 @@
           "geometry": {
             "type": "Point",
             "coordinates": [
-              144.1462,
-              -35.137723
+              144.1461825370789,
+              -35.13794930931401
             ]
           }
         },
@@ -6821,7 +6821,9 @@
             "name": "No Camping",
             "source": "John",
             "poiType": "nocamping-area",
-            "detail": "1"
+            "detail": "1",
+            "label": "No Camping_Aboriginal Heritage Area",
+            "description": "Aboriginal Heritage Area"
           },
           "geometry": {
             "type": "Polygon",
