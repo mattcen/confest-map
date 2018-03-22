@@ -52,7 +52,7 @@ detail=2</desc></wpt><wpt lat="-35.15105" lon="144.14759"><name> Library</name><
 =
 detail=2</desc></wpt><wpt lat="-35.15278" lon="144.14917"><name> Listen to the Grass Grow</name><desc>name= Listen to the Grass Grow
 =
-detail=2</desc></wpt><wpt lat="-35.14879" lon="144.14285"><name> Nudies Village</name><desc>name= Nudies Village
+detail=2</desc></wpt><wpt lat="-35.14879" lon="144.14285"><name> Nudies</name><desc>name= Nudies
 =
 poiType=village
 label=Nudies
@@ -94,14 +94,17 @@ label=Beach
 source=Murray
 detail=2</desc></wpt><wpt lat="-35.150744" lon="144.146226"><name>Doing It Ourselves</name><desc>name=Doing It Ourselves
 poiType=village
-detail=3
-source=Suse</desc></wpt><wpt lat="-35.14864" lon="144.14632"><name>Fire Spinning</name><desc>=
+detail=2
+source=Suse
+label=Doing It Ourselves</desc></wpt><wpt lat="-35.14864" lon="144.14632"><name>Fire Spinning</name><desc>=
 label=Fire Spinning
 name=Fire Spinning
 description= fire spinning circle 
 detail=2</desc></wpt><wpt lat="-35.14768315432159" lon="144.1412311792374"><name>Goddess Reawakening</name><desc>name=Goddess Reawakening
 poiType=village
-source=Trevor Alexander (Facebook) unverified</desc></wpt><wpt lat="-35.149034" lon="144.15002"><name>Gypsy Village?</name><desc>name=Gypsy Village?
+source=Trevor Alexander (Facebook) unverified
+detail=2
+label=Goddess_Reawakening</desc></wpt><wpt lat="-35.149034" lon="144.15002"><name>Gypsy</name><desc>name=Gypsy
 description=Gypsy intend to talk to Elder Camp to negotiate if either needs to move to give each other space.
 poiType=village
 label=Gypsy
@@ -112,9 +115,9 @@ source=Murray
 detail=2</desc></wpt><wpt lat="-35.14846391705119" lon="144.14421916007998"><name>Poly Village</name><desc>name=Poly Village
 description=Requested by Leo Klein on FB, 2018-03-08
 poiType=village
-label=Poly Village
+label=Poly_Village
 source=Draft
-detail=2</desc></wpt><wpt lat="-35.150109" lon="144.14923"><name>Rainbow Village</name><desc>name=Rainbow Village
+detail=2</desc></wpt><wpt lat="-35.150109" lon="144.14923"><name>Rainbow</name><desc>name=Rainbow
 poiType=village
 label=Rainbow
 source=Murray
@@ -122,7 +125,7 @@ detail=2</desc></wpt><wpt lat="-35.147395" lon="144.14583"><name>The HUB</name><
 poiType=infrastructure
 label=HUB
 source=Murray
-detail=2</desc></wpt><wpt lat="-35.148311" lon="144.14357"><name>Vibes Village</name><desc>name=Vibes Village
+detail=2</desc></wpt><wpt lat="-35.148311" lon="144.14357"><name>Vibes</name><desc>name=Vibes
 poiType=village
 label=Vibes
 source=Murray
@@ -137,7 +140,8 @@ source=Murray
 detail=2</desc></wpt><wpt lat="-35.149288534721556" lon="144.14413869380954"><name>Wilding</name><desc>name=Wilding
 source=David Wolfe Mud
 poiType=village
-label=Wilding</desc></wpt><wpt lat="-35.14759" lon="144.14294"><name> Arts</name><desc>name= Arts
+label=Wilding
+detail=2</desc></wpt><wpt lat="-35.14759" lon="144.14294"><name> Arts</name><desc>name= Arts
 =
 poiType=village
 label=Arts
@@ -149,79 +153,84 @@ detail=1</desc></wpt><wpt lat="-35.14978" lon="144.14583"><name> Family </name><
 =
 poiType=village
 label=Family
-detail=1</desc></wpt><wpt lat="-35.14732" lon="144.14586"><name> First Aid</name><desc>name= First Aid
-=
-label=First Aid
-detail=1</desc></wpt><wpt lat="-35.145909" lon="144.14652"><name>Drumming</name><desc>name=Drumming
+detail=1</desc></wpt><wpt lat="-35.14612599280271" lon="144.14669752120975"><name>Drumming</name><desc>name=Drumming
 poiType=village
 label=Drumming
-source=Murray
+source=Murray (with manual adjust by mattcen)
+detail=1</desc></wpt><wpt lat="-35.14732" lon="144.14586"><name>First Aid</name><desc>name=First Aid
+=
+label=First Aid
+detail=1</desc></wpt><wpt lat="-35.14854287016859" lon="144.14610207080844"><name>Info Tent</name><desc>name=Info Tent
+source=Emma mud
+label=Info Tent
 detail=1</desc></wpt><wpt lat="-35.150489" lon="144.14503"><name>Permaculture</name><desc>name=Permaculture
 poiType=village
 label=Permaculture
 source=Murray
-detail=1</desc></wpt><wpt lat="-35.14758" lon="144.14371"><name> Arts Gate (firebird)</name><desc>name= Arts Gate (firebird)
+detail=1</desc></wpt><wpt lat="-35.148178807933924" lon="144.14638638496402"><name>Accessible Toilet</name><desc>description=
+poiType=toilet-accessible
+name=Accessible Toilet
+source=Mark (mud)
+detail=3</desc></wpt><wpt lat="-35.14758" lon="144.14371"><name>Arts Gate (firebird)</name><desc>name=Arts Gate (firebird)
 =
-detail=3</desc></wpt><wpt lat="-35.14809" lon="144.14516"><name> Coral's Installation (Sundial)</name><desc>name= Coral's Installation (Sundial)
+detail=3</desc></wpt><wpt lat="-35.14809" lon="144.14516"><name>Coral's Installation (Sundial)</name><desc>name=Coral's Installation (Sundial)
 =
 source=John
-detail=3</desc></wpt><wpt lat="-35.14593" lon="144.14761"><name> Drummers community tent - approx </name><desc>name= Drummers community tent - approx 
+detail=3
+poiType=misc</desc></wpt><wpt lat="-35.14593" lon="144.14761"><name>Drummers community tent - approx </name><desc>name=Drummers community tent - approx 
 =
 label=Drummers tent
-detail=3</desc></wpt><wpt lat="-35.14636" lon="144.14597"><name> Drumming Circle</name><desc>name= Drumming Circle
+detail=3</desc></wpt><wpt lat="-35.14636" lon="144.14597"><name>Drumming Circle</name><desc>name=Drumming Circle
 =
 label=Drumming circle
 detail=3
-source=John</desc></wpt><wpt lat="-35.1452" lon="144.14817"><name> Drumming Village limit</name><desc>name= Drumming Village limit
+source=John</desc></wpt><wpt lat="-35.1452" lon="144.14817"><name>Drumming Village limit</name><desc>name=Drumming Village limit
 =
-poiType=village
+poiType=village-limit
 source=John
-detail=3</desc></wpt><wpt lat="-35.14654" lon="144.14527"><name> Drumming Village limit</name><desc>name= Drumming Village limit
+detail=3</desc></wpt><wpt lat="-35.14654" lon="144.14527"><name>Drumming Village limit</name><desc>name=Drumming Village limit
 =
-poiType=village
+poiType=village-limit
 source=John
-detail=3</desc></wpt><wpt lat="-35.14969" lon="144.14588"><name> Family village black sign </name><desc>name= Family village black sign 
+detail=3</desc></wpt><wpt lat="-35.14969" lon="144.14588"><name>Family village black sign </name><desc>name=Family village black sign 
 =
 detail=3
-source=John</desc></wpt><wpt lat="-35.14994" lon="144.14621"><name> Family village red sign</name><desc>name= Family village red sign
+source=John</desc></wpt><wpt lat="-35.14994" lon="144.14621"><name>Family village red sign</name><desc>name=Family village red sign
 =
 source=John
-detail=3</desc></wpt><wpt lat="-35.1473" lon="144.14613"><name> hub fridge</name><desc>name= hub fridge
-=
-poiType=infrastructure
-source=John
-detail=3</desc></wpt><wpt lat="-35.14732" lon="144.14603"><name> Hub kitchen</name><desc>name= Hub kitchen
+detail=3</desc></wpt><wpt lat="-35.1473" lon="144.14613"><name>hub fridge</name><desc>name=hub fridge
 =
 poiType=infrastructure
 source=John
-detail=3</desc></wpt><wpt lat="-35.1493" lon="144.14775"><name> market fire circle</name><desc>name= market fire circle
+detail=3</desc></wpt><wpt lat="-35.14732" lon="144.14603"><name>Hub kitchen</name><desc>name=Hub kitchen
+=
+poiType=infrastructure
+source=John
+detail=3</desc></wpt><wpt lat="-35.1493" lon="144.14775"><name>market fire circle</name><desc>name=market fire circle
 =
 poiType=infrastructure
 detail=2
-source=John</desc></wpt><wpt lat="-35.15089" lon="144.1457"><name> Permaculture - limit </name><desc>name= Permaculture - limit 
+source=John</desc></wpt><wpt lat="-35.147628" lon="144.1431"><name>Massage</name><desc>name=Massage
+label=Massage
+source=Murray
+detail=3
+poiType=misc</desc></wpt><wpt lat="-35.15089" lon="144.1457"><name>Permaculture - limit </name><desc>name=Permaculture - limit 
 =
-poiType=village
+poiType=village-limit
 source=John
-detail=3</desc></wpt><wpt lat="-35.15024" lon="144.1445"><name> Permaculture - limit </name><desc>name= Permaculture - limit 
+detail=3</desc></wpt><wpt lat="-35.15024" lon="144.1445"><name>Permaculture - limit </name><desc>name=Permaculture - limit 
 =
-poiType=village
+poiType=village-limit
 source=John
-detail=3</desc></wpt><wpt lat="-35.150157005999176" lon="144.149267077446"><name> Rainbow cooking</name><desc>name= Rainbow cooking
+detail=3</desc></wpt><wpt lat="-35.150157005999176" lon="144.149267077446"><name>Rainbow cooking</name><desc>name=Rainbow cooking
 =
 poiType=cooking
 detail=3
-source=John</desc></wpt><wpt lat="-35.14996" lon="144.14929"><name> Rainbow entrance</name><desc>name= Rainbow entrance
+source=John</desc></wpt><wpt lat="-35.14996" lon="144.14929"><name>Rainbow entrance</name><desc>name=Rainbow entrance
 =
-poiType=village
+poiType=village-limit
 detail=3
-source=John</desc></wpt><wpt lat="-35.148178807933924" lon="144.14638638496402"><name>accessible toilet</name><desc>description=
-poiType=toilet-accessible
-name=accessible toilet
-source=Mark (mud)
-detail=3</desc></wpt><wpt lat="-35.147628" lon="144.1431"><name>Massage</name><desc>name=Massage
-label=Massage
-source=Murray
-detail=3</desc></wpt><wpt lat="-35.148735866355324" lon="144.14950847625735"><name>toilet</name><desc>name=toilet
+source=John</desc></wpt><wpt lat="-35.148735866355324" lon="144.14950847625735"><name>toilet</name><desc>name=toilet
 poiType=toilet-hole
 source=Mark (mud)
 detail=3</desc></wpt><wpt lat="-35.14884113680969" lon="144.14947092533114"><name>toilet</name><desc>name=toilet
@@ -394,11 +403,11 @@ detail=1</desc><trkseg><trkpt lat="-35.140923541381056" lon="144.14635419845584"
 poiType=camping-area
 label=Come and Go
 source=Draft
-detail=1</desc><trkseg><trkpt lat="-35.14367614458354" lon="144.14860993623736"/><trkpt lat="-35.14145432948183" lon="144.14615571498874"/><trkpt lat="-35.140743686776695" lon="144.14544224739078"/><trkpt lat="-35.14096302160687" lon="144.144760966301"/><trkpt lat="-35.141388529492" lon="144.14500236511233"/><trkpt lat="-35.14157715598723" lon="144.14547979831698"/><trkpt lat="-35.14176578204536" lon="144.14583921432498"/><trkpt lat="-35.14215619273052" lon="144.1464185714722"/><trkpt lat="-35.14260801399486" lon="144.1469067335129"/><trkpt lat="-35.143252841940786" lon="144.14736807346347"/><trkpt lat="-35.143937143561416" lon="144.14771139621737"/><trkpt lat="-35.14392837050013" lon="144.14868235588077"/><trkpt lat="-35.14367614458354" lon="144.14860993623736"/></trkseg></trk><trk><name>Come and Go</name><desc>name=Come and Go
+detail=1</desc><trkseg><trkpt lat="-35.14367614458354" lon="144.14860993623736"/><trkpt lat="-35.14145432948183" lon="144.14615571498874"/><trkpt lat="-35.140743686776695" lon="144.14544224739078"/><trkpt lat="-35.14096302160687" lon="144.144760966301"/><trkpt lat="-35.141388529492" lon="144.14500236511233"/><trkpt lat="-35.14157715598723" lon="144.14547979831698"/><trkpt lat="-35.14176578204536" lon="144.14583921432498"/><trkpt lat="-35.14215619273052" lon="144.1464185714722"/><trkpt lat="-35.14260801399486" lon="144.1469067335129"/><trkpt lat="-35.143252841940786" lon="144.14736807346347"/><trkpt lat="-35.14395907621053" lon="144.1476792097092"/><trkpt lat="-35.14394153009172" lon="144.1486877202988"/><trkpt lat="-35.14367614458354" lon="144.14860993623736"/></trkseg></trk><trk><name>Come and Go</name><desc>name=Come and Go
 poiType=camping-area
 label=Come and Go
 source=Draft
-detail=1</desc><trkseg><trkpt lat="-35.14389766477816" lon="144.15303826332095"/><trkpt lat="-35.14391082437471" lon="144.15089786052707"/><trkpt lat="-35.14212548633998" lon="144.15133237838748"/><trkpt lat="-35.14217812585951" lon="144.15279150009158"/><trkpt lat="-35.14389766477816" lon="144.15303826332095"/></trkseg></trk><trk><name>Emergency Assembly</name><desc>name=Emergency Assembly
+detail=1</desc><trkseg><trkpt lat="-35.14391959743789" lon="144.15303826332095"/><trkpt lat="-35.1439327570309" lon="144.1509032249451"/><trkpt lat="-35.14212548633998" lon="144.15133237838748"/><trkpt lat="-35.14217812585951" lon="144.15279150009158"/><trkpt lat="-35.14391959743789" lon="144.15303826332095"/></trkseg></trk><trk><name>Emergency Assembly</name><desc>name=Emergency Assembly
 source=Emma mud map
 detail=1
 poiType=designated-area</desc><trkseg><trkpt lat="-35.14636285872978" lon="144.14881110191348"/><trkpt lat="-35.14624003944625" lon="144.14837121963504"/><trkpt lat="-35.14634969952969" lon="144.14792060852054"/><trkpt lat="-35.146757633742894" lon="144.14781332015994"/><trkpt lat="-35.14708661145765" lon="144.14792060852054"/><trkpt lat="-35.147196270400386" lon="144.1483283042908"/><trkpt lat="-35.14707783873585" lon="144.14877355098727"/><trkpt lat="-35.14679272476249" lon="144.14895057678225"/><trkpt lat="-35.14636285872978" lon="144.14881110191348"/></trkseg></trk><trk><name>Market</name><desc>name=Market
@@ -411,16 +420,18 @@ detail=1</desc><trkseg><trkpt lat="-35.1465054165943" lon="144.14516866207126"/>
 poiType=camping-area
 label=Stay Put
 source=Draft
-detail=1</desc><trkseg><trkpt lat="-35.14430999779227" lon="144.14778113365176"/><trkpt lat="-35.1439503031516" lon="144.14767384529117"/><trkpt lat="-35.14392398396913" lon="144.15303826332095"/><trkpt lat="-35.14424858662469" lon="144.15231943130496"/><trkpt lat="-35.144617052935146" lon="144.15193319320682"/><trkpt lat="-35.145424163786195" lon="144.15088176727298"/><trkpt lat="-35.146450586675954" lon="144.15093541145328"/><trkpt lat="-35.14714363412631" lon="144.15065646171573"/><trkpt lat="-35.14817003532986" lon="144.15028095245364"/><trkpt lat="-35.14869638989981" lon="144.15017366409305"/><trkpt lat="-35.149196423587846" lon="144.14990544319156"/><trkpt lat="-35.15048596997178" lon="144.14749145507815"/><trkpt lat="-35.14731908824082" lon="144.14428889751437"/><trkpt lat="-35.14663481505513" lon="144.14475023746493"/><trkpt lat="-35.14651418937782" lon="144.14482533931735"/><trkpt lat="-35.146538314527575" lon="144.14518475532535"/><trkpt lat="-35.146204948188334" lon="144.14617180824283"/><trkpt lat="-35.145959308959306" lon="144.1463649272919"/><trkpt lat="-35.14601194599937" lon="144.14658486843112"/><trkpt lat="-35.14581455692359" lon="144.14712667465213"/><trkpt lat="-35.1456303266876" lon="144.14737880229953"/><trkpt lat="-35.14531450245565" lon="144.1476255655289"/><trkpt lat="-35.14488024213559" lon="144.14772748947146"/><trkpt lat="-35.14430999779227" lon="144.14778113365176"/></trkseg></trk><trk><name>Tranquility</name><desc>name=Tranquility
+detail=1</desc><trkseg><trkpt lat="-35.14430999779227" lon="144.14778113365176"/><trkpt lat="-35.1439503031516" lon="144.14767384529117"/><trkpt lat="-35.14392398396913" lon="144.15303826332095"/><trkpt lat="-35.14424858662469" lon="144.15231943130496"/><trkpt lat="-35.144617052935146" lon="144.15193319320682"/><trkpt lat="-35.145424163786195" lon="144.15088176727298"/><trkpt lat="-35.146450586675954" lon="144.15093541145328"/><trkpt lat="-35.14714363412631" lon="144.15065646171573"/><trkpt lat="-35.14817003532986" lon="144.15028095245364"/><trkpt lat="-35.14869638989981" lon="144.15017366409305"/><trkpt lat="-35.14921835481961" lon="144.14994299411777"/><trkpt lat="-35.14994208215214" lon="144.14862334728244"/><trkpt lat="-35.15048596997178" lon="144.1475021839142"/><trkpt lat="-35.149964013182945" lon="144.14680480957034"/><trkpt lat="-35.14893763460658" lon="144.1458231210709"/><trkpt lat="-35.14732347458883" lon="144.14424598217013"/><trkpt lat="-35.14663042867001" lon="144.14471268653872"/><trkpt lat="-35.14651418937782" lon="144.14482533931735"/><trkpt lat="-35.146538314527575" lon="144.14518475532535"/><trkpt lat="-35.146204948188334" lon="144.14617180824283"/><trkpt lat="-35.145959308959306" lon="144.1463649272919"/><trkpt lat="-35.14601194599937" lon="144.14658486843112"/><trkpt lat="-35.14581455692359" lon="144.14712667465213"/><trkpt lat="-35.1456303266876" lon="144.14737880229953"/><trkpt lat="-35.14531450245565" lon="144.1476255655289"/><trkpt lat="-35.14488024213559" lon="144.14772748947146"/><trkpt lat="-35.14430999779227" lon="144.14778113365176"/></trkseg></trk><trk><name>Tranquility</name><desc>name=Tranquility
 source=John
 detail=1
 poiType=designated-area</desc><trkseg><trkpt lat="-35.15086" lon="144.14679"/><trkpt lat="-35.15331061921158" lon="144.14889693260196"/><trkpt lat="-35.15316149421907" lon="144.14964795112613"/><trkpt lat="-35.15295973644123" lon="144.1503989696503"/><trkpt lat="-35.15016" lon="144.14829"/><trkpt lat="-35.15086" lon="144.14679"/></trkseg></trk><trk><name>Aboriginal Sacred Space and ceremonial area</name><desc>name=Aboriginal Sacred Space and ceremonial area
 poiType=aboriginal
 detail=2</desc><trkseg><trkpt lat="-35.14648" lon="144.14443"/><trkpt lat="-35.14592" lon="144.14457"/><trkpt lat="-35.14583" lon="144.14522"/><trkpt lat="-35.14652" lon="144.14526"/><trkpt lat="-35.14648" lon="144.14443"/></trkseg></trk><trk><name>Open Stage 1</name><desc>name=Open Stage 1
 source=John
-detail=3</desc><trkseg><trkpt lat="-35.14987" lon="144.14393"/><trkpt lat="-35.15001" lon="144.14379"/><trkpt lat="-35.15014" lon="144.14394"/><trkpt lat="-35.15007" lon="144.14404"/><trkpt lat="-35.14987" lon="144.14393"/></trkseg></trk><trk><name>Open Stage 2</name><desc>name=Open Stage 2
+detail=3
+poiType=misc</desc><trkseg><trkpt lat="-35.14987" lon="144.14393"/><trkpt lat="-35.15001" lon="144.14379"/><trkpt lat="-35.15014" lon="144.14394"/><trkpt lat="-35.15007" lon="144.14404"/><trkpt lat="-35.14987" lon="144.14393"/></trkseg></trk><trk><name>Open Stage 2</name><desc>name=Open Stage 2
 label=John
-detail=3</desc><trkseg><trkpt lat="-35.14978" lon="144.1431"/><trkpt lat="-35.14988" lon="144.14349"/><trkpt lat="-35.14971" lon="144.14357"/><trkpt lat="-35.14958" lon="144.14341"/><trkpt lat="-35.14956" lon="144.14324"/><trkpt lat="-35.14978" lon="144.1431"/></trkseg></trk><trk><name>Permaculture</name><desc>name=Permaculture
+detail=3
+poiType=misc</desc><trkseg><trkpt lat="-35.14978" lon="144.1431"/><trkpt lat="-35.14988" lon="144.14349"/><trkpt lat="-35.14971" lon="144.14357"/><trkpt lat="-35.14958" lon="144.14341"/><trkpt lat="-35.14956" lon="144.14324"/><trkpt lat="-35.14978" lon="144.1431"/></trkseg></trk><trk><name>Permaculture</name><desc>name=Permaculture
 source=John
 detail=3
 poiType=village-poly</desc><trkseg><trkpt lat="-35.1499" lon="144.14478"/><trkpt lat="-35.15050351467963" lon="144.14419770240787"/><trkpt lat="-35.15103862645185" lon="144.144583940506"/><trkpt lat="-35.151564962466935" lon="144.14538860321048"/><trkpt lat="-35.15052" lon="144.14596"/><trkpt lat="-35.1499" lon="144.14478"/></trkseg></trk><trk><name>Poly Space</name><desc>name=Poly Space

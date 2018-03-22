@@ -5686,7 +5686,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Nudies Village",
+        "name": " Nudies",
         "": "",
         "poiType": "village",
         "label": "Nudies",
@@ -5884,8 +5884,9 @@
       "properties": {
         "name": "Doing It Ourselves",
         "poiType": "village",
-        "detail": "3",
-        "source": "Suse"
+        "detail": "2",
+        "source": "Suse",
+        "label": "Doing It Ourselves"
       },
       "geometry": {
         "type": "Point",
@@ -5917,7 +5918,9 @@
       "properties": {
         "name": "Goddess Reawakening",
         "poiType": "village",
-        "source": "Trevor Alexander (Facebook) unverified"
+        "source": "Trevor Alexander (Facebook) unverified",
+        "detail": "2",
+        "label": "Goddess_Reawakening"
       },
       "geometry": {
         "type": "Point",
@@ -5930,7 +5933,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Gypsy Village?",
+        "name": "Gypsy",
         "description": "Gypsy intend to talk to Elder Camp to negotiate if either needs to move to give each other space.",
         "poiType": "village",
         "label": "Gypsy",
@@ -5967,7 +5970,7 @@
         "name": "Poly Village",
         "description": "Requested by Leo Klein on FB, 2018-03-08",
         "poiType": "village",
-        "label": "Poly Village",
+        "label": "Poly_Village",
         "source": "Draft",
         "detail": "2"
       },
@@ -5982,7 +5985,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rainbow Village",
+        "name": "Rainbow",
         "poiType": "village",
         "label": "Rainbow",
         "source": "Murray",
@@ -6016,7 +6019,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Vibes Village",
+        "name": "Vibes",
         "poiType": "village",
         "label": "Vibes",
         "source": "Murray",
@@ -6074,7 +6077,8 @@
         "name": "Wilding",
         "source": "David Wolfe Mud",
         "poiType": "village",
-        "label": "Wilding"
+        "label": "Wilding",
+        "detail": "2"
       },
       "geometry": {
         "type": "Point",
@@ -6138,7 +6142,24 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " First Aid",
+        "name": "Drumming",
+        "poiType": "village",
+        "label": "Drumming",
+        "source": "Murray (with manual adjust by mattcen)",
+        "detail": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14669752120975,
+          -35.14612599280271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "First Aid",
         "": "",
         "_storage_options": {
           "showLabel": true,
@@ -6158,17 +6179,16 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Drumming",
-        "poiType": "village",
-        "label": "Drumming",
-        "source": "Murray",
+        "name": "Info Tent",
+        "source": "Emma mud",
+        "label": "Info Tent",
         "detail": "1"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.14652,
-          -35.145909
+          144.14610207080844,
+          -35.14854287016859
         ]
       }
     },
@@ -6490,12 +6510,12 @@
               -35.143252841940786
             ],
             [
-              144.14771139621737,
-              -35.143937143561416
+              144.1476792097092,
+              -35.14395907621053
             ],
             [
-              144.14868235588077,
-              -35.14392837050013
+              144.1486877202988,
+              -35.14394153009172
             ],
             [
               144.14860993623736,
@@ -6520,11 +6540,11 @@
           [
             [
               144.15303826332095,
-              -35.14389766477816
+              -35.14391959743789
             ],
             [
-              144.15089786052707,
-              -35.14391082437471
+              144.1509032249451,
+              -35.1439327570309
             ],
             [
               144.15133237838748,
@@ -6536,7 +6556,7 @@
             ],
             [
               144.15303826332095,
-              -35.14389766477816
+              -35.14391959743789
             ]
           ]
         ]
@@ -6852,20 +6872,32 @@
               -35.14869638989981
             ],
             [
-              144.14990544319156,
-              -35.149196423587846
+              144.14994299411777,
+              -35.14921835481961
             ],
             [
-              144.14749145507815,
+              144.14862334728244,
+              -35.14994208215214
+            ],
+            [
+              144.1475021839142,
               -35.15048596997178
             ],
             [
-              144.14428889751437,
-              -35.14731908824082
+              144.14680480957034,
+              -35.149964013182945
             ],
             [
-              144.14475023746493,
-              -35.14663481505513
+              144.1458231210709,
+              -35.14893763460658
+            ],
+            [
+              144.14424598217013,
+              -35.14732347458883
+            ],
+            [
+              144.14471268653872,
+              -35.14663042867001
             ],
             [
               144.14482533931735,
@@ -6954,255 +6986,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Arts Gate (firebird)",
-        "": "",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14371,
-          -35.14758
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Coral's Installation (Sundial)",
-        "": "",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14516,
-          -35.14809
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Drummers community tent - approx ",
-        "": "",
-        "label": "Drummers tent",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14761,
-          -35.14593
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Drumming Circle",
-        "": "",
-        "label": "Drumming circle",
-        "detail": "3",
-        "source": "John"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14597,
-          -35.14636
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Drumming Village limit",
-        "": "",
-        "poiType": "village",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14817,
-          -35.1452
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Drumming Village limit",
-        "": "",
-        "poiType": "village",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14527,
-          -35.14654
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Family village black sign ",
-        "": "",
-        "detail": "3",
-        "source": "John"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14588,
-          -35.14969
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Family village red sign",
-        "": "",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14621,
-          -35.14994
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " hub fridge",
-        "": "",
-        "poiType": "infrastructure",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14613,
-          -35.1473
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Hub kitchen",
-        "": "",
-        "poiType": "infrastructure",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14603,
-          -35.14732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " market fire circle",
-        "": "",
-        "poiType": "infrastructure",
-        "detail": "2",
-        "source": "John"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14775,
-          -35.1493
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Permaculture - limit ",
-        "": "",
-        "poiType": "village",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.1457,
-          -35.15089
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Permaculture - limit ",
-        "": "",
-        "poiType": "village",
-        "source": "John",
-        "detail": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.1445,
-          -35.15024
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Rainbow cooking",
-        "": "",
-        "poiType": "cooking",
-        "detail": "3",
-        "source": "John"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.149267077446,
-          -35.150157005999176
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Rainbow entrance",
-        "": "",
-        "poiType": "village",
-        "detail": "3",
-        "source": "John"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14929,
-          -35.14996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Aboriginal Sacred Space and ceremonial area",
         "poiType": "aboriginal",
         "detail": "2"
@@ -7240,7 +7023,7 @@
       "properties": {
         "description": "",
         "poiType": "toilet-accessible",
-        "name": "accessible toilet",
+        "name": "Accessible Toilet",
         "source": "Mark (mud)",
         "detail": "3"
       },
@@ -7255,10 +7038,193 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Arts Gate (firebird)",
+        "": "",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14371,
+          -35.14758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coral's Installation (Sundial)",
+        "": "",
+        "source": "John",
+        "detail": "3",
+        "poiType": "misc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14516,
+          -35.14809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drummers community tent - approx ",
+        "": "",
+        "label": "Drummers tent",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14761,
+          -35.14593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drumming Circle",
+        "": "",
+        "label": "Drumming circle",
+        "detail": "3",
+        "source": "John"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14597,
+          -35.14636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drumming Village limit",
+        "": "",
+        "poiType": "village-limit",
+        "source": "John",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14817,
+          -35.1452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drumming Village limit",
+        "": "",
+        "poiType": "village-limit",
+        "source": "John",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14527,
+          -35.14654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Family village black sign ",
+        "": "",
+        "detail": "3",
+        "source": "John"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14588,
+          -35.14969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Family village red sign",
+        "": "",
+        "source": "John",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14621,
+          -35.14994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "hub fridge",
+        "": "",
+        "poiType": "infrastructure",
+        "source": "John",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14613,
+          -35.1473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hub kitchen",
+        "": "",
+        "poiType": "infrastructure",
+        "source": "John",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14603,
+          -35.14732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "market fire circle",
+        "": "",
+        "poiType": "infrastructure",
+        "detail": "2",
+        "source": "John"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14775,
+          -35.1493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Massage",
         "label": "Massage",
         "source": "Murray",
-        "detail": "3"
+        "detail": "3",
+        "poiType": "misc"
       },
       "geometry": {
         "type": "Point",
@@ -7273,7 +7239,8 @@
       "properties": {
         "name": "Open Stage 1",
         "source": "John",
-        "detail": "3"
+        "detail": "3",
+        "poiType": "misc"
       },
       "geometry": {
         "type": "Polygon",
@@ -7308,7 +7275,8 @@
       "properties": {
         "name": "Open Stage 2",
         "label": "John",
-        "detail": "3"
+        "detail": "3",
+        "poiType": "misc"
       },
       "geometry": {
         "type": "Polygon",
@@ -7385,6 +7353,40 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Permaculture - limit ",
+        "": "",
+        "poiType": "village-limit",
+        "source": "John",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1457,
+          -35.15089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Permaculture - limit ",
+        "": "",
+        "poiType": "village-limit",
+        "source": "John",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1445,
+          -35.15024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Poly Space",
         "source": "John",
         "poiType": "village-poly",
@@ -7419,6 +7421,40 @@
               -35.15216
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rainbow cooking",
+        "": "",
+        "poiType": "cooking",
+        "detail": "3",
+        "source": "John"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.149267077446,
+          -35.150157005999176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rainbow entrance",
+        "": "",
+        "poiType": "village-limit",
+        "detail": "3",
+        "source": "John"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14929,
+          -35.14996
         ]
       }
     },
