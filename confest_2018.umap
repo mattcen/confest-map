@@ -8589,7 +8589,8 @@
             "marker-size": "medium",
             "marker-symbol": "",
             "name": "Carpark",
-            "foiType": "designated-area-label"
+            "foiType": "designated-area-label",
+            "poiType": "designated-area-label"
           },
           "geometry": {
             "type": "Point",
@@ -8712,7 +8713,8 @@
             "marker-size": "medium",
             "marker-symbol": "",
             "name": "Come and Go",
-            "foiType": "camping-area-label"
+            "foiType": "camping-area-label",
+            "poiType": "camping-area-label"
           },
           "geometry": {
             "type": "Point",
@@ -8730,7 +8732,8 @@
             "marker-symbol": "",
             "name": "Come and Go",
             "foiType": "camping-area-label",
-            "rotation": "-45"
+            "rotation": "-45",
+            "poiType": "camping-area-label"
           },
           "geometry": {
             "type": "Point",

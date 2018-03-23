@@ -383,16 +383,19 @@ poiType=camping-area-label</desc></wpt><wpt lat="-35.14170436895813" lon="144.14
 marker-size=medium
 marker-symbol=
 name=Carpark
-foiType=designated-area-label</desc></wpt><wpt lat="-35.143160723975555" lon="144.15204048156735"><name>Come and Go</name><desc>marker-color=#7e7e7e
-marker-size=medium
-marker-symbol=
-name=Come and Go
-foiType=camping-area-label</desc></wpt><wpt lat="-35.14216057935678" lon="144.1466331481934"><name>Come and Go</name><desc>marker-color=#7e7e7e
+foiType=designated-area-label
+poiType=designated-area-label</desc></wpt><wpt lat="-35.143160723975555" lon="144.15204048156735"><name>Come and Go</name><desc>marker-color=#7e7e7e
 marker-size=medium
 marker-symbol=
 name=Come and Go
 foiType=camping-area-label
-rotation=-45</desc></wpt><wpt lat="-35.14674008822742" lon="144.14830684661865"><name>Emergency_Assembly</name><desc>marker-color=#7e7e7e
+poiType=camping-area-label</desc></wpt><wpt lat="-35.14216057935678" lon="144.1466331481934"><name>Come and Go</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Come and Go
+foiType=camping-area-label
+rotation=-45
+poiType=camping-area-label</desc></wpt><wpt lat="-35.14674008822742" lon="144.14830684661865"><name>Emergency_Assembly</name><desc>marker-color=#7e7e7e
 marker-size=medium
 marker-symbol=
 name=Emergency_Assembly
