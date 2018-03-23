@@ -302,7 +302,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="printA4" visible="0">
+  <Composer title="printA4" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -569,7 +569,7 @@
           <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="28.6175" page="1" id="Main Map" lastValidViewScaleFactor="3.30124" positionMode="0" positionLock="false" x="6.73929" y="28.6175" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="195.409" outlineWidth="0.3" excludeFromExports="0" uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" height="261.355" itemRotation="0" frame="true" pagex="6.73929">
+        <ComposerItem pagey="28.6175" page="1" id="Main Map" lastValidViewScaleFactor="3.30124" positionMode="0" positionLock="false" x="6.73929" y="28.6175" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="195.409" outlineWidth="0.3" excludeFromExports="0" uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" height="261.355" itemRotation="0" frame="false" pagex="6.73929">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
