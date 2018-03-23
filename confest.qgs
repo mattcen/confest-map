@@ -6368,7 +6368,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
             </layer>
           </symbol>
-          <symbol alpha="0.494118" clip_to_extent="1" type="line" name="1">
+          <symbol alpha="0.74902" clip_to_extent="1" type="line" name="1">
             <layer pass="3" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="1;5"/>
@@ -6378,7 +6378,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="0,0,0,255"/>
               <prop k="line_style" v="dot"/>
-              <prop k="line_width" v="0.6"/>
+              <prop k="line_width" v="1"/>
               <prop k="line_width_unit" v="MapUnit"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -7725,7 +7725,7 @@ def my_form_open(dialog, layer, feature):
         <value>project_version</value>
       </variableNames>
       <variableValues type="QStringList">
-        <value>20180324004441</value>
+        <value>20180324005521</value>
       </variableValues>
     </Variables>
     <Paths>
