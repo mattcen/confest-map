@@ -27,13 +27,7 @@ label=9</desc></wpt><wpt lat="-35.138156" lon="144.14135"><name>The Cottage</nam
 label=Cottage</desc></wpt><wpt lat="-35.13794930931401" lon="144.1461825370789"><name>Ticket Gate</name><desc>name=Ticket Gate
 label=Ticket Gate</desc></wpt><wpt lat="-35.137912" lon="144.14231"><name>Woolshed</name><desc>name=Woolshed
 poiType=infrastructure
-label=Woolshed</desc></wpt><wpt lat="-35.1488" lon="144.14573"><name> Aboriginal activity and workshop ntc </name><desc>name= Aboriginal activity and workshop ntc 
-=
-label=Aboriginal activities
-detail=2</desc></wpt><wpt lat="-35.14894" lon="144.1452"><name> Aboriginal Elders' Camp</name><desc>name= Aboriginal Elders' Camp
-=
-label=Aboriginal Elders' Camp
-detail=2</desc></wpt><wpt lat="-35.15183" lon="144.14774"><name> Community Cooking</name><desc>name= Community Cooking
+label=Woolshed</desc></wpt><wpt lat="-35.15183" lon="144.14774"><name> Community Cooking</name><desc>name= Community Cooking
 =
 poiType=cooking
 label=Community Cooking
@@ -50,18 +44,10 @@ detail=2</desc></wpt><wpt lat="-35.14767" lon="144.14403"><name> Labyrinth </nam
 =
 detail=2</desc></wpt><wpt lat="-35.15105" lon="144.14759"><name> Library</name><desc>name= Library
 =
-detail=2</desc></wpt><wpt lat="-35.15278" lon="144.14917"><name> Listen to the Grass Grow</name><desc>name= Listen to the Grass Grow
-=
 detail=2</desc></wpt><wpt lat="-35.14879" lon="144.14285"><name> Nudies</name><desc>name= Nudies
 =
 poiType=village
 label=Nudies
-detail=2</desc></wpt><wpt lat="-35.14999" lon="144.14388"><name> Open Stage 1</name><desc>name= Open Stage 1
-=
-label=Open Stage 1
-detail=2</desc></wpt><wpt lat="-35.14975" lon="144.14329"><name> Open Stage 2</name><desc>name= Open Stage 2
-=
-label=Open Stage 2
 detail=2</desc></wpt><wpt lat="-35.14715" lon="144.14587"><name> Ops hut</name><desc>name= Ops hut
 =
 poiType=infrastructure
@@ -70,10 +56,6 @@ detail=2</desc></wpt><wpt lat="-35.15218" lon="144.15059"><name> Poly Space</nam
 =
 poiType=village
 label=Poly Space
-detail=2</desc></wpt><wpt lat="-35.14645" lon="144.14449"><name> Sacred Space and ?workshops? ntc</name><desc>name= Sacred Space and ?workshops? ntc
-=
-detail=2</desc></wpt><wpt lat="-35.14913" lon="144.14983"><name> Sacred Space and midden</name><desc>name= Sacred Space and midden
-=
 detail=2</desc></wpt><wpt lat="-35.14838" lon="144.14176"><name> The Sound Garden</name><desc>name= The Sound Garden
 =
 detail=2
@@ -86,10 +68,11 @@ detail=2</desc></wpt><wpt lat="-35.14744" lon="144.1421"><name> Veg out </name><
 =
 label=Veg Out
 description=(for carnivores)
-detail=2</desc></wpt><wpt lat="-35.14854" lon="144.14542"><name>Aboriginal Sacred Space</name><desc>name=Aboriginal Sacred Space
-label=Aboriginal Sacred Space
-source=Murray
-detail=2</desc></wpt><wpt lat="-35.152331" lon="144.15134"><name>Beach</name><desc>name=Beach
+detail=2</desc></wpt><wpt lat="-35.14894" lon="144.1452"><name>Aboriginal Elders' Camp</name><desc>name=Aboriginal Elders' Camp
+=
+label=Wemba Wemba Elders Camp
+detail=2
+poiType=aboriginal-hidden</desc></wpt><wpt lat="-35.152331" lon="144.15134"><name>Beach</name><desc>name=Beach
 label=Beach
 source=Murray
 detail=2</desc></wpt><wpt lat="-35.150744" lon="144.146226"><name>Doing It Ourselves</name><desc>name=Doing It Ourselves
@@ -102,17 +85,26 @@ name=Fire Spinning
 description= fire spinning circle 
 detail=2</desc></wpt><wpt lat="-35.14768315432159" lon="144.1412311792374"><name>Goddess Reawakening</name><desc>name=Goddess Reawakening
 poiType=village
-source=Trevor Alexander (Facebook) unverified
+source=Trevor Alexander (Facebook) unverified (https://www.facebook.com/groups/ConFestVillages/permalink/2000564040270180/?comment_id=2000580720268512&amp;reply_comment_id=2000660790260505&amp;comment_tracking=%7B%22tn%22%3A%22R%22%7D) - Krystal Alexander-Hille
 detail=2
-label=Goddess_Reawakening</desc></wpt><wpt lat="-35.149034" lon="144.15002"><name>Gypsy</name><desc>name=Gypsy
+label=Goddess_Reawakening</desc></wpt><wpt lat="-35.14921835481961" lon="144.14929389953616"><name>Gypsy</name><desc>name=Gypsy
 description=Gypsy intend to talk to Elder Camp to negotiate if either needs to move to give each other space.
 poiType=village
 label=Gypsy
-source=Murray
-detail=2</desc></wpt><wpt lat="-35.150373" lon="144.14439"><name>Natural Building</name><desc>name=Natural Building
+source=Murray -moved arbitrarily by mattcen as per John's instructions
+detail=2</desc></wpt><wpt lat="-35.15278" lon="144.14917"><name>Listen to the Grass Grow</name><desc>name=Listen to the Grass Grow
+=
+detail=2
+poiType=village
+label=Listen to the Grass Grow</desc></wpt><wpt lat="-35.150373" lon="144.14439"><name>Natural Building</name><desc>name=Natural Building
 label=Natural Building
 source=Murray
-detail=2</desc></wpt><wpt lat="-35.14846391705119" lon="144.14421916007998"><name>Poly Village</name><desc>name=Poly Village
+detail=2</desc></wpt><wpt lat="-35.14975" lon="144.14329"><name>Open Stage</name><desc>name=Open Stage
+=
+label=Open Stage
+detail=1</desc></wpt><wpt lat="-35.14999" lon="144.14388"><name>Open Stage Crew Camp</name><desc>name=Open Stage Crew Camp
+=
+detail=3</desc></wpt><wpt lat="-35.14846391705119" lon="144.14421916007998"><name>Poly Village</name><desc>name=Poly Village
 description=Requested by Leo Klein on FB, 2018-03-08
 poiType=village
 label=Poly_Village
@@ -121,9 +113,17 @@ detail=2</desc></wpt><wpt lat="-35.150109" lon="144.14923"><name>Rainbow</name><
 poiType=village
 label=Rainbow
 source=Murray
-detail=2</desc></wpt><wpt lat="-35.147395" lon="144.14583"><name>The HUB</name><desc>name=The HUB
+detail=2</desc></wpt><wpt lat="-35.14645" lon="144.14449"><name>Sacred Space</name><desc>name=Sacred Space
+=
+detail=2
+label=Sacred Space
+poiType=aboriginal-hidden</desc></wpt><wpt lat="-35.14913" lon="144.14983"><name>Sacred Space and midden</name><desc>name=Sacred Space and midden
+=
+detail=2
+label=Aboriginal Sacred Space and midden
+poiType=aboriginal-hidden</desc></wpt><wpt lat="-35.147395" lon="144.14583"><name>The HUB</name><desc>name=The HUB
 poiType=infrastructure
-label=HUB
+label=Hub
 source=Murray
 detail=2</desc></wpt><wpt lat="-35.148311" lon="144.14357"><name>Vibes</name><desc>name=Vibes
 poiType=village
@@ -134,29 +134,30 @@ description=As discussed by mattcen with Emma and Guy in FB Messenger
 poiType=infrastructure
 label=Welcome
 source=Draft
-detail=1</desc></wpt><wpt lat="-35.148953" lon="144.14996"><name>Wemba Wemba Elder camp</name><desc>name=Wemba Wemba Elder camp
-label=Wemba Wemba
-source=Murray
-detail=2</desc></wpt><wpt lat="-35.149288534721556" lon="144.14413869380954"><name>Wilding</name><desc>name=Wilding
+detail=1</desc></wpt><wpt lat="-35.1488" lon="144.14573"><name>Wemba Wemba Workshop Space</name><desc>=
+label=Wemba_Workshop
+detail=2
+poiType=aboriginal
+name=Wemba Wemba Workshop Space</desc></wpt><wpt lat="-35.149288534721556" lon="144.14413869380954"><name>Wilding</name><desc>name=Wilding
 source=David Wolfe Mud
 poiType=village
 label=Wilding
-detail=2</desc></wpt><wpt lat="-35.14759" lon="144.14294"><name> Arts</name><desc>name= Arts
+detail=2</desc></wpt><wpt lat="-35.14759" lon="144.14294"><name>Arts</name><desc>name=Arts
 =
 poiType=village
 label=Arts
-detail=1</desc></wpt><wpt lat="-35.15092" lon="144.148"><name> Bliss</name><desc>name= Bliss
+detail=1</desc></wpt><wpt lat="-35.15092" lon="144.148"><name>Bliss</name><desc>name=Bliss
 =
 poiType=village
 label=Bliss
-detail=1</desc></wpt><wpt lat="-35.14978" lon="144.14583"><name> Family </name><desc>name= Family 
-=
-poiType=village
-label=Family
 detail=1</desc></wpt><wpt lat="-35.14612599280271" lon="144.14669752120975"><name>Drumming</name><desc>name=Drumming
 poiType=village
 label=Drumming
 source=Murray (with manual adjust by mattcen)
+detail=1</desc></wpt><wpt lat="-35.14978" lon="144.14583"><name>Family </name><desc>name=Family 
+=
+poiType=village
+label=Family
 detail=1</desc></wpt><wpt lat="-35.14732" lon="144.14586"><name>First Aid</name><desc>name=First Aid
 =
 label=First Aid
@@ -368,7 +369,59 @@ source=Mark (mud)
 detail=3</desc></wpt><wpt lat="-35.13934431664673" lon="144.1511929035187"><name>toilet</name><desc>name=toilet
 poiType=toilet-hole
 source=Mark (mud)
-detail=3</desc></wpt><trk><name>Axis Pass</name><desc>name=Axis Pass
+detail=3</desc></wpt><wpt lat="-35.14613476562712" lon="144.14489507675174"><name>Aboriginal Sacred Space</name><desc>poiType=aboriginal-area-label
+label=Aboriginal Sacred Space
+name=Aboriginal Sacred Space</desc></wpt><wpt lat="-35.14912624360645" lon="144.14151549339297"><name>Car-free</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Car-free
+poiType=camping-area-label</desc></wpt><wpt lat="-35.151854445824014" lon="144.14623618125918"><name>Car-free</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Car-free
+poiType=camping-area-label</desc></wpt><wpt lat="-35.14170436895813" lon="144.1490578651428"><name>Carpark</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Carpark
+foiType=designated-area-label</desc></wpt><wpt lat="-35.143160723975555" lon="144.15204048156735"><name>Come and Go</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Come and Go
+foiType=camping-area-label</desc></wpt><wpt lat="-35.14216057935678" lon="144.1466331481934"><name>Come and Go</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Come and Go
+foiType=camping-area-label
+rotation=-45</desc></wpt><wpt lat="-35.14674008822742" lon="144.14830684661865"><name>Emergency_Assembly</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Emergency_Assembly
+poiType=designated-area-label</desc></wpt><wpt lat="-35.149547322586876" lon="144.1478133201599"><name>Market</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Market
+poiType=designated-area-label</desc></wpt><wpt lat="-35.14493287987356" lon="144.14219141006473"><name>No Camping_Aboriginal Heritage Area</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=No Camping_Aboriginal Heritage Area
+poiType=no-camping-label
+foiType=no-camping-label</desc></wpt><wpt lat="-35.14915256110657" lon="144.15019512176517"><name>Sacred Space/ midden</name><desc>poiType=aboriginal-area-label
+label=Sacred Space/ midden
+name=Sacred Space/ midden</desc></wpt><wpt lat="-35.14516097634465" lon="144.1493582725525"><name>Stay Put</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Stay Put
+poiType=camping-area-label</desc></wpt><wpt lat="-35.14807353662273" lon="144.14822101593018"><name>Stay Put</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Stay Put
+poiType=cmaping-area-label</desc></wpt><wpt lat="-35.15214392815119" lon="144.14882183074954"><name>Tranquillity</name><desc>marker-color=#7e7e7e
+marker-size=medium
+marker-symbol=
+name=Tranquillity
+poiType=designated-area-label</desc></wpt><wpt lat="-35.148950793388195" lon="144.14520621299746"><name>Wemba Wemba Elders' camp</name><desc>poiType=aboriginal-area-label
+label=Wemba Wemba Elders' camp
+name=Wemba Wemba Elders' camp</desc></wpt><trk><name>Axis Pass</name><desc>name=Axis Pass
 poiType=track
 detail=1
 source=John</desc><trkseg><trkpt lat="-35.148959" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.148959" lon="144.14575349999998"><ele>74.7</ele></trkpt><trkpt lat="-35.148959" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14895916666667" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14895933333333" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14896066666667" lon="144.14575299999998"><ele>74.8</ele></trkpt><trkpt lat="-35.148967666666664" lon="144.14575033333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14898316666667" lon="144.14574466666667"><ele>74.7</ele></trkpt><trkpt lat="-35.149006166666666" lon="144.14573666666666"><ele>74.8</ele></trkpt><trkpt lat="-35.14903266666667" lon="144.14572783333332"><ele>74.8</ele></trkpt><trkpt lat="-35.14906083333334" lon="144.14572016666668"><ele>74.8</ele></trkpt><trkpt lat="-35.149088" lon="144.14571316666667"><ele>74.7</ele></trkpt><trkpt lat="-35.149108166666664" lon="144.14570783333332"><ele>74.6</ele></trkpt><trkpt lat="-35.1491235" lon="144.14570366666666"><ele>74.6</ele></trkpt><trkpt lat="-35.14913766666667" lon="144.14569983333334"><ele>74.7</ele></trkpt><trkpt lat="-35.14915583333333" lon="144.14569416666666"><ele>74.7</ele></trkpt><trkpt lat="-35.1491785" lon="144.1456865"><ele>74.7</ele></trkpt><trkpt lat="-35.14920433333334" lon="144.14567683333334"><ele>74.7</ele></trkpt><trkpt lat="-35.1492305" lon="144.145665"><ele>74.7</ele></trkpt><trkpt lat="-35.149255333333336" lon="144.145651"><ele>74.8</ele></trkpt><trkpt lat="-35.149278833333334" lon="144.14563600000002"><ele>74.8</ele></trkpt><trkpt lat="-35.149301666666666" lon="144.14561883333332"><ele>74.8</ele></trkpt><trkpt lat="-35.14932566666666" lon="144.14559883333334"><ele>74.7</ele></trkpt><trkpt lat="-35.14935083333333" lon="144.14557566666664"><ele>74.5</ele></trkpt><trkpt lat="-35.149378166666665" lon="144.14555066666665"><ele>74.3</ele></trkpt><trkpt lat="-35.14940683333334" lon="144.14552083333334"><ele>73.9</ele></trkpt><trkpt lat="-35.149437" lon="144.1454865"><ele>73.7</ele></trkpt><trkpt lat="-35.149467333333334" lon="144.14545283333334"><ele>73.9</ele></trkpt><trkpt lat="-35.14949633333333" lon="144.1454215"><ele>73.8</ele></trkpt><trkpt lat="-35.14952183333333" lon="144.14539116666668"><ele>73.9</ele></trkpt><trkpt lat="-35.1495435" lon="144.14536416666667"><ele>74.4</ele></trkpt><trkpt lat="-35.14955783333333" lon="144.14533"><ele>75</ele></trkpt><trkpt lat="-35.149570833333335" lon="144.14528933333335"><ele>74.9</ele></trkpt><trkpt lat="-35.14958216666666" lon="144.1452475"><ele>75</ele></trkpt><trkpt lat="-35.14959233333333" lon="144.14520516666667"><ele>74.9</ele></trkpt><trkpt lat="-35.149604999999994" lon="144.145163"><ele>75</ele></trkpt><trkpt lat="-35.149618833333335" lon="144.14512166666665"><ele>74.6</ele></trkpt><trkpt lat="-35.149634666666664" lon="144.1450805"><ele>74.6</ele></trkpt><trkpt lat="-35.149652833333334" lon="144.14504033333333"><ele>74.5</ele></trkpt><trkpt lat="-35.14967166666667" lon="144.14500116666667"><ele>74.5</ele></trkpt><trkpt lat="-35.14969216666667" lon="144.14496366666665"><ele>74.5</ele></trkpt><trkpt lat="-35.149714333333336" lon="144.14492583333333"><ele>74.5</ele></trkpt><trkpt lat="-35.149739" lon="144.14488966666667"><ele>74.5</ele></trkpt><trkpt lat="-35.1497635" lon="144.1448535"><ele>74.4</ele></trkpt><trkpt lat="-35.149784" lon="144.14482016666668"><ele>74.5</ele></trkpt><trkpt lat="-35.149799333333334" lon="144.144792"><ele>74.4</ele></trkpt><trkpt lat="-35.149810833333326" lon="144.14476766666667"><ele>74.4</ele></trkpt><trkpt lat="-35.149819666666666" lon="144.14474783333333"><ele>74.4</ele></trkpt><trkpt lat="-35.14982583333333" lon="144.1447345"><ele>74.6</ele></trkpt><trkpt lat="-35.14982966666666" lon="144.1447251666667"><ele>74.6</ele></trkpt><trkpt lat="-35.1498315" lon="144.14472066666667"><ele>74.7</ele></trkpt><trkpt lat="-35.149831666666664" lon="144.1447195"><ele>74.7</ele></trkpt><trkpt lat="-35.1498315" lon="144.14471916666668"><ele>74.7</ele></trkpt><trkpt lat="-35.14983133333333" lon="144.14471866666665"><ele>74.6</ele></trkpt><trkpt lat="-35.149831" lon="144.144718"><ele>74.6</ele></trkpt><trkpt lat="-35.149830666666666" lon="144.14471733333332"><ele>74.6</ele></trkpt><trkpt lat="-35.1498305" lon="144.14471616666665"><ele>74.7</ele></trkpt><trkpt lat="-35.1498325" lon="144.14470966666667"><ele>74.7</ele></trkpt><trkpt lat="-35.1498385" lon="144.14469283333335"><ele>74.7</ele></trkpt><trkpt lat="-35.14984616666666" lon="144.144667"><ele>74.9</ele></trkpt><trkpt lat="-35.149853" lon="144.14463583333333"><ele>74.9</ele></trkpt><trkpt lat="-35.149859500000005" lon="144.14460433333335"><ele>75</ele></trkpt><trkpt lat="-35.14986583333334" lon="144.14457366666664"><ele>74.9</ele></trkpt><trkpt lat="-35.14987416666667" lon="144.144542"><ele>74.8</ele></trkpt><trkpt lat="-35.14988566666667" lon="144.14450733333334"><ele>74.6</ele></trkpt><trkpt lat="-35.149903333333334" lon="144.1444725"><ele>74.3</ele></trkpt><trkpt lat="-35.14992783333333" lon="144.14443983333334"><ele>74.1</ele></trkpt><trkpt lat="-35.14995583333334" lon="144.14441033333333"><ele>73.8</ele></trkpt><trkpt lat="-35.1499865" lon="144.14438466666667"><ele>73.8</ele></trkpt><trkpt lat="-35.150018833333334" lon="144.14436316666666"><ele>73.8</ele></trkpt><trkpt lat="-35.150048999999996" lon="144.14434516666668"><ele>73.9</ele></trkpt><trkpt lat="-35.15007483333333" lon="144.14433216666666"><ele>74.3</ele></trkpt><trkpt lat="-35.1500925" lon="144.14432033333333"><ele>74.4</ele></trkpt><trkpt lat="-35.150102" lon="144.14431133333335"><ele>74.5</ele></trkpt><trkpt lat="-35.15010616666667" lon="144.14430666666667"><ele>74.5</ele></trkpt><trkpt lat="-35.15010733333334" lon="144.1443045"><ele>74.6</ele></trkpt><trkpt lat="-35.15010733333334" lon="144.14430266666668"><ele>74.7</ele></trkpt><trkpt lat="-35.1501075" lon="144.14430099999998"><ele>74.7</ele></trkpt><trkpt lat="-35.15010766666667" lon="144.1443"><ele>74.9</ele></trkpt><trkpt lat="-35.150110000000005" lon="144.1442965"><ele>74.8</ele></trkpt><trkpt lat="-35.1501145" lon="144.14428333333333"><ele>74.9</ele></trkpt><trkpt lat="-35.15011633333334" lon="144.14426133333333"><ele>74.9</ele></trkpt><trkpt lat="-35.150109" lon="144.14424116666666"><ele>74.8</ele></trkpt><trkpt lat="-35.15009716666667" lon="144.14422766666667"><ele>74.8</ele></trkpt><trkpt lat="-35.150092" lon="144.14422216666665"><ele>74.7</ele></trkpt><trkpt lat="-35.15009133333333" lon="144.14422083333332"><ele>74.8</ele></trkpt><trkpt lat="-35.15009166666667" lon="144.14422033333332"><ele>74.9</ele></trkpt><trkpt lat="-35.150092" lon="144.14421966666666"><ele>75</ele></trkpt><trkpt lat="-35.15009216666667" lon="144.144219"><ele>75.2</ele></trkpt><trkpt lat="-35.15009233333333" lon="144.1442185"><ele>75.3</ele></trkpt><trkpt lat="-35.150092666666666" lon="144.144218"><ele>75.4</ele></trkpt></trkseg></trk><trk><name>Battery Track</name><desc>name=Battery Track
@@ -427,7 +480,8 @@ source=John
 detail=1
 poiType=designated-area</desc><trkseg><trkpt lat="-35.15086" lon="144.14679"/><trkpt lat="-35.15331061921158" lon="144.14889693260196"/><trkpt lat="-35.15316149421907" lon="144.14964795112613"/><trkpt lat="-35.15295973644123" lon="144.1503989696503"/><trkpt lat="-35.15016" lon="144.14829"/><trkpt lat="-35.15086" lon="144.14679"/></trkseg></trk><trk><name>Aboriginal Sacred Space and ceremonial area</name><desc>name=Aboriginal Sacred Space and ceremonial area
 poiType=aboriginal
-detail=2</desc><trkseg><trkpt lat="-35.14648" lon="144.14443"/><trkpt lat="-35.14592" lon="144.14457"/><trkpt lat="-35.14583" lon="144.14522"/><trkpt lat="-35.14652" lon="144.14526"/><trkpt lat="-35.14648" lon="144.14443"/></trkseg></trk><trk><name>Open Stage 1</name><desc>name=Open Stage 1
+detail=2
+label=Aboriginal Sacred Space</desc><trkseg><trkpt lat="-35.146503223398284" lon="144.1448521614075"/><trkpt lat="-35.14648" lon="144.14443"/><trkpt lat="-35.14592" lon="144.14457"/><trkpt lat="-35.14583" lon="144.14522"/><trkpt lat="-35.14652" lon="144.14526"/><trkpt lat="-35.146503223398284" lon="144.1448521614075"/></trkseg></trk><trk><name>Open Stage 1</name><desc>name=Open Stage 1
 source=John
 detail=3
 poiType=misc</desc><trkseg><trkpt lat="-35.14987" lon="144.14393"/><trkpt lat="-35.15001" lon="144.14379"/><trkpt lat="-35.15014" lon="144.14394"/><trkpt lat="-35.15007" lon="144.14404"/><trkpt lat="-35.14987" lon="144.14393"/></trkseg></trk><trk><name>Open Stage 2</name><desc>name=Open Stage 2
@@ -442,10 +496,43 @@ poiType=village-poly
 detail=3</desc><trkseg><trkpt lat="-35.15216" lon="144.15043"/><trkpt lat="-35.15272288971581" lon="144.15088176727298"/><trkpt lat="-35.152512358714425" lon="144.1511929035187"/><trkpt lat="-35.152222877698044" lon="144.15132164955142"/><trkpt lat="-35.15185" lon="144.15103"/><trkpt lat="-35.15216" lon="144.15043"/></trkseg></trk><trk><name>The Sound Garden</name><desc>name=The Sound Garden
 source=John
 detail=3
-poiType=hidden</desc><trkseg><trkpt lat="-35.14841" lon="144.14185"/><trkpt lat="-35.14831" lon="144.14177"/><trkpt lat="-35.14833" lon="144.14169"/><trkpt lat="-35.14838" lon="144.14169"/><trkpt lat="-35.14844" lon="144.14178"/><trkpt lat="-35.14841" lon="144.14185"/></trkseg></trk><trk><name>Wemba Wemba Elders camping ? and workshop?</name><desc>name=Wemba Wemba Elders camping ? and workshop?
+poiType=hidden</desc><trkseg><trkpt lat="-35.14841" lon="144.14185"/><trkpt lat="-35.14831" lon="144.14177"/><trkpt lat="-35.14833" lon="144.14169"/><trkpt lat="-35.14838" lon="144.14169"/><trkpt lat="-35.14844" lon="144.14178"/><trkpt lat="-35.14841" lon="144.14185"/></trkseg></trk><trk><name>Wemba Wemba Elders and Workshop Area</name><desc>name=Wemba Wemba Elders and Workshop Area
 source=John
 detail=2
-poiType=aboriginal</desc><trkseg><trkpt lat="-35.14845" lon="144.14556"/><trkpt lat="-35.14877" lon="144.14572"/><trkpt lat="-35.14932" lon="144.14555"/><trkpt lat="-35.14949" lon="144.14491"/><trkpt lat="-35.14882" lon="144.14462"/><trkpt lat="-35.14856" lon="144.145"/><trkpt lat="-35.14845" lon="144.14556"/></trkseg></trk><trk><name>Wemba Wemba Sacred Space and midden</name><desc>name=Wemba Wemba Sacred Space and midden
+poiType=aboriginal
+label=Wemba Wemba Elders' camp</desc><trkseg><trkpt lat="-35.14845" lon="144.14556"/><trkpt lat="-35.14877" lon="144.14572"/><trkpt lat="-35.14932" lon="144.14555"/><trkpt lat="-35.14949" lon="144.14491"/><trkpt lat="-35.14882" lon="144.14462"/><trkpt lat="-35.14856" lon="144.145"/><trkpt lat="-35.14845" lon="144.14556"/></trkseg></trk><trk><name>Wemba Wemba Sacred Space and midden</name><desc>name=Wemba Wemba Sacred Space and midden
 source=John
 detail=2
-poiType=aboriginal</desc><trkseg><trkpt lat="-35.14924" lon="144.14964"/><trkpt lat="-35.14943" lon="144.14995"/><trkpt lat="-35.1489" lon="144.15009"/><trkpt lat="-35.14897" lon="144.14966"/><trkpt lat="-35.14924" lon="144.14964"/></trkseg></trk></gpx>
+poiType=aboriginal
+label=Sacred Space/ midden</desc><trkseg><trkpt lat="-35.14910431234987" lon="144.14965331554416"/><trkpt lat="-35.14924" lon="144.14964"/><trkpt lat="-35.14943" lon="144.14995"/><trkpt lat="-35.1489" lon="144.15009"/><trkpt lat="-35.14897" lon="144.14966"/><trkpt lat="-35.14910431234987" lon="144.14965331554416"/></trkseg></trk><trk><name>Carpark</name><desc>name=Carpark
+description=As discussed by mattcen with Emma and Guy in FB Messenger
+poiType=designated-area_off
+label=Carpark
+source=Draft
+detail=1</desc><trkseg><trkpt lat="-35.140923541381056" lon="144.14635419845584"/><trkpt lat="-35.143353732925924" lon="144.14889693260196"/><trkpt lat="-35.143652018585335" lon="144.15082812309268"/><trkpt lat="-35.14211671308342" lon="144.15118217468265"/><trkpt lat="-35.13953733464659" lon="144.14873600006106"/><trkpt lat="-35.140923541381056" lon="144.14635419845584"/></trkseg></trk><trk><name>Come and Go</name><desc>name=Come and Go
+poiType=camping-area_off
+label=Come and Go
+source=Draft
+detail=1</desc><trkseg><trkpt lat="-35.14367614458354" lon="144.14860993623736"/><trkpt lat="-35.14145432948183" lon="144.14615571498874"/><trkpt lat="-35.140743686776695" lon="144.14544224739078"/><trkpt lat="-35.14096302160687" lon="144.144760966301"/><trkpt lat="-35.141388529492" lon="144.14500236511233"/><trkpt lat="-35.14157715598723" lon="144.14547979831698"/><trkpt lat="-35.14176578204536" lon="144.14583921432498"/><trkpt lat="-35.14215619273052" lon="144.1464185714722"/><trkpt lat="-35.14260801399486" lon="144.1469067335129"/><trkpt lat="-35.143252841940786" lon="144.14736807346347"/><trkpt lat="-35.14395907621053" lon="144.1476792097092"/><trkpt lat="-35.14394153009172" lon="144.1486877202988"/><trkpt lat="-35.14367614458354" lon="144.14860993623736"/></trkseg></trk><trk><name>Come and Go</name><desc>name=Come and Go
+poiType=camping-area_off
+label=Come and Go
+source=Draft
+detail=1</desc><trkseg><trkpt lat="-35.14391959743789" lon="144.15303826332095"/><trkpt lat="-35.14217812585951" lon="144.15279150009158"/><trkpt lat="-35.14212548633998" lon="144.15133237838748"/><trkpt lat="-35.1439327570309" lon="144.1509032249451"/><trkpt lat="-35.14391959743789" lon="144.15303826332095"/></trkseg></trk><trk><name>Emergency Assembly</name><desc>name=Emergency Assembly
+source=Emma mud map
+detail=1
+poiType=designated-area_off</desc><trkseg><trkpt lat="-35.14636285872978" lon="144.14881110191348"/><trkpt lat="-35.14624003944625" lon="144.14837121963504"/><trkpt lat="-35.14634969952969" lon="144.14792060852054"/><trkpt lat="-35.146757633742894" lon="144.14781332015994"/><trkpt lat="-35.14708661145765" lon="144.14792060852054"/><trkpt lat="-35.147196270400386" lon="144.1483283042908"/><trkpt lat="-35.14707783873585" lon="144.14877355098727"/><trkpt lat="-35.14679272476249" lon="144.14895057678225"/><trkpt lat="-35.14636285872978" lon="144.14881110191348"/></trkseg></trk><trk><name>Market</name><desc>name=Market
+detail=1
+source=John
+poiType=designated-area_off</desc><trkseg><trkpt lat="-35.14995" lon="144.14681"/><trkpt lat="-35.15048" lon="144.14751"/><trkpt lat="-35.15003" lon="144.14843"/><trkpt lat="-35.1487" lon="144.14888"/><trkpt lat="-35.14852" lon="144.14795"/><trkpt lat="-35.14903" lon="144.1472"/><trkpt lat="-35.14995" lon="144.14681"/></trkseg></trk><trk><name>No Camping</name><desc>name=No Camping
+source=John
+poiType=nocamping-area_off
+detail=1
+label=No Camping_Aboriginal Heritage Area
+description=Aboriginal Heritage Area</desc><trkseg><trkpt lat="-35.1465054165943" lon="144.14516866207126"/><trkpt lat="-35.14622" lon="144.14612"/><trkpt lat="-35.1459329904265" lon="144.1463112831116"/><trkpt lat="-35.145345207643096" lon="144.14601087570193"/><trkpt lat="-35.14437140891352" lon="144.1456460952759"/><trkpt lat="-35.1439327570309" lon="144.1454637050629"/><trkpt lat="-35.14357306072305" lon="144.14520621299746"/><trkpt lat="-35.14278347788742" lon="144.1446161270142"/><trkpt lat="-35.14235359067879" lon="144.1441333293915"/><trkpt lat="-35.14187983479867" lon="144.143682718277"/><trkpt lat="-35.14161663589603" lon="144.14372563362124"/><trkpt lat="-35.141388529492" lon="144.1441333293915"/><trkpt lat="-35.14108146216943" lon="144.14376854896548"/><trkpt lat="-35.141063915430294" lon="144.1431033611298"/><trkpt lat="-35.140686659624045" lon="144.14247035980227"/><trkpt lat="-35.14021289404198" lon="144.14225578308108"/><trkpt lat="-35.140002330675976" lon="144.14192318916324"/><trkpt lat="-35.14051996464106" lon="144.14120435714725"/><trkpt lat="-35.140923541381056" lon="144.14024949073794"/><trkpt lat="-35.14113410236414" lon="144.1396272182465"/><trkpt lat="-35.141362209481166" lon="144.13932681083682"/><trkpt lat="-35.14169559565619" lon="144.13899421691897"/><trkpt lat="-35.142151806103996" lon="144.13887619972232"/><trkpt lat="-35.14478373952758" lon="144.1389620304108"/><trkpt lat="-35.14586280763077" lon="144.13877964019778"/><trkpt lat="-35.146187402553714" lon="144.13891911506656"/><trkpt lat="-35.146441813885595" lon="144.13913369178775"/><trkpt lat="-35.14658217841793" lon="144.13979887962344"/><trkpt lat="-35.14630144911117" lon="144.14079666137698"/><trkpt lat="-35.1459329904265" lon="144.14145112037662"/><trkpt lat="-35.145889126186255" lon="144.14226651191714"/><trkpt lat="-35.1461523112731" lon="144.14297461509707"/><trkpt lat="-35.146503223398284" lon="144.14347082376483"/><trkpt lat="-35.14727741792287" lon="144.1442593932152"/><trkpt lat="-35.146503223398284" lon="144.1447985172272"/><trkpt lat="-35.1465054165943" lon="144.14516866207126"/></trkseg></trk><trk><name>Stay Put</name><desc>name=Stay Put
+poiType=partial-boundary</desc><trkseg><trkpt lat="-35.14727522474764" lon="144.14425939321518"/><trkpt lat="-35.14995524077133" lon="144.14682626724243"/></trkseg></trk><trk><name>Stay Put</name><desc>name=Stay Put
+poiType=partial-boundary</desc><trkseg><trkpt lat="-35.150031999340875" lon="144.14843827486038"/><trkpt lat="-35.14919642358783" lon="144.14994299411774"/><trkpt lat="-35.14868323107706" lon="144.15015757083893"/><trkpt lat="-35.14816564902747" lon="144.15029168128967"/><trkpt lat="-35.14645497307079" lon="144.15091931819916"/><trkpt lat="-35.14543732313593" lon="144.15086030960083"/><trkpt lat="-35.14461705293514" lon="144.15193855762482"/><trkpt lat="-35.14424858662468" lon="144.1523140668869"/><trkpt lat="-35.14392398396913" lon="144.15304362773895"/></trkseg></trk><trk><name>Stay Put</name><desc>name=Stay Put
+poiType=partial-boundary</desc><trkseg><trkpt lat="-35.143941530091716" lon="144.14870381355286"/><trkpt lat="-35.14392837050013" lon="144.15090322494507"/></trkseg></trk><trk><name>Stay Put</name><desc>name=Stay Put
+poiType=partial-boundary</desc><trkseg><trkpt lat="-35.143967849268506" lon="144.14767920970917"/><trkpt lat="-35.14430561128183" lon="144.14778649806976"/><trkpt lat="-35.14488024213559" lon="144.14773285388947"/><trkpt lat="-35.145323275367524" lon="144.1476309299469"/><trkpt lat="-35.14563032668759" lon="144.14738953113556"/><trkpt lat="-35.14581455692359" lon="144.14713203907013"/><trkpt lat="-35.14600755958066" lon="144.14659023284912"/><trkpt lat="-35.14594614969397" lon="144.1463166475296"/></trkseg></trk><trk><name>Tranquility</name><desc>name=Tranquility
+source=John
+detail=1
+poiType=designated-area_off</desc><trkseg><trkpt lat="-35.15086" lon="144.14679"/><trkpt lat="-35.15331061921158" lon="144.14889693260196"/><trkpt lat="-35.15316149421907" lon="144.14964795112613"/><trkpt lat="-35.15295973644123" lon="144.1503989696503"/><trkpt lat="-35.15016" lon="144.14829"/><trkpt lat="-35.15086" lon="144.14679"/></trkseg></trk></gpx>

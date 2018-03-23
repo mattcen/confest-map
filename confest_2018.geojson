@@ -5544,38 +5544,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Aboriginal activity and workshop ntc ",
-        "": "",
-        "label": "Aboriginal activities",
-        "detail": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14573,
-          -35.1488
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Aboriginal Elders' Camp",
-        "": "",
-        "label": "Aboriginal Elders' Camp",
-        "detail": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.1452,
-          -35.14894
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": " Community Cooking",
         "": "",
         "poiType": "cooking",
@@ -5671,21 +5639,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Listen to the Grass Grow",
-        "": "",
-        "detail": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14917,
-          -35.15278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": " Nudies",
         "": "",
         "poiType": "village",
@@ -5697,38 +5650,6 @@
         "coordinates": [
           144.14285,
           -35.14879
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Open Stage 1",
-        "": "",
-        "label": "Open Stage 1",
-        "detail": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14388,
-          -35.14999
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Open Stage 2",
-        "": "",
-        "label": "Open Stage 2",
-        "detail": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14329,
-          -35.14975
         ]
       }
     },
@@ -5763,36 +5684,6 @@
         "coordinates": [
           144.15059,
           -35.15218
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Sacred Space and ?workshops? ntc",
-        "": "",
-        "detail": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14449,
-          -35.14645
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Sacred Space and midden",
-        "": "",
-        "detail": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14983,
-          -35.14913
         ]
       }
     },
@@ -5850,16 +5741,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Aboriginal Sacred Space",
-        "label": "Aboriginal Sacred Space",
-        "source": "Murray",
-        "detail": "2"
+        "name": "Aboriginal Elders' Camp",
+        "": "",
+        "label": "Wemba Wemba Elders Camp",
+        "detail": "2",
+        "poiType": "aboriginal-hidden"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.14542,
-          -35.14854
+          144.1452,
+          -35.14894
         ]
       }
     },
@@ -5918,7 +5810,7 @@
       "properties": {
         "name": "Goddess Reawakening",
         "poiType": "village",
-        "source": "Trevor Alexander (Facebook) unverified",
+        "source": "Trevor Alexander (Facebook) unverified (https://www.facebook.com/groups/ConFestVillages/permalink/2000564040270180/?comment_id=2000580720268512&reply_comment_id=2000660790260505&comment_tracking=%7B%22tn%22%3A%22R%22%7D) - Krystal Alexander-Hille",
         "detail": "2",
         "label": "Goddess_Reawakening"
       },
@@ -5937,14 +5829,31 @@
         "description": "Gypsy intend to talk to Elder Camp to negotiate if either needs to move to give each other space.",
         "poiType": "village",
         "label": "Gypsy",
-        "source": "Murray",
+        "source": "Murray -moved arbitrarily by mattcen as per John's instructions",
         "detail": "2"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.15002,
-          -35.149034
+          144.14929389953616,
+          -35.14921835481961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Listen to the Grass Grow",
+        "": "",
+        "detail": "2",
+        "poiType": "village",
+        "label": "Listen to the Grass Grow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14917,
+          -35.15278
         ]
       }
     },
@@ -5961,6 +5870,37 @@
         "coordinates": [
           144.14439,
           -35.150373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Open Stage",
+        "": "",
+        "label": "Open Stage",
+        "detail": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14329,
+          -35.14975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Open Stage Crew Camp",
+        "": "",
+        "detail": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14388,
+          -35.14999
         ]
       }
     },
@@ -6002,9 +5942,43 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Sacred Space",
+        "": "",
+        "detail": "2",
+        "label": "Sacred Space",
+        "poiType": "aboriginal-hidden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14449,
+          -35.14645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sacred Space and midden",
+        "": "",
+        "detail": "2",
+        "label": "Aboriginal Sacred Space and midden",
+        "poiType": "aboriginal-hidden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14983,
+          -35.14913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "The HUB",
         "poiType": "infrastructure",
-        "label": "HUB",
+        "label": "Hub",
         "source": "Murray",
         "detail": "2"
       },
@@ -6058,16 +6032,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Wemba Wemba Elder camp",
-        "label": "Wemba Wemba",
-        "source": "Murray",
-        "detail": "2"
+        "": "",
+        "label": "Wemba_Workshop",
+        "detail": "2",
+        "poiType": "aboriginal",
+        "name": "Wemba Wemba Workshop Space"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.14996,
-          -35.148953
+          144.14573,
+          -35.1488
         ]
       }
     },
@@ -6091,7 +6066,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Arts",
+        "name": "Arts",
         "": "",
         "poiType": "village",
         "label": "Arts",
@@ -6108,7 +6083,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": " Bliss",
+        "name": "Bliss",
         "": "",
         "poiType": "village",
         "label": "Bliss",
@@ -6119,23 +6094,6 @@
         "coordinates": [
           144.148,
           -35.15092
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": " Family ",
-        "": "",
-        "poiType": "village",
-        "label": "Family",
-        "detail": "1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          144.14583,
-          -35.14978
         ]
       }
     },
@@ -6153,6 +6111,23 @@
         "coordinates": [
           144.14669752120975,
           -35.14612599280271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Family ",
+        "": "",
+        "poiType": "village",
+        "label": "Family",
+        "detail": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14583,
+          -35.14978
         ]
       }
     },
@@ -6990,12 +6965,17 @@
       "properties": {
         "name": "Aboriginal Sacred Space and ceremonial area",
         "poiType": "aboriginal",
-        "detail": "2"
+        "detail": "2",
+        "label": "Aboriginal Sacred Space"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
+            [
+              144.1448521614075,
+              -35.146503223398284
+            ],
             [
               144.14443,
               -35.14648
@@ -7013,8 +6993,8 @@
               -35.14652
             ],
             [
-              144.14443,
-              -35.14648
+              144.1448521614075,
+              -35.146503223398284
             ]
           ]
         ]
@@ -8239,10 +8219,11 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Wemba Wemba Elders camping ? and workshop?",
+        "name": "Wemba Wemba Elders and Workshop Area",
         "source": "John",
         "detail": "2",
-        "poiType": "aboriginal"
+        "poiType": "aboriginal",
+        "label": "Wemba Wemba Elders' camp"
       },
       "geometry": {
         "type": "Polygon",
@@ -8286,12 +8267,17 @@
         "name": "Wemba Wemba Sacred Space and midden",
         "source": "John",
         "detail": "2",
-        "poiType": "aboriginal"
+        "poiType": "aboriginal",
+        "label": "Sacred Space/ midden"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
+            [
+              144.14965331554416,
+              -35.14910431234987
+            ],
             [
               144.14964,
               -35.14924
@@ -8309,10 +8295,825 @@
               -35.14897
             ],
             [
-              144.14964,
-              -35.14924
+              144.14965331554416,
+              -35.14910431234987
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poiType": "aboriginal-area-label",
+        "label": "Aboriginal Sacred Space",
+        "name": "Aboriginal Sacred Space"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14489507675174,
+          -35.14613476562712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Car-free",
+        "poiType": "camping-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14151549339297,
+          -35.14912624360645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Car-free",
+        "poiType": "camping-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14623618125918,
+          -35.151854445824014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_storage_options": {
+          "showLabel": true
+        },
+        "name": "Carpark",
+        "description": "As discussed by mattcen with Emma and Guy in FB Messenger",
+        "poiType": "designated-area_off",
+        "label": "Carpark",
+        "source": "Draft",
+        "detail": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.14635419845584,
+              -35.140923541381056
+            ],
+            [
+              144.14889693260196,
+              -35.143353732925924
+            ],
+            [
+              144.15082812309268,
+              -35.143652018585335
+            ],
+            [
+              144.15118217468265,
+              -35.14211671308342
+            ],
+            [
+              144.14873600006106,
+              -35.13953733464659
+            ],
+            [
+              144.14635419845584,
+              -35.140923541381056
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Carpark",
+        "foiType": "designated-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1490578651428,
+          -35.14170436895813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Come and Go",
+        "poiType": "camping-area_off",
+        "label": "Come and Go",
+        "source": "Draft",
+        "detail": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.14860993623736,
+              -35.14367614458354
+            ],
+            [
+              144.14615571498874,
+              -35.14145432948183
+            ],
+            [
+              144.14544224739078,
+              -35.140743686776695
+            ],
+            [
+              144.144760966301,
+              -35.14096302160687
+            ],
+            [
+              144.14500236511233,
+              -35.141388529492
+            ],
+            [
+              144.14547979831698,
+              -35.14157715598723
+            ],
+            [
+              144.14583921432498,
+              -35.14176578204536
+            ],
+            [
+              144.1464185714722,
+              -35.14215619273052
+            ],
+            [
+              144.1469067335129,
+              -35.14260801399486
+            ],
+            [
+              144.14736807346347,
+              -35.143252841940786
+            ],
+            [
+              144.1476792097092,
+              -35.14395907621053
+            ],
+            [
+              144.1486877202988,
+              -35.14394153009172
+            ],
+            [
+              144.14860993623736,
+              -35.14367614458354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Come and Go",
+        "poiType": "camping-area_off",
+        "label": "Come and Go",
+        "source": "Draft",
+        "detail": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.15303826332095,
+              -35.14391959743789
+            ],
+            [
+              144.15279150009158,
+              -35.14217812585951
+            ],
+            [
+              144.15133237838748,
+              -35.14212548633998
+            ],
+            [
+              144.1509032249451,
+              -35.1439327570309
+            ],
+            [
+              144.15303826332095,
+              -35.14391959743789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Come and Go",
+        "foiType": "camping-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.15204048156735,
+          -35.143160723975555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Come and Go",
+        "foiType": "camping-area-label",
+        "rotation": "-45"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1466331481934,
+          -35.14216057935678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emergency Assembly",
+        "source": "Emma mud map",
+        "detail": 1,
+        "poiType": "designated-area_off"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.14881110191348,
+              -35.14636285872978
+            ],
+            [
+              144.14837121963504,
+              -35.14624003944625
+            ],
+            [
+              144.14792060852054,
+              -35.14634969952969
+            ],
+            [
+              144.14781332015994,
+              -35.146757633742894
+            ],
+            [
+              144.14792060852054,
+              -35.14708661145765
+            ],
+            [
+              144.1483283042908,
+              -35.147196270400386
+            ],
+            [
+              144.14877355098727,
+              -35.14707783873585
+            ],
+            [
+              144.14895057678225,
+              -35.14679272476249
+            ],
+            [
+              144.14881110191348,
+              -35.14636285872978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Emergency_Assembly",
+        "poiType": "designated-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14830684661865,
+          -35.14674008822742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Market",
+        "detail": 1,
+        "source": "John",
+        "poiType": "designated-area_off"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.14681,
+              -35.14995
+            ],
+            [
+              144.14751,
+              -35.15048
+            ],
+            [
+              144.14843,
+              -35.15003
+            ],
+            [
+              144.14888,
+              -35.1487
+            ],
+            [
+              144.14795,
+              -35.14852
+            ],
+            [
+              144.1472,
+              -35.14903
+            ],
+            [
+              144.14681,
+              -35.14995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Market",
+        "poiType": "designated-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1478133201599,
+          -35.149547322586876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "No Camping",
+        "source": "John",
+        "poiType": "nocamping-area_off",
+        "detail": 1,
+        "label": "No Camping_Aboriginal Heritage Area",
+        "description": "Aboriginal Heritage Area"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.14516866207126,
+              -35.1465054165943
+            ],
+            [
+              144.14612,
+              -35.14622
+            ],
+            [
+              144.1463112831116,
+              -35.1459329904265
+            ],
+            [
+              144.14601087570193,
+              -35.145345207643096
+            ],
+            [
+              144.1456460952759,
+              -35.14437140891352
+            ],
+            [
+              144.1454637050629,
+              -35.1439327570309
+            ],
+            [
+              144.14520621299746,
+              -35.14357306072305
+            ],
+            [
+              144.1446161270142,
+              -35.14278347788742
+            ],
+            [
+              144.1441333293915,
+              -35.14235359067879
+            ],
+            [
+              144.143682718277,
+              -35.14187983479867
+            ],
+            [
+              144.14372563362124,
+              -35.14161663589603
+            ],
+            [
+              144.1441333293915,
+              -35.141388529492
+            ],
+            [
+              144.14376854896548,
+              -35.14108146216943
+            ],
+            [
+              144.1431033611298,
+              -35.141063915430294
+            ],
+            [
+              144.14247035980227,
+              -35.140686659624045
+            ],
+            [
+              144.14225578308108,
+              -35.14021289404198
+            ],
+            [
+              144.14192318916324,
+              -35.140002330675976
+            ],
+            [
+              144.14120435714725,
+              -35.14051996464106
+            ],
+            [
+              144.14024949073794,
+              -35.140923541381056
+            ],
+            [
+              144.1396272182465,
+              -35.14113410236414
+            ],
+            [
+              144.13932681083682,
+              -35.141362209481166
+            ],
+            [
+              144.13899421691897,
+              -35.14169559565619
+            ],
+            [
+              144.13887619972232,
+              -35.142151806103996
+            ],
+            [
+              144.1389620304108,
+              -35.14478373952758
+            ],
+            [
+              144.13877964019778,
+              -35.14586280763077
+            ],
+            [
+              144.13891911506656,
+              -35.146187402553714
+            ],
+            [
+              144.13913369178775,
+              -35.146441813885595
+            ],
+            [
+              144.13979887962344,
+              -35.14658217841793
+            ],
+            [
+              144.14079666137698,
+              -35.14630144911117
+            ],
+            [
+              144.14145112037662,
+              -35.1459329904265
+            ],
+            [
+              144.14226651191714,
+              -35.145889126186255
+            ],
+            [
+              144.14297461509707,
+              -35.1461523112731
+            ],
+            [
+              144.14347082376483,
+              -35.146503223398284
+            ],
+            [
+              144.1442593932152,
+              -35.14727741792287
+            ],
+            [
+              144.1447985172272,
+              -35.146503223398284
+            ],
+            [
+              144.14516866207126,
+              -35.1465054165943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "No Camping_Aboriginal Heritage Area",
+        "poiType": "no-camping-label",
+        "foiType": "no-camping-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14219141006473,
+          -35.14493287987356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poiType": "aboriginal-area-label",
+        "label": "Sacred Space/ midden",
+        "name": "Sacred Space/ midden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.15019512176517,
+          -35.14915256110657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stay Put",
+        "poiType": "partial-boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.14425939321518,
+            -35.14727522474764
+          ],
+          [
+            144.14682626724243,
+            -35.14995524077133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stay Put",
+        "poiType": "partial-boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.14843827486038,
+            -35.150031999340875
+          ],
+          [
+            144.14994299411774,
+            -35.14919642358783
+          ],
+          [
+            144.15015757083893,
+            -35.14868323107706
+          ],
+          [
+            144.15029168128967,
+            -35.14816564902747
+          ],
+          [
+            144.15091931819916,
+            -35.14645497307079
+          ],
+          [
+            144.15086030960083,
+            -35.14543732313593
+          ],
+          [
+            144.15193855762482,
+            -35.14461705293514
+          ],
+          [
+            144.1523140668869,
+            -35.14424858662468
+          ],
+          [
+            144.15304362773895,
+            -35.14392398396913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stay Put",
+        "poiType": "partial-boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.14870381355286,
+            -35.143941530091716
+          ],
+          [
+            144.15090322494507,
+            -35.14392837050013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stay Put",
+        "poiType": "partial-boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            144.14767920970917,
+            -35.143967849268506
+          ],
+          [
+            144.14778649806976,
+            -35.14430561128183
+          ],
+          [
+            144.14773285388947,
+            -35.14488024213559
+          ],
+          [
+            144.1476309299469,
+            -35.145323275367524
+          ],
+          [
+            144.14738953113556,
+            -35.14563032668759
+          ],
+          [
+            144.14713203907013,
+            -35.14581455692359
+          ],
+          [
+            144.14659023284912,
+            -35.14600755958066
+          ],
+          [
+            144.1463166475296,
+            -35.14594614969397
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Stay Put",
+        "poiType": "camping-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1493582725525,
+          -35.14516097634465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Stay Put",
+        "poiType": "cmaping-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14822101593018,
+          -35.14807353662273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tranquility",
+        "source": "John",
+        "detail": 1,
+        "poiType": "designated-area_off"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.14679,
+              -35.15086
+            ],
+            [
+              144.14889693260196,
+              -35.15331061921158
+            ],
+            [
+              144.14964795112613,
+              -35.15316149421907
+            ],
+            [
+              144.1503989696503,
+              -35.15295973644123
+            ],
+            [
+              144.14829,
+              -35.15016
+            ],
+            [
+              144.14679,
+              -35.15086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Tranquillity",
+        "poiType": "designated-area-label"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14882183074954,
+          -35.15214392815119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poiType": "aboriginal-area-label",
+        "label": "Wemba Wemba Elders' camp",
+        "name": "Wemba Wemba Elders' camp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14520621299746,
+          -35.148950793388195
         ]
       }
     }
