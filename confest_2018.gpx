@@ -75,7 +75,7 @@ detail=2
 poiType=aboriginal-hidden</desc></wpt><wpt lat="-35.152331" lon="144.15134"><name>Beach</name><desc>name=Beach
 label=Beach
 source=Murray
-detail=2</desc></wpt><wpt lat="-35.150744" lon="144.146226"><name>Doing It Ourselves</name><desc>name=Doing It Ourselves
+detail=2</desc></wpt><wpt lat="-35.15092" lon="144.14633"><name>Doing It Ourselves</name><desc>name=Doing It Ourselves
 poiType=village
 detail=2
 source=Suse
@@ -104,11 +104,11 @@ detail=2</desc></wpt><wpt lat="-35.14975" lon="144.14329"><name>Open Stage</name
 label=Open Stage
 detail=1</desc></wpt><wpt lat="-35.14999" lon="144.14388"><name>Open Stage Crew Camp</name><desc>name=Open Stage Crew Camp
 =
-detail=3</desc></wpt><wpt lat="-35.14846391705119" lon="144.14421916007998"><name>Poly Village</name><desc>name=Poly Village
-description=Requested by Leo Klein on FB, 2018-03-08
+detail=3</desc></wpt><wpt lat="-35.1481" lon="144.14354"><name>Poly Village</name><desc>name=Poly Village
+description=
 poiType=village
 label=Poly_Village
-source=Draft
+source=John verified 2018-03-28
 detail=2</desc></wpt><wpt lat="-35.150109" lon="144.14923"><name>Rainbow</name><desc>name=Rainbow
 poiType=village
 label=Rainbow
@@ -138,8 +138,8 @@ detail=1</desc></wpt><wpt lat="-35.1488" lon="144.14573"><name>Wemba Wemba Works
 label=Wemba_Workshop
 detail=2
 poiType=aboriginal
-name=Wemba Wemba Workshop Space</desc></wpt><wpt lat="-35.149288534721556" lon="144.14413869380954"><name>Wilding</name><desc>name=Wilding
-source=David Wolfe Mud
+name=Wemba Wemba Workshop Space</desc></wpt><wpt lat="-35.14851" lon="144.14356"><name>Wilding</name><desc>name=Wilding
+source=John verified 2018-03-28
 poiType=village
 label=Wilding
 detail=2</desc></wpt><wpt lat="-35.14759" lon="144.14294"><name>Arts</name><desc>name=Arts
@@ -161,8 +161,8 @@ label=Family
 detail=1</desc></wpt><wpt lat="-35.14732" lon="144.14586"><name>First Aid</name><desc>name=First Aid
 =
 label=First Aid
-detail=1</desc></wpt><wpt lat="-35.14854287016859" lon="144.14610207080844"><name>Info Tent</name><desc>name=Info Tent
-source=Emma mud
+detail=1</desc></wpt><wpt lat="-35.14913" lon="144.14687"><name>Info Tent</name><desc>name=Info Tent
+source=John verified 2018-03-28
 label=Info Tent
 detail=1</desc></wpt><wpt lat="-35.150489" lon="144.14503"><name>Permaculture</name><desc>name=Permaculture
 poiType=village
@@ -424,7 +424,90 @@ marker-symbol=
 name=Tranquillity
 poiType=designated-area-label</desc></wpt><wpt lat="-35.148950793388195" lon="144.14520621299746"><name>Wemba Wemba Elders' camp</name><desc>poiType=aboriginal-area-label
 label=Wemba Wemba Elders' camp
-name=Wemba Wemba Elders' camp</desc></wpt><trk><name>Axis Pass</name><desc>name=Axis Pass
+name=Wemba Wemba Elders' camp</desc></wpt><wpt lat="-35.14713" lon="144.14488"><name>7 toilets</name><desc>name=7 toilets
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14772" lon="144.14256"><name>bike crew</name><desc>name=bike crew
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15099" lon="144.14785"><name>Bliss fire circle</name><desc>name=Bliss fire circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14947" lon="144.14396"><name>bus stop</name><desc>name=bus stop
+poiType=bus-stop
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14845" lon="144.14187"><name>bus stop</name><desc>name=bus stop
+poiType=bus-stop
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14816" lon="144.14283"><name>bus stop</name><desc>name=bus stop
+poiType=bus-stop
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15044" lon="144.14484"><name>bus stop</name><desc>name=bus stop
+poiType=bus-stop
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15196" lon="144.14772"><name>bus stop</name><desc>name=bus stop
+poiType=bus-stop
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15266" lon="144.14853"><name>bus stop?</name><desc>name=bus stop?
+poiType=bus-stop_?
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15264" lon="144.14949"><name>bus stop?</name><desc>name=bus stop?
+poiType=bus-stop_?
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15103" lon="144.14979"><name>bus stop?</name><desc>name=bus stop?
+poiType=bus-stop_?
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15039" lon="144.14493"><name>cob oven workshop</name><desc>name=cob oven workshop
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14696" lon="144.14833"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.1442" lon="144.14838"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14804" lon="144.14378"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15257" lon="144.14933"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15199" lon="144.14853"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14898" lon="144.14076"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14877" lon="144.14414"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14827" lon="144.14754"><name>cooking circle</name><desc>name=cooking circle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15173" lon="144.14784"><name>cooking circle - empty</name><desc>name=cooking circle - empty
+poiType=cooking-circle_empty
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15127" lon="144.14657"><name>cooking cirle</name><desc>name=cooking cirle
+poiType=cooking-circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14762" lon="144.14539"><name>Dun and Gorn 3</name><desc>name=Dun and Gorn 3
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14489" lon="144.15069"><name>Dun gone 'n' didd'd it 2</name><desc>name=Dun gone 'n' didd'd it 2
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14771" lon="144.14486"><name>Dun it orl 2 toilets</name><desc>name=Dun it orl 2 toilets
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15021" lon="144.14791"><name>dun worry be happy 4</name><desc>name=dun worry be happy 4
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14666" lon="144.1477"><name>Dun yet?</name><desc>name=Dun yet?
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14658" lon="144.15015"><name>Dun't fall in the toilet 2</name><desc>name=Dun't fall in the toilet 2
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14674" lon="144.14648"><name>Dungerous</name><desc>name=Dungerous
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14781" lon="144.14956"><name>Dunishment 4</name><desc>name=Dunishment 4
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14621" lon="144.14988"><name>EAA 1</name><desc>name=EAA 1
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14694" lon="144.14948"><name>EAA 2</name><desc>name=EAA 2
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14679" lon="144.14887"><name>EAA 3</name><desc>name=EAA 3
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.146" lon="144.14919"><name>EAA 4</name><desc>name=EAA 4
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.152" lon="144.14741"><name>Gokula</name><desc>name=Gokula
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15091" lon="144.14956"><name>intended to be cooking circle? no sand- no kit</name><desc>name=intended to be cooking circle? no sand- no kit
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15222" lon="144.15033"><name>partial cooking circle</name><desc>name=partial cooking circle
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14913" lon="144.14687"><name>Silent disco</name><desc>name=Silent disco
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.15002" lon="144.14864"><name>slam dunk 2</name><desc>name=slam dunk 2
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14795" lon="144.14233"><name>sydney village</name><desc>name=sydney village
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14486" lon="144.14811"><name>tanker water loading point</name><desc>name=tanker water loading point
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.13855" lon="144.14657"><name>toilet</name><desc>name=toilet
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14384" lon="144.14944"><name>toilet 1</name><desc>name=toilet 1
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14909" lon="144.14838"><name>toilet 1</name><desc>name=toilet 1
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.1496" lon="144.14835"><name>toilet 1</name><desc>name=toilet 1
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.1501" lon="144.14627"><name>toilets 2</name><desc>name=toilets 2
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14913" lon="144.14687"><name>toilets 2 approx pos</name><desc>name=toilets 2 approx pos
+poiType=toilet-block
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14773" lon="144.14597"><name>Wellness tent</name><desc>name=Wellness tent
+source=John - verified 2018-03-28</desc></wpt><wpt lat="-35.14817" lon="144.14222"><name>workshop space?</name><desc>name=workshop space?
+source=John - verified 2018-03-28</desc></wpt><trk><name>Overnight parking</name><desc>name=Overnight parking
+description=source: Matt's guess</desc><trkseg><trkpt lat="-35.13786157220477" lon="144.14638638496402"/><trkpt lat="-35.13887931685862" lon="144.14646148681643"/><trkpt lat="-35.136887683942206" lon="144.14900422096255"/><trkpt lat="-35.136843814827344" lon="144.14837121963504"/><trkpt lat="-35.13786157220477" lon="144.14638638496402"/></trkseg></trk><trk><name>Axis Pass</name><desc>name=Axis Pass
 poiType=track
 detail=1
 source=John</desc><trkseg><trkpt lat="-35.148959" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.148959" lon="144.14575349999998"><ele>74.7</ele></trkpt><trkpt lat="-35.148959" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14895916666667" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14895933333333" lon="144.14575333333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14896066666667" lon="144.14575299999998"><ele>74.8</ele></trkpt><trkpt lat="-35.148967666666664" lon="144.14575033333332"><ele>74.7</ele></trkpt><trkpt lat="-35.14898316666667" lon="144.14574466666667"><ele>74.7</ele></trkpt><trkpt lat="-35.149006166666666" lon="144.14573666666666"><ele>74.8</ele></trkpt><trkpt lat="-35.14903266666667" lon="144.14572783333332"><ele>74.8</ele></trkpt><trkpt lat="-35.14906083333334" lon="144.14572016666668"><ele>74.8</ele></trkpt><trkpt lat="-35.149088" lon="144.14571316666667"><ele>74.7</ele></trkpt><trkpt lat="-35.149108166666664" lon="144.14570783333332"><ele>74.6</ele></trkpt><trkpt lat="-35.1491235" lon="144.14570366666666"><ele>74.6</ele></trkpt><trkpt lat="-35.14913766666667" lon="144.14569983333334"><ele>74.7</ele></trkpt><trkpt lat="-35.14915583333333" lon="144.14569416666666"><ele>74.7</ele></trkpt><trkpt lat="-35.1491785" lon="144.1456865"><ele>74.7</ele></trkpt><trkpt lat="-35.14920433333334" lon="144.14567683333334"><ele>74.7</ele></trkpt><trkpt lat="-35.1492305" lon="144.145665"><ele>74.7</ele></trkpt><trkpt lat="-35.149255333333336" lon="144.145651"><ele>74.8</ele></trkpt><trkpt lat="-35.149278833333334" lon="144.14563600000002"><ele>74.8</ele></trkpt><trkpt lat="-35.149301666666666" lon="144.14561883333332"><ele>74.8</ele></trkpt><trkpt lat="-35.14932566666666" lon="144.14559883333334"><ele>74.7</ele></trkpt><trkpt lat="-35.14935083333333" lon="144.14557566666664"><ele>74.5</ele></trkpt><trkpt lat="-35.149378166666665" lon="144.14555066666665"><ele>74.3</ele></trkpt><trkpt lat="-35.14940683333334" lon="144.14552083333334"><ele>73.9</ele></trkpt><trkpt lat="-35.149437" lon="144.1454865"><ele>73.7</ele></trkpt><trkpt lat="-35.149467333333334" lon="144.14545283333334"><ele>73.9</ele></trkpt><trkpt lat="-35.14949633333333" lon="144.1454215"><ele>73.8</ele></trkpt><trkpt lat="-35.14952183333333" lon="144.14539116666668"><ele>73.9</ele></trkpt><trkpt lat="-35.1495435" lon="144.14536416666667"><ele>74.4</ele></trkpt><trkpt lat="-35.14955783333333" lon="144.14533"><ele>75</ele></trkpt><trkpt lat="-35.149570833333335" lon="144.14528933333335"><ele>74.9</ele></trkpt><trkpt lat="-35.14958216666666" lon="144.1452475"><ele>75</ele></trkpt><trkpt lat="-35.14959233333333" lon="144.14520516666667"><ele>74.9</ele></trkpt><trkpt lat="-35.149604999999994" lon="144.145163"><ele>75</ele></trkpt><trkpt lat="-35.149618833333335" lon="144.14512166666665"><ele>74.6</ele></trkpt><trkpt lat="-35.149634666666664" lon="144.1450805"><ele>74.6</ele></trkpt><trkpt lat="-35.149652833333334" lon="144.14504033333333"><ele>74.5</ele></trkpt><trkpt lat="-35.14967166666667" lon="144.14500116666667"><ele>74.5</ele></trkpt><trkpt lat="-35.14969216666667" lon="144.14496366666665"><ele>74.5</ele></trkpt><trkpt lat="-35.149714333333336" lon="144.14492583333333"><ele>74.5</ele></trkpt><trkpt lat="-35.149739" lon="144.14488966666667"><ele>74.5</ele></trkpt><trkpt lat="-35.1497635" lon="144.1448535"><ele>74.4</ele></trkpt><trkpt lat="-35.149784" lon="144.14482016666668"><ele>74.5</ele></trkpt><trkpt lat="-35.149799333333334" lon="144.144792"><ele>74.4</ele></trkpt><trkpt lat="-35.149810833333326" lon="144.14476766666667"><ele>74.4</ele></trkpt><trkpt lat="-35.149819666666666" lon="144.14474783333333"><ele>74.4</ele></trkpt><trkpt lat="-35.14982583333333" lon="144.1447345"><ele>74.6</ele></trkpt><trkpt lat="-35.14982966666666" lon="144.1447251666667"><ele>74.6</ele></trkpt><trkpt lat="-35.1498315" lon="144.14472066666667"><ele>74.7</ele></trkpt><trkpt lat="-35.149831666666664" lon="144.1447195"><ele>74.7</ele></trkpt><trkpt lat="-35.1498315" lon="144.14471916666668"><ele>74.7</ele></trkpt><trkpt lat="-35.14983133333333" lon="144.14471866666665"><ele>74.6</ele></trkpt><trkpt lat="-35.149831" lon="144.144718"><ele>74.6</ele></trkpt><trkpt lat="-35.149830666666666" lon="144.14471733333332"><ele>74.6</ele></trkpt><trkpt lat="-35.1498305" lon="144.14471616666665"><ele>74.7</ele></trkpt><trkpt lat="-35.1498325" lon="144.14470966666667"><ele>74.7</ele></trkpt><trkpt lat="-35.1498385" lon="144.14469283333335"><ele>74.7</ele></trkpt><trkpt lat="-35.14984616666666" lon="144.144667"><ele>74.9</ele></trkpt><trkpt lat="-35.149853" lon="144.14463583333333"><ele>74.9</ele></trkpt><trkpt lat="-35.149859500000005" lon="144.14460433333335"><ele>75</ele></trkpt><trkpt lat="-35.14986583333334" lon="144.14457366666664"><ele>74.9</ele></trkpt><trkpt lat="-35.14987416666667" lon="144.144542"><ele>74.8</ele></trkpt><trkpt lat="-35.14988566666667" lon="144.14450733333334"><ele>74.6</ele></trkpt><trkpt lat="-35.149903333333334" lon="144.1444725"><ele>74.3</ele></trkpt><trkpt lat="-35.14992783333333" lon="144.14443983333334"><ele>74.1</ele></trkpt><trkpt lat="-35.14995583333334" lon="144.14441033333333"><ele>73.8</ele></trkpt><trkpt lat="-35.1499865" lon="144.14438466666667"><ele>73.8</ele></trkpt><trkpt lat="-35.150018833333334" lon="144.14436316666666"><ele>73.8</ele></trkpt><trkpt lat="-35.150048999999996" lon="144.14434516666668"><ele>73.9</ele></trkpt><trkpt lat="-35.15007483333333" lon="144.14433216666666"><ele>74.3</ele></trkpt><trkpt lat="-35.1500925" lon="144.14432033333333"><ele>74.4</ele></trkpt><trkpt lat="-35.150102" lon="144.14431133333335"><ele>74.5</ele></trkpt><trkpt lat="-35.15010616666667" lon="144.14430666666667"><ele>74.5</ele></trkpt><trkpt lat="-35.15010733333334" lon="144.1443045"><ele>74.6</ele></trkpt><trkpt lat="-35.15010733333334" lon="144.14430266666668"><ele>74.7</ele></trkpt><trkpt lat="-35.1501075" lon="144.14430099999998"><ele>74.7</ele></trkpt><trkpt lat="-35.15010766666667" lon="144.1443"><ele>74.9</ele></trkpt><trkpt lat="-35.150110000000005" lon="144.1442965"><ele>74.8</ele></trkpt><trkpt lat="-35.1501145" lon="144.14428333333333"><ele>74.9</ele></trkpt><trkpt lat="-35.15011633333334" lon="144.14426133333333"><ele>74.9</ele></trkpt><trkpt lat="-35.150109" lon="144.14424116666666"><ele>74.8</ele></trkpt><trkpt lat="-35.15009716666667" lon="144.14422766666667"><ele>74.8</ele></trkpt><trkpt lat="-35.150092" lon="144.14422216666665"><ele>74.7</ele></trkpt><trkpt lat="-35.15009133333333" lon="144.14422083333332"><ele>74.8</ele></trkpt><trkpt lat="-35.15009166666667" lon="144.14422033333332"><ele>74.9</ele></trkpt><trkpt lat="-35.150092" lon="144.14421966666666"><ele>75</ele></trkpt><trkpt lat="-35.15009216666667" lon="144.144219"><ele>75.2</ele></trkpt><trkpt lat="-35.15009233333333" lon="144.1442185"><ele>75.3</ele></trkpt><trkpt lat="-35.150092666666666" lon="144.144218"><ele>75.4</ele></trkpt></trkseg></trk><trk><name>Battery Track</name><desc>name=Battery Track

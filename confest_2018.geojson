@@ -172,6 +172,40 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Overnight parking",
+        "description": "source: Matt's guess"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              144.14638638496402,
+              -35.13786157220477
+            ],
+            [
+              144.14646148681643,
+              -35.13887931685862
+            ],
+            [
+              144.14900422096255,
+              -35.136887683942206
+            ],
+            [
+              144.14837121963504,
+              -35.136843814827344
+            ],
+            [
+              144.14638638496402,
+              -35.13786157220477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "The Cottage",
         "label": "Cottage"
       },
@@ -5783,8 +5817,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.146226,
-          -35.150744
+          144.14633,
+          -35.15092
         ]
       }
     },
@@ -5908,17 +5942,17 @@
       "type": "Feature",
       "properties": {
         "name": "Poly Village",
-        "description": "Requested by Leo Klein on FB, 2018-03-08",
+        "description": "",
         "poiType": "village",
         "label": "Poly_Village",
-        "source": "Draft",
+        "source": "John verified 2018-03-28",
         "detail": "2"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.14421916007998,
-          -35.14846391705119
+          144.14354,
+          -35.1481
         ]
       }
     },
@@ -6050,7 +6084,7 @@
       "type": "Feature",
       "properties": {
         "name": "Wilding",
-        "source": "David Wolfe Mud",
+        "source": "John verified 2018-03-28",
         "poiType": "village",
         "label": "Wilding",
         "detail": "2"
@@ -6058,8 +6092,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.14413869380954,
-          -35.149288534721556
+          144.14356,
+          -35.14851
         ]
       }
     },
@@ -6155,15 +6189,15 @@
       "type": "Feature",
       "properties": {
         "name": "Info Tent",
-        "source": "Emma mud",
+        "source": "John verified 2018-03-28",
         "label": "Info Tent",
         "detail": "1"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.14610207080844,
-          -35.14854287016859
+          144.14687,
+          -35.14913
         ]
       }
     },
@@ -9117,6 +9151,725 @@
         "coordinates": [
           144.14520621299746,
           -35.148950793388195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "7 toilets",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14488,
+          -35.14713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bike crew",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14256,
+          -35.14772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bliss fire circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14785,
+          -35.15099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop",
+        "poiType": "bus-stop",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14396,
+          -35.14947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop",
+        "poiType": "bus-stop",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14187,
+          -35.14845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop",
+        "poiType": "bus-stop",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14283,
+          -35.14816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop",
+        "poiType": "bus-stop",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14484,
+          -35.15044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop",
+        "poiType": "bus-stop",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14772,
+          -35.15196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop?",
+        "poiType": "bus-stop_?",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14853,
+          -35.15266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop?",
+        "poiType": "bus-stop_?",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14949,
+          -35.15264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bus stop?",
+        "poiType": "bus-stop_?",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14979,
+          -35.15103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cob oven workshop",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14493,
+          -35.15039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14833,
+          -35.14696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14838,
+          -35.1442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14378,
+          -35.14804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14933,
+          -35.15257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14853,
+          -35.15199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14076,
+          -35.14898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14414,
+          -35.14877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14754,
+          -35.14827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking circle - empty",
+        "poiType": "cooking-circle_empty",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14784,
+          -35.15173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "cooking cirle",
+        "poiType": "cooking-circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14657,
+          -35.15127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dun and Gorn 3",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14539,
+          -35.14762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dun gone 'n' didd'd it 2",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.15069,
+          -35.14489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dun it orl 2 toilets",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14486,
+          -35.14771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "dun worry be happy 4",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14791,
+          -35.15021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dun yet?",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.1477,
+          -35.14666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dun't fall in the toilet 2",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.15015,
+          -35.14658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dungerous",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14648,
+          -35.14674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dunishment 4",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14956,
+          -35.14781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EAA 1",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14988,
+          -35.14621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EAA 2",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14948,
+          -35.14694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EAA 3",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14887,
+          -35.14679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EAA 4",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14919,
+          -35.146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gokula",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14741,
+          -35.152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "intended to be cooking circle? no sand- no kit",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14956,
+          -35.15091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "partial cooking circle",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.15033,
+          -35.15222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silent disco",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14687,
+          -35.14913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "slam dunk 2",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14864,
+          -35.15002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "sydney village",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14233,
+          -35.14795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "tanker water loading point",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14811,
+          -35.14486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "toilet",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14657,
+          -35.13855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "toilet 1",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14944,
+          -35.14384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "toilet 1",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14838,
+          -35.14909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "toilet 1",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14835,
+          -35.1496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "toilets 2",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14627,
+          -35.1501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "toilets 2 approx pos",
+        "poiType": "toilet-block",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14687,
+          -35.14913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wellness tent",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14597,
+          -35.14773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "workshop space?",
+        "source": "John - verified 2018-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.14222,
+          -35.14817
         ]
       }
     }
