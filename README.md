@@ -9,9 +9,9 @@ In short, there's a confest.qgs file, which is compatible with QGIS 2.14.
 
 This pulls data from the following files:
 
-* `AU_ORG_DTE.sqlite`: Previously collected data in a SQLite database; mostly not used for the site as of 2018
-* `confest_2018.geojson`: Most of the latest data for the site frome 2018 onwards
-* `John20180310/grid.geojson`: A simple grid used for prettying up cartography. Generated with QGIS
+* [`AU_ORG_DTE.sqlite`](AU_ORG_DTE.sqlite): Previously collected data in a SQLite database; mostly not used for the site as of 2018
+* [`confest_2018.geojson`](confest_2018.geojson): Most of the latest data for the site frome 2018 onwards
+* [`John20180310/grid.geojson`](John20180310/grid.geojson): A simple grid used for prettying up cartography. Generated with QGIS
 
 There are various other files floating around too.
 
