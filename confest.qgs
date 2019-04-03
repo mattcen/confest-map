@@ -70,7 +70,16 @@
     <layer-tree-layer providerKey="gdal" name="areas2011_modified" expanded="1" checked="Qt::Unchecked" id="areas2011_modified20170628234628632" source="./areas2011_modified.tif">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="gdal" name="OpenStreetMap" expanded="1" checked="Qt::Unchecked" id="OpenStreetMap20160914000941837" source="&lt;GDAL_WMS>&#xa;  &lt;Service name=&quot;TMS&quot;>&#xa;    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>&#xa;  &lt;/Service>&#xa;  &lt;DataWindow>&#xa;    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>&#xa;    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>&#xa;    &lt;LowerRightX>20037508.34&lt;/LowerRightX>&#xa;    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>&#xa;    &lt;TileLevel>19&lt;/TileLevel>&#xa;    &lt;TileCountX>1&lt;/TileCountX>&#xa;    &lt;TileCountY>1&lt;/TileCountY>&#xa;    &lt;YOrigin>top&lt;/YOrigin>&#xa;  &lt;/DataWindow>&#xa;  &lt;Projection>EPSG:3857&lt;/Projection>&#xa;  &lt;BlockSizeX>256&lt;/BlockSizeX>&#xa;  &lt;BlockSizeY>256&lt;/BlockSizeY>&#xa;  &lt;BandsCount>3&lt;/BandsCount>&#xa;  &lt;Cache />&#xa;&lt;/GDAL_WMS>&#xa;">
+    <layer-tree-layer providerKey="wms" name="Google Satellite" expanded="1" checked="Qt::Unchecked" id="Google_Satellite_394a4938_61a9_4cac_a448_23e6699c60a3" source="type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=18&amp;zmin=0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="Google Road" expanded="1" checked="Qt::Unchecked" id="Google_Road_f05391c3_3bd9_4694_9ac1_fcb0d298a280" source="type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=18&amp;zmin=0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="Bing Aerial" expanded="1" checked="Qt::Unchecked" id="Bing_Aerial_f5493bd2_8aeb_44e3_92d6_b54d1fb73bde" source="type=xyz&amp;url=http://ecn.t3.tiles.virtualearth.net/tiles/a%7Bq%7D.jpeg?g%3D1&amp;zmax=18&amp;zmin=0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="wms" name="OpenStreetMap" expanded="1" checked="Qt::Unchecked" id="OpenStreetMap_125aef9e_58bf_4a6f_85eb_97196f57c7c8" source="type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -78,7 +87,6 @@
       <item>six_hydro_areas20160913004959422</item>
       <item>rightofway20160913005000550</item>
       <item>barrier20160913005007143</item>
-      <item>OpenStreetMap20160914000941837</item>
       <item>areas2011_modified20170628234628632</item>
       <item>roadmap2011_modified20170629000005125</item>
       <item>confest_2018_OGRGeoJSON_Point20180316191748887</item>
@@ -91,34 +99,38 @@
       <item>Minor_Villages_copy20180323215808593</item>
       <item>Designated_Areas_copy20180323223518886</item>
       <item>Minor_Villages_copy20180323224834553</item>
+      <item>Bing_Aerial_f5493bd2_8aeb_44e3_92d6_b54d1fb73bde</item>
+      <item>Google_Road_f05391c3_3bd9_4694_9ac1_fcb0d298a280</item>
+      <item>Google_Satellite_394a4938_61a9_4cac_a448_23e6699c60a3</item>
+      <item>OpenStreetMap_125aef9e_58bf_4a6f_85eb_97196f57c7c8</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="2" mode="1" type="1" tolerance="0" intersection-snapping="0" enabled="0">
     <individual-layer-settings>
       <layer-setting units="2" type="2" tolerance="0" enabled="0" id="Camping_Areas_copy20180322000346353"/>
+      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="confest_2018_OGRGeoJSON_Polygon20180321233038113"/>
+      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="grid20180322004447807"/>
+      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="Minor_Villages_copy20180323215808593"/>
       <layer-setting units="2" type="2" tolerance="0" enabled="0" id="Designated_Areas_copy20180323223518886"/>
-      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="No_Camping_copy20180322005945793"/>
+      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="Minor_Villages_copy20180323224834553"/>
       <layer-setting units="2" type="1" tolerance="0" enabled="1" id="barrier20160913005007143"/>
       <layer-setting units="2" type="2" tolerance="0" enabled="0" id="confest_2018_OGRGeoJSON_LineString20180321233038089"/>
-      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="grid20180322004447807"/>
       <layer-setting units="2" type="2" tolerance="0" enabled="0" id="confest_2018_OGRGeoJSON_Point20180321233038064"/>
-      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="Minor_Villages_copy20180323215808593"/>
-      <layer-setting units="2" type="1" tolerance="0" enabled="1" id="six_hydro_areas20160913004959422"/>
-      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="Minor_Villages_copy20180323224834553"/>
+      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="No_Camping_copy20180322005945793"/>
       <layer-setting units="2" type="1" tolerance="0" enabled="1" id="rightofway20160913005000550"/>
-      <layer-setting units="2" type="1" tolerance="0" enabled="1" id="structure20160913004957103"/>
       <layer-setting units="2" type="2" tolerance="0" enabled="0" id="confest_2018_OGRGeoJSON_Point20180316191748887"/>
-      <layer-setting units="2" type="2" tolerance="0" enabled="0" id="confest_2018_OGRGeoJSON_Polygon20180321233038113"/>
+      <layer-setting units="2" type="1" tolerance="0" enabled="1" id="six_hydro_areas20160913004959422"/>
+      <layer-setting units="2" type="1" tolerance="0" enabled="1" id="structure20160913004957103"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>239595.0635392461263109</xmin>
-      <ymin>6106141.17396919429302216</ymin>
-      <xmax>240341.49860364015330561</xmax>
-      <ymax>6107107.20647036843001842</ymax>
+      <xmin>239633.44076268703793176</xmin>
+      <ymin>6106122.25254085939377546</ymin>
+      <xmax>240620.39028628598316573</xmax>
+      <ymax>6107399.55764386709779501</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -219,15 +231,181 @@
         <legendlayerfile layerid="areas2011_modified20170628234628632" visible="0" isInOverview="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer name="Google Satellite" showFeatureCount="0" open="true" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="Google_Satellite_394a4938_61a9_4cac_a448_23e6699c60a3" visible="0" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="Google Road" showFeatureCount="0" open="true" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="Google_Road_f05391c3_3bd9_4694_9ac1_fcb0d298a280" visible="0" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="Bing Aerial" showFeatureCount="0" open="true" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="Bing_Aerial_f5493bd2_8aeb_44e3_92d6_b54d1fb73bde" visible="0" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer name="OpenStreetMap" showFeatureCount="0" open="true" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="OpenStreetMap20160914000941837" visible="0" isInOverview="0"/>
+        <legendlayerfile layerid="OpenStreetMap_125aef9e_58bf_4a6f_85eb_97196f57c7c8" visible="0" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>239595.0635392461263109</xmin>
+      <ymin>6106141.17396919429302216</ymin>
+      <xmax>240341.49860364015330561</xmax>
+      <ymax>6107107.20647036843001842</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3205</srsid>
+        <srid>32755</srid>
+        <authid>EPSG:32755</authid>
+        <description>WGS 84 / UTM zone 55S</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>239595.0635392461263109</xmin>
+      <ymin>6106141.17396919429302216</ymin>
+      <xmax>240341.49860364015330561</xmax>
+      <ymax>6107107.20647036843001842</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3205</srsid>
+        <srid>32755</srid>
+        <authid>EPSG:32755</authid>
+        <description>WGS 84 / UTM zone 55S</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>239595.0635392461263109</xmin>
+      <ymin>6106141.17396919429302216</ymin>
+      <xmax>240341.49860364015330561</xmax>
+      <ymax>6107107.20647036843001842</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3205</srsid>
+        <srid>32755</srid>
+        <authid>EPSG:32755</authid>
+        <description>WGS 84 / UTM zone 55S</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
   <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" styleCategories="AllStyleCategories" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Bing_Aerial_f5493bd2_8aeb_44e3_92d6_b54d1fb73bde</id>
+      <datasource>type=xyz&amp;url=http://ecn.t3.tiles.virtualearth.net/tiles/a%7Bq%7D.jpeg?g%3D1&amp;zmax=18&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Bing Aerial</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeOn="0" colorizeBlue="128" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyMaxScale="1" readOnly="0" refreshOnNotifyEnabled="0" type="vector" simplifyLocal="1" minScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" styleCategories="AllStyleCategories" labelsEnabled="1" simplifyDrawingHints="1" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0">
       <extent>
         <xmin>144.12710200000000782</xmin>
@@ -648,13 +826,6 @@
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -693,7 +864,6 @@
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -734,7 +904,6 @@
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -773,7 +942,6 @@
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -812,7 +980,6 @@
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
@@ -1292,13 +1459,6 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -1337,7 +1497,6 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1378,7 +1537,6 @@ def my_form_open(dialog, layer, feature):
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -1417,7 +1575,6 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -1456,7 +1613,6 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
@@ -1495,6 +1651,170 @@ def my_form_open(dialog, layer, feature):
       <widgets/>
       <previewExpression>"name"</previewExpression>
       <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" styleCategories="AllStyleCategories" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Road_f05391c3_3bd9_4694_9ac1_fcb0d298a280</id>
+      <datasource>type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=18&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Road</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeOn="0" colorizeBlue="128" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" styleCategories="AllStyleCategories" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Satellite_394a4938_61a9_4cac_a448_23e6699c60a3</id>
+      <datasource>type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=18&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Satellite</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeOn="0" colorizeBlue="128" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyMaxScale="1" readOnly="0" refreshOnNotifyEnabled="0" type="vector" simplifyLocal="1" minScale="1e+08" simplifyDrawingTol="1" geometry="Point" styleCategories="AllStyleCategories" labelsEnabled="1" simplifyDrawingHints="0" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" simplifyAlgorithm="0">
       <extent>
@@ -2108,13 +2428,6 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -2153,7 +2466,6 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2194,7 +2506,6 @@ def my_form_open(dialog, layer, feature):
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -2233,7 +2544,6 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -2272,7 +2582,6 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
@@ -3578,13 +3887,6 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -3623,7 +3925,6 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -3664,7 +3965,6 @@ def my_form_open(dialog, layer, feature):
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -3703,7 +4003,6 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -3742,10 +4041,11 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
-      <attributeactions/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
       <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns/>
       </attributetableconfig>
@@ -3784,33 +4084,13 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer hasScaleBasedVisibilityFlag="0" maxScale="0" refreshOnNotifyEnabled="0" type="raster" minScale="1e+08" styleCategories="AllStyleCategories" autoRefreshTime="0" refreshOnNotifyMessage="" autoRefreshEnabled="0">
       <extent>
-        <xmin>-20037508.33999999985098839</xmin>
-        <ymin>-20037508.33999999985098839</ymin>
-        <xmax>20037508.33999999985098839</xmax>
-        <ymax>20037508.33999999985098839</ymax>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>OpenStreetMap20160914000941837</id>
-      <datasource>&lt;GDAL_WMS>
-  &lt;Service name="TMS">
-    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>
-  &lt;/Service>
-  &lt;DataWindow>
-    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>
-    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>
-    &lt;LowerRightX>20037508.34&lt;/LowerRightX>
-    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>
-    &lt;TileLevel>19&lt;/TileLevel>
-    &lt;TileCountX>1&lt;/TileCountX>
-    &lt;TileCountY>1&lt;/TileCountY>
-    &lt;YOrigin>top&lt;/YOrigin>
-  &lt;/DataWindow>
-  &lt;Projection>EPSG:3857&lt;/Projection>
-  &lt;BlockSizeX>256&lt;/BlockSizeX>
-  &lt;BlockSizeY>256&lt;/BlockSizeY>
-  &lt;BandsCount>3&lt;/BandsCount>
-  &lt;Cache />
-&lt;/GDAL_WMS>
-</datasource>
+      <id>OpenStreetMap_125aef9e_58bf_4a6f_85eb_97196f57c7c8</id>
+      <datasource>type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3851,11 +4131,9 @@ def my_form_open(dialog, layer, feature):
         </crs>
         <extent/>
       </resourceMetadata>
-      <provider>gdal</provider>
+      <provider>wms</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
-        <noDataList bandNo="2" useSrcNoData="0"/>
-        <noDataList bandNo="3" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -3866,11 +4144,10 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property value="Value" key="identify/format"/>
-        <property value="OpenStreetMap" key="ol_layer_type"/>
+        <property value="Undefined" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer blueBand="3" type="multibandcolor" greenBand="2" alphaBand="-1" opacity="1" redBand="1">
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -5527,13 +5804,6 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -5572,7 +5842,6 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -5613,7 +5882,6 @@ def my_form_open(dialog, layer, feature):
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -5652,7 +5920,6 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -5691,10 +5958,11 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
-      <attributeactions/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
       <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns/>
       </attributetableconfig>
@@ -6370,13 +6638,6 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -6415,7 +6676,6 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -6456,7 +6716,6 @@ def my_form_open(dialog, layer, feature):
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -6495,7 +6754,6 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -6534,7 +6792,6 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
@@ -7330,13 +7587,6 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -7375,7 +7625,6 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -7416,7 +7665,6 @@ def my_form_open(dialog, layer, feature):
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -7455,7 +7703,6 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -7494,7 +7741,6 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
@@ -8109,13 +8355,6 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
         <alias name="" field="name" index="0"/>
@@ -8154,7 +8393,6 @@ def my_form_open(dialog, layer, feature):
         <alias name="" field="foiType" index="33"/>
         <alias name="" field="rotation" index="34"/>
         <alias name="" field="sym" index="35"/>
-        <alias name="" field="_1" index="36"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -8195,7 +8433,6 @@ def my_form_open(dialog, layer, feature):
         <default field="foiType" expression="" applyOnUpdate="0"/>
         <default field="rotation" expression="" applyOnUpdate="0"/>
         <default field="sym" expression="" applyOnUpdate="0"/>
-        <default field="_1" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint unique_strength="0" field="name" exp_strength="0" notnull_strength="0" constraints="0"/>
@@ -8234,7 +8471,6 @@ def my_form_open(dialog, layer, feature):
         <constraint unique_strength="0" field="foiType" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="rotation" exp_strength="0" notnull_strength="0" constraints="0"/>
         <constraint unique_strength="0" field="sym" exp_strength="0" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" field="_1" exp_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint desc="" field="name" exp=""/>
@@ -8273,7 +8509,6 @@ def my_form_open(dialog, layer, feature):
         <constraint desc="" field="foiType" exp=""/>
         <constraint desc="" field="rotation" exp=""/>
         <constraint desc="" field="sym" exp=""/>
-        <constraint desc="" field="_1" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions/>
@@ -10477,7 +10712,6 @@ def my_form_open(dialog, layer, feature):
     <layer id="six_hydro_areas20160913004959422"/>
     <layer id="rightofway20160913005000550"/>
     <layer id="barrier20160913005007143"/>
-    <layer id="OpenStreetMap20160914000941837"/>
     <layer id="areas2011_modified20170628234628632"/>
     <layer id="roadmap2011_modified20170629000005125"/>
     <layer id="confest_2018_OGRGeoJSON_Point20180316191748887"/>
@@ -10490,6 +10724,10 @@ def my_form_open(dialog, layer, feature):
     <layer id="Minor_Villages_copy20180323215808593"/>
     <layer id="Designated_Areas_copy20180323223518886"/>
     <layer id="Minor_Villages_copy20180323224834553"/>
+    <layer id="Bing_Aerial_f5493bd2_8aeb_44e3_92d6_b54d1fb73bde"/>
+    <layer id="Google_Road_f05391c3_3bd9_4694_9ac1_fcb0d298a280"/>
+    <layer id="Google_Satellite_394a4938_61a9_4cac_a448_23e6699c60a3"/>
+    <layer id="OpenStreetMap_125aef9e_58bf_4a6f_85eb_97196f57c7c8"/>
   </layerorder>
   <properties>
     <WFSUrl type="QString"></WFSUrl>
