@@ -5,7 +5,7 @@ Map of ConFest site
 
 This data is a bit all over the place currently, but we're getting there.
 
-In short, there's a confest.qgs file, which is compatible with QGIS 2.14.
+In short, there's a confest.qgs file, which is compatible with QGIS 3.4.6-Madeira.
 
 This pulls data from the following files:
 
