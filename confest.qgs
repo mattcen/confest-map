@@ -129,24 +129,24 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" type="1" mode="1" tolerance="0" unit="2" enabled="0">
     <individual-layer-settings>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="grid20180322004447807"/>
       <layer-setting type="1" tolerance="0" enabled="1" units="2" id="structure20160913004957103"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180321233038064"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Designated_Areas_copy20180323223518886"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180316191748887"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="No_Camping_copy20180322005945793"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="Minor_Villages_d6262515_4d4d_4a31_a242_cf69f27d9c3d"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_0306ede4_8bf7_4338_a06a_d27578de4ba3"/>
       <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Camping_Areas_copy20180322000346353"/>
       <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_e0e651dd_a8ca_4158_b31c_c761453c452a"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180316191748887"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Polygon20180321233038113"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="grid20180322004447807"/>
       <layer-setting type="1" tolerance="0" enabled="1" units="2" id="rightofway20160913005000550"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323224834553"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="No_Camping_copy20180322005945793"/>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_0306ede4_8bf7_4338_a06a_d27578de4ba3"/>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="Minor_Villages_d6262515_4d4d_4a31_a242_cf69f27d9c3d"/>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="six_hydro_areas20160913004959422"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180321233038064"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Designated_Areas_copy20180323223518886"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Polygon20180321233038113"/>
       <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323215808593"/>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="six_hydro_areas20160913004959422"/>
       <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_LineString20180321233038089"/>
       <layer-setting type="1" tolerance="0" enabled="1" units="2" id="barrier20160913005007143"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323224834553"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -361,7 +361,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -18849,10 +18849,10 @@ def my_form_open(dialog, layer, feature):
       <Insert type="QStringList"/>
       <Update type="QStringList"/>
     </WFSTLayers>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSPrecision type="QString">8</WMSPrecision>
     <ScaleBar>
       <MarginUnit type="QString">MM</MarginUnit>
