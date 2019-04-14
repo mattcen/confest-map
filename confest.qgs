@@ -129,24 +129,24 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" type="1" mode="1" tolerance="0" unit="2" enabled="0">
     <individual-layer-settings>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="barrier20160913005007143"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180316191748887"/>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_e0e651dd_a8ca_4158_b31c_c761453c452a"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Designated_Areas_copy20180323223518886"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323224834553"/>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="structure20160913004957103"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323215808593"/>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="six_hydro_areas20160913004959422"/>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="rightofway20160913005000550"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Camping_Areas_copy20180322000346353"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="grid20180322004447807"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Polygon20180321233038113"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180321233038064"/>
       <layer-setting type="1" tolerance="12" enabled="0" units="1" id="Minor_Villages_d6262515_4d4d_4a31_a242_cf69f27d9c3d"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_LineString20180321233038089"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323224834553"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180316191748887"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180321233038064"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="six_hydro_areas20160913004959422"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_e0e651dd_a8ca_4158_b31c_c761453c452a"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="structure20160913004957103"/>
       <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_0306ede4_8bf7_4338_a06a_d27578de4ba3"/>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2"/>
       <layer-setting type="2" tolerance="0" enabled="0" units="2" id="No_Camping_copy20180322005945793"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="grid20180322004447807"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="rightofway20160913005000550"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323215808593"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_LineString20180321233038089"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="barrier20160913005007143"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Designated_Areas_copy20180323223518886"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Polygon20180321233038113"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Camping_Areas_copy20180322000346353"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -4568,6 +4568,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="TextEdit">
             <config>
@@ -4643,7 +4671,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -4714,6 +4746,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -4783,6 +4819,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -4852,6 +4892,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -5644,6 +5688,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="">
             <config>
@@ -5719,7 +5791,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -5790,6 +5866,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -5859,6 +5939,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -5928,6 +6012,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -6939,6 +7027,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="">
             <config>
@@ -7014,7 +7130,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -7085,6 +7205,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -7154,6 +7278,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -7223,6 +7351,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -8077,6 +8209,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="">
             <config>
@@ -8152,7 +8312,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -8223,6 +8387,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -8292,6 +8460,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -8361,6 +8533,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -9233,6 +9409,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="">
             <config>
@@ -9308,7 +9512,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -9379,6 +9587,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -9448,6 +9660,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -9517,6 +9733,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -10309,6 +10529,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="">
             <config>
@@ -10384,7 +10632,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -10455,6 +10707,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -10524,6 +10780,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -10593,6 +10853,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -12552,6 +12816,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="">
             <config>
@@ -12627,7 +12919,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -12698,6 +12994,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -12767,6 +13067,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -12836,6 +13140,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -13712,6 +14020,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="">
             <config>
@@ -13787,7 +14123,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -13858,6 +14198,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -13927,6 +14271,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -13996,6 +14344,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -15064,6 +15416,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="TextEdit">
             <config>
@@ -15139,7 +15519,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -15210,6 +15594,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -15279,6 +15667,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -15348,6 +15740,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -16383,6 +16779,34 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="marker-color">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="_1">
           <editWidget type="TextEdit">
             <config>
@@ -16458,7 +16882,11 @@ def my_form_open(dialog, layer, feature):
         <alias name="" index="63" field="holes"/>
         <alias name="" index="64" field="id"/>
         <alias name="" index="65" field="info"/>
-        <alias name="" index="66" field="_1"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+        <alias name="" index="70" field="_1"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -16529,6 +16957,10 @@ def my_form_open(dialog, layer, feature):
         <default applyOnUpdate="0" expression="" field="holes"/>
         <default applyOnUpdate="0" expression="" field="id"/>
         <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
         <default applyOnUpdate="0" expression="" field="_1"/>
       </defaults>
       <constraints>
@@ -16598,6 +17030,10 @@ def my_form_open(dialog, layer, feature):
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_1" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
@@ -16667,6 +17103,10 @@ def my_form_open(dialog, layer, feature):
         <constraint exp="" field="holes" desc=""/>
         <constraint exp="" field="id" desc=""/>
         <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
         <constraint exp="" field="_1" desc=""/>
       </constraintExpressions>
       <expressionfields/>
@@ -19297,7 +19737,7 @@ def my_form_open(dialog, layer, feature):
         <value>project_version</value>
       </variableNames>
       <variableValues type="QStringList">
-        <value>20190415021856</value>
+        <value>20190415025853</value>
       </variableValues>
     </Variables>
     <WFSLayers type="QStringList"/>
