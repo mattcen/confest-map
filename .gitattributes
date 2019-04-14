@@ -1,0 +1,2 @@
+*.geojson diff=geojson
+# git config diff.geojson.textconv ./js
