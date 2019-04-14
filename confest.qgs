@@ -49,6 +49,9 @@
     <layer-tree-layer name="Major points" providerKey="ogr" checked="Qt::Checked" id="confest_OGRGeoJSON_Point20180321233038064" expanded="1" source="./confest.geojson|layername=confest|geometrytype=Point">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer name="Toilets" providerKey="ogr" checked="Qt::Checked" id="Major_points_2e95b907_24f6_471e_9818_c2341da345fb" expanded="1" source="./confest.geojson|layername=confest|geometrytype=Point">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer name="Minor Villages" providerKey="ogr" checked="Qt::Checked" id="confest_OGRGeoJSON_Point20180316191748887" expanded="1" source="./confest.geojson|layername=confest|geometrytype=Point">
       <customproperties/>
     </layer-tree-layer>
@@ -125,38 +128,40 @@
       <item>2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_0306ede4_8bf7_4338_a06a_d27578de4ba3</item>
       <item>2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2</item>
       <item>Minor_Villages_d6262515_4d4d_4a31_a242_cf69f27d9c3d</item>
+      <item>Major_points_2e95b907_24f6_471e_9818_c2341da345fb</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" type="1" mode="1" tolerance="0" unit="2" enabled="0">
     <individual-layer-settings>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="Minor_Villages_d6262515_4d4d_4a31_a242_cf69f27d9c3d"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323224834553"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180316191748887"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180321233038064"/>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="six_hydro_areas20160913004959422"/>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_e0e651dd_a8ca_4158_b31c_c761453c452a"/>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="structure20160913004957103"/>
       <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_0306ede4_8bf7_4338_a06a_d27578de4ba3"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="No_Camping_copy20180322005945793"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="grid20180322004447807"/>
-      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="rightofway20160913005000550"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323215808593"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_LineString20180321233038089"/>
       <layer-setting type="1" tolerance="0" enabled="1" units="2" id="barrier20160913005007143"/>
-      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2"/>
-      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Designated_Areas_copy20180323223518886"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="Minor_Villages_d6262515_4d4d_4a31_a242_cf69f27d9c3d"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="six_hydro_areas20160913004959422"/>
       <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Polygon20180321233038113"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="Major_points_2e95b907_24f6_471e_9818_c2341da345fb"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323224834553"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Designated_Areas_copy20180323223518886"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="No_Camping_copy20180322005945793"/>
       <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Camping_Areas_copy20180322000346353"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="Minor_Villages_copy20180323215808593"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180321233038064"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="rightofway20160913005000550"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_LineString20180321233038089"/>
+      <layer-setting type="1" tolerance="12" enabled="0" units="1" id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_e0e651dd_a8ca_4158_b31c_c761453c452a"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="grid20180322004447807"/>
+      <layer-setting type="2" tolerance="0" enabled="0" units="2" id="confest_OGRGeoJSON_Point20180316191748887"/>
+      <layer-setting type="1" tolerance="0" enabled="1" units="2" id="structure20160913004957103"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>239744.94375195881002583</xmin>
-      <ymin>6106524.3260146202519536</ymin>
-      <xmax>240124.86669011993217282</xmax>
-      <ymax>6107016.02036783751100302</ymax>
+      <xmin>239868.55406422013766132</xmin>
+      <ymin>6106477.07940637785941362</ymin>
+      <xmax>240248.47700238125980832</xmax>
+      <ymax>6106968.77375959511846304</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -217,6 +222,11 @@
     <legendlayer showFeatureCount="0" drawingOrder="-1" name="Major points" checked="Qt::Checked" open="true">
       <filegroup hidden="false" open="true">
         <legendlayerfile layerid="confest_OGRGeoJSON_Point20180321233038064" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" name="Toilets" checked="Qt::Checked" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Major_points_2e95b907_24f6_471e_9818_c2341da345fb" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer showFeatureCount="0" drawingOrder="-1" name="Minor Villages" checked="Qt::Checked" open="true">
@@ -6219,6 +6229,1399 @@ def my_form_open(dialog, layer, feature):
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" maxScale="-4.65661e-10" minScale="1e+08" simplifyLocal="1" type="vector" simplifyMaxScale="1" geometry="Point" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" readOnly="0">
+      <extent>
+        <xmin>143.31717599999998924</xmin>
+        <ymin>-36.12976199999999949</ymin>
+        <xmax>148.58339399999999841</xmax>
+        <ymax>-34.37478899999999982</ymax>
+      </extent>
+      <id>Major_points_2e95b907_24f6_471e_9818_c2341da345fb</id>
+      <datasource>./confest.geojson|layername=confest|geometrytype=Point</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Toilets</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" minx="0" miny="0" maxz="0" maxx="0" minz="0" dimensions="2" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="0">
+        <rules key="{0f8b11c6-9f6b-4fc0-8f6d-2ce0dcd6c75b}">
+          <rule key="{5d157b76-f833-46bc-b484-206a10e46b26}" symbol="0" label="Toilet" filter="&quot;poiType&quot;='toilet'"/>
+        </rules>
+        <symbols>
+          <symbol force_rhr="0" type="marker" name="0" clip_to_extent="1" alpha="1">
+            <layer class="SvgMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="15,15,15,255" k="color"/>
+              <prop v="0" k="fixedAspectRatio"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="amenity/amenity_toilets.svg" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="255,255,255,255" k="outline_color"/>
+              <prop v="0.1" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="5" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="rule-based">
+        <rules key="{94e8fab1-45a8-46a5-949b-409763cc2a56}">
+          <rule key="{d3772109-424f-4c6e-a937-a8b20880b274}" active="0" filter="&quot;detail&quot;='1'">
+            <settings>
+              <text-style fontWordSpacing="0" textOpacity="1" blendMode="0" fontItalic="0" multilineHeight="1" fontWeight="50" fontStrikeout="0" fontSize="13" fontSizeUnit="Point" isExpression="0" fontCapitals="0" fontLetterSpacing="0" fontFamily=".SF NS Text" useSubstitutions="0" fieldName="label" previewBkgrdColor="#ffffff" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontUnderline="0" namedStyle="" textColor="0,0,0,255">
+                <text-buffer bufferJoinStyle="64" bufferOpacity="1" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="255,255,255,255" bufferBlendMode="0"/>
+                <background shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeSVGFile="" shapeOffsetX="0" shapeSizeUnit="MM" shapeType="0" shapeBorderWidth="0" shapeRadiiY="0" shapeRadiiX="0" shapeOffsetY="0" shapeBorderColor="128,128,128,255" shapeOffsetUnit="MM" shapeRotationType="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeSizeY="0" shapeBlendMode="0" shapeRotation="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeDraw="0" shapeRadiiUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeSizeType="0" shapeFillColor="255,255,255,255"/>
+                <shadow shadowDraw="0" shadowUnder="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadius="1.5" shadowOffsetDist="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowScale="100" shadowOffsetUnit="MM" shadowRadiusUnit="MM" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowOffsetGlobal="1" shadowRadiusAlphaOnly="0" shadowBlendMode="6"/>
+                <substitutions/>
+              </text-style>
+              <text-format leftDirectionSymbol="&lt;" autoWrapLength="0" multilineAlign="0" plussign="0" wrapChar="" useMaxLineLengthForAutoWrap="1" rightDirectionSymbol=">" addDirectionSymbol="0" decimals="3" placeDirectionSymbol="0" reverseDirectionSymbol="0" formatNumbers="0"/>
+              <placement priority="5" fitInPolygonOnly="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="0" rotationAngle="0" maxCurvedCharAngleOut="-20" centroidWhole="0" distUnits="MM" quadOffset="4" offsetType="0" yOffset="0" centroidInside="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetUnits="MapUnit" preserveRotation="1" xOffset="0" dist="0" repeatDistance="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistanceUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" maxCurvedCharAngleIn="20"/>
+              <rendering scaleMax="10000000" scaleVisibility="0" obstacleType="0" maxNumLabels="2000" mergeLines="0" minFeatureSize="0" obstacleFactor="1" fontMaxPixelSize="10000" drawLabels="1" obstacle="1" upsidedownLabels="0" labelPerPart="0" fontMinPixelSize="3" zIndex="0" limitNumLabels="0" scaleMin="1" displayAll="0" fontLimitPixelSize="0"/>
+              <dd_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </dd_properties>
+            </settings>
+          </rule>
+          <rule key="{d80101ab-4043-495c-9a8f-8d7e54bc74b9}" filter="&quot;detail&quot;='1' AND &quot;name&quot; != 'Info Tent'">
+            <settings>
+              <text-style fontWordSpacing="0" textOpacity="1" blendMode="0" fontItalic="0" multilineHeight="1" fontWeight="50" fontStrikeout="0" fontSize="10" fontSizeUnit="Point" isExpression="0" fontCapitals="0" fontLetterSpacing="0" fontFamily=".SF NS Text" useSubstitutions="0" fieldName="label" previewBkgrdColor="#ffffff" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontUnderline="0" namedStyle="" textColor="0,0,0,255">
+                <text-buffer bufferJoinStyle="64" bufferOpacity="1" bufferDraw="1" bufferNoFill="0" bufferSize="1" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="255,255,255,255" bufferBlendMode="0"/>
+                <background shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeSVGFile="" shapeOffsetX="0" shapeSizeUnit="MM" shapeType="0" shapeBorderWidth="0" shapeRadiiY="0" shapeRadiiX="0" shapeOffsetY="0" shapeBorderColor="128,128,128,255" shapeOffsetUnit="MM" shapeRotationType="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeSizeY="0" shapeBlendMode="0" shapeRotation="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeDraw="0" shapeRadiiUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeSizeType="0" shapeFillColor="255,255,255,255"/>
+                <shadow shadowDraw="0" shadowUnder="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadius="1.5" shadowOffsetDist="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowScale="100" shadowOffsetUnit="MM" shadowRadiusUnit="MM" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowOffsetGlobal="1" shadowRadiusAlphaOnly="0" shadowBlendMode="6"/>
+                <substitutions/>
+              </text-style>
+              <text-format leftDirectionSymbol="&lt;" autoWrapLength="0" multilineAlign="0" plussign="0" wrapChar="" useMaxLineLengthForAutoWrap="1" rightDirectionSymbol=">" addDirectionSymbol="0" decimals="3" placeDirectionSymbol="0" reverseDirectionSymbol="0" formatNumbers="0"/>
+              <placement priority="5" fitInPolygonOnly="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="0" rotationAngle="0" maxCurvedCharAngleOut="-20" centroidWhole="0" distUnits="MM" quadOffset="4" offsetType="0" yOffset="0" centroidInside="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetUnits="MapUnit" preserveRotation="1" xOffset="0" dist="2" repeatDistance="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistanceUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" maxCurvedCharAngleIn="20"/>
+              <rendering scaleMax="10000000" scaleVisibility="0" obstacleType="0" maxNumLabels="2000" mergeLines="0" minFeatureSize="0" obstacleFactor="1" fontMaxPixelSize="10000" drawLabels="1" obstacle="1" upsidedownLabels="0" labelPerPart="0" fontMinPixelSize="3" zIndex="0" limitNumLabels="0" scaleMin="1" displayAll="0" fontLimitPixelSize="0"/>
+              <dd_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </dd_properties>
+            </settings>
+          </rule>
+        </rules>
+      </labeling>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value=".SF NS Text"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="13"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="0"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Pie" attributeLegend="1">
+        <DiagramCategory opacity="1" width="15" barWidth="5" maxScaleDenominator="1e+08" sizeType="MM" lineSizeType="MM" penWidth="0" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" scaleBasedVisibility="0" enabled="0" penAlpha="255" scaleDependency="Area" height="15" backgroundAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270" minScaleDenominator="-4.65661e-10" backgroundColor="#ffffff" labelPlacementMethod="XHeight" minimumSize="0">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" label="" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" obstacle="0" linePlacementFlags="2" dist="0" showAll="1" placement="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="poiType">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="row">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="col">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rown">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coln">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="description">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="timestamp">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PKUID">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="topoid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="createdate">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objectmodd">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featuremod">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="classsubty">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="featurerel">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="attributer">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="capturesou">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="capturemet">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="planimetri">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="verticalac">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hydronameo">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hydroname">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hydronamet">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="perenniali">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hydrotype">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="relevance">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Length">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Layer">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SubClasses">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ExtendedEntity">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Linetype">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EntityHandle">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Text">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="detail">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="source">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="time">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coordTimes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="_umap_options">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="_storage_options">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="QString" name="IsMultiline" value="0"/>
+                <Option type="QString" name="UseHtml" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FType">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Owner">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Usage">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Status">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Surface">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Restriction">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Lanes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GlobalID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="created_user">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="created_date">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="last_edited_user">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="last_edited_date">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VehicleTravel">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VehicleRequirement">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VehicleLimitation">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_Length">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="holes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="info">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-color">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-size">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="marker-symbol">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="foiType">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="name"/>
+        <alias name="" index="1" field="poiType"/>
+        <alias name="" index="2" field="row"/>
+        <alias name="" index="3" field="col"/>
+        <alias name="" index="4" field="rown"/>
+        <alias name="" index="5" field="coln"/>
+        <alias name="" index="6" field="label"/>
+        <alias name="" index="7" field="description"/>
+        <alias name="" index="8" field="timestamp"/>
+        <alias name="" index="9" field="PKUID"/>
+        <alias name="" index="10" field="objectid"/>
+        <alias name="" index="11" field="topoid"/>
+        <alias name="" index="12" field="createdate"/>
+        <alias name="" index="13" field="objectmodd"/>
+        <alias name="" index="14" field="featuremod"/>
+        <alias name="" index="15" field="classsubty"/>
+        <alias name="" index="16" field="featurerel"/>
+        <alias name="" index="17" field="attributer"/>
+        <alias name="" index="18" field="capturesou"/>
+        <alias name="" index="19" field="capturemet"/>
+        <alias name="" index="20" field="planimetri"/>
+        <alias name="" index="21" field="verticalac"/>
+        <alias name="" index="22" field="hydronameo"/>
+        <alias name="" index="23" field="hydroname"/>
+        <alias name="" index="24" field="hydronamet"/>
+        <alias name="" index="25" field="perenniali"/>
+        <alias name="" index="26" field="hydrotype"/>
+        <alias name="" index="27" field="relevance"/>
+        <alias name="" index="28" field="Shape_Leng"/>
+        <alias name="" index="29" field="Shape_Length"/>
+        <alias name="" index="30" field="Shape_Area"/>
+        <alias name="" index="31" field="Layer"/>
+        <alias name="" index="32" field="SubClasses"/>
+        <alias name="" index="33" field="ExtendedEntity"/>
+        <alias name="" index="34" field="Linetype"/>
+        <alias name="" index="35" field="EntityHandle"/>
+        <alias name="" index="36" field="Text"/>
+        <alias name="" index="37" field="detail"/>
+        <alias name="" index="38" field="source"/>
+        <alias name="" index="39" field="time"/>
+        <alias name="" index="40" field="coordTimes"/>
+        <alias name="" index="41" field="_umap_options"/>
+        <alias name="" index="42" field=""/>
+        <alias name="" index="43" field="_storage_options"/>
+        <alias name="" index="44" field="FType"/>
+        <alias name="" index="45" field="Owner"/>
+        <alias name="" index="46" field="Usage"/>
+        <alias name="" index="47" field="Status"/>
+        <alias name="" index="48" field="Surface"/>
+        <alias name="" index="49" field="Restriction"/>
+        <alias name="" index="50" field="Lanes"/>
+        <alias name="" index="51" field="Name"/>
+        <alias name="" index="52" field="GlobalID"/>
+        <alias name="" index="53" field="created_user"/>
+        <alias name="" index="54" field="created_date"/>
+        <alias name="" index="55" field="last_edited_user"/>
+        <alias name="" index="56" field="last_edited_date"/>
+        <alias name="" index="57" field="VehicleTravel"/>
+        <alias name="" index="58" field="VehicleRequirement"/>
+        <alias name="" index="59" field="VehicleLimitation"/>
+        <alias name="" index="60" field="SHAPE_Length"/>
+        <alias name="" index="61" field="lat"/>
+        <alias name="" index="62" field="lng"/>
+        <alias name="" index="63" field="holes"/>
+        <alias name="" index="64" field="id"/>
+        <alias name="" index="65" field="info"/>
+        <alias name="" index="66" field="marker-color"/>
+        <alias name="" index="67" field="marker-size"/>
+        <alias name="" index="68" field="marker-symbol"/>
+        <alias name="" index="69" field="foiType"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="name"/>
+        <default applyOnUpdate="0" expression="" field="poiType"/>
+        <default applyOnUpdate="0" expression="" field="row"/>
+        <default applyOnUpdate="0" expression="" field="col"/>
+        <default applyOnUpdate="0" expression="" field="rown"/>
+        <default applyOnUpdate="0" expression="" field="coln"/>
+        <default applyOnUpdate="0" expression="" field="label"/>
+        <default applyOnUpdate="0" expression="" field="description"/>
+        <default applyOnUpdate="0" expression="" field="timestamp"/>
+        <default applyOnUpdate="0" expression="" field="PKUID"/>
+        <default applyOnUpdate="0" expression="" field="objectid"/>
+        <default applyOnUpdate="0" expression="" field="topoid"/>
+        <default applyOnUpdate="0" expression="" field="createdate"/>
+        <default applyOnUpdate="0" expression="" field="objectmodd"/>
+        <default applyOnUpdate="0" expression="" field="featuremod"/>
+        <default applyOnUpdate="0" expression="" field="classsubty"/>
+        <default applyOnUpdate="0" expression="" field="featurerel"/>
+        <default applyOnUpdate="0" expression="" field="attributer"/>
+        <default applyOnUpdate="0" expression="" field="capturesou"/>
+        <default applyOnUpdate="0" expression="" field="capturemet"/>
+        <default applyOnUpdate="0" expression="" field="planimetri"/>
+        <default applyOnUpdate="0" expression="" field="verticalac"/>
+        <default applyOnUpdate="0" expression="" field="hydronameo"/>
+        <default applyOnUpdate="0" expression="" field="hydroname"/>
+        <default applyOnUpdate="0" expression="" field="hydronamet"/>
+        <default applyOnUpdate="0" expression="" field="perenniali"/>
+        <default applyOnUpdate="0" expression="" field="hydrotype"/>
+        <default applyOnUpdate="0" expression="" field="relevance"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Leng"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Length"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Area"/>
+        <default applyOnUpdate="0" expression="" field="Layer"/>
+        <default applyOnUpdate="0" expression="" field="SubClasses"/>
+        <default applyOnUpdate="0" expression="" field="ExtendedEntity"/>
+        <default applyOnUpdate="0" expression="" field="Linetype"/>
+        <default applyOnUpdate="0" expression="" field="EntityHandle"/>
+        <default applyOnUpdate="0" expression="" field="Text"/>
+        <default applyOnUpdate="0" expression="" field="detail"/>
+        <default applyOnUpdate="0" expression="" field="source"/>
+        <default applyOnUpdate="0" expression="" field="time"/>
+        <default applyOnUpdate="0" expression="" field="coordTimes"/>
+        <default applyOnUpdate="0" expression="" field="_umap_options"/>
+        <default applyOnUpdate="0" expression="" field=""/>
+        <default applyOnUpdate="0" expression="" field="_storage_options"/>
+        <default applyOnUpdate="0" expression="" field="FType"/>
+        <default applyOnUpdate="0" expression="" field="Owner"/>
+        <default applyOnUpdate="0" expression="" field="Usage"/>
+        <default applyOnUpdate="0" expression="" field="Status"/>
+        <default applyOnUpdate="0" expression="" field="Surface"/>
+        <default applyOnUpdate="0" expression="" field="Restriction"/>
+        <default applyOnUpdate="0" expression="" field="Lanes"/>
+        <default applyOnUpdate="0" expression="" field="Name"/>
+        <default applyOnUpdate="0" expression="" field="GlobalID"/>
+        <default applyOnUpdate="0" expression="" field="created_user"/>
+        <default applyOnUpdate="0" expression="" field="created_date"/>
+        <default applyOnUpdate="0" expression="" field="last_edited_user"/>
+        <default applyOnUpdate="0" expression="" field="last_edited_date"/>
+        <default applyOnUpdate="0" expression="" field="VehicleTravel"/>
+        <default applyOnUpdate="0" expression="" field="VehicleRequirement"/>
+        <default applyOnUpdate="0" expression="" field="VehicleLimitation"/>
+        <default applyOnUpdate="0" expression="" field="SHAPE_Length"/>
+        <default applyOnUpdate="0" expression="" field="lat"/>
+        <default applyOnUpdate="0" expression="" field="lng"/>
+        <default applyOnUpdate="0" expression="" field="holes"/>
+        <default applyOnUpdate="0" expression="" field="id"/>
+        <default applyOnUpdate="0" expression="" field="info"/>
+        <default applyOnUpdate="0" expression="" field="marker-color"/>
+        <default applyOnUpdate="0" expression="" field="marker-size"/>
+        <default applyOnUpdate="0" expression="" field="marker-symbol"/>
+        <default applyOnUpdate="0" expression="" field="foiType"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="name" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="poiType" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="row" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="col" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="rown" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="coln" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="label" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="description" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="timestamp" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="PKUID" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="objectid" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="topoid" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="createdate" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="objectmodd" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="featuremod" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="classsubty" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="featurerel" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="attributer" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="capturesou" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="capturemet" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="planimetri" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="verticalac" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="hydronameo" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="hydroname" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="hydronamet" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="perenniali" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="hydrotype" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="relevance" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Shape_Leng" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Shape_Length" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Shape_Area" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Layer" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="SubClasses" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="ExtendedEntity" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Linetype" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="EntityHandle" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Text" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="detail" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="source" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="time" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="coordTimes" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_umap_options" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="_storage_options" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="FType" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Owner" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Usage" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Status" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Surface" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Restriction" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Lanes" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="Name" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="GlobalID" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="created_user" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="created_date" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="last_edited_user" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="last_edited_date" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="VehicleTravel" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="VehicleRequirement" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="VehicleLimitation" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="SHAPE_Length" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="lat" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="lng" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="holes" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="id" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="info" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-color" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-size" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="marker-symbol" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" notnull_strength="0" field="foiType" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="name" desc=""/>
+        <constraint exp="" field="poiType" desc=""/>
+        <constraint exp="" field="row" desc=""/>
+        <constraint exp="" field="col" desc=""/>
+        <constraint exp="" field="rown" desc=""/>
+        <constraint exp="" field="coln" desc=""/>
+        <constraint exp="" field="label" desc=""/>
+        <constraint exp="" field="description" desc=""/>
+        <constraint exp="" field="timestamp" desc=""/>
+        <constraint exp="" field="PKUID" desc=""/>
+        <constraint exp="" field="objectid" desc=""/>
+        <constraint exp="" field="topoid" desc=""/>
+        <constraint exp="" field="createdate" desc=""/>
+        <constraint exp="" field="objectmodd" desc=""/>
+        <constraint exp="" field="featuremod" desc=""/>
+        <constraint exp="" field="classsubty" desc=""/>
+        <constraint exp="" field="featurerel" desc=""/>
+        <constraint exp="" field="attributer" desc=""/>
+        <constraint exp="" field="capturesou" desc=""/>
+        <constraint exp="" field="capturemet" desc=""/>
+        <constraint exp="" field="planimetri" desc=""/>
+        <constraint exp="" field="verticalac" desc=""/>
+        <constraint exp="" field="hydronameo" desc=""/>
+        <constraint exp="" field="hydroname" desc=""/>
+        <constraint exp="" field="hydronamet" desc=""/>
+        <constraint exp="" field="perenniali" desc=""/>
+        <constraint exp="" field="hydrotype" desc=""/>
+        <constraint exp="" field="relevance" desc=""/>
+        <constraint exp="" field="Shape_Leng" desc=""/>
+        <constraint exp="" field="Shape_Length" desc=""/>
+        <constraint exp="" field="Shape_Area" desc=""/>
+        <constraint exp="" field="Layer" desc=""/>
+        <constraint exp="" field="SubClasses" desc=""/>
+        <constraint exp="" field="ExtendedEntity" desc=""/>
+        <constraint exp="" field="Linetype" desc=""/>
+        <constraint exp="" field="EntityHandle" desc=""/>
+        <constraint exp="" field="Text" desc=""/>
+        <constraint exp="" field="detail" desc=""/>
+        <constraint exp="" field="source" desc=""/>
+        <constraint exp="" field="time" desc=""/>
+        <constraint exp="" field="coordTimes" desc=""/>
+        <constraint exp="" field="_umap_options" desc=""/>
+        <constraint exp="" field="" desc=""/>
+        <constraint exp="" field="_storage_options" desc=""/>
+        <constraint exp="" field="FType" desc=""/>
+        <constraint exp="" field="Owner" desc=""/>
+        <constraint exp="" field="Usage" desc=""/>
+        <constraint exp="" field="Status" desc=""/>
+        <constraint exp="" field="Surface" desc=""/>
+        <constraint exp="" field="Restriction" desc=""/>
+        <constraint exp="" field="Lanes" desc=""/>
+        <constraint exp="" field="Name" desc=""/>
+        <constraint exp="" field="GlobalID" desc=""/>
+        <constraint exp="" field="created_user" desc=""/>
+        <constraint exp="" field="created_date" desc=""/>
+        <constraint exp="" field="last_edited_user" desc=""/>
+        <constraint exp="" field="last_edited_date" desc=""/>
+        <constraint exp="" field="VehicleTravel" desc=""/>
+        <constraint exp="" field="VehicleRequirement" desc=""/>
+        <constraint exp="" field="VehicleLimitation" desc=""/>
+        <constraint exp="" field="SHAPE_Length" desc=""/>
+        <constraint exp="" field="lat" desc=""/>
+        <constraint exp="" field="lng" desc=""/>
+        <constraint exp="" field="holes" desc=""/>
+        <constraint exp="" field="id" desc=""/>
+        <constraint exp="" field="info" desc=""/>
+        <constraint exp="" field="marker-color" desc=""/>
+        <constraint exp="" field="marker-size" desc=""/>
+        <constraint exp="" field="marker-symbol" desc=""/>
+        <constraint exp="" field="foiType" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" name="name" hidden="0" width="-1"/>
+          <column type="field" name="poiType" hidden="0" width="-1"/>
+          <column type="field" name="row" hidden="0" width="-1"/>
+          <column type="field" name="col" hidden="0" width="-1"/>
+          <column type="field" name="rown" hidden="0" width="-1"/>
+          <column type="field" name="coln" hidden="0" width="-1"/>
+          <column type="field" name="label" hidden="0" width="-1"/>
+          <column type="field" name="description" hidden="0" width="-1"/>
+          <column type="field" name="timestamp" hidden="0" width="-1"/>
+          <column type="field" name="PKUID" hidden="0" width="-1"/>
+          <column type="field" name="objectid" hidden="0" width="-1"/>
+          <column type="field" name="topoid" hidden="0" width="-1"/>
+          <column type="field" name="createdate" hidden="0" width="-1"/>
+          <column type="field" name="objectmodd" hidden="0" width="-1"/>
+          <column type="field" name="featuremod" hidden="0" width="-1"/>
+          <column type="field" name="classsubty" hidden="0" width="-1"/>
+          <column type="field" name="featurerel" hidden="0" width="-1"/>
+          <column type="field" name="attributer" hidden="0" width="-1"/>
+          <column type="field" name="capturesou" hidden="0" width="-1"/>
+          <column type="field" name="capturemet" hidden="0" width="-1"/>
+          <column type="field" name="planimetri" hidden="0" width="-1"/>
+          <column type="field" name="verticalac" hidden="0" width="-1"/>
+          <column type="field" name="hydronameo" hidden="0" width="-1"/>
+          <column type="field" name="hydroname" hidden="0" width="-1"/>
+          <column type="field" name="hydronamet" hidden="0" width="-1"/>
+          <column type="field" name="perenniali" hidden="0" width="-1"/>
+          <column type="field" name="hydrotype" hidden="0" width="-1"/>
+          <column type="field" name="relevance" hidden="0" width="-1"/>
+          <column type="field" name="Shape_Leng" hidden="0" width="-1"/>
+          <column type="field" name="Shape_Length" hidden="0" width="-1"/>
+          <column type="field" name="Shape_Area" hidden="0" width="-1"/>
+          <column type="field" name="Layer" hidden="0" width="-1"/>
+          <column type="field" name="SubClasses" hidden="0" width="-1"/>
+          <column type="field" name="ExtendedEntity" hidden="0" width="-1"/>
+          <column type="field" name="Linetype" hidden="0" width="-1"/>
+          <column type="field" name="EntityHandle" hidden="0" width="-1"/>
+          <column type="field" name="Text" hidden="0" width="-1"/>
+          <column type="field" name="detail" hidden="0" width="-1"/>
+          <column type="field" name="source" hidden="0" width="-1"/>
+          <column type="field" name="time" hidden="0" width="-1"/>
+          <column type="field" name="coordTimes" hidden="0" width="-1"/>
+          <column type="field" name="_umap_options" hidden="0" width="-1"/>
+          <column type="field" name="" hidden="0" width="-1"/>
+          <column type="field" name="_storage_options" hidden="0" width="-1"/>
+          <column type="field" name="FType" hidden="0" width="-1"/>
+          <column type="field" name="Owner" hidden="0" width="-1"/>
+          <column type="field" name="Usage" hidden="0" width="-1"/>
+          <column type="field" name="Status" hidden="0" width="-1"/>
+          <column type="field" name="Surface" hidden="0" width="-1"/>
+          <column type="field" name="Restriction" hidden="0" width="-1"/>
+          <column type="field" name="Lanes" hidden="0" width="-1"/>
+          <column type="field" name="Name" hidden="0" width="-1"/>
+          <column type="field" name="GlobalID" hidden="0" width="-1"/>
+          <column type="field" name="created_user" hidden="0" width="-1"/>
+          <column type="field" name="created_date" hidden="0" width="-1"/>
+          <column type="field" name="last_edited_user" hidden="0" width="-1"/>
+          <column type="field" name="last_edited_date" hidden="0" width="-1"/>
+          <column type="field" name="VehicleTravel" hidden="0" width="-1"/>
+          <column type="field" name="VehicleRequirement" hidden="0" width="-1"/>
+          <column type="field" name="VehicleLimitation" hidden="0" width="-1"/>
+          <column type="field" name="SHAPE_Length" hidden="0" width="-1"/>
+          <column type="field" name="lat" hidden="0" width="-1"/>
+          <column type="field" name="lng" hidden="0" width="-1"/>
+          <column type="field" name="holes" hidden="0" width="-1"/>
+          <column type="field" name="id" hidden="0" width="-1"/>
+          <column type="field" name="info" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+          <column type="field" name="marker-color" hidden="0" width="-1"/>
+          <column type="field" name="marker-size" hidden="0" width="-1"/>
+          <column type="field" name="marker-symbol" hidden="0" width="-1"/>
+          <column type="field" name="foiType" hidden="0" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1">.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="" editable="1"/>
+        <field name="EntityHandle" editable="1"/>
+        <field name="ExtendedEntity" editable="1"/>
+        <field name="FType" editable="1"/>
+        <field name="GlobalID" editable="1"/>
+        <field name="Lanes" editable="1"/>
+        <field name="Layer" editable="1"/>
+        <field name="Linetype" editable="1"/>
+        <field name="Name" editable="1"/>
+        <field name="Owner" editable="1"/>
+        <field name="PKUID" editable="1"/>
+        <field name="Restriction" editable="1"/>
+        <field name="SHAPE_Length" editable="1"/>
+        <field name="Shape_Area" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+        <field name="Shape_Length" editable="1"/>
+        <field name="Status" editable="1"/>
+        <field name="SubClasses" editable="1"/>
+        <field name="Surface" editable="1"/>
+        <field name="Text" editable="1"/>
+        <field name="Usage" editable="1"/>
+        <field name="VehicleLimitation" editable="1"/>
+        <field name="VehicleRequirement" editable="1"/>
+        <field name="VehicleTravel" editable="1"/>
+        <field name="_1" editable="1"/>
+        <field name="_storage_options" editable="1"/>
+        <field name="_umap_options" editable="1"/>
+        <field name="attributer" editable="1"/>
+        <field name="capturemet" editable="1"/>
+        <field name="capturesou" editable="1"/>
+        <field name="classsubty" editable="1"/>
+        <field name="col" editable="1"/>
+        <field name="coln" editable="1"/>
+        <field name="coordTimes" editable="1"/>
+        <field name="created_date" editable="1"/>
+        <field name="created_user" editable="1"/>
+        <field name="createdate" editable="1"/>
+        <field name="description" editable="1"/>
+        <field name="detail" editable="1"/>
+        <field name="featuremod" editable="1"/>
+        <field name="featurerel" editable="1"/>
+        <field name="foiType" editable="1"/>
+        <field name="holes" editable="1"/>
+        <field name="hydroname" editable="1"/>
+        <field name="hydronameo" editable="1"/>
+        <field name="hydronamet" editable="1"/>
+        <field name="hydrotype" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="info" editable="1"/>
+        <field name="label" editable="1"/>
+        <field name="last_edited_date" editable="1"/>
+        <field name="last_edited_user" editable="1"/>
+        <field name="lat" editable="1"/>
+        <field name="lng" editable="1"/>
+        <field name="marker-color" editable="1"/>
+        <field name="marker-size" editable="1"/>
+        <field name="marker-symbol" editable="1"/>
+        <field name="name" editable="1"/>
+        <field name="objectid" editable="1"/>
+        <field name="objectmodd" editable="1"/>
+        <field name="perenniali" editable="1"/>
+        <field name="planimetri" editable="1"/>
+        <field name="poiType" editable="1"/>
+        <field name="relevance" editable="1"/>
+        <field name="row" editable="1"/>
+        <field name="rown" editable="1"/>
+        <field name="source" editable="1"/>
+        <field name="time" editable="1"/>
+        <field name="timestamp" editable="1"/>
+        <field name="topoid" editable="1"/>
+        <field name="verticalac" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name=""/>
+        <field labelOnTop="0" name="EntityHandle"/>
+        <field labelOnTop="0" name="ExtendedEntity"/>
+        <field labelOnTop="0" name="FType"/>
+        <field labelOnTop="0" name="GlobalID"/>
+        <field labelOnTop="0" name="Lanes"/>
+        <field labelOnTop="0" name="Layer"/>
+        <field labelOnTop="0" name="Linetype"/>
+        <field labelOnTop="0" name="Name"/>
+        <field labelOnTop="0" name="Owner"/>
+        <field labelOnTop="0" name="PKUID"/>
+        <field labelOnTop="0" name="Restriction"/>
+        <field labelOnTop="0" name="SHAPE_Length"/>
+        <field labelOnTop="0" name="Shape_Area"/>
+        <field labelOnTop="0" name="Shape_Leng"/>
+        <field labelOnTop="0" name="Shape_Length"/>
+        <field labelOnTop="0" name="Status"/>
+        <field labelOnTop="0" name="SubClasses"/>
+        <field labelOnTop="0" name="Surface"/>
+        <field labelOnTop="0" name="Text"/>
+        <field labelOnTop="0" name="Usage"/>
+        <field labelOnTop="0" name="VehicleLimitation"/>
+        <field labelOnTop="0" name="VehicleRequirement"/>
+        <field labelOnTop="0" name="VehicleTravel"/>
+        <field labelOnTop="0" name="_1"/>
+        <field labelOnTop="0" name="_storage_options"/>
+        <field labelOnTop="0" name="_umap_options"/>
+        <field labelOnTop="0" name="attributer"/>
+        <field labelOnTop="0" name="capturemet"/>
+        <field labelOnTop="0" name="capturesou"/>
+        <field labelOnTop="0" name="classsubty"/>
+        <field labelOnTop="0" name="col"/>
+        <field labelOnTop="0" name="coln"/>
+        <field labelOnTop="0" name="coordTimes"/>
+        <field labelOnTop="0" name="created_date"/>
+        <field labelOnTop="0" name="created_user"/>
+        <field labelOnTop="0" name="createdate"/>
+        <field labelOnTop="0" name="description"/>
+        <field labelOnTop="0" name="detail"/>
+        <field labelOnTop="0" name="featuremod"/>
+        <field labelOnTop="0" name="featurerel"/>
+        <field labelOnTop="0" name="foiType"/>
+        <field labelOnTop="0" name="holes"/>
+        <field labelOnTop="0" name="hydroname"/>
+        <field labelOnTop="0" name="hydronameo"/>
+        <field labelOnTop="0" name="hydronamet"/>
+        <field labelOnTop="0" name="hydrotype"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="info"/>
+        <field labelOnTop="0" name="label"/>
+        <field labelOnTop="0" name="last_edited_date"/>
+        <field labelOnTop="0" name="last_edited_user"/>
+        <field labelOnTop="0" name="lat"/>
+        <field labelOnTop="0" name="lng"/>
+        <field labelOnTop="0" name="marker-color"/>
+        <field labelOnTop="0" name="marker-size"/>
+        <field labelOnTop="0" name="marker-symbol"/>
+        <field labelOnTop="0" name="name"/>
+        <field labelOnTop="0" name="objectid"/>
+        <field labelOnTop="0" name="objectmodd"/>
+        <field labelOnTop="0" name="perenniali"/>
+        <field labelOnTop="0" name="planimetri"/>
+        <field labelOnTop="0" name="poiType"/>
+        <field labelOnTop="0" name="relevance"/>
+        <field labelOnTop="0" name="row"/>
+        <field labelOnTop="0" name="rown"/>
+        <field labelOnTop="0" name="source"/>
+        <field labelOnTop="0" name="time"/>
+        <field labelOnTop="0" name="timestamp"/>
+        <field labelOnTop="0" name="topoid"/>
+        <field labelOnTop="0" name="verticalac"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>name</previewExpression>
+      <mapTip></mapTip>
     </maplayer>
     <maplayer refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+08" simplifyLocal="1" type="vector" simplifyMaxScale="1" geometry="Point" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" styleCategories="AllStyleCategories" simplifyDrawingHints="0" readOnly="0">
       <extent>
@@ -19555,6 +20958,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_0306ede4_8bf7_4338_a06a_d27578de4ba3"/>
     <layer id="2019_Autumn_Confest_Map__Export2009_003_2019_Autumn_Confest_Map__Export2009_003_939ff6b1_bc65_4d10_9935_c0a37ea038d2"/>
     <layer id="Minor_Villages_d6262515_4d4d_4a31_a242_cf69f27d9c3d"/>
+    <layer id="Major_points_2e95b907_24f6_471e_9818_c2341da345fb"/>
   </layerorder>
   <properties>
     <Identify>
@@ -19737,7 +21141,7 @@ def my_form_open(dialog, layer, feature):
         <value>project_version</value>
       </variableNames>
       <variableValues type="QStringList">
-        <value>20190415025853</value>
+        <value>20190415031956</value>
       </variableValues>
     </Variables>
     <WFSLayers type="QStringList"/>
@@ -19910,7 +21314,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem wrapChar="" fontColor="#000000" uuid="{9fee2040-6462-430b-bbb7-e9539147eef8}" splitLayer="0" titleAlignment="1" size="49.9906,82.9984,mm" legendFilterByAtlas="0" opacity="1" positionLock="false" rasterBorder="1" positionOnPage="25.6999,28.6175,mm" referencePoint="0" columnSpace="2" rasterBorderWidth="0" columnCount="1" blendMode="0" visibility="1" boxSpace="2" resizeToContents="1" templateUuid="{9fee2040-6462-430b-bbb7-e9539147eef8}" id="" groupUuid="" frame="true" excludeFromExports="0" background="true" type="65642" title="Legend" wmsLegendWidth="50" equalColumnWidth="0" symbolWidth="7" map_uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" symbolHeight="4" lineSpacing="1" wmsLegendHeight="25" outlineWidthM="0.3,mm" legendFilterByMap="1" zValue="6" position="25.6999,28.6175,mm" frameJoinStyle="miter" rasterBorderColor="0,0,0,255" itemRotation="0">
+      <LayoutItem wrapChar="" fontColor="#000000" uuid="{9fee2040-6462-430b-bbb7-e9539147eef8}" splitLayer="0" titleAlignment="1" size="49.9906,91.9984,mm" legendFilterByAtlas="0" opacity="1" positionLock="false" rasterBorder="1" positionOnPage="25.6999,28.6175,mm" referencePoint="0" columnSpace="2" rasterBorderWidth="0" columnCount="1" blendMode="0" visibility="1" boxSpace="2" resizeToContents="1" templateUuid="{9fee2040-6462-430b-bbb7-e9539147eef8}" id="" groupUuid="" frame="true" excludeFromExports="0" background="true" type="65642" title="Legend" wmsLegendWidth="50" equalColumnWidth="0" symbolWidth="7" map_uuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" symbolHeight="4" lineSpacing="1" wmsLegendHeight="25" outlineWidthM="0.3,mm" legendFilterByMap="1" zValue="6" position="25.6999,28.6175,mm" frameJoinStyle="miter" rasterBorderColor="0,0,0,255" itemRotation="0">
         <FrameColor green="0" red="0" alpha="255" blue="0"/>
         <BackgroundColor green="255" red="255" alpha="255" blue="255"/>
         <LayoutObject>
@@ -19980,7 +21384,14 @@ def my_form_open(dialog, layer, feature):
               <property key="legend/title-style" value="hidden"/>
             </customproperties>
           </layer-tree-layer>
-          <custom-order enabled="0"/>
+          <layer-tree-layer name="Toilets" providerKey="ogr" checked="Qt::Checked" id="Major_points_2e95b907_24f6_471e_9818_c2341da345fb" expanded="1" source="./confest.geojson|layername=confest|geometrytype=Point">
+            <customproperties>
+              <property key="legend/title-label" value=""/>
+            </customproperties>
+          </layer-tree-layer>
+          <custom-order enabled="0">
+            <item>Major_points_2e95b907_24f6_471e_9818_c2341da345fb</item>
+          </custom-order>
         </layer-tree-group>
       </LayoutItem>
       <LayoutItem numSegments="1" height="3" uuid="{3674f1da-52b0-4d0c-bb38-a67bab621a3f}" numSegmentsLeft="0" style="Line Ticks Up" mapUuid="{bfa44d39-3298-4d8e-bb2e-e765a366744a}" unitType="meters" size="26.2898,12.0594,mm" opacity="1" outlineWidth="0.3" minBarWidth="50" positionLock="false" positionOnPage="163.21,28.4675,mm" lineJoinStyle="miter" referencePoint="0" boxContentSpace="1" maxBarWidth="150" segmentSizeMode="0" blendMode="0" visibility="1" numUnitsPerSegment="100" templateUuid="{3674f1da-52b0-4d0c-bb38-a67bab621a3f}" id="" segmentMillimeters="15.9132" groupUuid="" frame="false" labelBarSpace="2" excludeFromExports="0" background="false" numMapUnitsPerScaleBarUnit="1" type="65646" unitLabel="m" lineCapStyle="square" outlineWidthM="0.3,mm" zValue="5" position="163.21,28.4675,mm" frameJoinStyle="miter" alignment="0" itemRotation="0">
