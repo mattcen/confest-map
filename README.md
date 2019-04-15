@@ -10,14 +10,14 @@ In short, there's a confest.qgs file, which is compatible with QGIS 3.4.6-Madeir
 This pulls data from the following files:
 
 * [`AU_ORG_DTE.sqlite`](AU_ORG_DTE.sqlite): Previously collected data in a SQLite database; mostly not used for the site as of 2018
-* [`confest_2018.geojson`](confest_2018.geojson): Most of the latest data for the site frome 2018 onwards
+* [`confest.geojson`](confest.geojson): Most of the latest data for the site frome 2018 onwards
 * [`John20180310/grid.geojson`](John20180310/grid.geojson): A simple grid used for prettying up cartography. Generated with QGIS
 
 There are various other files floating around too.
 
 # uMap
 
-As of 2018, this data has been [published to uMap](https://umap.openstreetmap.fr/en/map/confest-2018_200042) by @mattcen. He also intends to update a [2019 version](https://umap.openstreetmap.fr/en/map/confest-autumn-2019_293972) soon.
+As of 2019, this data has been [published to uMap](https://umap.openstreetmap.fr/en/map/confest-autumn-2019_293972) by @mattcen, and on [Google Maps](https://www.google.com/maps/d/viewer?mid=1jgy2DENfk7HpVSI6hJ-0msGcs_jDB0Kd).
 
 # Dropbox
 
