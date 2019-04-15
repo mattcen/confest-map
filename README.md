@@ -1,6 +1,10 @@
 # confest-map
 Map of ConFest site
 
+# Website with all relevant info
+
+[Online previews and downloads of this map](https://mattcen.github.io/confest-map/) are available.
+
 # How to use this data
 
 This data is a bit all over the place currently, but we're getting there.
