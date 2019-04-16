@@ -21956,7 +21956,7 @@ def my_form_open(dialog, layer, feature):
         <value>project_version</value>
       </variableNames>
       <variableValues type="QStringList">
-        <value>20190416235420</value>
+        <value>20190416235812</value>
       </variableValues>
     </Variables>
     <NorthArrow>
@@ -22541,7 +22541,7 @@ def my_form_open(dialog, layer, feature):
         <property key="imageCropMarginRight" value="0"/>
         <property key="imageCropMarginTop" value="0"/>
         <property key="imageCropToContents" value="false"/>
-        <property key="pdfIncludeMetadata" value="1"/>
+        <property key="pdfIncludeMetadata" value="0"/>
         <property key="pdfTextFormat" value="0"/>
         <property key="svgCropMarginBottom" value="0"/>
         <property key="svgCropMarginLeft" value="0"/>
@@ -22731,7 +22731,7 @@ def my_form_open(dialog, layer, feature):
         <LabelFont description="Helvetica,8,-1,5,75,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
       </LayoutItem>
-      <LayoutItem opacity="1" marginY="1" referencePoint="0" frame="false" htmlState="0" id="" size="309.278,34.3133,mm" marginX="1" excludeFromExports="0" uuid="{598aa8ed-ec9d-49da-b523-18c8bce992ea}" position="279.633,12.8673,mm" frameJoinStyle="miter" itemRotation="0" visibility="1" type="65641" positionLock="false" valign="32" outlineWidthM="0.3,mm" positionOnPage="279.633,12.8673,mm" labelText="ConFest site Autumn 2018" groupUuid="" halign="1" background="false" zValue="2" templateUuid="{598aa8ed-ec9d-49da-b523-18c8bce992ea}" blendMode="0">
+      <LayoutItem opacity="1" marginY="1" referencePoint="0" frame="false" htmlState="0" id="" size="439.145,34.3133,mm" marginX="1" excludeFromExports="0" uuid="{598aa8ed-ec9d-49da-b523-18c8bce992ea}" position="226.107,12.8673,mm" frameJoinStyle="miter" itemRotation="0" visibility="1" type="65641" positionLock="false" valign="32" outlineWidthM="0.3,mm" positionOnPage="226.107,12.8673,mm" labelText="ConFest Autumn 2019 Site Map" groupUuid="" halign="1" background="false" zValue="2" templateUuid="{598aa8ed-ec9d-49da-b523-18c8bce992ea}" blendMode="0">
         <FrameColor red="0" blue="0" green="0" alpha="255"/>
         <BackgroundColor red="255" blue="255" green="255" alpha="255"/>
         <LayoutObject>
