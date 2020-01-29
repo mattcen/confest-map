@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+s="2019 Autumn Confest Map (Export2009)003.geojson";
+s2=${s/geojson/ndjson};
+geojson2ndjson "$s" > "$s2";
+grep '"Layer": *"[^"]*"' -o "$s2" | sort -u |
+  while read -r l;
+  do
+    lfile=${l%\"};
+    lfile=${lfile##*\"}
+    grep -F "$l" "$s2" | ndjson2geojson > layers/"$lfile".geojson;
+  done
+rm "$s2"
