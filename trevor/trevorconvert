@@ -2,7 +2,11 @@
 
 s="2019 Autumn Confest Map (Export2009)003.geojson";
 s2=${s/geojson/ndjson};
-geojson2ndjson "$s" > "$s2";
+cat "$s" |
+sed 's/, *"\(EntityHandle\|Linetype\|SubClasses\)": *"[^"]*"//g' |
+sed 's/\(XAttribute\|Lnkg\) *{[^}]*}//g' |
+sed 's/, *"[^"]*": *\(null\|""\)//g' |
+geojson2ndjson > "$s2";
 grep '"Layer": *"[^"]*"' -o "$s2" | sort -u |
   while read -r l;
   do
