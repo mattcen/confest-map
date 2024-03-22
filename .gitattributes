@@ -1,2 +1,4 @@
 *.geojson diff=geojson
 # git config diff.geojson.textconv ./js
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.gpkg filter=lfs diff=lfs merge=lfs -text
