@@ -7,17 +7,15 @@ Map of ConFest site
 
 # How to use this data
 
-This data is a bit all over the place currently, but we're getting there.
-
-In short, there's a confest.qgs file, which is compatible with QGIS 3.4.6-Madeira.
+In short, there's a confest.qgs file, which is compatible with QGIS 3.34.4-Prizren.
 
 This pulls data from the following files:
 
-* [`AU_ORG_DTE.sqlite`](AU_ORG_DTE.sqlite): Previously collected data in a SQLite database; mostly not used for the site as of 2018
-* [`confest.geojson`](confest.geojson): Most of the latest data for the site frome 2018 onwards
-* [`John20180310/grid.geojson`](John20180310/grid.geojson): A simple grid used for prettying up cartography. Generated with QGIS
-
-There are various other files floating around too.
+- [`data/10cm_contours_cropped.gpkg`](data/10cm_contours_cropped.gpkg): 10cm contour lines
+- [`data/AU_ORG_DTE.gpkg`](data/AU_ORG_DTE.gpkg): Most data collected over the last decade or so by Confest folks
+- [`data/NSW_SIX_Imagery.tif`](data/NSW_SIX_Imagery.tif): Aerial imagery of site by NSW government
+- [`data/dem_woorooma.tif`](data/dem_woorooma.tif): Elevation data as a DEM
+- [`old/fromgeojson.gpkg`](old/fromgeojson.gpkg): Previously used data (much of which came from `AU_ORG_DTE.gpkg` originally) which is now only used by disabled layers, but kept just in case.
 
 # uMap
 
@@ -25,4 +23,4 @@ As of 2019, this data has been [published to uMap](https://umap.openstreetmap.fr
 
 # Dropbox
 
-Finally, this data, and some other data it didn't make sense to publish in Git, is available in a [Dropbox folder](https://www.dropbox.com/sh/j4c8o9xj2wx2p67/AAAuJDneK7WgTZE9Mv25ncu4a?dl=0). This folder needs even more tidying up, but at least all the data's there, for now.
+Finally, this data, and some other data it didn't make sense to publish in Git, is available in a [Dropbox folder](https://www.dropbox.com/sh/j4c8o9xj2wx2p67/AAAuJDneK7WgTZE9Mv25ncu4a?dl=0).
