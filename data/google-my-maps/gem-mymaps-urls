@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+
+import sys
+import urllib.parse
+
+base_url = "https://www.google.com/maps/d/"
+kml_base_url = base_url + "kml"
+viewer_base_url = base_url + "viewer"
+force_kml = {"forcekml":1}
+
+map_id = sys.argv[1]
+if "/" in map_id:
+    map_id = urllib.parse.parse_qs(urllib.parse.urlparse(map_id).query)["mid"][0]
+#map_id = "1l92XSUGu53rUPI5loQ12eOQ5qyx33MI"
+
+query = {"mid": map_id}
+
+viewer_url = viewer_base_url + "?" + urllib.parse.urlencode(query)
+kmz_url = kml_base_url + "?" + urllib.parse.urlencode(query)
+kml_url = kml_base_url + "?" + urllib.parse.urlencode(query | force_kml)
+
+print(viewer_url)
+print(kmz_url)
+print(kml_url)

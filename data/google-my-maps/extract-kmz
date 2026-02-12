@@ -1,0 +1,7 @@
+#!/bin/sh
+for f in *.kmz
+do
+  mkdir -p "$f".dir
+  rm -rf "$f".dir/*
+  unzip "$f" -d "$f".dir
+done
