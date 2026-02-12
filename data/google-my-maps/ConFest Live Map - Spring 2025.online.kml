@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ConFest Live Map - Spring 2025</name>
+    <description><![CDATA[www.confest.org.au/map - Anyone can add to this crowdsourced ConFest Live Map. How-to edit: https://docs.google.com/document/d/1xvPF9ig_dGeAMnI26uI3uVWLHhbQGFIK5iIeULIF4o4/edit?usp=sharing<br><br>Data from this live map will be used to plan the next ConFest Spring 2025 event. Thanks for your input, please feel free to add anything to the map.<br><br>Collaborative Mapping process facilitated by Dane Murray, ConFest Mapping Facilitator, Spring ConFest 2025. Email: confest.maps@gmail.com or dane@spaceman.events 👨🏼‍🚀]]></description>
+    <NetworkLink>
+      <name>ConFest Live Map - Spring 2025</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=1YoKkSgVyrLDoc4TaGaCVRdRT3sbYvNU]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>

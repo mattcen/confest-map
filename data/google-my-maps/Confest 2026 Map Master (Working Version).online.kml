@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Confest 2026 Map Master (Working Version)</name>
+    <description><![CDATA[PICS: https://drive.google.com/drive/folders/1PnTOl7zU_twZUZBT8XWfIMN60Wg6P6a0?usp=drive_link <br><br>VaAS Locations map - Jimmy & Kirrily NYE 2025/2026 combined with Existing water maps - 2024.<br>Mapping Team 2026 - Dane, Kirrily, Jimmy, Shell]]></description>
+    <NetworkLink>
+      <name>Confest 2026 Map Master (Working Version)</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=1l92XSUGu53rUPI5loQ12eOQ5qyx33MI]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
