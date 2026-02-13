@@ -1,0 +1,12 @@
+#!/bin/sh
+
+inurl='https://www.google.com/maps/d/kml?mid=1l92XSUGu53rUPI5loQ12eOQ5qyx33MI'
+
+wget -nv -N --xattr --content-disposition --trust-server-names "$inurl" "${inurl}&forcekml=1"
+
+infile='Confest 2026 Map Master (Working Version).kmz'
+
+git add -u -- *.kml
+git commit -m "MyMaps data update"
+
+ogr2ogr "${infile%.*}.gpkg" "${infile}"
