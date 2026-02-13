@@ -24,15 +24,6 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1502-880E4F-labelson">
-      <IconStyle>
-        <color>ff4f0e88</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="icon-1502-A52714-labelson">
       <IconStyle>
         <color>ff1427a5</color>
@@ -1223,32 +1214,32 @@
         <styleUrl>#line-880E4F-1200-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-9C27B0-2550-nodesc-normal">
+    <Style id="line-A52714-2733-nodesc-normal">
       <LineStyle>
-        <color>ffb0279c</color>
-        <width>2.55</width>
+        <color>ff1427a5</color>
+        <width>2.733</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-9C27B0-2550-nodesc-highlight">
+    <Style id="line-A52714-2733-nodesc-highlight">
       <LineStyle>
-        <color>ffb0279c</color>
-        <width>3.825</width>
+        <color>ff1427a5</color>
+        <width>4.0995</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-9C27B0-2550-nodesc">
+    <StyleMap id="line-A52714-2733-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-9C27B0-2550-nodesc-normal</styleUrl>
+        <styleUrl>#line-A52714-2733-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-9C27B0-2550-nodesc-highlight</styleUrl>
+        <styleUrl>#line-A52714-2733-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-E65100-3696-nodesc-normal">
@@ -1353,44 +1344,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#poly-000000-1200-230-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="poly-000000-1200-232-nodesc-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>e8000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-000000-1200-232-nodesc-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>1.8</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>e8000000</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-000000-1200-232-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-000000-1200-232-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-000000-1200-232-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-000000-398-224-nodesc-normal">
@@ -2307,16 +2260,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>##Likely moving.## Sway-cation</name>
-        <description><![CDATA[///ornament.lining.decorate<br>Not clearing , many trees for hammocks]]></description>
-        <styleUrl>#icon-1502-880E4F-labelson</styleUrl>
-        <Point>
-          <coordinates>
-            144.1444267,-35.1486991,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Sydney Village #To Confirm#</name>
         <description>#Unconfirmed#</description>
         <styleUrl>#icon-1502-C2185B-labelson</styleUrl>
@@ -2389,11 +2332,11 @@
       <name>Forest Gates</name>
       <Placemark>
         <name>Gate 1 -Western Gate</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq_hWLb_iYmSjUzAw6P9fMtl3ifYf7IpEJr3i-aFpZYvdvjqjR6b332oqwa7smGainfT-3ZOsAhKOEaUgrIjlmlCdePgknYSAcfjZXAsMbI4z9anPxz4S2knv-guaSpOUQ3HIZAYZUZk8styI4RSZMroo989VI8FG9vtckdA6cAoulb0ToRRcktTO5gN1K_ukibmNsZ0GUIb9aF_CdpuSaWN2-lmRf75IZZ2y7YgZieKDD7bXHff8Sz8MU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqTH-Ui5YQ3TRiWixvVDux9rRAz0a2JZVbSn-EWycl0n4nf1wnAwgTb1XKjnpVKAmfjrbie4MO4JClCVXPCiZlWOUFGz9eeTasMgT9DOjLJr5Ci0T3RJuauSOYJFR22oImBuwAULNI70ONtBJgTDY0e2pnLh1FI8nk0GJc3eZKGuBCmMa2ZKR_NZraggs6DspMsPZcCMe4OdRcOuyr_uxRImoZvnptoGUDnv9VinodaihOQRIQlCf3MWv4?fife=s16383" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
         <styleUrl>#icon-1662-A52714-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq_hWLb_iYmSjUzAw6P9fMtl3ifYf7IpEJr3i-aFpZYvdvjqjR6b332oqwa7smGainfT-3ZOsAhKOEaUgrIjlmlCdePgknYSAcfjZXAsMbI4z9anPxz4S2knv-guaSpOUQ3HIZAYZUZk8styI4RSZMroo989VI8FG9vtckdA6cAoulb0ToRRcktTO5gN1K_ukibmNsZ0GUIb9aF_CdpuSaWN2-lmRf75IZZ2y7YgZieKDD7bXHff8Sz8MU?authuser=0&fife=s16383]]></value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqTH-Ui5YQ3TRiWixvVDux9rRAz0a2JZVbSn-EWycl0n4nf1wnAwgTb1XKjnpVKAmfjrbie4MO4JClCVXPCiZlWOUFGz9eeTasMgT9DOjLJr5Ci0T3RJuauSOYJFR22oImBuwAULNI70ONtBJgTDY0e2pnLh1FI8nk0GJc3eZKGuBCmMa2ZKR_NZraggs6DspMsPZcCMe4OdRcOuyr_uxRImoZvnptoGUDnv9VinodaihOQRIQlCf3MWv4?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -5203,57 +5146,77 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Bus Route</name>
-        <styleUrl>#line-9C27B0-2550-nodesc</styleUrl>
+        <name>Bus route</name>
+        <styleUrl>#line-A52714-2733-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            144.149475,-35.1469291,0
-            144.1485577,-35.1497057,0
-            144.1484182,-35.150039,0
-            144.1482037,-35.1501969,0
-            144.1478711,-35.1503197,0
-            144.1475438,-35.1505127,0
-            144.147399,-35.1505215,0
-            144.1472595,-35.1504162,0
-            144.1469001,-35.1500434,0
-            144.1465461,-35.1497758,0
-            144.146251,-35.1494995,0
-            144.1459399,-35.1491618,0
-            144.1458272,-35.1490346,0
-            144.1457575,-35.148846,0
-            144.145625,-35.148546,0
-            144.1456006,-35.1484161,0
-            144.1454772,-35.1482242,0
-            144.1453753,-35.1481058,0
-            144.1451339,-35.1479106,0
-            144.144948,-35.147758,0
-            144.144757,-35.1475948,0
-            144.144701,-35.147537,0
-            144.1447047,-35.1474095,0
-            144.1446873,-35.147189,0
-            144.1446725,-35.1471123,0
-            144.1446618,-35.1470125,0
-            144.1447034,-35.1468699,0
-            144.1448067,-35.1466846,0
-            144.1448978,-35.1465936,0
-            144.1449864,-35.1465278,0
-            144.1453981,-35.1465453,0
-            144.1461156,-35.1465706,0
-            144.1462403,-35.1465695,0
-            144.1465917,-35.1465311,0
-            144.1471858,-35.1464423,0
-            144.147391,-35.146349,0
-            144.1475653,-35.1461966,0
-            144.1478268,-35.1458413,0
-            144.1480079,-35.1454992,0
-            144.1482654,-35.144862,0
-            144.1483324,-35.1446657,0
-            144.1485175,-35.1442666,0
-            144.1486905,-35.1439244,0
-            144.1488112,-35.1437391,0
-            144.148842,-35.1436481,0
-            144.1488085,-35.1435538,0
+            144.1485729,-35.143408,0
+            144.1488572,-35.143601,0
+            144.1491469,-35.1436756,0
+            144.149855,-35.1437546,0
+            144.1503914,-35.1438072,0
+            144.1506596,-35.1438686,0
+            144.1507776,-35.144009,0
+            144.1507669,-35.1441801,0
+            144.1506006,-35.1446538,0
+            144.150091,-35.1458645,0
+            144.1499515,-35.1461101,0
+            144.1497101,-35.1465224,0
+            144.1495492,-35.1468251,0
+            144.149458,-35.14704,0
+            144.1493239,-35.1473997,0
+            144.1491227,-35.1479941,0
+            144.1488304,-35.1488911,0
+            144.1486828,-35.1493385,0
+            144.1485407,-35.1497551,0
+            144.1484817,-35.1499065,0
+            144.1484254,-35.1500074,0
+            144.1483395,-35.1501082,0
+            144.1482188,-35.1501916,0
+            144.1480713,-35.1502486,0
+            144.1478889,-35.1503188,0
+            144.1477414,-35.1503846,0
+            144.1475992,-35.1504767,0
+            144.1475027,-35.1505227,0
+            144.1474034,-35.1505161,0
+            144.1473096,-35.1504679,0
+            144.1472291,-35.150389,0
+            144.1470655,-35.1502157,0
+            144.14669,-35.1498889,0
+            144.1464164,-35.1496477,0
+            144.1460731,-35.1493231,0
+            144.1459175,-35.1491542,0
+            144.1458531,-35.149049,0
+            144.1457941,-35.148902,0
+            144.1456975,-35.1486213,0
+            144.1455661,-35.1483318,0
+            144.1454749,-35.1482134,0
+            144.1453515,-35.1480971,0
+            144.1449304,-35.1477769,0
+            144.1447024,-35.1475116,0
+            144.144689,-35.1472879,0
+            144.1446703,-35.1470335,0
+            144.1446837,-35.1468865,0
+            144.144791,-35.1467176,0
+            144.1449197,-35.1465751,0
+            144.1450055,-35.1465334,0
+            144.1455768,-35.1465444,0
+            144.1462662,-35.1465685,0
+            144.1467034,-35.1465181,0
+            144.1470896,-35.1464588,0
+            144.14739,-35.1463733,0
+            144.1475188,-35.1462439,0
+            144.1476234,-35.1461386,0
+            144.1479801,-35.1455925,0
+            144.1481544,-35.1452021,0
+            144.1482778,-35.1448183,0
+            144.1483422,-35.1446319,0
+            144.1484951,-35.1443182,0
+            144.1486399,-35.14402,0
+            144.1487606,-35.143827,0
+            144.1488277,-35.1436756,0
+            144.1488599,-35.143601,0
           </coordinates>
         </LineString>
       </Placemark>
@@ -22046,7 +22009,7 @@
       </Placemark>
       <Placemark>
         <name>No Access - Aboriginal / Environmental Area</name>
-        <styleUrl>#poly-000000-1200-232-nodesc</styleUrl>
+        <styleUrl>#poly-000000-1200-230-nodesc</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
