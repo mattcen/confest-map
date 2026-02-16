@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Confest 2026 Map Master (Working Version)</name>
-    <description><![CDATA[PICS: https://drive.google.com/drive/folders/1PnTOl7zU_twZUZBT8XWfIMN60Wg6P6a0?usp=drive_link <br><br>VaAS Locations map - Jimmy & Kirrily NYE 2025/2026 combined with Existing water maps - 2024.<br>Mapping Team 2026 - Dane, Kirrily, Jimmy, Shell]]></description>
+    <description><![CDATA[PICS: https://drive.google.com/drive/folders/1PnTOl7zU_twZUZBT8XWfIMN60Wg6P6a0?usp=drive_link <br><br>VaAS Locations map - Jimmy & Kirrily NYE 2025/2026 combined with Existing water maps - 2024.<br>Base by - Kirrily, Jimmy<br>Contributions by: Shell, Glenn, Dane]]></description>
     <Style id="icon-1502-7CB342-labelson">
       <IconStyle>
         <color>ff42b37c</color>
@@ -1836,7 +1836,7 @@
         <styleUrl>#icon-1522-673AB7-labelson</styleUrl>
         <Point>
           <coordinates>
-            144.1443552,-35.1466771,0
+            144.144382,-35.1467243,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2066,7 +2066,7 @@
         <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
         <Point>
           <coordinates>
-            144.1444263,-35.1466939,0
+            144.1443458,-35.1466829,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2332,11 +2332,11 @@
       <name>Forest Gates</name>
       <Placemark>
         <name>Gate 1 -Western Gate</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor9EB4tnW4uVkpE7ty5qGaJ2C9lv6FPAtFMhUFxuixCLxYN3oUpC9IJWET70lx52HvGSVktdxGKlwtTrLvBlgqSX5ePTfd1gEKbz7SccJJQi5gdUSgwB_QiAh1lbUe8Ju8-f_DG48YtRHHsnj0K4uc6PR2Nw7tNIizfUZFn6bGcoyoajnTNrYI7Rh2ZSKolcUPtHEFNRIzYfUQMdrPBk33US2rFcOC4B8eC5dGuDx-eeFmlXZksxag4sK8?fife=s16383" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqIu7E6T7sXMBmg1xJdPThHWbHWLZ0J2H4xURgxdpgGi57iw5j5_DotrZiz5YCEkE89vaot5yqLurHgeLw3AJOXt3slk7fVTQ1HbE1ffkRdv7ERxCnD3vOXLAeQGykph8K6PdzsMJo5hUKfEeLrJOMw4MEHEeSd2pigui024zmohpyW62HHDuMuqxHwHVge-l77XjaZvAOg-E5B2adZbAl2iFX59Fom-EVyKZ4LWZwg2PyflpGQqF5VXM0?fife=s16383" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
         <styleUrl>#icon-1662-A52714-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor9EB4tnW4uVkpE7ty5qGaJ2C9lv6FPAtFMhUFxuixCLxYN3oUpC9IJWET70lx52HvGSVktdxGKlwtTrLvBlgqSX5ePTfd1gEKbz7SccJJQi5gdUSgwB_QiAh1lbUe8Ju8-f_DG48YtRHHsnj0K4uc6PR2Nw7tNIizfUZFn6bGcoyoajnTNrYI7Rh2ZSKolcUPtHEFNRIzYfUQMdrPBk33US2rFcOC4B8eC5dGuDx-eeFmlXZksxag4sK8?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqIu7E6T7sXMBmg1xJdPThHWbHWLZ0J2H4xURgxdpgGi57iw5j5_DotrZiz5YCEkE89vaot5yqLurHgeLw3AJOXt3slk7fVTQ1HbE1ffkRdv7ERxCnD3vOXLAeQGykph8K6PdzsMJo5hUKfEeLrJOMw4MEHEeSd2pigui024zmohpyW62HHDuMuqxHwHVge-l77XjaZvAOg-E5B2adZbAl2iFX59Fom-EVyKZ4LWZwg2PyflpGQqF5VXM0?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
