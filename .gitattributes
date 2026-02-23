@@ -1,2 +1,5 @@
-*.geojson diff=geojson
 # git config diff.geojson.textconv ./js
+*.geojson diff=geojson
+# git config diff.sqlite.textconv ./.bin/sqlite-dump
+*.gpkg diff=sqlite
+*.sqlite diff=sqlite
