@@ -1,2 +1,4 @@
 *.zip
 *.sqlite
+*-shm
+*-wal
