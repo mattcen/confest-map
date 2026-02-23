@@ -1,0 +1,25 @@
+#!/bin/sh
+if [ "$#" -eq 1 ]
+then
+  exec sqlite3 "$1" .dump
+elif [ "$#" -eq 7 ]
+then
+  path=$1
+  old_file=$2
+  old_hex=$3
+  old_mode=$4
+  new_file=$5
+  new_hex=$6
+  new_mode=$7
+
+  if type sqldiff >/dev/null
+  then
+    sqldiff "$old_file" "$new_file"
+    rm -f "$old_file"-wal "$old_file"-shm "$new_file"-wal "$new_file"-shm
+  else
+    exec git diff -c diff.sqlite.command= -c diff.sqlite.textconv="$0" "$path"
+  fi
+else
+  echo "Invalid args: Accepts 1 (for textconv), or 7 (for diff)"
+  exit 1
+fi
