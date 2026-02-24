@@ -1,5 +1,7 @@
-# git config diff.geojson.textconv ./js
-*.geojson diff=geojson
+# git config diff.json.textconv ./.bin/json
+*.json diff=json
+*.geojson diff=json
+*.umap diff=json
 # git config diff.sqlite.textconv ./.bin/git-sqldiff
 # git config diff.sqlite.command ./.bin/git-sqldiff
 # git config diff.sqlite.binary true
