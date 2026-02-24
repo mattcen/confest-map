@@ -1,7 +1,8 @@
 #!/bin/sh
 if [ "$#" -eq 1 ]
 then
-  exec sqlite3 "$1" .dump
+  sqlite3 "$1" .dump
+  rm "$1"-wal "$1"-shm
 elif [ "$#" -eq 7 ]
 then
   path=$1
