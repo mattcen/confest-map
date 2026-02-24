@@ -7,3 +7,6 @@
 # git config diff.sqlite.binary true
 *.gpkg diff=sqlite
 *.sqlite diff=sqlite
+# git config diff.xml.textconv ./.bin/xmldiff
+*.qgs diff=xml
+*.kml diff=xml
