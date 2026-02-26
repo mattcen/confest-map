@@ -2,7 +2,7 @@
 if [ "$#" -eq 1 ]
 then
   sqlite3 "$1" .dump
-  rm "$1"-wal "$1"-shm
+  rm -f "$1"-wal "$1"-shm
 elif [ "$#" -eq 7 ]
 then
   path=$1
