@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Gates, Bus Stops & Beach Names 2026 Autumn ConFest]]></name>
+    <description/>
+    <Style id="icon-1255-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1255-poi-gated-community.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1423-labelson">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1521-E65100-labelson">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name><![CDATA[Gates, Bus Stops & Beaches]]></name>
+      <Placemark>
+        <name>Gate 1</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.150743,-35.144312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gate 2</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.149499,-35.146904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gate 3</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.147631,-35.146129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gate 4</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.148736,-35.143752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evolution Road Gate</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.149411,-35.149473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Way Gate</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.148779,-35.150037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tortoise Track Gate</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.147622,-35.15058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Battery Track Gate</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.146785,-35.150865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mislocation Road Gate</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.146743,-35.150847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Axis Pass Gate</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.145475,-35.149385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arts Gate</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1255-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.1445742,-35.1476343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Bus Stop</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1423-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.14858,-35.149734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bliss Bus Stop</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1423-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.147421,-35.150549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Family Bus Stop</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1423-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.14646,-35.149777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Acrotown Bus Stop</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1423-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.145765,-35.148966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arts Bus Stop</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1423-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.144592,-35.14711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arts Beach</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1521-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.143046,-35.147298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset Beach</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1521-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.139467,-35.149312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rope Swingers Beach</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1521-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.144655,-35.151005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunrise Beach</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1521-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.151356,-35.152393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Upstream Dream Beach</name>
+        <description><![CDATA[Added by: <br>Added when: <br>Data source: <br>description: <br>visited: <br>Name: ]]></description>
+        <styleUrl>#icon-1521-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Added by">
+            <value/>
+          </Data>
+          <Data name="Added when">
+            <value/>
+          </Data>
+          <Data name="Data source">
+            <value/>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+          <Data name="visited">
+            <value/>
+          </Data>
+          <Data name="Name">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.150462,-35.147709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

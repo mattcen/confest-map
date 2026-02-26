@@ -1,0 +1,5 @@
+#!/bin/sh
+cut -d, -f1 ../gmaps.csv |
+  xargs -n1 ../gen-mymaps-urls |
+  grep -v viewer |
+  xargs wget -nv -N --xattr --content-disposition --trust-server-names
