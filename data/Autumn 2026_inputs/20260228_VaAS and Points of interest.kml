@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>VaAS / Points of interest</name>
+    <Style id="icon-1502-7CB342-labelson">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1502-7CB342-labelson-nodesc">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1502-880E4F-labelson">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1502-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1502-C2185B-labelson">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1521-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1522-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1558-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1574-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1591-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1603-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1608-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1685-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1788-A52714-labelson-nodesc">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>Playground</name>
+      <description>///maturity.movements.sweaty</description>
+      <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1474295,-35.1498188,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Info Tent</name>
+      <description><![CDATA[///generosity.reflections.finals<br>(Estimated)]]></description>
+      <styleUrl>#icon-1608-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1462751,-35.1492471,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>First Aid</name>
+      <description>///sloppy.caged.dissolving</description>
+      <styleUrl>#icon-1558-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1471706,-35.1480096,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ranger</name>
+      <description>///carpeted.fishes.derive</description>
+      <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1472872,-35.1480907,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Site Ops</name>
+      <description>///exact.buck.sensuality</description>
+      <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.147357,-35.1479854,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hive Kitchen</name>
+      <description>///electrode.filmed.confiding</description>
+      <styleUrl>#icon-1591-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1460013,-35.1472967,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lifeguard Beach</name>
+      <description>///hangdog.slowly.fascinating</description>
+      <styleUrl>#icon-1521-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1431558,-35.1473027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Labrynth</name>
+      <description>///censorship.flipping.lifetimes</description>
+      <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1438265,-35.1476174,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Market</name>
+      <description>///tearooms.puffed.polite</description>
+      <styleUrl>#icon-1685-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1480248,-35.1494629,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Market Tree Pole Gate</name>
+      <description>///piled.thermometer.crossroad</description>
+      <styleUrl>#icon-1608-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1469991,-35.1490688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bike Crew</name>
+      <description>///risk.warmer.dropped</description>
+      <styleUrl>#icon-1522-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.144382,-35.1467243,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sunset Beach</name>
+      <description>///burgers.dreary.preferably</description>
+      <styleUrl>#icon-1521-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1399055,-35.1494355,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wellness</name>
+      <description>#ESTIMATE#</description>
+      <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.147426,-35.1481101,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fire Team</name>
+      <description>#Estimate#</description>
+      <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1468342,-35.1477844,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ticket Box</name>
+      <description>#estimate#</description>
+      <styleUrl>#icon-1603-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.146265,-35.1379566,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Welcome Crew</name>
+      <description>#Estimate#</description>
+      <styleUrl>#icon-1603-1A237E-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1462301,-35.1377109,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Acrotown</name>
+      <description><![CDATA[///rarity.brother.prance<br>13m Radius]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1443604,-35.1495504,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arts - Body Painting</name>
+      <description><![CDATA[///salvaging.blouse.evidence<br>11 x 21]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1434134,-35.147656,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arts - Marigold </name>
+      <description><![CDATA[///rivalry.intonation.budget<br>6m Radius ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1436026,-35.1476686,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arts - Mud Pit</name>
+      <description><![CDATA[///detained.tailed.causing<br>11m Radius ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1426906,-35.1474904,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arts - Sauna</name>
+      <description><![CDATA[///stand.dependents.airing<br>3m Radius ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1430582,-35.1473866,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arts - Showers </name>
+      <description><![CDATA[///streams.pavements.unshed<br>6 m Radius ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1429335,-35.1474132,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arts - Space Lounge</name>
+      <description><![CDATA[///irrigation.softest.fixated<br>4.5m Radius ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1434334,-35.1473268,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bliss</name>
+      <description><![CDATA[///outer.toffee.sphere<br>20 x 11.5m<br>Cooking Circle + Taps]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1481322,-35.150818,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carp Exitus</name>
+      <description><![CDATA[///excuse.sunset.mirage<br>5 x 10m]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1445798,-35.1504109,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Checkmates</name>
+      <description><![CDATA[///dilute.sleepless.slingshot<br>15 x 13m]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1414842,-35.1477252,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Consent </name>
+      <description><![CDATA[///blesses.toasts.disruptive<br>12 x 30.5]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1445935,-35.1482594,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Consent star tent</name>
+      <description><![CDATA[///identity.determining.viewfinder<br>10m Radius ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1448392,-35.1483085,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Craft Cafe </name>
+      <description><![CDATA[///bingo.sweeteners.panics<br>5 x 14m]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1437566,-35.1474537,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Didirri</name>
+      <description><![CDATA[///unscrewed.comebacks.repressive<br>8.5m Radius ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1497714,-35.1497254,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Discussion Space</name>
+      <description><![CDATA[///acknowledge.timeliness.chosen<br>7m Radius]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1442456,-35.1488586,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Drumming Circle/Workshop</name>
+      <description>///icicle.wakes.compromises</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1459416,-35.1483805,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Drumming Kitchen</name>
+      <description>///yeast.scrambling.appointed</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1450571,-35.1475389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Erina Stage</name>
+      <description>#Approx#</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1443458,-35.1466829,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Evolve</name>
+      <description>Shell: position as discussed with River 17/02/2026</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1406365,-35.1490207,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Family Village</name>
+      <description>Added by Shell 22/02/26 based on previous years</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1455477,-35.1500765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fire Tribe</name>
+      <description>///drumsticks.crumbling.crunching</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1462783,-35.1485932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gypsy</name>
+      <description>///carnivorous.assortment.extinction</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1490641,-35.1491736,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kali</name>
+      <description><![CDATA[///pavilion.midnight.jumping<br>10 x 5m]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1475934,-35.1509953,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Muni Marquee</name>
+      <description><![CDATA[///medicate.raisin.straddled<br>17x24m]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.14963,-35.1498231,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nudies</name>
+      <description><![CDATA[///rashers.frying.composers <br>24.5 x 17]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1428927,-35.1487425,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Open Stage</name>
+      <description><![CDATA[///equestrian.deflection.prowling<br>12 x 12]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1433127,-35.1496721,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Polyamory Space</name>
+      <description><![CDATA[///sculptors.prequel.trigger<br>6.5m r]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1507166,-35.1520085,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puzzle Cafe</name>
+      <description>Shell updated location 22/02/26 in discussion with Kate. [NB this w3w is probably incorrect: ///peering.probe.masters]</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1463631,-35.1509091,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Permaculture</name>
+      <description>Added by Shell 22/02/26 after discussing with Bryan</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1456462,-35.1504767,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Presence Tent</name>
+      <description><![CDATA[///submitting.bagger.spirit<br>6.5 Radius]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1440931,-35.1479158,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rainbow</name>
+      <description><![CDATA[///concessions.pursued.shuttling<br>Shell: location edited as discussed with Teacosy 13/02/2026]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1492453,-35.1501781,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Silent Disco</name>
+      <description>///heartened.automotive.ideal</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1488205,-35.14966,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Travelling Vulva Tent</name>
+      <description><![CDATA[///matchmaker.motivational.outlined<br>24.5 x 10.5<br><br>Add new marker closer to road]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1442743,-35.1482736,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Uncertainty - lounge</name>
+      <styleUrl>#icon-1502-7CB342-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          144.1458564,-35.1507766,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Uncertainty - workshop space</name>
+      <description><![CDATA[///song.darted.joining<br>7m Radius]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1457301,-35.150783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Veg Out</name>
+      <description><![CDATA[///stadiums.obligated.bespoke<br>8.5 x 35m]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1420873,-35.1474895,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Village the Spectrum</name>
+      <description>///organ.walked.stockroom</description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1449794,-35.1471455,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>White gums </name>
+      <description><![CDATA[///drools.notepads.finals<br>7.5 x 21m ]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1438255,-35.1482646,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wilding Village</name>
+      <description><![CDATA[///lenders.founds.clarified<br>7m Radius]]></description>
+      <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1437126,-35.148565,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unicorns #needs confirmation#</name>
+      <description>#Approx#</description>
+      <styleUrl>#icon-1502-C2185B-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1464587,-35.1498777,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sydney Village #To Confirm#</name>
+      <description>#Unconfirmed#</description>
+      <styleUrl>#icon-1502-C2185B-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.142232,-35.1478847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#P# Swaycation A</name>
+      <styleUrl>#icon-1788-A52714-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          144.1455795,-35.1481449,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#P# Swaycation B</name>
+      <styleUrl>#icon-1788-A52714-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          144.1469723,-35.1504552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#P# Life Drawing</name>
+      <description><![CDATA[///sleek.patent.irritable<br>11 x 7 m ]]></description>
+      <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1440306,-35.1485559,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name># Confirm# Aboriginal</name>
+      <description>#needs W3W and confirmation</description>
+      <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1452911,-35.148684,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Travelling Vulva Tent</name>
+      <description>#Approx# - Smaller space in a big clearing</description>
+      <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1441082,-35.1483077,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AH - Uncle Dennis Workshop Space</name>
+      <description>confirm w/ Suzie - around 26/2</description>
+      <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1452089,-35.1466372,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Red Tent</name>
+      <description>#approx - shares space with Vulva#</description>
+      <styleUrl>#icon-1502-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1440762,-35.1482916,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
