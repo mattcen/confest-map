@@ -1,0 +1,64 @@
+1. 1x Info tent large format map: Aluminium Composite Panel 1200 x 900mm -- I notice this isn't quite a standard size (A0 is 841 x 1189 mm) - though perhaps accounted for by border.
+2. Visitor site map signage placed at gates: Plastic Election Signs 600 x 900mm (again, close to A1 but not quite).
+
+Agreed (minimum) layers for all of these signs:
+- Grid Reference Overlay
+- Roads and (driveable) tracks (98% done)
+- Taps (NYE layer from J/K, may want to check 2024-5 layers for this too)
+- Fixed Structures (EMT / first aid, Hive)
+- Tranquillity borders (if we can get them in time - think possibly updated)
+- Points of Interest (beach/es, playground)
+- Market Zone borders
+- No access Aboriginal (heritage?) zones (as per above, need to update)
+- No camping conservation zones (oldish maps and/or recent files from Rory - see data folder)
+
+Additionally for the corflute signs and for the online pdf map:
+- Villages confirmed via VaAS coordinators (leaving off the info tent map because plan is to reuse for up to 5 years)
+
+Things not listed that I want to include on some or all maps:
+- Camping/parking zones (currently updating - final work depends on Aboriginal heritage zones)
+- info tent
+- open stage (might count as a VaAs)
+
+Plus if possible - not confirmed yet:
+- toilets + disabled toilet (apparently they hire one now, old fixed one not functional)
+- cooking circles
+- emergency radios
+
+---
+
+- [x] Taps (NYE layer from J/K, may want to check 2024-5 layers for this too)
+- [x] Fixed Structures (EMT / first aid, Hive)
+- [ ] Tranquility borders (if we can get them in time - think possibly updated)
+- [x] Points of Interest (beach/es, playground)
+- [ ] Market Zone borders
+- [x] info tent
+- [ ] toilets
+- [x] cooking circles
+- [ ] emergency radios
+- [x] Tracks
+
+---
+
+# TODO
+
+- Ping ahosie about map updates
+- Update Major Points layer styles:
+  - 'The Hive' -> 'Hive Kitchen'
+  - Add symbols for Bike Crew, Playground, Site Ops?
+- Add QGIS layer filter to Toilets: "source" like '%2024%'
+- Update layers in Dropbox:
+  - major_points
+  - plumbing_points
+  - Cooking
+  - Villages
+  - Disposal
+
+---
+
+update plumbing_points set text='too_close' where fid in (
+SELECT  pp_old.fid FROM plumbing_points as pp_old  JOIN plumbing_points as pp_new ON st_distance(
+pp_old.geom, pp_new.geom) < 20
+ WHERE  pp_old.source is  null and pp_old.geom is not null and pp_old.type = 'tap' and pp_old.text is null
+ and pp_new.source LIKE '%2026%' and pp_new.geom is not null);
+
