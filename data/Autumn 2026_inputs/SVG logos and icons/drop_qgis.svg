@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg
  width="83.8mm"
  height="139mm"
  viewBox="0 0 83.8 139"
  version="1.1"
  xmlns="http://www.w3.org/2000/svg"
- xmlns:svg="http://www.w3.org/2000/svg">
- <defs>
-  <clipPath id="cp1">
-   <path class="powerclip" d="m-5-5h93.8v149h-93.8zm12.3 104c-0.193 18.2 16.8 27.8 28.4 31.3 6.19 1.88 9.88-6.5 2.75-9.72-8.43-3.8-18.2-8.6-22.1-24-1.33-5.26-8.96-6.02-9.04 2.38z"/>
-  </clipPath>
- </defs>
-  <path
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <path
    fill="param(fill) #00ccff" fill-opacity="param(fill-opacity) 1" stroke="param(outline) none" stroke-opacity="param(outline-opacity) 1" stroke-width="param(outline-width) 1" clip-path="url(#cp1)"
-   d="m83.8 98.1c0 22.3-18.8 40.5-41.9 40.5-23.2 0-41.9-18.1-41.9-40.5-3e-6 -22.3 24.1-40.7 41.9-98.1 17.3 57.7 41.9 75.8 41.9 98.1z" />
+   d="m41.9 0c-17.8 57.4-41.9 75.8-41.9 98.1 0 22.4 18.7 40.5 41.9 40.5 23.1 0 41.9-18.2 41.9-40.5 0-22.3-24.6-40.4-41.9-98.1zm-30.1 92.6c1.97 0.00812 3.97 1.49 4.6 3.95 3.9 15.4 13.7 20.2 22.1 24 7.13 3.22 3.44 11.6-2.75 9.72-11.6-3.5-28.6-13.1-28.4-31.3l0.0103-0.0403c0.0425-4.46 2.22-6.34 4.44-6.33z"/>
   <metadata>
    <rdf:RDF>
     <cc:Work rdf:about="">
