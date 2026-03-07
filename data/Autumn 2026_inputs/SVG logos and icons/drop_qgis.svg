@@ -18,7 +18,7 @@
        id="g2">
       <path
          id="path1"
-         style="fill:#00ccff;stroke:none"
+         fill="param(fill) #00ccff" fill-opacity="param(fill-opacity) 1" stroke="param(outline) none" stroke-opacity="param(outline-opacity) 1" stroke-width="param(outline-width) 1"
          d="m 154.73333,162.92223 c 0,22.34298 -18.76922,40.45555 -41.92222,40.45555 -23.153001,0 -41.922218,-18.11257 -41.922221,-40.45555 -3e-6,-22.34299 24.146991,-40.7 41.922221,-98.144449 17.28634,57.688889 41.92222,75.801459 41.92222,98.144449 z" />
       <path
          style="fill:#ffffff;stroke:none;stroke-width:1"
