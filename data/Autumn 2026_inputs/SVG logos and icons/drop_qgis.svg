@@ -21,7 +21,7 @@
          fill="param(fill) #00ccff" fill-opacity="param(fill-opacity) 1" stroke="param(outline) none" stroke-opacity="param(outline-opacity) 1" stroke-width="param(outline-width) 1"
          d="m 154.73333,162.92223 c 0,22.34298 -18.76922,40.45555 -41.92222,40.45555 -23.153001,0 -41.922218,-18.11257 -41.922221,-40.45555 -3e-6,-22.34299 24.146991,-40.7 41.922221,-98.144449 17.28634,57.688889 41.92222,75.801459 41.92222,98.144449 z" />
       <path
-         style="fill:#ffffff;stroke:none;stroke-width:1"
+         fill="#ffffff" fill-opacity="0" stroke="none" stroke-opacity="1" stroke-width="1"
          d="m 78.22222,164.26666 c -0.192643,18.15431 16.796063,27.76922 28.35556,31.28889 6.18602,1.88354 9.8785,-6.50481 2.75,-9.71666 -8.43321,-3.79971 -18.174395,-8.59896 -22.061114,-23.95556 -1.331397,-5.26041 -8.955284,-6.0191 -9.044446,2.38333 z"
          id="path2" />
     </g>
