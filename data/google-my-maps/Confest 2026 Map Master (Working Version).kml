@@ -3,6 +3,36 @@
   <Document>
     <name>Confest 2026 Map Master (Working Version)</name>
     <description><![CDATA[PICS: https://drive.google.com/drive/folders/1PnTOl7zU_twZUZBT8XWfIMN60Wg6P6a0?usp=drive_link <br><br>VaAS Locations map - Jimmy & Kirrily NYE 2025/2026 combined with Existing water maps - 2024.<br>Base by - Kirrily, Jimmy<br>Contributions by: Shell, Glenn, Dane]]></description>
+    <Style id="icon-1502-006064-labelson">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1502-006064-labelson-nodesc">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1502-097138-labelson">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="icon-1502-7CB342-labelson">
       <IconStyle>
         <color>ff42b37c</color>
@@ -23,33 +53,6 @@
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
-    </Style>
-    <Style id="icon-1502-880E4F-labelson">
-      <IconStyle>
-        <color>ff4f0e88</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="icon-1502-A52714-labelson">
-      <IconStyle>
-        <color>ff1427a5</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="icon-1502-C2185B-labelson">
-      <IconStyle>
-        <color>ff5b18c2</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
     </Style>
     <Style id="icon-1521-1A237E-labelson">
       <IconStyle>
@@ -103,80 +106,6 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="icon-1538-795548-normal">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1538-795548-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1538-795548">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1538-795548-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1538-795548-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1538-795548-nodesc-normal">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1538-795548-nodesc-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1538-795548-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1538-795548-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1538-795548-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1541-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -347,40 +276,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1603-673AB7-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1603-795548-normal">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1603-795548-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1603-795548">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1603-795548-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1603-795548-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1608-1A237E-labelson">
@@ -694,43 +589,9 @@
         <styleUrl>#icon-1764-FF5252-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1788-795548-normal">
+    <Style id="icon-1788-006064-labelson-nodesc">
       <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1788-795548-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1788-795548">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1788-795548-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1788-795548-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1788-A52714-labelson-nodesc">
-      <IconStyle>
-        <color>ff1427a5</color>
+        <color>ff646000</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -740,268 +601,6 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1791-4E342E-normal">
-      <IconStyle>
-        <color>ff2e344e</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1791-4E342E-highlight">
-      <IconStyle>
-        <color>ff2e344e</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1791-4E342E">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1791-4E342E-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1791-4E342E-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1791-4E342E-nodesc-normal">
-      <IconStyle>
-        <color>ff2e344e</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1791-4E342E-nodesc-highlight">
-      <IconStyle>
-        <color>ff2e344e</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1791-4E342E-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1791-4E342E-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1791-4E342E-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1791-795548-normal">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1791-795548-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1791-795548">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1791-795548-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1791-795548-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1791-795548-nodesc-normal">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1791-795548-nodesc-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1791-795548-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1791-795548-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1791-795548-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1803-4E342E-nodesc-normal">
-      <IconStyle>
-        <color>ff2e344e</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1803-4E342E-nodesc-highlight">
-      <IconStyle>
-        <color>ff2e344e</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1803-4E342E-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1803-4E342E-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1803-4E342E-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1803-795548-normal">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1803-795548-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1803-795548">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1803-795548-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1803-795548-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1803-795548-nodesc-normal">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1803-795548-nodesc-highlight">
-      <IconStyle>
-        <color>ff485579</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1803-795548-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1803-795548-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1803-795548-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1823-1A237E-normal">
       <IconStyle>
         <color>ff7e231a</color>
@@ -1250,6 +849,62 @@
         <styleUrl>#line-880E4F-1200-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-A52714-12553-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>12.553</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-12553-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>18.8295</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-12553-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-12553-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-12553-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-12938-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>12.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-12938-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>19.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-12938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-12938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-12938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-A52714-2733-nodesc-normal">
       <LineStyle>
         <color>ff1427a5</color>
@@ -1278,32 +933,32 @@
         <styleUrl>#line-A52714-2733-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-BDBDBD-1000-nodesc-normal">
+    <Style id="line-F9A825-2540-nodesc-normal">
       <LineStyle>
-        <color>ffbdbdbd</color>
-        <width>1</width>
+        <color>ff25a8f9</color>
+        <width>2.54</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-BDBDBD-1000-nodesc-highlight">
+    <Style id="line-F9A825-2540-nodesc-highlight">
       <LineStyle>
-        <color>ffbdbdbd</color>
-        <width>1.5</width>
+        <color>ff25a8f9</color>
+        <width>3.81</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-BDBDBD-1000-nodesc">
+    <StyleMap id="line-F9A825-2540-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-BDBDBD-1000-nodesc-normal</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-BDBDBD-1000-nodesc-highlight</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-FF0000-1000-normal">
@@ -2406,7 +2061,7 @@
       <Placemark>
         <name>Unicorns #needs confirmation#</name>
         <description>#Approx#</description>
-        <styleUrl>#icon-1502-C2185B-labelson</styleUrl>
+        <styleUrl>#icon-1502-006064-labelson</styleUrl>
         <Point>
           <coordinates>
             144.1464587,-35.1498777,0
@@ -2414,9 +2069,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Sydney Village #To Confirm#</name>
-        <description>#Unconfirmed#</description>
-        <styleUrl>#icon-1502-C2185B-labelson</styleUrl>
+        <name>The Grove #To Confirm#</name>
+        <description><![CDATA[#Unconfirmed#<br>Previously Sydney Village (Name-change)]]></description>
+        <styleUrl>#icon-1502-097138-labelson</styleUrl>
         <Point>
           <coordinates>
             144.142232,-35.1478847,0
@@ -2425,7 +2080,7 @@
       </Placemark>
       <Placemark>
         <name>#P# Swaycation A</name>
-        <styleUrl>#icon-1788-A52714-labelson-nodesc</styleUrl>
+        <styleUrl>#icon-1788-006064-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
             144.1455795,-35.1481449,0
@@ -2434,7 +2089,7 @@
       </Placemark>
       <Placemark>
         <name>#P# Swaycation B</name>
-        <styleUrl>#icon-1788-A52714-labelson-nodesc</styleUrl>
+        <styleUrl>#icon-1788-006064-labelson-nodesc</styleUrl>
         <Point>
           <coordinates>
             144.1469723,-35.1504552,0
@@ -2444,7 +2099,7 @@
       <Placemark>
         <name>#P# Life Drawing</name>
         <description><![CDATA[///sleek.patent.irritable<br>11 x 7 m ]]></description>
-        <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+        <styleUrl>#icon-1502-006064-labelson</styleUrl>
         <Point>
           <coordinates>
             144.1440306,-35.1485559,0
@@ -2454,7 +2109,7 @@
       <Placemark>
         <name># Confirm# Aboriginal</name>
         <description>#needs W3W and confirmation</description>
-        <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+        <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
         <Point>
           <coordinates>
             144.1452911,-35.148684,0
@@ -2464,7 +2119,7 @@
       <Placemark>
         <name>Travelling Vulva Tent</name>
         <description>#Approx# - Smaller space in a big clearing</description>
-        <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+        <styleUrl>#icon-1502-006064-labelson</styleUrl>
         <Point>
           <coordinates>
             144.1441082,-35.1483077,0
@@ -2474,7 +2129,7 @@
       <Placemark>
         <name>AH - Uncle Dennis Workshop Space</name>
         <description>confirm w/ Suzie - around 26/2</description>
-        <styleUrl>#icon-1502-A52714-labelson</styleUrl>
+        <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
         <Point>
           <coordinates>
             144.1452089,-35.1466372,0
@@ -2484,10 +2139,29 @@
       <Placemark>
         <name>Red Tent</name>
         <description>#approx - shares space with Vulva#</description>
-        <styleUrl>#icon-1502-880E4F-labelson</styleUrl>
+        <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
         <Point>
           <coordinates>
             144.1440762,-35.1482916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>##Potential Discussion Space A</name>
+        <styleUrl>#icon-1502-006064-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            144.145224,-35.1494374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Naad Village ##</name>
+        <description>#Confirm</description>
+        <styleUrl>#icon-1502-006064-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            144.1475679,-35.1520511,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2495,12 +2169,12 @@
     <Folder>
       <name>Forest Gates</name>
       <Placemark>
-        <name>Gate 1 -Western Gate</name>
-        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AL_Y2X4dEDuUJcv9CDX_coOhJxQV9Ao6dJIyaFL-3vk6MN1m5PR2i4HBxIh0CEMEiSKoekQd7T1ppA_YeNrf7ub4YhzXskMbbQXw7qtr7MiuKGToQC0_HhpPtZBil1SQSOZktpP0PnsI5D91U86pC9aLk6wSVzxIxCwXHwTaTBI6KaHby6kH_LB0QrT5FpKAOepCpTv6naxegoVw2uTWdvr8IGkh3EktTlJXVyQ3ywZrLIFZwjR6Y0Vlxe0bzLc?fife=s16383" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
+        <name>Gate 1 - East Gate</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AL_Y2X4cXV0ZEV2lhLUwoQJCOXJydjFm5NQP0uSphHtW4Puwi-cEfsUc3ZOsTcJQBnVXwNAuWTS85_mux488xJxLJV8E4bgtC5Pzi1KHr0KkKS75p3XQmd-g0cJ_VbCP2s_YMKzDPsVn6QYm1DLVGy4BcpUOG0uaQArh-MUoIztvoGg93KM_mCbNXPy4sfDsGR4R16NigmrkbumJ7NDLWkNYIcqJgLaBQER3-vzzW3m73o03bgG9tqLFviQBI50?fife=s16383" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
         <styleUrl>#icon-1662-A52714-labelson</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AL_Y2X4dEDuUJcv9CDX_coOhJxQV9Ao6dJIyaFL-3vk6MN1m5PR2i4HBxIh0CEMEiSKoekQd7T1ppA_YeNrf7ub4YhzXskMbbQXw7qtr7MiuKGToQC0_HhpPtZBil1SQSOZktpP0PnsI5D91U86pC9aLk6wSVzxIxCwXHwTaTBI6KaHby6kH_LB0QrT5FpKAOepCpTv6naxegoVw2uTWdvr8IGkh3EktTlJXVyQ3ywZrLIFZwjR6Y0Vlxe0bzLc?fife=s16383</value>
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AL_Y2X4cXV0ZEV2lhLUwoQJCOXJydjFm5NQP0uSphHtW4Puwi-cEfsUc3ZOsTcJQBnVXwNAuWTS85_mux488xJxLJV8E4bgtC5Pzi1KHr0KkKS75p3XQmd-g0cJ_VbCP2s_YMKzDPsVn6QYm1DLVGy4BcpUOG0uaQArh-MUoIztvoGg93KM_mCbNXPy4sfDsGR4R16NigmrkbumJ7NDLWkNYIcqJgLaBQER3-vzzW3m73o03bgG9tqLFviQBI50?fife=s16383</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -2540,7 +2214,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Gate 4 - Corner Gate</name>
+        <name>Gate 4 - South Gate</name>
         <description>///adulthood.trampling.lawnmower</description>
         <styleUrl>#icon-1662-A52714-labelson</styleUrl>
         <Point>
@@ -2560,7 +2234,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Gate 5 - South Gate</name>
+        <name>Gate 5 - Corner Gate</name>
         <description>///yippee.varnish.turbulence</description>
         <styleUrl>#icon-1662-A52714-labelson</styleUrl>
         <Point>
@@ -3087,7 +2761,7 @@
       <name>Tracks, Taps, Cooking Circles</name>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3113,7 +2787,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3124,7 +2798,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3135,7 +2809,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3148,7 +2822,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3161,7 +2835,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3174,7 +2848,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3186,7 +2860,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3197,7 +2871,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3208,7 +2882,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3219,7 +2893,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3231,7 +2905,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3244,7 +2918,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3255,7 +2929,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3267,7 +2941,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3278,7 +2952,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3290,7 +2964,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3301,7 +2975,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3315,7 +2989,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3326,7 +3000,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3338,7 +3012,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3349,7 +3023,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3362,7 +3036,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3373,7 +3047,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3384,7 +3058,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3395,7 +3069,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3407,7 +3081,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3418,7 +3092,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3429,7 +3103,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3440,7 +3114,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3451,7 +3125,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3463,7 +3137,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3474,7 +3148,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3485,7 +3159,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3496,7 +3170,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3507,7 +3181,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3518,7 +3192,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3529,7 +3203,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3541,7 +3215,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3552,7 +3226,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3565,7 +3239,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3577,7 +3251,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3588,7 +3262,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3600,7 +3274,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3612,7 +3286,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3624,7 +3298,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3635,7 +3309,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3647,7 +3321,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3658,7 +3332,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3669,7 +3343,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3680,7 +3354,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3691,7 +3365,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3702,7 +3376,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3713,7 +3387,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3726,7 +3400,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3738,7 +3412,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3749,7 +3423,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3760,7 +3434,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3772,7 +3446,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3783,7 +3457,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3794,7 +3468,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3805,7 +3479,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3816,7 +3490,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3827,7 +3501,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3838,7 +3512,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3849,7 +3523,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3860,7 +3534,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3873,7 +3547,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3884,7 +3558,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3896,7 +3570,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3907,7 +3581,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3919,7 +3593,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3931,7 +3605,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3942,7 +3616,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3953,7 +3627,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3964,7 +3638,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3976,7 +3650,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3987,7 +3661,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3998,7 +3672,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -4009,7 +3683,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -4021,7 +3695,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -4032,7 +3706,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -4046,7 +3720,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -4058,7 +3732,7 @@
       </Placemark>
       <Placemark>
         <name>Forest Track</name>
-        <styleUrl>#line-BDBDBD-1000-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-2540-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -4951,16 +4625,6 @@
       </Placemark>
       <Placemark>
         <name>Cooking Circle</name>
-        <description><![CDATA[///cots.emerald.lantern<br>6.5m Radius]]></description>
-        <styleUrl>#icon-1764-FF5252</styleUrl>
-        <Point>
-          <coordinates>
-            144.147607,-35.1520183,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Cooking Circle</name>
         <description><![CDATA[///punk.logging.vacuuming<br>42 x 18m<br>Road goes through - Cooking Circle "2"]]></description>
         <styleUrl>#icon-1764-FF5252</styleUrl>
         <Point>
@@ -5384,9 +5048,41 @@
           </coordinates>
         </LineString>
       </Placemark>
+      <Placemark>
+        <name>Cooking Circle</name>
+        <description><![CDATA[///cots.emerald.lantern<br>6.5m Radius]]></description>
+        <styleUrl>#icon-1764-FF5252</styleUrl>
+        <Point>
+          <coordinates>
+            144.147607,-35.1520183,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Volunter Map (Internal Co-Op Only)</name>
+      <Placemark>
+        <name>DG Containers</name>
+        <styleUrl>#line-A52714-12553-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            144.1425413,-35.1371328,0
+            144.142548,-35.1370812,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>DG Containers</name>
+        <styleUrl>#line-A52714-12938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            144.1425346,-35.1371875,0
+            144.1425266,-35.1372468,0
+          </coordinates>
+        </LineString>
+      </Placemark>
       <Placemark>
         <name>Family Beach #Not in use#</name>
         <description><![CDATA[///welcomed.finite.usage<br>#NO LONGER USED / CONSIDERED SAFE#]]></description>
@@ -22427,880 +22123,6 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Road Junctions (Hide for clutter)</name>
-      <Placemark>
-        <name>Road 3 Way Junction</name>
-        <description>///suitably.gathering.rainbows</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1460162,-35.1512905,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction - 3 Way</name>
-        <description>///pitched.verbs.broccoli</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1459177,-35.1515321,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction</name>
-        <description>///colds.notifies.skiing</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.14395,-35.1494015,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction 3 Way</name>
-        <description>///passively.electrodes.peered</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1437495,-35.149168,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 Way Junction</name>
-        <description>///eyeful.dashed.tones</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1435835,-35.1488637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T junction</name>
-        <description><![CDATA[///sweeteners.utility.astounded<br><br>RH fork toward consent]]></description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1435211,-35.1486514,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 Way Junction</name>
-        <description><![CDATA[///flag.mechanics.flattering<br>turning bay]]></description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.143171,-35.1484177,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road junction</name>
-        <description><![CDATA[///warriors.launchers.toils<br>3 way junction]]></description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1495189,-35.1527517,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Bend</name>
-        <description>///recede.handler.conservation</description>
-        <styleUrl>#icon-1803-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1488485,-35.1530287,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road Bend </name>
-        <styleUrl>#icon-1803-4E342E-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.150435,-35.1522962,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 Way Junction</name>
-        <description>///aloofness.camcorders.coast</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1445388,-35.1476926,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction</name>
-        <styleUrl>#icon-1791-4E342E-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1497667,-35.1508299,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction</name>
-        <description>///wafers.craft.romantic</description>
-        <styleUrl>#icon-1791-4E342E</styleUrl>
-        <Point>
-          <coordinates>
-            144.1476956,-35.1520004,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction</name>
-        <styleUrl>#icon-1791-4E342E-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1498072,-35.1498663,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <styleUrl>#icon-1538-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1481762,-35.1509038,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 Way Junction</name>
-        <description>///blurb.vineyard.secondary</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1443578,-35.1477694,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road bend</name>
-        <styleUrl>#icon-1803-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1493306,-35.1513419,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Bend </name>
-        <styleUrl>#icon-1803-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1487258,-35.1511862,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction </name>
-        <styleUrl>#icon-1791-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1483664,-35.1514493,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road junction</name>
-        <styleUrl>#icon-1791-4E342E-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1485003,-35.1517165,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction 4 way </name>
-        <styleUrl>#icon-1791-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1482428,-35.1517779,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Junction</name>
-        <styleUrl>#icon-1791-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1476044,-35.1519901,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Junction 3 way </name>
-        <styleUrl>#icon-1791-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1474006,-35.1518475,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 way road junction</name>
-        <description>///soon.pitied.notoriously</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1440696,-35.1498907,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Highpoint (Flatlands)</name>
-        <description>///revisiting.likewise.skydiving</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1445871,-35.1498263,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>rd marker </name>
-        <styleUrl>#icon-1538-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1473292,-35.1515998,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road bend </name>
-        <styleUrl>#icon-1803-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1469335,-35.1518816,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road bend </name>
-        <styleUrl>#icon-1803-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1465137,-35.1520033,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road bend</name>
-        <description>///unites.wrinkling.ship</description>
-        <styleUrl>#icon-1803-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1464991,-35.1515623,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 Way Road Junction</name>
-        <description>///letterhead.flag.bather</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1464462,-35.1517175,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Marker</name>
-        <description>///straighter.purrs.deals</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1458845,-35.1514758,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Bend in the road</name>
-        <description>///batteries.ingredient.shop</description>
-        <styleUrl>#icon-1803-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1455095,-35.1513175,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road waypoint</name>
-        <styleUrl>#icon-1538-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1462336,-35.1515162,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road bend </name>
-        <description>///pulpit.pealed.pedicure</description>
-        <styleUrl>#icon-1803-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1460378,-35.1512542,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Bend</name>
-        <styleUrl>#icon-1803-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1458407,-35.1510067,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road Bend</name>
-        <description>///diesel.stubbed.unveil</description>
-        <styleUrl>#icon-1803-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1450384,-35.1511305,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Roadmarker</name>
-        <description><![CDATA[///intestine.ambivalent.portray<br>Entry towards Family beach]]></description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1452168,-35.1508394,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint </name>
-        <description>///grinned.unplugged.wheels</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1483647,-35.1512212,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///assemblies.unfilled.fluently</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1485953,-35.1512497,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road bend </name>
-        <description>///referee.evoke.divert</description>
-        <styleUrl>#icon-1803-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1488278,-35.1512099,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///barged.armies.unnerving</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1489042,-35.151962,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///updated.blossomed.reddest</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1491161,-35.152314,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///receptions.faultless.ventilator</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1486306,-35.1527074,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///compulsion.kindle.awards</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1481899,-35.1524048,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///verifiable.freeway.shared</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1478881,-35.1520484,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y intersection off gate </name>
-        <description>///ruined.pinstripe.express</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1468733,-35.1510293,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y junction</name>
-        <description>///spades.advert.bordering</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1460076,-35.1517011,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 way junction</name>
-        <styleUrl>#icon-1791-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1496682,-35.1510694,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T junction</name>
-        <description>///breeds.shortfalls.organ</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1457775,-35.1510026,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 way junction</name>
-        <description>///neutral.latter.designs</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1431809,-35.1481485,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waypoint</name>
-        <description>///streaming.gums.arctic</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1435159,-35.1479785,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 way Junction</name>
-        <description>///encodes.continually.bulldozed</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1437707,-35.1476559,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Roadmarker</name>
-        <description>///spooned.emptily.consults</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1450926,-35.1483964,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Road bend</name>
-        <description>///times.picnics.denying</description>
-        <styleUrl>#icon-1803-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1436138,-35.1475035,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y Junction</name>
-        <styleUrl>#icon-1791-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1444754,-35.1479161,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waypoint</name>
-        <description>///funnels.refinement.rattled</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1427886,-35.1475479,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Roadmarker</name>
-        <description>///unselfish.teacup.springing</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1441272,-35.1481227,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y Junction</name>
-        <description>///grumpy.sizing.nutty </description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.144057,-35.14846,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T Junction</name>
-        <description>///colonies.distinction.flout</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1423491,-35.1476548,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waypoint</name>
-        <description>///unity.cooking.recreating</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1425467,-35.1479202,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>road marker</name>
-        <description>///laying.videotapes.sped </description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1447342,-35.1485054,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waypoint</name>
-        <description>///cuties.humanists.castle</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1429512,-35.147981,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T junction</name>
-        <description>///discourage.storeroom.appetites</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1429789,-35.1480965,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///bushy.removed.muster </description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1424245,-35.1482495,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///empowering.beadwork.routines</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1424612,-35.1483287,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T Junction</name>
-        <description>///heavily.liner.unsure  </description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1420777,-35.1481453,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Roadmarker</name>
-        <description>///guessing.flanked.recreating </description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.141896,-35.1476999,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///handful.spun.ballparks</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1422341,-35.1482102,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>3 way Junction</name>
-        <description>///prosecution.essay.undertook</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1420132,-35.1481829,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y Junction</name>
-        <description>///mansions.daredevil.notify</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1418036,-35.147935,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Roadmarker</name>
-        <description>///solids.wiring.unpaid</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1418591,-35.148496,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waypoint</name>
-        <description>///rocketed.direct.murmur</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1413865,-35.1480874,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T Junction</name>
-        <description>///attach.select.outlaw</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1418587,-35.1487391,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Roadmarker</name>
-        <description>///disruption.pillow.photos</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1414296,-35.1489623,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waypoint</name>
-        <styleUrl>#icon-1538-795548-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            144.1407127,-35.1483802,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>End of Road</name>
-        <description>///flooring.stockpile.charging</description>
-        <styleUrl>#icon-1788-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1412739,-35.1495194,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y intersection</name>
-        <description>///revenge.wallpaper.batches</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1404458,-35.1486164,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>4 Point Junction</name>
-        <description>///fragments.tyrant.despicable</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1410629,-35.1489478,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Cooking circle waypoint </name>
-        <description>///canopies.speech.persuading</description>
-        <styleUrl>#icon-1603-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1406121,-35.1494781,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>End of Road</name>
-        <description>///login.vocations.trillions</description>
-        <styleUrl>#icon-1788-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1401458,-35.1494543,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>waypoint</name>
-        <description>///posed.thousands.zoning</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1432771,-35.1475486,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y junction</name>
-        <description>///goalie.accumulated.imaginable</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1465677,-35.1509196,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>4 way junction</name>
-        <description>///deployed.burglars.charitable</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1439225,-35.1478844,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T junction</name>
-        <description>///wings.desires.pasture</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1424883,-35.1486501,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Waypoint</name>
-        <description>///peered.marathons.full</description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1410654,-35.1485097,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y junction</name>
-        <description>///tourists.race.guess</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1407838,-35.1483189,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Y split Junction</name>
-        <description>///nesting.acclaimed.stably</description>
-        <styleUrl>#icon-1791-4E342E</styleUrl>
-        <Point>
-          <coordinates>
-            144.1425328,-35.1482523,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>T Junction</name>
-        <description>///curvy.demoted.immorality</description>
-        <styleUrl>#icon-1791-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1419445,-35.1480731,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>End of Road</name>
-        <description><![CDATA[///stadiums.obligated.bespoke<br>Terminates in Veg out - through depends on use.]]></description>
-        <styleUrl>#icon-1538-795548</styleUrl>
-        <Point>
-          <coordinates>
-            144.1421211,-35.1475038,0
-          </coordinates>
-        </Point>
       </Placemark>
     </Folder>
     <Folder>
