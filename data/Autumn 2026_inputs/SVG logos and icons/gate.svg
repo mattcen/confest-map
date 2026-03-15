@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="mdi-gate" width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <path d="m24 12v13h-5.4v-11h-5.4v11h-5.4v-5.4h-5.4v32h5.4v-5.4h5.4v5.4h5.4v-5.4h5.4v5.4h5.4v-5.4h5.4v5.4h5.4v-5.4h5.4v5.4h5.4v-5.4h5.4v5.4h5.4v-32h-5.4v5.4h-5.4v-11h-5.4v11h-5.4v-13h-5.4v13h-5.4v-13h-5.4m-16 19h5.4v11h-5.4v-11m11 0h5.4v11h-5.4v-11m11 0h5.4v11h-5.4v-11m11 0h5.4v11h-5.4v-11m11 0h5.4v11h-5.4z" fill="param(fill) #ff0000" fill-opacity="param(fill-opacity) 1" stroke="param(outline) #191cda" stroke-width="param(outline-width) .92" stroke-opacity="param(outline-opacity) 1"/>
+</svg>
