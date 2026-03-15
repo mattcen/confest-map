@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="ConFest Autumn 2026 Site Map" saveDateTime="2026-03-15T12:26:29" saveUserFull="Matt Cengia" version="3.36.3-Maidenhead" saveUser="mattcen">
+<qgis projectname="ConFest Autumn 2026 Site Map" saveDateTime="2026-03-15T12:28:34" saveUserFull="Matt Cengia" version="3.36.3-Maidenhead" saveUser="mattcen">
   <homePath path=""/>
   <title>ConFest Autumn 2026 Site Map</title>
   <transaction mode="Disabled"/>
@@ -1037,7 +1037,7 @@
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
-        <Searchable>1</Searchable>
+        <Searchable>0</Searchable>
         <Private>0</Private>
       </flags>
       <temporal mode="0" enabled="0" fetchMode="0">
@@ -1188,6 +1188,18 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Polygon" maxScale="-4.6566128730773926e-10" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.14442999999999984</xmin>
+        <ymin>-35.14949000000000012</ymin>
+        <xmax>144.15009000000000583</xmax>
+        <ymax>-35.14582999999999657</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14442999999999984</xmin>
+        <ymin>-35.14949000000000012</ymin>
+        <xmax>144.15009000000000583</xmax>
+        <ymax>-35.14582999999999657</ymax>
+      </wgs84extent>
       <id>3_too_much_detail_07030b1d_c6fa_4d8e_b18e_0f51dd3363a4</id>
       <datasource>./old/fromgeojson.gpkg|layername=3 too much detail|geometrytype=Polygon|subset="poiType"='aboriginal'</datasource>
       <keywordList>
@@ -2295,6 +2307,18 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiLineString" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16044363.44419999979436398</xmin>
+        <ymin>-4183490.3349999999627471</ymin>
+        <xmax>16047838.32850000075995922</xmax>
+        <ymax>-4180123.34409999987110496</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.12896905893384769</xmin>
+        <ymin>-35.14416826051178333</ymin>
+        <xmax>144.16018447570618832</xmax>
+        <ymax>-35.11943200243780439</ymax>
+      </wgs84extent>
       <id>Barrier_fafd27bf_9a59_4f23_929d_9575e071f473</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Barrier</datasource>
       <keywordList>
@@ -3473,6 +3497,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>15499750.63430000096559525</xmin>
+        <ymin>-4629153.20679999887943268</ymin>
+        <xmax>17732075.82829999923706055</xmax>
+        <ymax>-3074018.39600000157952309</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>139.23662894832935422</xmin>
+        <ymin>-38.35116563908898257</ymin>
+        <xmax>159.28994735728215915</xmax>
+        <ymax>-26.6034786775767671</ymax>
+      </wgs84extent>
       <id>BestImageryDates_00d14e6c_77b4_49f5_9c33_42c6a12ff518</id>
       <datasource> crs='EPSG:3857' url='https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Imagery_Dates/MapServer/0'</datasource>
       <keywordList>
@@ -4063,6 +4099,18 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>239872.20776131300954148</xmin>
+        <ymin>6106569.37907919008284807</ymin>
+        <xmax>240271.61017316600191407</xmax>
+        <ymax>6107659.6458329102024436</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14450406296771234</xmin>
+        <ymin>-35.15028978311131169</ymin>
+        <xmax>144.14922626989681476</xmax>
+        <ymax>-35.140367629534218</ymax>
+      </wgs84extent>
       <id>Bus_Stops_582346d8_73cf_4609_a94e_beeea5a24c6b</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Bus_Stops</datasource>
       <keywordList>
@@ -4491,6 +4539,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Polygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.1387521429970775</xmin>
+        <ymin>-35.1466082381796241</ymin>
+        <xmax>144.14634899999998652</xmax>
+        <ymax>-35.14004471339274716</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.1387521429970775</xmin>
+        <ymin>-35.1466082381796241</ymin>
+        <xmax>144.14634899999998652</xmax>
+        <ymax>-35.14004471339274716</ymax>
+      </wgs84extent>
       <id>Camping_Areas_copy20180322000346353</id>
       <datasource>./old/fromgeojson.gpkg|layername=1 Punter polys|subset="name" = 'No Camping' AND "poiType" = 'nocamping-area'</datasource>
       <keywordList>
@@ -5399,6 +5459,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Polygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.139404296875</xmin>
+        <ymin>-35.15330505371090197</ymin>
+        <xmax>144.15133666992198869</xmax>
+        <ymax>-35.14290618896480112</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.139404296875</xmin>
+        <ymin>-35.15330505371090197</ymin>
+        <xmax>144.15133666992198869</xmax>
+        <ymax>-35.14290618896480112</ymax>
+      </wgs84extent>
       <id>Camping_Areas_f07a3cf7_100d_4561_a88b_d8be9aa60448</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Camping_Areas</datasource>
       <keywordList>
@@ -6325,6 +6397,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PolygonZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.13374328613301145</xmin>
+        <ymin>-35.14672088623049717</ymin>
+        <xmax>144.15440368652301117</xmax>
+        <ymax>-35.12185287475590201</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13374328613301145</xmin>
+        <ymin>-35.14672088623049717</ymin>
+        <xmax>144.15440368652301117</xmax>
+        <ymax>-35.12185287475590201</ymax>
+      </wgs84extent>
       <id>Conservation_Area_5447f940_a644_4373_a3da_5a3a1daa840a</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Conservation Area</datasource>
       <keywordList>
@@ -6888,6 +6972,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.14076000000000022</xmin>
+        <ymin>-35.15256999999999721</ymin>
+        <xmax>144.15032999999999674</xmax>
+        <ymax>-35.14695999999999998</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14076000000000022</xmin>
+        <ymin>-35.15256999999999721</ymin>
+        <xmax>144.15032999999999674</xmax>
+        <ymax>-35.14695999999999998</ymax>
+      </wgs84extent>
       <id>Cooking_5dfc293e_8c15_45f4_b5d1_9bff102661ef</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Cooking</datasource>
       <keywordList>
@@ -7788,6 +7884,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>16044193</xmin>
+        <ymin>-4184731</ymin>
+        <xmax>16047358</xmax>
+        <ymax>-4180232.5</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.12743793263436487</xmin>
+        <ymin>-35.1532811541501431</ymin>
+        <xmax>144.1558696113765734</xmax>
+        <ymax>-35.12023405548769972</ymax>
+      </wgs84extent>
       <id>Designated_Area_49e7b0b9_dbeb_445a_8177_a5c32a499077</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Designated_Area</datasource>
       <keywordList>
@@ -8199,6 +8307,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="-4.6566128730773926e-10" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16046217.30863984674215317</xmin>
+        <ymin>-4184730.5362363918684423</ymin>
+        <xmax>16046782.7738573681563139</xmax>
+        <ymax>-4182729.5294736553914845</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14562260654386705</xmin>
+        <ymin>-35.15327774791890647</ymin>
+        <xmax>144.15070226701911338</xmax>
+        <ymax>-35.13857951087277343</ymax>
+      </wgs84extent>
       <id>Designated_Area_d8b730f5_c104_4916_919b_8d01d51adc5c</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Designated_Area|subset="Year" >= '2019-01-01'</datasource>
       <keywordList>
@@ -9055,6 +9175,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="-4.6566128730773926e-10" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16046217.30863984674215317</xmin>
+        <ymin>-4184730.5362363918684423</ymin>
+        <xmax>16046782.7738573681563139</xmax>
+        <ymax>-4182729.5294736553914845</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14562260654386705</xmin>
+        <ymin>-35.15327774791890647</ymin>
+        <xmax>144.15070226701911338</xmax>
+        <ymax>-35.13857951087277343</ymax>
+      </wgs84extent>
       <id>Designated_Areas_ee43e20a_448a_46ee_990d_ea31c34ede39</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Designated_Area|subset="Year" >= '2019-01-01'</datasource>
       <keywordList>
@@ -10273,6 +10405,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPoint" maxScale="-4.6566128730773926e-10" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.14463399999999638</xmin>
+        <ymin>-35.15070399999999751</ymin>
+        <xmax>144.15046100000000706</xmax>
+        <ymax>-35.14484699999999862</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14463399999999638</xmin>
+        <ymin>-35.15070399999999751</ymin>
+        <xmax>144.15046100000000706</xmax>
+        <ymax>-35.14484699999999862</ymax>
+      </wgs84extent>
       <id>Disposal_5551391f_9b7f_4540_822d_6c2dd4d8ac81</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Disposal|subset="source" like '%2024%'</datasource>
       <keywordList>
@@ -11807,6 +11951,18 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.14466200000001095</xmin>
+        <ymin>-35.15095050000000043</ymin>
+        <xmax>144.14947440000000256</xmax>
+        <ymax>-35.14760650000000197</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14466200000001095</xmin>
+        <ymin>-35.15095050000000043</ymin>
+        <xmax>144.14947440000000256</xmax>
+        <ymax>-35.14760650000000197</ymax>
+      </wgs84extent>
       <id>Forest_Gates_5f74236d_476e_4987_aa42_cabb38ca3116</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Forest Gates|geometrytype=Point25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -12250,6 +12406,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.14463806152301117</xmin>
+        <ymin>-35.15095138549799714</ymin>
+        <xmax>144.1494750976559942</xmax>
+        <ymax>-35.14760589599610086</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14463806152301117</xmin>
+        <ymin>-35.15095138549799714</ymin>
+        <xmax>144.1494750976559942</xmax>
+        <ymax>-35.14760589599610086</ymax>
+      </wgs84extent>
       <id>Forest_Gates_649f8629_160e_4a61_b78f_2dfeb8351d87</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Forest Gates</datasource>
       <keywordList>
@@ -13161,6 +13329,18 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="LineStringZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>237060.55640852599753998</xmin>
+        <ymin>6105832.3525078697130084</ymin>
+        <xmax>243277.49244856799487025</xmax>
+        <ymax>6110073.286450220271945</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.11345257996202918</xmin>
+        <ymin>-35.15767290091314834</ymin>
+        <xmax>144.18294502870128326</xmax>
+        <ymax>-35.11787363304829057</ymax>
+      </wgs84extent>
       <id>Moulamein_CONT_AHD_55_2m_4d18d93e_35f0_42f6_8611_35e71ba2f16e</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Contours</datasource>
       <keywordList>
@@ -14202,6 +14382,18 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.13243280000000368</xmin>
+        <ymin>-35.15708850000000041</ymin>
+        <xmax>144.15905509999998912</xmax>
+        <ymax>-35.12942790000000315</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13243280000000368</xmin>
+        <ymin>-35.15708850000000041</ymin>
+        <xmax>144.15905509999998912</xmax>
+        <ymax>-35.12942790000000315</ymax>
+      </wgs84extent>
       <id>Overlays_354c615b_0c72_4947_93e8_060d0202ed2f</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Overlays|geometrytype=Point25D</datasource>
       <keywordList>
@@ -14631,6 +14823,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PolygonZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.13243280000000368</xmin>
+        <ymin>-35.15708850000000041</ymin>
+        <xmax>144.15905509999998912</xmax>
+        <ymax>-35.12942790000000315</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13243280000000368</xmin>
+        <ymin>-35.15708850000000041</ymin>
+        <xmax>144.15905509999998912</xmax>
+        <ymax>-35.12942790000000315</ymax>
+      </wgs84extent>
       <id>Overlays_87200e59_e6b3_40cd_948a_5bd771342193</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Overlays|geometrytype=Polygon25D</datasource>
       <keywordList>
@@ -15054,6 +15258,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiSurface" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16044787.53050000034272671</xmin>
+        <ymin>-4255599.51612500008195639</ymin>
+        <xmax>16134286.95512500032782555</xmax>
+        <ymax>-4180413.22487499983981252</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13277869098462247</xmin>
+        <ymin>-35.67212468200716557</ymin>
+        <xmax>144.93676570158979189</xmax>
+        <ymax>-35.12156196393979002</ymax>
+      </wgs84extent>
       <id>Property_Boundary_ac5c27b8_84a7_43a2_9fc2_800f6e21be2e</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=property</datasource>
       <keywordList>
@@ -15789,6 +16005,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PolygonZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.13448287099998879</xmin>
+        <ymin>-35.14239495811150249</ymin>
+        <xmax>144.1533413029999906</xmax>
+        <ymax>-35.12200121911180162</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13448287099998879</xmin>
+        <ymin>-35.14239495811150249</ymin>
+        <xmax>144.1533413029999906</xmax>
+        <ymax>-35.12200121911180162</ymax>
+      </wgs84extent>
       <id>RMW_027_CEA_WGS84_d6e6da74_7e13_495f_9608_9bf396166ef1</id>
       <datasource>./data/Autumn 2026_inputs/Landcare inputs 2026 Rory/Landcare_BCT conservation planting areas_RMW_027_CEA_WGS84.kml|layername=RMW_027_CEA_WGS84|geometrytype=Polygon25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -16212,6 +16440,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiLineString" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16044154</xmin>
+        <ymin>-4184688.75</ymin>
+        <xmax>16047616</xmax>
+        <ymax>-4180255</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.1270875896735788</xmin>
+        <ymin>-35.15297083756033913</ymin>
+        <xmax>144.1581872648099818</xmax>
+        <ymax>-35.1203993794553071</ymax>
+      </wgs84extent>
       <id>RightOfWay_2747a48b_3f97_4370_a763_75f3ad1a5dd6</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=RightOfWay</datasource>
       <keywordList>
@@ -17117,6 +17357,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiLineString" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>16044154</xmin>
+        <ymin>-4184688.75</ymin>
+        <xmax>16047616</xmax>
+        <ymax>-4180255</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.1270875896735788</xmin>
+        <ymin>-35.15297083756033913</ymin>
+        <xmax>144.1581872648099818</xmax>
+        <ymax>-35.1203993794553071</ymax>
+      </wgs84extent>
       <id>RightOfWay_4c8bf9e7_41c2_4e05_b9db_c4766416c0b0</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=RightOfWay</datasource>
       <keywordList>
@@ -17664,6 +17916,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiLineString" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16044154</xmin>
+        <ymin>-4184688.75</ymin>
+        <xmax>16047616</xmax>
+        <ymax>-4180255</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.1270875896735788</xmin>
+        <ymin>-35.15297083756033913</ymin>
+        <xmax>144.1581872648099818</xmax>
+        <ymax>-35.1203993794553071</ymax>
+      </wgs84extent>
       <id>RightOfWay_e9da462d_9f35_475d_b42c_c49c046f8599</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=RightOfWay</datasource>
       <keywordList>
@@ -18762,6 +19026,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.11344909668000014</xmin>
+        <ymin>-35.15767669677730112</ymin>
+        <xmax>144.18296813964801117</xmax>
+        <ymax>-35.11787033081049714</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.11345544530234974</xmin>
+        <ymin>-35.15766346430533673</ymin>
+        <xmax>144.18297448114790882</xmax>
+        <ymax>-35.11785709356692564</ymax>
+      </wgs84extent>
       <id>River_ad21bd77_626d_4b0a_9abe_13fe4a0fd564</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=SIX_Hydro_Areas_cropped</datasource>
       <keywordList>
@@ -19766,6 +20042,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.11344909668000014</xmin>
+        <ymin>-35.15767669677730112</ymin>
+        <xmax>144.18296813964801117</xmax>
+        <ymax>-35.11787033081049714</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.11345544530234974</xmin>
+        <ymin>-35.15766346430533673</ymin>
+        <xmax>144.18297448114790882</xmax>
+        <ymax>-35.11785709356692564</ymax>
+      </wgs84extent>
       <id>SIX_Hydro_Areas_cropped_3b413dc4_616d_4910_9616_40e1ed1d4cab</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=SIX_Hydro_Areas_cropped</datasource>
       <keywordList>
@@ -20688,6 +20976,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="-4.6566128730773926e-10" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16045398</xmin>
+        <ymin>-4182697</ymin>
+        <xmax>16046291</xmax>
+        <ymax>-4182125.5</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13826263180800424</xmin>
+        <ymin>-35.1383405462678553</ymin>
+        <xmax>144.14628458729538352</xmax>
+        <ymax>-35.13414213854038337</ymax>
+      </wgs84extent>
       <id>Structure_1c8257ed_ccef_43e1_b07c_e32422cf4b5c</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Structure</datasource>
       <keywordList>
@@ -21930,6 +22230,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>16045732.75439999997615814</xmin>
+        <ymin>-4182692.20470000058412552</ymin>
+        <xmax>16046290.96388961933553219</xmax>
+        <ymax>-4182550.36259999871253967</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14126978174746796</xmin>
+        <ymin>-35.13830531947901648</ymin>
+        <xmax>144.14628426291054097</xmax>
+        <ymax>-35.13726332528391794</ymax>
+      </wgs84extent>
       <id>Structure_793a3160_de2f_4e61_9dbc_d5d9109caddb</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Structure|subset="Name" IN ("Woolshed", "Tickets", "Peter Boris", "Cottage", "Pump House")</datasource>
       <keywordList>
@@ -22550,6 +22862,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.1401457999999991</xmin>
+        <ymin>-35.15302870000000013</ymin>
+        <xmax>144.15077759999999785</xmax>
+        <ymax>-35.14340800000000087</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.1401457999999991</xmin>
+        <ymin>-35.15302870000000013</ymin>
+        <xmax>144.15077759999999785</xmax>
+        <ymax>-35.14340800000000087</ymax>
+      </wgs84extent>
       <id>Tracks__Taps__Cooking_Circles_68b0d127_7cfd_4342_a2ff_13a4f944b74b</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Tracks, Taps, Cooking Circles|geometrytype=Point25D</datasource>
       <keywordList>
@@ -22981,6 +23305,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="LineStringZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.1401457999999991</xmin>
+        <ymin>-35.15302870000000013</ymin>
+        <xmax>144.15077759999999785</xmax>
+        <ymax>-35.14340800000000087</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.1401457999999991</xmin>
+        <ymin>-35.15302870000000013</ymin>
+        <xmax>144.15077759999999785</xmax>
+        <ymax>-35.14340800000000087</ymax>
+      </wgs84extent>
       <id>Tracks__Taps__Cooking_Circles_e86b18c9_62d8_406e_ba42_704e43bbc9ed</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Tracks, Taps, Cooking Circles|geometrytype=LineString25D</datasource>
       <keywordList>
@@ -24132,6 +24468,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.13990549999999757</xmin>
+        <ymin>-35.15205110000000133</ymin>
+        <xmax>144.15071660000000975</xmax>
+        <ymax>-35.13771090000000186</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13990549999999757</xmin>
+        <ymin>-35.15205110000000133</ymin>
+        <xmax>144.15071660000000975</xmax>
+        <ymax>-35.13771090000000186</ymax>
+      </wgs84extent>
       <id>VaAS___Points_of_interest_883e1afd_220a_4820_af2f_c19ee313a728</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=VaAS / Points of interest|geometrytype=Point25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -24704,6 +25052,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.14004429999999957</xmin>
+        <ymin>-35.15286580000000072</ymin>
+        <xmax>144.15109480000000985</xmax>
+        <ymax>-35.14793240000000196</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14004429999999957</xmin>
+        <ymin>-35.15286580000000072</ymin>
+        <xmax>144.15109480000000985</xmax>
+        <ymax>-35.14793240000000196</ymax>
+      </wgs84extent>
       <id>Viable_Clearings_for_VaAS_or_Cooking_c9998760_8417_4129_87af_8b1e140e6bef</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Viable Clearings for VaAS or Cooking|geometrytype=Point25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -25133,6 +25493,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.13990549999999757</xmin>
+        <ymin>-35.15277999999999992</ymin>
+        <xmax>144.15040999999999372</xmax>
+        <ymax>-35.14663518502447914</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13990549999999757</xmin>
+        <ymin>-35.15277999999999992</ymin>
+        <xmax>144.15040999999999372</xmax>
+        <ymax>-35.14663518502447914</ymax>
+      </wgs84extent>
       <id>Villages_66e30de2_7f77_4f44_bbec_dd9831860d7d</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Villages|subset="visible"</datasource>
       <keywordList>
@@ -25945,6 +26317,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.14134509999999523</xmin>
+        <ymin>-35.15116410000000258</ymin>
+        <xmax>144.15017320000001178</xmax>
+        <ymax>-35.13496560000000102</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14134509999999523</xmin>
+        <ymin>-35.15116410000000258</ymin>
+        <xmax>144.15017320000001178</xmax>
+        <ymax>-35.13496560000000102</ymax>
+      </wgs84extent>
       <id>Volunter_Map__Internal_Co_Op_Only__264e02b0_f5f9_4740_9949_1340d4faa8b5</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Volunter Map (Internal Co-Op Only)|geometrytype=Point25D</datasource>
       <keywordList>
@@ -26374,6 +26758,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PolygonZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.14134509999999523</xmin>
+        <ymin>-35.15116410000000258</ymin>
+        <xmax>144.15017320000001178</xmax>
+        <ymax>-35.13496560000000102</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14134509999999523</xmin>
+        <ymin>-35.15116410000000258</ymin>
+        <xmax>144.15017320000001178</xmax>
+        <ymax>-35.13496560000000102</ymax>
+      </wgs84extent>
       <id>Volunter_Map__Internal_Co_Op_Only__de462837_d479_4196_af67_0b9753fed0af</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Volunter Map (Internal Co-Op Only)|geometrytype=Polygon25D</datasource>
       <keywordList>
@@ -26797,6 +27193,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PointZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.13898499999999103</xmin>
+        <ymin>-35.15250100000000089</ymin>
+        <xmax>144.15140999999999849</xmax>
+        <ymax>-35.13294700000000148</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13898499999999103</xmin>
+        <ymin>-35.15250100000000089</ymin>
+        <xmax>144.15140999999999849</xmax>
+        <ymax>-35.13294700000000148</ymax>
+      </wgs84extent>
       <id>Water_Pipes_From_Spring_water_map_2025_51dc192a_22d7_4752_8d2a_367b1fe4e2f8</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Water Pipes From Spring water map 2025|geometrytype=Point25D</datasource>
       <keywordList>
@@ -27238,6 +27646,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="LineStringZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.13898499999999103</xmin>
+        <ymin>-35.15250100000000089</ymin>
+        <xmax>144.15140999999999849</xmax>
+        <ymax>-35.13294700000000148</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13898499999999103</xmin>
+        <ymin>-35.15250100000000089</ymin>
+        <xmax>144.15140999999999849</xmax>
+        <ymax>-35.13294700000000148</ymax>
+      </wgs84extent>
       <id>Water_Pipes_From_Spring_water_map_2025_f5c1b3f2_1de7_428c_85d4_27fdd2fd7026</id>
       <datasource>./data/google-my-maps/Confest 2026 Map Master (Working Version).kml|layername=Water Pipes From Spring water map 2025|geometrytype=LineString25D</datasource>
       <keywordList>
@@ -27687,6 +28107,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>239358.546875</xmin>
+        <ymin>6106546.5</ymin>
+        <xmax>240562.234375</xmax>
+        <ymax>6108075</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13887084978571806</xmin>
+        <ymin>-35.15055760412955976</ymin>
+        <xmax>144.1525493534755924</xmax>
+        <ymax>-35.13648080401473095</ymax>
+      </wgs84extent>
       <id>aboriginal_heritage_point_85aa5bb9_0746_41fd_9e27_489f367bc160</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=aboriginal_heritage_point</datasource>
       <keywordList>
@@ -28277,6 +28709,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="PolygonZ" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.14278146087400501</xmin>
+        <ymin>-35.14962303548450251</ymin>
+        <xmax>144.15310934473399129</xmax>
+        <ymax>-35.13896597618810347</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14278146087400501</xmin>
+        <ymin>-35.14962303548450251</ymin>
+        <xmax>144.15310934473399129</xmax>
+        <ymax>-35.13896597618810347</ymax>
+      </wgs84extent>
       <id>aboriginal_heritageno_camping_f25ccebc_15ce_49c0_9d56_4fc1e1d609b9</id>
       <datasource>./data/aboriginal_heritage_poly.kml|layername=aboriginal_heritageno_camping|geometrytype=Polygon25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -29032,6 +29476,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Polygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.14666330281698947</xmin>
+        <ymin>-35.15035359549529659</ymin>
+        <xmax>144.14885419096799524</xmax>
+        <ymax>-35.14814640304850002</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14666330281698947</xmin>
+        <ymin>-35.15035359549529659</ymin>
+        <xmax>144.14885419096799524</xmax>
+        <ymax>-35.14814640304850002</ymax>
+      </wgs84extent>
       <id>accessibility_29734752_57e6_43ce_b393_47533ee610b3</id>
       <datasource>./data/accessibility.kml|layername=accessibility|geometrytype=Polygon|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -29656,6 +30112,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>236748.36240003199782223</xmin>
+        <ymin>6105209.48014731984585524</ymin>
+        <xmax>243645.47826693300157785</xmax>
+        <ymax>6110433.33121811039745808</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.10981791971394728</xmin>
+        <ymin>-35.16340301849641747</ymin>
+        <xmax>144.18707754001815147</xmax>
+        <ymax>-35.11457605995831699</ymax>
+      </wgs84extent>
       <id>background_35642fd8_3f00_49be_9f30_d67ec7b40f1c</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=background</datasource>
       <keywordList>
@@ -30013,6 +30481,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiPolygon" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>236748.36240003199782223</xmin>
+        <ymin>6105209.48014731984585524</ymin>
+        <xmax>243645.47826693300157785</xmax>
+        <ymax>6110433.33121811039745808</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.10981791971394728</xmin>
+        <ymin>-35.16340301849641747</ymin>
+        <xmax>144.18707754001815147</xmax>
+        <ymax>-35.11457605995831699</ymax>
+      </wgs84extent>
       <id>background_c241f245_ecb0_488a_93f9_8e95e2a2f4b0</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=background</datasource>
       <keywordList>
@@ -30374,6 +30854,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.13850800000000163</xmin>
+        <ymin>-35.1318729999999988</ymin>
+        <xmax>144.13850800000000163</xmax>
+        <ymax>-35.1318729999999988</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13850800000000163</xmin>
+        <ymin>-35.1318729999999988</ymin>
+        <xmax>144.13850800000000163</xmax>
+        <ymax>-35.1318729999999988</ymax>
+      </wgs84extent>
       <id>confest_confest_d7e2379b_2f3a_4d00_b9db_70c0d3d4e3d4</id>
       <datasource>./old/fromgeojson.gpkg|layername=3 too much detail|geometrytype=Point|subset="name" LIKE '%Nest%'</datasource>
       <keywordList>
@@ -31244,6 +31736,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="LineString" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>238752.45321831200271845</xmin>
+        <ymin>6106230.55281346011906862</ymin>
+        <xmax>240721.50363620300777256</xmax>
+        <ymax>6109698.0514862397685647</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13211874098121257</xmin>
+        <ymin>-35.15345734573948988</ymin>
+        <xmax>144.15479802835511691</xmax>
+        <ymax>-35.121719792655405</ymax>
+      </wgs84extent>
       <id>contour_minor_2a84b20e_6ff8_475d_9fd9_2a8fe64a250b</id>
       <datasource>./data/10cm_contours_cropped.gpkg|layername=10cm_contours_cropped</datasource>
       <keywordList>
@@ -32019,6 +32523,18 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Polygon" maxScale="-4.6566099999999998e-10" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>239300</xmin>
+        <ymin>6106200</ymin>
+        <xmax>240600</xmax>
+        <ymax>6108100</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13811952370673453</xmin>
+        <ymin>-35.15368794009983588</ymin>
+        <xmax>144.1529712384660229</xmax>
+        <ymax>-35.13624048954488899</ymax>
+      </wgs84extent>
       <id>dte_ad3d04ef_29e9_49ef_88e3_b4733db373fc</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=Grid_South</datasource>
       <keywordList>
@@ -32949,6 +33465,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>239677.203125</xmin>
+        <ymin>6106323</ymin>
+        <xmax>240393.828125</xmax>
+        <ymax>6107927</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14228817220504197</xmin>
+        <ymin>-35.15254023305133302</ymin>
+        <xmax>144.1506502239687677</xmax>
+        <ymax>-35.13790940753133185</ymax>
+      </wgs84extent>
       <id>emergency_radios_a051b12b_f144_42e9_bbf5_074adb047d2c</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=emergency_radios</datasource>
       <keywordList>
@@ -33457,6 +33985,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="-4.6566128730773926e-10" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>144.13850402831999986</xmin>
+        <ymin>-35.14982223510740056</ymin>
+        <xmax>144.14904785156301159</xmax>
+        <ymax>-35.13187026977539773</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13850402831999986</xmin>
+        <ymin>-35.14982223510740056</ymin>
+        <xmax>144.14904785156301159</xmax>
+        <ymax>-35.13187026977539773</ymax>
+      </wgs84extent>
       <id>major_points_502e279b_4a24_4412_a44e_ca738a53393f</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=major_points</datasource>
       <keywordList>
@@ -35030,6 +35570,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Line" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="LineString" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>144.13896179199198855</xmin>
+        <ymin>-35.15250396728509941</ymin>
+        <xmax>144.15141296386698855</xmax>
+        <ymax>-35.13294601440429688</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13896179199198855</xmin>
+        <ymin>-35.15250396728509941</ymin>
+        <xmax>144.15141296386698855</xmax>
+        <ymax>-35.13294601440429688</ymax>
+      </wgs84extent>
       <id>plumbing_lines_7fb88289_a2d2_43cc_9f36_f796fcd64e7c</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=plumbing_lines</datasource>
       <keywordList>
@@ -35598,6 +36150,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Point" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="Point" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="1">
+      <extent>
+        <xmin>239533.34375</xmin>
+        <ymin>6106326.5</ymin>
+        <xmax>240484.140625</xmax>
+        <ymax>6107180.5</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.14071814654570858</xmin>
+        <ymin>-35.1525187860681072</ymin>
+        <xmax>144.15141231009411626</xmax>
+        <ymax>-35.14458190678867311</ymax>
+      </wgs84extent>
       <id>plumbing_points_f9a32386_0b09_4f63_9e50_a7d20e54d53c</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=plumbing_points</datasource>
       <keywordList>
@@ -36135,6 +36699,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer geometry="Polygon" autoRefreshTime="0" legendPlaceholderImage="" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled" simplifyLocal="1" wkbType="MultiSurface" maxScale="0" symbologyReferenceScale="-1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="vector" styleCategories="AllStyleCategories" minScale="100000000" readOnly="0" labelsEnabled="0">
+      <extent>
+        <xmin>16044787.53050000034272671</xmin>
+        <ymin>-4255599.51612500008195639</ymin>
+        <xmax>16134286.95512500032782555</xmax>
+        <ymax>-4180413.22487499983981252</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>144.13277869098462247</xmin>
+        <ymin>-35.67212468200716557</ymin>
+        <xmax>144.93676570158979189</xmax>
+        <ymax>-35.12156196393979002</ymax>
+      </wgs84extent>
       <id>property_bd956af1_742d_41ff_ad93_16ea717320c8</id>
       <datasource>./data/AU_ORG_DTE.gpkg|layername=property</datasource>
       <keywordList>
@@ -38030,7 +38606,7 @@ def my_form_open(dialog, layer, feature):
     <dates>
       <date type="Created" value="2020-01-28T22:24:01"/>
     </dates>
-    <author>Matt Cengia, Shell Orr</author>
+    <author>Matt Cengia,  Shell Orr</author>
     <creation>2020-01-28T22:24:01</creation>
   </projectMetadata>
   <Annotations/>
