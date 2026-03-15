@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="ConFest Autumn 2026 Site Map" saveDateTime="2026-03-15T12:28:34" saveUserFull="Matt Cengia" version="3.36.3-Maidenhead" saveUser="mattcen">
+<qgis projectname="ConFest Autumn 2026 Site Map" saveDateTime="2026-03-15T12:31:33" saveUserFull="Matt Cengia" version="3.36.3-Maidenhead" saveUser="mattcen">
   <homePath path=""/>
   <title>ConFest Autumn 2026 Site Map</title>
   <transaction mode="Disabled"/>
@@ -49151,7 +49151,7 @@ def my_form_open(dialog, layer, feature):
           <column sortByRank="0" heading="Abbr" attribute="abbreviation" sortOrder="0" vAlignment="128" width="0" hAlignment="1">
             <backgroundColor blue="0" red="0" green="0" alpha="0"/>
           </column>
-          <column sortByRank="0" heading="Ref" attribute="char((to_int(x_min(transform($geometry, @layer_crs, @project_crs ))/100 - 2393) + 65)) ||&#xa;to_string(to_int(y_min(transform($geometry, @layer_crs, @project_crs ))/100 - 61061))" sortOrder="0" vAlignment="128" width="0" hAlignment="1">
+          <column sortByRank="0" heading="Ref" attribute="char((floor(x_min(transform($geometry, @layer_crs, @project_crs ))/100 - 2393) + 65)) ||&#xa;to_string(floor(y_min(transform($geometry, @layer_crs, @project_crs ))/100 - 61061))" sortOrder="0" vAlignment="128" width="0" hAlignment="1">
             <backgroundColor blue="0" red="0" green="0" alpha="0"/>
           </column>
         </displayColumns>
@@ -49367,7 +49367,7 @@ def my_form_open(dialog, layer, feature):
           <column sortByRank="0" heading="Abbr" attribute="abbreviation" sortOrder="0" vAlignment="128" width="0" hAlignment="1">
             <backgroundColor blue="0" red="0" green="0" alpha="0"/>
           </column>
-          <column sortByRank="0" heading="Ref" attribute="char((to_int(x_min(transform($geometry, @layer_crs, @project_crs ))/100 - 2393) + 65)) ||&#xa;to_string(to_int(y_min(transform($geometry, @layer_crs, @project_crs ))/100 - 61061))" sortOrder="0" vAlignment="128" width="0" hAlignment="1">
+          <column sortByRank="0" heading="Ref" attribute="char((floor(x_min(transform($geometry, @layer_crs, @project_crs ))/100 - 2393) + 65)) ||&#xa;to_string(floor(y_min(transform($geometry, @layer_crs, @project_crs ))/100 - 61061))" sortOrder="0" vAlignment="128" width="0" hAlignment="1">
             <backgroundColor blue="0" red="0" green="0" alpha="0"/>
           </column>
         </displayColumns>
