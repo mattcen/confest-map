@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="accessibility" id="accessibility">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="source" type="string"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+</Schema>
+<Folder><name>accessibility</name>
+  <Placemark>
+	<name>Parking</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#accessibility">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="source">Helen, Aerial drawing, Mar 2026</SimpleData>
+		<SimpleData name="visibility">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>144.146743286233,-35.1501965720146 144.146839747065,-35.15030605984 144.146759763589,-35.1503535954953 144.146663302817,-35.1502441076093 144.146743286233,-35.1501965720146</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Toilet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#accessibility">
+		<SimpleData name="fid">2</SimpleData>
+		<SimpleData name="source">Helen, Aerial drawing, Mar 2026</SimpleData>
+		<SimpleData name="visibility">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>144.147883686394,-35.1481964320407 144.14791218581,-35.1482099465314 144.147928639801,-35.1481865385335 144.14790014039,-35.1481730240469 144.147883686394,-35.1481964320407</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Toilet</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#accessibility">
+		<SimpleData name="fid">3</SimpleData>
+		<SimpleData name="source">Helen, Aerial drawing, Mar 2026</SimpleData>
+		<SimpleData name="visibility">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>144.147871012572,-35.1481464030485 144.147841616453,-35.1481585528611 144.147856408936,-35.1481826973788 144.147885805062,-35.148170547563 144.147871012572,-35.1481464030485</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Scooter Charging</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#accessibility">
+		<SimpleData name="fid">4</SimpleData>
+		<SimpleData name="source">Helen, Aerial drawing, Mar 2026</SimpleData>
+		<SimpleData name="visibility">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>144.148843247845,-35.1494011201653 144.148842486532,-35.149410108165 144.148853429656,-35.1494107334601 144.148854190968,-35.1494017454601 144.148843247845,-35.1494011201653</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
