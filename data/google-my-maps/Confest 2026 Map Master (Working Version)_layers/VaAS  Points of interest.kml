@@ -112,11 +112,14 @@
     </Style>
     <Placemark>
       <name>Playground</name>
-      <description><![CDATA[abbreviation: PG<br>description: ///maturity.movements.sweaty<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: PG<br>Long abbrev: <br>description: ///maturity.movements.sweaty<br>Visibility: false]]></description>
       <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>PG</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value/>
         </Data>
         <Data name="description">
           <value>///maturity.movements.sweaty</value>
@@ -133,11 +136,14 @@
     </Placemark>
     <Placemark>
       <name>Info Tent</name>
-      <description><![CDATA[abbreviation: IT<br>description: ///generosity.reflections.finals<br>(Estimated)<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: IT<br>Long abbrev: <br>description: ///generosity.reflections.finals<br>(Estimated)<br>Visibility: false]]></description>
       <styleUrl>#icon-1608-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>IT</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value/>
         </Data>
         <Data name="description">
           <value>///generosity.reflections.finals
@@ -155,11 +161,14 @@
     </Placemark>
     <Placemark>
       <name>First Aid</name>
-      <description><![CDATA[abbreviation: FA<br>description: ///sloppy.caged.dissolving<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: FA<br>Long abbrev: <br>description: ///sloppy.caged.dissolving<br>Visibility: false]]></description>
       <styleUrl>#icon-1558-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>FA</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value/>
         </Data>
         <Data name="description">
           <value>///sloppy.caged.dissolving</value>
@@ -176,11 +185,14 @@
     </Placemark>
     <Placemark>
       <name>Ranger</name>
-      <description><![CDATA[abbreviation: R<br>description: ///carpeted.fishes.derive<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: R<br>Long abbrev: <br>description: ///carpeted.fishes.derive<br>Visibility: false]]></description>
       <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>R</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value/>
         </Data>
         <Data name="description">
           <value>///carpeted.fishes.derive</value>
@@ -197,11 +209,14 @@
     </Placemark>
     <Placemark>
       <name>Site Ops</name>
-      <description><![CDATA[abbreviation: SO<br>description: ///exact.buck.sensuality<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: SO<br>Long abbrev: <br>description: ///exact.buck.sensuality<br>Visibility: false]]></description>
       <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>SO</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value/>
         </Data>
         <Data name="description">
           <value>///exact.buck.sensuality</value>
@@ -218,11 +233,14 @@
     </Placemark>
     <Placemark>
       <name>Hive Kitchen</name>
-      <description><![CDATA[abbreviation: HK<br>description: ///electrode.filmed.confiding<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: HK<br>Long abbrev: <br>description: ///electrode.filmed.confiding<br>Visibility: false]]></description>
       <styleUrl>#icon-1591-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>HK</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value/>
         </Data>
         <Data name="description">
           <value>///electrode.filmed.confiding</value>
@@ -239,11 +257,14 @@
     </Placemark>
     <Placemark>
       <name>Lifeguard Beach</name>
-      <description><![CDATA[abbreviation: LB<br>description: ///hangdog.slowly.fascinating<br><br><br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: LB<br>Long abbrev: <br>description: ///hangdog.slowly.fascinating<br><br><br>Visibility: false]]></description>
       <styleUrl>#icon-1521-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>LB</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value/>
         </Data>
         <Data name="description">
           <value>///hangdog.slowly.fascinating
@@ -262,10 +283,13 @@
     </Placemark>
     <Placemark>
       <name>Labrynth</name>
-      <description><![CDATA[abbreviation: <br>description: ///censorship.flipping.lifetimes<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///censorship.flipping.lifetimes<br>Visibility: false]]></description>
       <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -283,10 +307,13 @@
     </Placemark>
     <Placemark>
       <name>Market</name>
-      <description><![CDATA[abbreviation: <br>description: ///tearooms.puffed.polite<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///tearooms.puffed.polite<br>Visibility: false]]></description>
       <styleUrl>#icon-1685-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -304,10 +331,13 @@
     </Placemark>
     <Placemark>
       <name>Market Tree Pole Gate</name>
-      <description><![CDATA[abbreviation: <br>description: ///piled.thermometer.crossroad<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///piled.thermometer.crossroad<br>Visibility: false]]></description>
       <styleUrl>#icon-1608-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -325,10 +355,13 @@
     </Placemark>
     <Placemark>
       <name>Bike Crew</name>
-      <description><![CDATA[abbreviation: <br>description: ///risk.warmer.dropped<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///risk.warmer.dropped<br>Visibility: false]]></description>
       <styleUrl>#icon-1522-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -346,10 +379,13 @@
     </Placemark>
     <Placemark>
       <name>Sunset Beach</name>
-      <description><![CDATA[abbreviation: <br>description: ///burgers.dreary.preferably<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///burgers.dreary.preferably<br>Visibility: false]]></description>
       <styleUrl>#icon-1521-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -367,10 +403,13 @@
     </Placemark>
     <Placemark>
       <name>Wellness</name>
-      <description><![CDATA[abbreviation: <br>description: #ESTIMATE#<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: #ESTIMATE#<br>Visibility: false]]></description>
       <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -388,10 +427,13 @@
     </Placemark>
     <Placemark>
       <name>Fire Team</name>
-      <description><![CDATA[abbreviation: <br>description: #Estimate#<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: #Estimate#<br>Visibility: false]]></description>
       <styleUrl>#icon-1574-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -409,10 +451,13 @@
     </Placemark>
     <Placemark>
       <name>Ticket Box</name>
-      <description><![CDATA[abbreviation: <br>description: #estimate#<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: #estimate#<br>Visibility: false]]></description>
       <styleUrl>#icon-1603-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -430,10 +475,13 @@
     </Placemark>
     <Placemark>
       <name>Welcome Crew</name>
-      <description><![CDATA[abbreviation: <br>description: #Estimate#<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: #Estimate#<br>Visibility: false]]></description>
       <styleUrl>#icon-1603-1A237E-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -451,11 +499,14 @@
     </Placemark>
     <Placemark>
       <name>Aboriginal</name>
-      <description><![CDATA[abbreviation: ABR<br>description: #needs W3W and confirmation<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: ABR<br>Long abbrev: Aboriginal<br>description: #needs W3W and confirmation<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>ABR</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Aboriginal</value>
         </Data>
         <Data name="description">
           <value>#needs W3W and confirmation</value>
@@ -472,11 +523,14 @@
     </Placemark>
     <Placemark>
       <name>Acrotown</name>
-      <description><![CDATA[abbreviation: ACR<br>description: ///rarity.brother.prance<br>13m Radius<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: ACR<br>Long abbrev: Acrotown<br>description: ///rarity.brother.prance<br>13m Radius<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>ACR</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Acrotown</value>
         </Data>
         <Data name="description">
           <value>///rarity.brother.prance
@@ -494,11 +548,14 @@
     </Placemark>
     <Placemark>
       <name>Aboriginal Heritage</name>
-      <description><![CDATA[abbreviation: ABH<br>description: confirm w/ Suzie - around 26/2<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: ABH<br>Long abbrev: Aboriginal Heritage<br>description: confirm w/ Suzie - around 26/2<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>ABH</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Aboriginal Heritage</value>
         </Data>
         <Data name="description">
           <value>confirm w/ Suzie - around 26/2</value>
@@ -515,11 +572,14 @@
     </Placemark>
     <Placemark>
       <name>Arts Village</name>
-      <description><![CDATA[abbreviation: ART<br>description: <br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: ART<br>Long abbrev: Arts<br>description: <br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>ART</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Arts</value>
         </Data>
         <Data name="description">
           <value/>
@@ -530,16 +590,19 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          144.1431865,-35.1475371,0
+          144.1430792,-35.1475327,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Arts - Body Painting</name>
-      <description><![CDATA[abbreviation: <br>description: ///salvaging.blouse.evidence<br>11 x 21<br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///salvaging.blouse.evidence<br>11 x 21<br>Visibility: false]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -558,10 +621,13 @@
     </Placemark>
     <Placemark>
       <name>Arts - Marigold </name>
-      <description><![CDATA[abbreviation: <br>description: ///rivalry.intonation.budget<br>6m Radius <br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///rivalry.intonation.budget<br>6m Radius <br>Visibility: false]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -580,10 +646,13 @@
     </Placemark>
     <Placemark>
       <name>Arts - Mud Pit</name>
-      <description><![CDATA[abbreviation: <br>description: ///detained.tailed.causing<br>11m Radius <br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///detained.tailed.causing<br>11m Radius <br>Visibility: false]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -602,10 +671,13 @@
     </Placemark>
     <Placemark>
       <name>Arts - Sauna</name>
-      <description><![CDATA[abbreviation: <br>description: ///stand.dependents.airing<br>3m Radius <br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///stand.dependents.airing<br>3m Radius <br>Visibility: false]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -624,10 +696,13 @@
     </Placemark>
     <Placemark>
       <name>Arts - Showers </name>
-      <description><![CDATA[abbreviation: <br>description: ///streams.pavements.unshed<br>6 m Radius <br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///streams.pavements.unshed<br>6 m Radius <br>Visibility: false]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -646,10 +721,13 @@
     </Placemark>
     <Placemark>
       <name>Arts - Space Lounge</name>
-      <description><![CDATA[abbreviation: <br>description: ///irrigation.softest.fixated<br>4.5m Radius <br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: ///irrigation.softest.fixated<br>4.5m Radius <br>Visibility: false]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -668,11 +746,14 @@
     </Placemark>
     <Placemark>
       <name>Bliss</name>
-      <description><![CDATA[abbreviation: BLS<br>description: ///outer.toffee.sphere<br>20 x 11.5m<br>Cooking Circle + Taps<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: BLS<br>Long abbrev: Bliss<br>description: ///outer.toffee.sphere<br>20 x 11.5m<br>Cooking Circle + Taps<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>BLS</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Bliss</value>
         </Data>
         <Data name="description">
           <value>///outer.toffee.sphere
@@ -691,11 +772,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Buddafield</name>
-      <description><![CDATA[abbreviation: BUD<br>description: #Confirm location#<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: BUD<br>Long abbrev: Buddhafield<br>description: #Confirm location#<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>BUD</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Buddhafield</value>
         </Data>
         <Data name="description">
           <value>#Confirm location#</value>
@@ -711,12 +795,15 @@ Cooking Circle + Taps</value>
       </Point>
     </Placemark>
     <Placemark>
-      <name>Carp Exitus</name>
-      <description><![CDATA[abbreviation: CEX<br>description: ///excuse.sunset.mirage<br>5 x 10m<br>Visibility: true]]></description>
+      <name>Carpe Exitus</name>
+      <description><![CDATA[abbreviation: CEX<br>Long abbrev: Carpe Exitus<br>description: ///excuse.sunset.mirage<br>5 x 10m<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>CEX</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Carpe Exitus</value>
         </Data>
         <Data name="description">
           <value>///excuse.sunset.mirage
@@ -734,11 +821,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Checkmates</name>
-      <description><![CDATA[abbreviation: CHK<br>description: ///dilute.sleepless.slingshot<br>15 x 13m<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: CHK<br>Long abbrev: Checkmates<br>description: ///dilute.sleepless.slingshot<br>15 x 13m<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>CHK</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Checkmates</value>
         </Data>
         <Data name="description">
           <value>///dilute.sleepless.slingshot
@@ -756,11 +846,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Consent Village</name>
-      <description><![CDATA[abbreviation: CNT<br>description: ///blesses.toasts.disruptive<br>12 x 30.5<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: CNT<br>Long abbrev: Consent<br>description: ///blesses.toasts.disruptive<br>12 x 30.5<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>CNT</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Consent</value>
         </Data>
         <Data name="description">
           <value>///blesses.toasts.disruptive
@@ -778,11 +871,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Craft Cafe </name>
-      <description><![CDATA[abbreviation: CRF<br>description: ///bingo.sweeteners.panics<br>5 x 14m<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: CRF<br>Long abbrev: Craft<br>description: ///bingo.sweeteners.panics<br>5 x 14m<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>CRF</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Craft</value>
         </Data>
         <Data name="description">
           <value>///bingo.sweeteners.panics
@@ -800,11 +896,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Discussion Space</name>
-      <description><![CDATA[abbreviation: DIS<br>description: #TBA<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: DIS<br>Long abbrev: Discussion<br>description: #TBA<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>DIS</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Discussion</value>
         </Data>
         <Data name="description">
           <value>#TBA</value>
@@ -815,17 +914,20 @@ Cooking Circle + Taps</value>
       </ExtendedData>
       <Point>
         <coordinates>
-          144.145224,-35.1494374,0
+          144.144245,-35.1491106,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Drumming</name>
-      <description><![CDATA[abbreviation: DRM<br>description: ///icicle.wakes.compromises<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: DRM<br>Long abbrev: Drumming<br>description: ///icicle.wakes.compromises<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>DRM</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Drumming</value>
         </Data>
         <Data name="description">
           <value>///icicle.wakes.compromises</value>
@@ -842,11 +944,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Erina Stage</name>
-      <description><![CDATA[abbreviation: ERN<br>description: #Approx#<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: ERN<br>Long abbrev: Erina<br>description: #Approx#<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>ERN</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Erina</value>
         </Data>
         <Data name="description">
           <value>#Approx#</value>
@@ -863,11 +968,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Evolve</name>
-      <description><![CDATA[abbreviation: EVL<br>description: Shell: position as discussed with River 17/02/2026<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: EVL<br>Long abbrev: Evolve<br>description: Shell: position as discussed with River 17/02/2026<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>EVL</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Evolve</value>
         </Data>
         <Data name="description">
           <value>Shell: position as discussed with River 17/02/2026</value>
@@ -884,11 +992,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Family Village</name>
-      <description><![CDATA[abbreviation: FAM<br>description: Added by Shell 22/02/26 based on previous years<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: FAM<br>Long abbrev: Family<br>description: Added by Shell 22/02/26 based on previous years<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>FAM</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Family</value>
         </Data>
         <Data name="description">
           <value>Added by Shell 22/02/26 based on previous years</value>
@@ -905,11 +1016,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Fire Tribe</name>
-      <description><![CDATA[abbreviation: FIR<br>description: ///drumsticks.crumbling.crunching<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: FIR<br>Long abbrev: Fire<br>description: ///drumsticks.crumbling.crunching<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>FIR</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Fire</value>
         </Data>
         <Data name="description">
           <value>///drumsticks.crumbling.crunching</value>
@@ -926,11 +1040,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Gypsy</name>
-      <description><![CDATA[abbreviation: GPS<br>description: ///carnivorous.assortment.extinction<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: GPS<br>Long abbrev: Gypsy<br>description: ///carnivorous.assortment.extinction<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>GPS</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Gypsy</value>
         </Data>
         <Data name="description">
           <value>///carnivorous.assortment.extinction</value>
@@ -947,11 +1064,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Kali Chai</name>
-      <description><![CDATA[abbreviation: KAL<br>description: ///pavilion.midnight.jumping<br>10 x 5m<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: KAL<br>Long abbrev: Kali Chai<br>description: ///pavilion.midnight.jumping<br>10 x 5m<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>KAL</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Kali Chai</value>
         </Data>
         <Data name="description">
           <value>///pavilion.midnight.jumping
@@ -970,11 +1090,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Life Drawing</name>
-      <description><![CDATA[abbreviation: LFD<br>description: ///sleek.patent.irritable<br>11 x 7 m <br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: LFD<br>Long abbrev: Life Drawing<br>description: ///sleek.patent.irritable<br>11 x 7 m <br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>LFD</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Life Drawing</value>
         </Data>
         <Data name="description">
           <value>///sleek.patent.irritable
@@ -987,17 +1110,20 @@ Cooking Circle + Taps</value>
       </ExtendedData>
       <Point>
         <coordinates>
-          144.1440306,-35.1485559,0
+          144.1441553,-35.1485066,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Lovefest</name>
-      <description><![CDATA[abbreviation: LVF<br>description: sharing with the grove / sydney village<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: LVF<br>Long abbrev: Lovefest<br>description: sharing with the grove / sydney village<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>LVF</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Lovefest</value>
         </Data>
         <Data name="description">
           <value>sharing with the grove / sydney village</value>
@@ -1014,11 +1140,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Muni Marquee</name>
-      <description><![CDATA[abbreviation: MUN<br>description: ///medicate.raisin.straddled<br>17x24m<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: MUN<br>Long abbrev: Muni Marquee<br>description: ///medicate.raisin.straddled<br>17x24m<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>MUN</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Muni Marquee</value>
         </Data>
         <Data name="description">
           <value>///medicate.raisin.straddled
@@ -1037,11 +1166,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Naad Village</name>
-      <description><![CDATA[abbreviation: NAD<br>description: #To Confirm<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: NAD<br>Long abbrev: Naad<br>description: #To Confirm<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>NAD</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Naad</value>
         </Data>
         <Data name="description">
           <value>#To Confirm</value>
@@ -1058,11 +1190,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Nudies</name>
-      <description><![CDATA[abbreviation: NUD<br>description: ///rashers.frying.composers <br>24.5 x 17<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: NUD<br>Long abbrev: Nudies<br>description: ///rashers.frying.composers <br>24.5 x 17<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>NUD</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Nudies</value>
         </Data>
         <Data name="description">
           <value>///rashers.frying.composers 
@@ -1081,11 +1216,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Open Stage</name>
-      <description><![CDATA[abbreviation: OPN<br>description: ///equestrian.deflection.prowling<br>12 x 12<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: OPN<br>Long abbrev: Open Stage<br>description: ///equestrian.deflection.prowling<br>12 x 12<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>OPN</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Open Stage</value>
         </Data>
         <Data name="description">
           <value>///equestrian.deflection.prowling
@@ -1103,11 +1241,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Polyamory Space</name>
-      <description><![CDATA[abbreviation: POL<br>description: ///sculptors.prequel.trigger<br>6.5m r<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: POL<br>Long abbrev: Polyamory<br>description: ///sculptors.prequel.trigger<br>6.5m r<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>POL</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Polyamory</value>
         </Data>
         <Data name="description">
           <value>///sculptors.prequel.trigger
@@ -1126,11 +1267,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Puzzle Cafe</name>
-      <description><![CDATA[abbreviation: PZC<br>description: Shell updated location 22/02/26 in discussion with Kate. [NB this w3w is probably incorrect: ///peering.probe.masters]<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: PZC<br>Long abbrev: Puzzle<br>description: Shell updated location 22/02/26 in discussion with Kate. [NB this w3w is probably incorrect: ///peering.probe.masters]<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>PZC</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Puzzle</value>
         </Data>
         <Data name="description">
           <value>Shell updated location 22/02/26 in discussion with Kate. [NB this w3w is probably incorrect: ///peering.probe.masters]</value>
@@ -1147,11 +1291,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Permaculture</name>
-      <description><![CDATA[abbreviation: PER<br>description: Added by Shell 22/02/26 after discussing with Bryan<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: PER<br>Long abbrev: Permaculture<br>description: Added by Shell 22/02/26 after discussing with Bryan<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>PER</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Permaculture</value>
         </Data>
         <Data name="description">
           <value>Added by Shell 22/02/26 after discussing with Bryan</value>
@@ -1168,11 +1315,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Presence Tent</name>
-      <description><![CDATA[abbreviation: PRS<br>description: ///submitting.bagger.spirit<br>6.5 Radius<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: PRS<br>Long abbrev: Presence<br>description: ///submitting.bagger.spirit<br>6.5 Radius<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>PRS</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Presence</value>
         </Data>
         <Data name="description">
           <value>///submitting.bagger.spirit
@@ -1191,11 +1341,14 @@ Cooking Circle + Taps</value>
     </Placemark>
     <Placemark>
       <name>Rainbow</name>
-      <description><![CDATA[abbreviation: RBW<br>description: ///concessions.pursued.shuttling<br>Shell: location edited as discussed with Teacosy 13/02/2026<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: RBW<br>Long abbrev: Rainbow<br>description: ///concessions.pursued.shuttling<br>Shell: location edited as discussed with Teacosy 13/02/2026<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>RBW</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Rainbow</value>
         </Data>
         <Data name="description">
           <value>///concessions.pursued.shuttling
@@ -1213,11 +1366,14 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
     </Placemark>
     <Placemark>
       <name>Red Tent</name>
-      <description><![CDATA[abbreviation: RED<br>description: #approx - shares space with Vulva#<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: RED<br>Long abbrev: Red Tent<br>description: #approx - shares space with Vulva#<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>RED</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Red Tent</value>
         </Data>
         <Data name="description">
           <value>#approx - shares space with Vulva#</value>
@@ -1228,17 +1384,20 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
       </ExtendedData>
       <Point>
         <coordinates>
-          144.1442063,-35.1486085,0
+          144.144272,-35.1486063,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Remake the World</name>
-      <description><![CDATA[abbreviation: RTW<br>description: #TBA<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: RTW<br>Long abbrev: Remake<br>description: #TBA<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>RTW</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Remake</value>
         </Data>
         <Data name="description">
           <value>#TBA</value>
@@ -1249,17 +1408,20 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
       </ExtendedData>
       <Point>
         <coordinates>
-          144.1449458,-35.1495602,0
+          144.1442001,-35.148865,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>SA Confestors</name>
-      <description><![CDATA[abbreviation: SAC<br>description: <br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: SAC<br>Long abbrev: SA<br>description: <br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>SAC</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>SA</value>
         </Data>
         <Data name="description">
           <value/>
@@ -1276,11 +1438,14 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
     </Placemark>
     <Placemark>
       <name>Shiatsu Playspace</name>
-      <description><![CDATA[abbreviation: SHP<br>description: ///possessing.universe.velocity<br>6m Radius<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: SHP<br>Long abbrev: Shiatsu<br>description: ///possessing.universe.velocity<br>6m Radius<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>SHP</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Shiatsu</value>
         </Data>
         <Data name="description">
           <value>///possessing.universe.velocity
@@ -1299,11 +1464,14 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
     </Placemark>
     <Placemark>
       <name>Shikibuntu</name>
-      <description><![CDATA[abbreviation: SHB<br>description: ///decades.apparatus.keepsakes<br>13 x 16.5<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: SHB<br>Long abbrev: Shikibuntu<br>description: ///decades.apparatus.keepsakes<br>13 x 16.5<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>SHB</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Shikibuntu</value>
         </Data>
         <Data name="description">
           <value>///decades.apparatus.keepsakes
@@ -1316,17 +1484,20 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
       </ExtendedData>
       <Point>
         <coordinates>
-          144.1440153,-35.1491539,0
+          144.1440046,-35.1490596,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Silent Disco</name>
-      <description><![CDATA[abbreviation: SLD<br>description: ///heartened.automotive.ideal<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: SLD<br>Long abbrev: Silent Disco<br>description: ///heartened.automotive.ideal<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>SLD</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Silent Disco</value>
         </Data>
         <Data name="description">
           <value>///heartened.automotive.ideal</value>
@@ -1343,11 +1514,14 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
     </Placemark>
     <Placemark>
       <name>Sway-cation</name>
-      <description><![CDATA[abbreviation: SWY<br>description: TBA<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: SWY<br>Long abbrev: Sway-cation<br>description: TBA<br>Visibility: true]]></description>
       <styleUrl>#icon-1788-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>SWY</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Sway-cation</value>
         </Data>
         <Data name="description">
           <value>TBA</value>
@@ -1364,11 +1538,14 @@ Shell: location edited as discussed with Teacosy 13/02/2026</value>
     </Placemark>
     <Placemark>
       <name>The Grove</name>
-      <description><![CDATA[abbreviation: GRV<br>description: #Unconfirmed#<br>Previously Sydney Village (Name-change)<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: GRV<br>Long abbrev: The Grove<br>description: #Unconfirmed#<br>Previously Sydney Village (Name-change)<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-097138-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>GRV</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>The Grove</value>
         </Data>
         <Data name="description">
           <value>#Unconfirmed#
@@ -1385,12 +1562,15 @@ Previously Sydney Village (Name-change)</value>
       </Point>
     </Placemark>
     <Placemark>
-      <name>The Spectrum</name>
-      <description><![CDATA[abbreviation: SPC<br>description: ///organ.walked.stockroom<br>Visibility: true]]></description>
+      <name>Soul Banter</name>
+      <description><![CDATA[abbreviation: SBR<br>Long abbrev: Soul Banter<br>description: ///organ.walked.stockroom<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
-          <value>SPC</value>
+          <value>SBR</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Soul Banter</value>
         </Data>
         <Data name="description">
           <value>///organ.walked.stockroom</value>
@@ -1407,11 +1587,14 @@ Previously Sydney Village (Name-change)</value>
     </Placemark>
     <Placemark>
       <name>Travelling Vulva Tent</name>
-      <description><![CDATA[abbreviation: TVT<br>description: #Approx# - Smaller space in a big clearing<br>Sharing with Red Tent (Nights)<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: TVT<br>Long abbrev: Vulva<br>description: #Approx# - Smaller space in a big clearing<br>Sharing with Red Tent (Nights)<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>TVT</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Vulva</value>
         </Data>
         <Data name="description">
           <value>#Approx# - Smaller space in a big clearing
@@ -1423,16 +1606,19 @@ Sharing with Red Tent (Nights)</value>
       </ExtendedData>
       <Point>
         <coordinates>
-          144.1441994,-35.1486257,0
+          144.1442718,-35.1486378,0
         </coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Uncertainty - lounge</name>
-      <description><![CDATA[abbreviation: <br>description: <br>Visibility: false]]></description>
+      <description><![CDATA[abbreviation: <br>Long abbrev: <br>description: <br>Visibility: false]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
+          <value/>
+        </Data>
+        <Data name="Long abbrev">
           <value/>
         </Data>
         <Data name="description">
@@ -1450,11 +1636,14 @@ Sharing with Red Tent (Nights)</value>
     </Placemark>
     <Placemark>
       <name>Veg Out</name>
-      <description><![CDATA[abbreviation: VEG<br>description: ///stadiums.obligated.bespoke<br>8.5 x 35m<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: VEG<br>Long abbrev: Veg Out<br>description: ///stadiums.obligated.bespoke<br>8.5 x 35m<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>VEG</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Veg Out</value>
         </Data>
         <Data name="description">
           <value>///stadiums.obligated.bespoke
@@ -1472,11 +1661,14 @@ Sharing with Red Tent (Nights)</value>
     </Placemark>
     <Placemark>
       <name>Unicorn Village</name>
-      <description><![CDATA[abbreviation: UNI<br>description: #Approx# to confirm<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: UNI<br>Long abbrev: Unicorn<br>description: #Approx# to confirm<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>UNI</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Unicorn</value>
         </Data>
         <Data name="description">
           <value>#Approx# to confirm</value>
@@ -1493,11 +1685,14 @@ Sharing with Red Tent (Nights)</value>
     </Placemark>
     <Placemark>
       <name>White Gums </name>
-      <description><![CDATA[abbreviation: WHG<br>description: ///drools.notepads.finals<br>7.5 x 21m <br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: WHG<br>Long abbrev: White Gums<br>description: ///drools.notepads.finals<br>7.5 x 21m <br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>WHG</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>White Gums</value>
         </Data>
         <Data name="description">
           <value>///drools.notepads.finals
@@ -1515,11 +1710,14 @@ Sharing with Red Tent (Nights)</value>
     </Placemark>
     <Placemark>
       <name>Vibe Optimisers</name>
-      <description><![CDATA[abbreviation: VIB<br>description: TBA<br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: VIB<br>Long abbrev: Vibe Optimisers<br>description: TBA<br>Visibility: true]]></description>
       <styleUrl>#icon-1502-006064-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>VIB</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Vibe Optimisers</value>
         </Data>
         <Data name="description">
           <value>TBA</value>
@@ -1536,11 +1734,14 @@ Sharing with Red Tent (Nights)</value>
     </Placemark>
     <Placemark>
       <name>Wilding</name>
-      <description><![CDATA[abbreviation: WLD<br>description: ///lenders.founds.clarified<br>7m Radius<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: WLD<br>Long abbrev: Wilding<br>description: ///lenders.founds.clarified<br>7m Radius<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>WLD</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Wilding</value>
         </Data>
         <Data name="description">
           <value>///lenders.founds.clarified
@@ -1559,11 +1760,14 @@ Sharing with Red Tent (Nights)</value>
     </Placemark>
     <Placemark>
       <name>Uncertainty</name>
-      <description><![CDATA[abbreviation: UNC<br>description: ///song.darted.joining<br>7m Radius<br><br>Visibility: true]]></description>
+      <description><![CDATA[abbreviation: UNC<br>Long abbrev: Uncertainty<br>description: ///song.darted.joining<br>7m Radius<br><br>Visibility: true]]></description>
       <styleUrl>#icon-1502-7CB342-labelson</styleUrl>
       <ExtendedData>
         <Data name="abbreviation">
           <value>UNC</value>
+        </Data>
+        <Data name="Long abbrev">
+          <value>Uncertainty</value>
         </Data>
         <Data name="description">
           <value>///song.darted.joining

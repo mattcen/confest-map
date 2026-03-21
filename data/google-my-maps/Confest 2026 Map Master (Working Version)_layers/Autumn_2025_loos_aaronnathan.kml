@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Autumn_2025_loos_aaronnathan</name>
+    <Style id="icon-1665-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1665-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1665-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1665-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1665-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Toilets #1</name>
+      <description><![CDATA[description: Number of pans: <br>Added by: <br>Added when: <br>Data source:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: <br>Added_by: <br>Added_when: <br>Data_source: ]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 
+Added by: 
+Added when: 
+Data source:</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value/>
+        </Data>
+        <Data name="Added_by">
+          <value/>
+        </Data>
+        <Data name="Added_when">
+          <value/>
+        </Data>
+        <Data name="Data_source">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.146596,-35.137929,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toliets #2</name>
+      <description><![CDATA[description: Number of pans: <br>Added by: <br>Added when: <br>Data source:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: <br>Added_by: <br>Added_when: <br>Data_source: ]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 
+Added by: 
+Added when: 
+Data source:</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value/>
+        </Data>
+        <Data name="Added_by">
+          <value/>
+        </Data>
+        <Data name="Added_when">
+          <value/>
+        </Data>
+        <Data name="Data_source">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.14992,-35.141388,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #3</name>
+      <description><![CDATA[description: Number of pans: 4<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 4<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 4
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>4</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.150461,-35.144847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #4</name>
+      <description><![CDATA[description: Number of pans: 4<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 4<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 4
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>4</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.149606,-35.146603,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #5</name>
+      <description><![CDATA[description: Number of pans: 6<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 6<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 6
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>6</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.149168,-35.147688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #6</name>
+      <description><![CDATA[description: Number of pans: 8<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 8<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 8
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>8</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.14719,-35.148986,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #7</name>
+      <description><![CDATA[description: Number of pans: 4<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 4<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 4
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>4</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.148774,-35.148932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #9</name>
+      <description><![CDATA[description: Number of pans: 4<br>Added by: Yådōté <br>Added when: 25 March 2024<br>Data source: GPS Observation <br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 4<br>Added_by: Yådōté <br>Added_when: 25 March 2024<br>Data_source: GPS Observation ]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 4
+Added by: Yådōté 
+Added when: 25 March 2024
+Data source: GPS Observation </value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>4</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté </value>
+        </Data>
+        <Data name="Added_when">
+          <value>25 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>GPS Observation </value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.148481,-35.149591,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #10 MOVED OPTION1 - for market</name>
+      <description><![CDATA[description: Number of pans: 12<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 12<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 12
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>12</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.147333,-35.15057,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #11</name>
+      <description><![CDATA[description: Number of pans: 10-12?<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 10-12?<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 10-12?
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>10-12?</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.146961,-35.150704,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #12</name>
+      <description><![CDATA[description: Number of pans: 8<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 8<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 8
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>8</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.145797,-35.149291,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #13</name>
+      <description><![CDATA[description: Number of pans: 8<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 8<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 8
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>8</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.145484,-35.148285,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #14</name>
+      <description><![CDATA[description: Number of pans: 12<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 12<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 12
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>12</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.145296,-35.147665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #15</name>
+      <description><![CDATA[description: Number of pans: 6<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 6<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 6
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>6</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.144634,-35.147074,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #17</name>
+      <description><![CDATA[description: Number of pans: 8<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 8<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 8
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>8</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.146592,-35.146755,88.19
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #18</name>
+      <description><![CDATA[description: Number of pans: 4<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 4<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 4
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>4</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.14758,-35.146672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #19</name>
+      <description><![CDATA[description: Number of pans: 6+<br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: 6+<br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 6+
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value>6+</value>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.14775,-35.148053,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Disabled Toilet</name>
+      <description><![CDATA[description: Number of pans: <br>Added by: Yådōté<br>Added when: 23 March 2024<br>Data source: On site with GPS<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: <br>Added_by: Yådōté<br>Added_when: 23 March 2024<br>Data_source: On site with GPS]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 
+Added by: Yådōté
+Added when: 23 March 2024
+Data source: On site with GPS</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value/>
+        </Data>
+        <Data name="Added_by">
+          <value>Yådōté</value>
+        </Data>
+        <Data name="Added_when">
+          <value>23 March 2024</value>
+        </Data>
+        <Data name="Data_source">
+          <value>On site with GPS</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.147601,-35.148024,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets 7</name>
+      <description><![CDATA[description: Number of pans: <br>Added by: <br>Added when: <br>Data source:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: <br>Added_by: <br>Added_when: <br>Data_source: ]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 
+Added by: 
+Added when: 
+Data source:</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value/>
+        </Data>
+        <Data name="Added_by">
+          <value/>
+        </Data>
+        <Data name="Added_when">
+          <value/>
+        </Data>
+        <Data name="Data_source">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.149017,-35.149582,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Toilets #10 MOVED OPTION 2</name>
+      <description><![CDATA[description: Number of pans: <br>Added by: <br>Added when: <br>Data source:<br>tessellate: -1<br>extrude: 0<br>visibility: -1<br>Number_of_pans: <br>Added_by: <br>Added_when: <br>Data_source: ]]></description>
+      <styleUrl>#icon-1665-FBC02D</styleUrl>
+      <ExtendedData>
+        <Data name="description">
+          <value>Number of pans: 
+Added by: 
+Added when: 
+Data source:</value>
+        </Data>
+        <Data name="tessellate">
+          <value>-1</value>
+        </Data>
+        <Data name="extrude">
+          <value>0</value>
+        </Data>
+        <Data name="visibility">
+          <value>-1</value>
+        </Data>
+        <Data name="Number_of_pans">
+          <value/>
+        </Data>
+        <Data name="Added_by">
+          <value/>
+        </Data>
+        <Data name="Added_when">
+          <value/>
+        </Data>
+        <Data name="Data_source">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.148352,-35.149989,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -2,11 +2,119 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Forest Gates</name>
-    <NetworkLink>
-      <name>Confest 2026 Map Master (Working Version)</name>
-      <Link>
-        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=1l92XSUGu53rUPI5loQ12eOQ5qyx33MI&lid=9bWgfCAwjaQ]]></href>
-      </Link>
-    </NetworkLink>
+    <Style id="icon-1662-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Gate 1 - East Gate - Grey</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AL_Y2X6lPskHoXiBO75pY4pwGVYPUaHoftzpBED5mJ3_8Uyd_Htzc9wshoL0ZWqhkatVXdTRT9s1CRnqilYdwiYsmnvB1F76IK18xdtZmU8YV-BmhyGLh0dN78iUzE5C3viZeBg52vzu3iD1tDK3WN4IrSUefgo7s1CXIH6w2m6BqrJujBRONEVn-cH3-ywFR-TcKJq6ygHrtG4c9poW2Lgvyua9KJgZ9mveXTjlefUndkEPr4uDGSou-GwF8Q0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AL_Y2X6lPskHoXiBO75pY4pwGVYPUaHoftzpBED5mJ3_8Uyd_Htzc9wshoL0ZWqhkatVXdTRT9s1CRnqilYdwiYsmnvB1F76IK18xdtZmU8YV-BmhyGLh0dN78iUzE5C3viZeBg52vzu3iD1tDK3WN4IrSUefgo7s1CXIH6w2m6BqrJujBRONEVn-cH3-ywFR-TcKJq6ygHrtG4c9poW2Lgvyua9KJgZ9mveXTjlefUndkEPr4uDGSou-GwF8Q0?authuser=0&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          144.1494744,-35.1494984,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 2 - Nomad Gate - Purple</name>
+      <description>///carpets.lights.sleeves</description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1491393,-35.1498222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 3 - Library Gate - Orange</name>
+      <description>///sooner.edging.knees</description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1476193,-35.1505905,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 10 - Beach Gate - Blue</name>
+      <description>///timing.zilch.handle</description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.144662,-35.1476065,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 4 - South Gate - Pink</name>
+      <description>///adulthood.trampling.lawnmower</description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1467945,-35.1509505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 7 - Circle - Red</name>
+      <description>///stipulated.horses.powers</description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1458033,-35.1491456,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 5 - Corner Gate - Yellow</name>
+      <description>///yippee.varnish.turbulence</description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1467094,-35.1508661,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 9 - Lone Tree - Brown</name>
+      <description>///painter.ambitions.demolition  </description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1454323,-35.1482818,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 6 - Flatlands - Green</name>
+      <description>///pecans.audit.occupying</description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.1459974,-35.1497077,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gate 8 - Aboriginal</name>
+      <description><![CDATA[///parkland.snoozes.awakened<br>Walk in only - no general access, Aboriginal Area.]]></description>
+      <styleUrl>#icon-1662-A52714-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          144.145564,-35.1484807,0
+        </coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>

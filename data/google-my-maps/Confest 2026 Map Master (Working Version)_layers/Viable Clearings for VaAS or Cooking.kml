@@ -2,11 +2,540 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Viable Clearings for VaAS or Cooking</name>
-    <NetworkLink>
-      <name>Confest 2026 Map Master (Working Version)</name>
-      <Link>
-        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=1l92XSUGu53rUPI5loQ12eOQ5qyx33MI&lid=UQJB96s99DI]]></href>
-      </Link>
-    </NetworkLink>
+    <Style id="icon-1665-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1665-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1665-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1665-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1665-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>///identity.determining.viewfinder</name>
+      <description><![CDATA[Consent star tent<br>///identity.determining.viewfinder<br>10m Radius ]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1448392,-35.1483085,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///unscrewed.comebacks.repressive</name>
+      <description><![CDATA[///unscrewed.comebacks.repressive<br>8.5m Radius <br>Was Didirri]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1497714,-35.1497254,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///acknowledge.timeliness.chosen
+</name>
+      <description><![CDATA[///acknowledge.timeliness.chosen<br>7m Radius]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1442456,-35.1488586,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///matchmaker.motivational.outlined</name>
+      <description><![CDATA[///matchmaker.motivational.outlined<br>24.5 x 10.5<br>Was travelling Vulva]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1442743,-35.1482736,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///expressway.club.habitat</name>
+      <description><![CDATA[///expressway.club.habitat<br>16 x 24m<br>Was BAAS]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1510948,-35.1522459,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///neutrally.coaster.landslides</name>
+      <description><![CDATA[///neutrally.coaster.landslides<br>6.5m Radius]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1416742,-35.148113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///birdhouse.streetcar.subplot</name>
+      <description><![CDATA[///birdhouse.streetcar.subplot<br>9.5 x 14]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1412256,-35.1483972,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///throughput.observation.softly</name>
+      <description><![CDATA[///throughput.observation.softly<br>10 x 15.5]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1434322,-35.1481173,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///happiest.river.challenge</name>
+      <description><![CDATA[///happiest.river.challenge<br>6 x 15m<br><br>Carpe? (29/12/25)]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1441641,-35.1502546,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///unilateral.wrist.lifelong</name>
+      <description>22 x 13 m</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.141566,-35.1491027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///disbanded.affairs.glitters</name>
+      <description>8m Radius</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1494654,-35.1505198,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///rover.intervened.outlets</name>
+      <description>18 x 21 m</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1499161,-35.1522708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///lousy.highs.convection</name>
+      <description>5m radius</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1498673,-35.1505053,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///karate.expenditures.unveiling</name>
+      <description>20.5 x 10</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1495373,-35.1509214,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///parading.potted.dawn</name>
+      <description>13 x 11m</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1488753,-35.1528658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///headliners.attracts.searchers</name>
+      <description>8 x 8</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1484104,-35.1527257,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///impacts.maker.imbalances</name>
+      <description>7 x 13</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1479891,-35.1523737,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///helped.logged.deduce</name>
+      <description>16 x 9 </description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1483895,-35.1504308,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///degrees.raising.translates</name>
+      <description>7m Radius </description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1483275,-35.1514848,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///erupted.catchment.discreetly</name>
+      <description>18.5 x 11.5M </description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1489645,-35.1513726,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///dancer.commences.singe</name>
+      <description><![CDATA[10 x 14 <br>PLUS 7m radius circle  ]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1487068,-35.1521456,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///crypt.brushed.duchess</name>
+      <description><![CDATA[10 x 20m<br>Walk in only.]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1432456,-35.1492267,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///freshwater.stairway.spreads</name>
+      <description>6.5m Radius</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1486653,-35.1517209,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///investor.nicked.administer</name>
+      <description><![CDATA[12m Radius<br>Currently has a hole that needs filling (29/12/25)]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1435913,-35.1492865,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///fascination.profited.cots</name>
+      <description>17.5 x 11</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1438616,-35.1494789,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///twirl.footloose.overlaid</name>
+      <description>9M Radius </description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1471347,-35.1522925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///uncool.silvery.mortgaged</name>
+      <description><![CDATA[///uncool.silvery.mortgaged<br>7m Radius]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1439649,-35.1499203,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///drift.folded.biting</name>
+      <description><![CDATA[///drift.folded.biting<br>7m Radius]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1461173,-35.1512465,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///remote.trinkets.merged</name>
+      <description><![CDATA[///remote.trinkets.merged<br>7 x 14m]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1422956,-35.1483452,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///forced.logged.atrium</name>
+      <description><![CDATA[///forced.logged.atrium<br>10 x 24m]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1428471,-35.1483324,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#Earmarked for Vulva</name>
+      <description><![CDATA[///altitudes.hill.manicures<br>7.5 x 8]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1441567,-35.1485381,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///warehouse.veiled.unframed</name>
+      <description><![CDATA[///warehouse.veiled.unframed<br>10.5 x 8m<br>Edge of white gums - kind of shared.]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1439402,-35.1482031,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#Earmarked Vulva move.</name>
+      <description><![CDATA[///phones.readymade.hauled<br>13 x 8.5]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1443508,-35.1485248,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>#Earmarked back of Consent (not viable)</name>
+      <description><![CDATA[///copyrights.polo.riverside<br>10.x 11.5]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1444433,-35.1480752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///matrimony.quieter.aimed</name>
+      <description><![CDATA[///matrimony.quieter.aimed<br>9 x 13 ]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1445978,-35.1479324,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///captions.dizzy.dynamo</name>
+      <description>7 x10</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1439693,-35.1479806,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///tumbled.slouching.stewardess</name>
+      <description><![CDATA[///tumbled.slouching.stewardess<br>16.5 x 11]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.142114,-35.1483698,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///sloppy.manipulated.politics</name>
+      <description><![CDATA[///sloppy.manipulated.politics<br>13 x 20m]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.141419,-35.1487454,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///suburb.inspecting.dares</name>
+      <description><![CDATA[///suburb.inspecting.dares<br>15 x 7m]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1407548,-35.148429,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///eyelashes.locks.almonds</name>
+      <description><![CDATA[///eyelashes.locks.almonds<br>5.5 x 11.5m]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.140829,-35.1482265,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///pinpoint.glistening.rarer</name>
+      <description><![CDATA[///pinpoint.glistening.rarer<br>15.5 x 6m<br>Ex sanded small cooking circle]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1406089,-35.1494327,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///hourly.nutty.accumulate</name>
+      <description><![CDATA[///hourly.nutty.accumulate<br>7.5m Radius<br>Ex cooking circle - sanded.]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1400443,-35.149371,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///utterances.lined.engaged</name>
+      <description>6 x 15</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1421504,-35.1488593,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///also.spoiled.faking</name>
+      <description><![CDATA[///also.spoiled.faking<br>31 x 19m<br>Includes trees foot access only 10 m to road next to cooking circle]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1403695,-35.1488439,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///educate.outlet.scraps</name>
+      <description>6.5 x 18 m</description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1413759,-35.1495775,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///lofts.unassuming.roller</name>
+      <description><![CDATA[///lofts.unassuming.roller<br>4m Radius]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1414899,-35.1495745,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///gloriously.outset.fees</name>
+      <description><![CDATA[///gloriously.outset.fees<br>9 x 16]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1431023,-35.1483518,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///likens.glee.manipulate</name>
+      <description><![CDATA[///likens.glee.manipulate<br>5m radius]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1432538,-35.1486445,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///waterline.theme.contender</name>
+      <description><![CDATA[///waterline.theme.contender<br>5.5m Radius]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1434684,-35.148434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>///toasted.redrew.tourists </name>
+      <description><![CDATA[///toasted.redrew.tourists<br>17 x 19 ]]></description>
+      <styleUrl>#icon-1665-9C27B0</styleUrl>
+      <Point>
+        <coordinates>
+          144.1456573,-35.1490779,0
+        </coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
