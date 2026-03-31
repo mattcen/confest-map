@@ -179,6 +179,78 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="icon-1899-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-E65100-1969-normal">
       <LineStyle>
         <color>ff0051e6</color>
@@ -2200,11 +2272,11 @@ Sharing with Red Tent (Nights)</value>
       <name>Forest Gates</name>
       <Placemark>
         <name>Gate 1 - East Gate - Grey</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v5SyXODiB_giwxNSYWeHiF9fF3PSvX7IqEkbExle8GdP6SvnZXsgUPBTKfQM9rDeIUoIebK08UrHiSCnMbGuN-hVdME8xWIRCtBA3_fZGAeYglHv1R-QYWdPBPN6rYWZIXbYd4IRHCVE25m9a8-c6TmC4xv4wu-qr8DGzqVVxeU6tT_eyh3bHxN5i5WtC1Dk8nmX7NoW6vm1ggZjJqU3HLIghugpVjLVdrrjJfJibRazSEH5j8o-RmpjMFQgTmaBMxiPQyQPHhTEXW2PHIo6_X1VG7riz3gSGKCo72zg369Its-NKpjbhE7RTV8CKuhtLePK-kqroouVIZvE7xCA6bKigUWC8YVYKDolf0Q2OFyjDBCRUy6Ac3ufxlOXMl1vfo7W1duO9fmwVJv-P4nOF6lmTbD_5SfMm57TnVjAedvj9mxUWIActhxlodAOZiwTGId_YX8gPaNk0ETih4ZeqUNEL7SI4Mf0RcEl4lokqf2ejSgrZoHVYJkO7GIoMmnxQIUdfAUbNjJGR2GZd0Z6ivS-W7B1Q3eHU-Ux3gbOWp9rAL5ZWQQcU_UOXDukkyhQ_lOjtx0RrWJX-CK5qAEbW1KD55CELjymX5GpQ4Tk1qWzsNXa0q7NIGMR1yfMUO9rh_oqISANCgIcrSITCu00VwtmgjuIgE9ZMyldY7UHiiiuXBA-5DD05V8y_ZzCIx5gnMCf826bRFFZpScnNkgz_iapv733Q" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AN6v0v6ySSWf5dl0TUNnL7QvWRYGfd8M8obCTCvenxIQshTfNH5WMvpzzukvDM_h9yAMXU45z3qIhR5Rtjny8l08d6BQklMSvISGzqexmISSbKfOwvquRWcn0QSQ-BG_MZPiaL35mbOthIxlT_hU1Z2a711xr3mggrwt17iaqtciID4UUmUiBmDQcXS1jLkHmHV_Sffx9kFxv5GXlt9k7vDaxETQ077TuAH2bTlb5HFSR_9z8db59baZre4IAd7o2YZiROr6eR4V8sy_t8fXwmdSLAeiJF1PknXCN0USUItxgr2wb8WmjdbzmTJJItX9v_AqU-zTWjatF4y92l-zAj6De9HzQW5-VT8KWJNFztbvG9xCrX_qdNDu4K3zk6yeB7WXULaAPX1Jgq9svc0VoNwU6N8qn-mb3wrsUkc9aGdIWywQlL38Z5CI42-1vsLy_ZX3McykGKD-11dpa8S9iXd4__tVw3UjrQUVI1_IgS38FTwHPejguIzNArDNnlw4Z9Jb9jig38pN5vZxosYOTUC_I875-WxsqJ4QuirLMcWaUFklrgwZ8AocD_8ZLF-zeZdMXvRdjjgv0-XXgV6E68LqvvI3B7k7_02n2HWuUvZZFG72B8Bog2_wmG00aWj9Mx-0S4kpBg1erI1EfEl5wecMuP1fMLe86akXCP84mY__TZmJ8QuL3x3nPq1LBp-Oaj_cYVVGXB7Yb7oEiqbnPMQLMY7ZyXVbZA" height="200" width="auto" /><br><br>///darkest.explorers.tinkle]]></description>
         <styleUrl>#icon-1662-A52714</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
-            <value>https://lh3.googleusercontent.com/umsh/AN6v0v5SyXODiB_giwxNSYWeHiF9fF3PSvX7IqEkbExle8GdP6SvnZXsgUPBTKfQM9rDeIUoIebK08UrHiSCnMbGuN-hVdME8xWIRCtBA3_fZGAeYglHv1R-QYWdPBPN6rYWZIXbYd4IRHCVE25m9a8-c6TmC4xv4wu-qr8DGzqVVxeU6tT_eyh3bHxN5i5WtC1Dk8nmX7NoW6vm1ggZjJqU3HLIghugpVjLVdrrjJfJibRazSEH5j8o-RmpjMFQgTmaBMxiPQyQPHhTEXW2PHIo6_X1VG7riz3gSGKCo72zg369Its-NKpjbhE7RTV8CKuhtLePK-kqroouVIZvE7xCA6bKigUWC8YVYKDolf0Q2OFyjDBCRUy6Ac3ufxlOXMl1vfo7W1duO9fmwVJv-P4nOF6lmTbD_5SfMm57TnVjAedvj9mxUWIActhxlodAOZiwTGId_YX8gPaNk0ETih4ZeqUNEL7SI4Mf0RcEl4lokqf2ejSgrZoHVYJkO7GIoMmnxQIUdfAUbNjJGR2GZd0Z6ivS-W7B1Q3eHU-Ux3gbOWp9rAL5ZWQQcU_UOXDukkyhQ_lOjtx0RrWJX-CK5qAEbW1KD55CELjymX5GpQ4Tk1qWzsNXa0q7NIGMR1yfMUO9rh_oqISANCgIcrSITCu00VwtmgjuIgE9ZMyldY7UHiiiuXBA-5DD05V8y_ZzCIx5gnMCf826bRFFZpScnNkgz_iapv733Q</value>
+            <value>https://lh3.googleusercontent.com/umsh/AN6v0v6ySSWf5dl0TUNnL7QvWRYGfd8M8obCTCvenxIQshTfNH5WMvpzzukvDM_h9yAMXU45z3qIhR5Rtjny8l08d6BQklMSvISGzqexmISSbKfOwvquRWcn0QSQ-BG_MZPiaL35mbOthIxlT_hU1Z2a711xr3mggrwt17iaqtciID4UUmUiBmDQcXS1jLkHmHV_Sffx9kFxv5GXlt9k7vDaxETQ077TuAH2bTlb5HFSR_9z8db59baZre4IAd7o2YZiROr6eR4V8sy_t8fXwmdSLAeiJF1PknXCN0USUItxgr2wb8WmjdbzmTJJItX9v_AqU-zTWjatF4y92l-zAj6De9HzQW5-VT8KWJNFztbvG9xCrX_qdNDu4K3zk6yeB7WXULaAPX1Jgq9svc0VoNwU6N8qn-mb3wrsUkc9aGdIWywQlL38Z5CI42-1vsLy_ZX3McykGKD-11dpa8S9iXd4__tVw3UjrQUVI1_IgS38FTwHPejguIzNArDNnlw4Z9Jb9jig38pN5vZxosYOTUC_I875-WxsqJ4QuirLMcWaUFklrgwZ8AocD_8ZLF-zeZdMXvRdjjgv0-XXgV6E68LqvvI3B7k7_02n2HWuUvZZFG72B8Bog2_wmG00aWj9Mx-0S4kpBg1erI1EfEl5wecMuP1fMLe86akXCP84mY__TZmJ8QuL3x3nPq1LBp-Oaj_cYVVGXB7Yb7oEiqbnPMQLMY7ZyXVbZA</value>
           </Data>
         </ExtendedData>
         <Point>
@@ -10375,7 +10447,313 @@ Sharing with Red Tent (Nights)</value>
       </Placemark>
     </Folder>
     <Folder>
-      <name>Untitled layer</name>
+      <name>*Proposed* Emergency Radios Locations</name>
+      <Placemark>
+        <name>Proposed Emergency Radio L1</name>
+        <description><![CDATA[Size: big<br>description: ]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.148769,-35.143642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L2</name>
+        <description><![CDATA[Size: big<br>description: ]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.15047,-35.144839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L3</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.149482,-35.146923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L4</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.148914,-35.148562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L5</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.149005,-35.149184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L6</name>
+        <description><![CDATA[Size: big<br>description: Large Orange Box longer distance]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value>Large Orange Box longer distance</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.149345,-35.152517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L7</name>
+        <description><![CDATA[Size: small<br>description: Lunch box radio]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value>Lunch box radio</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.147426,-35.14997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L8</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.146025,-35.151777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L9</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.144672,-35.150331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L10</name>
+        <description><![CDATA[Size: big<br>description: ]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.14334,-35.14963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L11</name>
+        <description><![CDATA[Size: big<br>description: ]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.140693,-35.148969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L12</name>
+        <description><![CDATA[Size: big<br>description: ]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.142048,-35.14753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L13</name>
+        <description><![CDATA[Size: big<br>description: ]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.143123,-35.147329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L14</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.145534,-35.14833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L15</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.144885,-35.146584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L16</name>
+        <description><![CDATA[Size: small<br>description: ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>small</value>
+          </Data>
+          <Data name="description">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.147632,-35.146085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Proposed Emergency Radio L17</name>
+        <description><![CDATA[Size: big<br>description: Site Ops]]></description>
+        <styleUrl>#icon-1899-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="Size">
+            <value>big</value>
+          </Data>
+          <Data name="description">
+            <value>Site Ops</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            144.1473211,-35.1479693,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
